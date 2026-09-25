@@ -6,10 +6,7 @@
   "excel_csv_equal": true,
   "source_files_verified": 39,
   "classification_accuracy_evaluated": false,
-  "pipeline_modules_imported": 13,
-  "paths_verified": true,
-  "rules_compiled": 307,
-  "quality_and_guard_controls_passed": true,
-  "cli_help_passed": true,
+  "documentation_links_checked": true,
+  "documentation_pages_checked": 5,
   "full_corpus_rerun": false
 }
