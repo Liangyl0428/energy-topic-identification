@@ -2,12 +2,9 @@ from pathlib import Path
 import sys, os, json, hashlib, datetime, re, unicodedata
 BASE=Path(__file__).resolve().parents[1]
 ROOT=BASE.parents[1]
-OLD=ROOT/'jjjj/bertopic500_all_sources_20260925'
-NEW=ROOT/'jjjj/bertopic1000_all_sources_20260925'
-MERGED=ROOT/'jjjj/bertopic1000_semantic_merged_20260925'
-AUDIT=ROOT/'jjjj/bertopic990_strict_overlap_audit_20260925'
-sys.path[:0]=[str(ROOT/'aaaa/bge_m3/_runtime'),str(ROOT/'aaaa/bge_m3/_core'),str(ROOT/'cccc/_deps'),str(ROOT/'bbbb/_deps')]
-sys.path.append(str(OLD/'src'))
+# Frozen upstream inputs; the historical training pipelines are not required here.
+OLD=ROOT/'inputs/baseline'
+NEW=ROOT/'inputs/candidates'
 os.environ.setdefault('OMP_NUM_THREADS','4')
 os.environ.setdefault('OPENBLAS_NUM_THREADS','4')
 os.environ.setdefault('TOKENIZERS_PARALLELISM','false')

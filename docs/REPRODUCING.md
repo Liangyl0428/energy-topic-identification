@@ -1,32 +1,51 @@
 # 运行与复现
 
-## 目录查询和结果核验
+## 可以直接运行的部分
 
-在仓库根目录运行 `python3 tools/catalog.py --search 光伏` 查询名称或编号。它是已有主题目录的文字检索，不是语义分类器。查询结果可通过 `--output work/pv.csv` 导出。
+在仓库根目录运行 `python3 tools/catalog.py --search 光伏` 查询主题名称或编号，使用 `--output work/pv.csv` 导出匹配结果。这是目录检索，不是新文档分类。
 
-`python3 tools/validate_release.py` 对仓库内的静态结果进行独立核验，不重新推断逐文档标签或语义正确性。原 Excel 原样保留；其各工作表均为汇总，未包含 500 多万条逐文档标签。
+安装 `requirements.txt` 后，运行 `python3 tools/validate_release.py` 核对 750 类目录、Excel、CSV、汇总和文件哈希。无需原项目或 GPU。Excel 是汇总表，不包含 500 多万条逐文档标签。
 
-## 完整研究流程
+## 保留的最终处理链
 
-`pipelines/` 是原项目布局的精简源码存档。阶段脚本通过自身位置计算 `ROOT`，其原 `jjjj/...` 引用对应本仓库的 `pipelines/jjjj/...`。原实现仍含本地运行时搜索路径、历史输入路径及设备设置；完整重跑前需配置这些输入，不能把代码存档当作开箱即用的训练包。建议在独立副本中运行，防止覆盖冻结规则或已完成结果。
+```text
+冻结上游输入（语料、既有标签、候选向量）
+  → refinement：对象/任务规则 + 文本质量 + 向量支持 + 精度防护
+  → 正式文档归类决定
+  → export750：统一 C0001–C0750 编号、逐类计数、校验、Excel 导出
+```
 
-主要输入包括：
+`pipelines/` 只有 `refinement` 和 `export750` 两个目录。保留的算法和冻结规则来自最终结果处理链；旧聚类训练、对比试验、中间审计和历史交付程序已移除。初始主题发现的方法在根 README 中说明；本精简仓库不负责从零训练上游候选模型。
 
-- 500 类阶段的 `data/corpus/part-*.parquet` 和 `data/INPUT_MANIFEST.json`，以及语料准备时读取的原来源数据库。
-- `models/multilingual_minilm/` 编码器、分段文档向量、PCA 投影、`reduced.npy`、词频缓存及 vectorizer。
-- 初始 500/486 类标签和目录、1000 类候选模型与标签、语义合并及重合审计结果。
-- 精细分类的逐文档正式标签、摘要、清理文本及输入清单；750 类转换读取这些正式决定。
+## 代码路径及外部输入
 
-这些大体积输入不在本仓库中。部分源脚本使用 CUDAExecutionProvider 并要求 GPU；依赖包清单不能代替匹配的 CUDA、模型文件和缓存。`provenance/configs/` 保留已有运行配置，`provenance/original_audit/INPUT_REFERENCES.json` 保留当前 750 类转换的输入指纹。
+共享路径模块已适配当前仓库结构，不再引用 `jjjj/` 或原机器的依赖目录。`ROOT` 为仓库根目录；输入和输出约定如下：
 
-原阶段顺序及入口：
+| 路径 | 内容 |
+| --- | --- |
+| `inputs/baseline/data/` | 原语料 `corpus/part-*.parquet`、`INPUT_MANIFEST.json` |
+| `inputs/baseline/results/` | 冻结底稿 `merged_topics.csv`、`raw_to_merged.csv`、`raw_labels.npy` |
+| `inputs/baseline/models/` | 原文档向量 `embeddings/`、`multilingual_minilm/` 编码器 |
+| `inputs/candidates/results/` | 冻结候选 `raw_labels.npy`、`secondary_labels.npy` |
+| `inputs/candidates/models/` | 冻结候选中心 `topic_centroids.npy` |
+| `pipelines/refinement/models/` | 冻结规则向量 `rule_name_vectors.npy` 和检索缓存 `rule_retrieval.json` |
+| `pipelines/refinement/review/` | 随库提供的规则及语义修订 |
+| `pipelines/refinement/results/` | 正式逐文档标签、清理文本及汇总；随库仅提供转换前的 `topic_dictionary.csv` |
+| `pipelines/export750/` | 重新运行 750 类转换时的输出根目录 |
+| 根目录 `results/` | 随库提供的已交付 750 类 Excel、CSV 和统计快照 |
 
-1. 500 类阶段：语料 `prepare.py` → 模型下载/池化准备 → `encode.py` → `cluster.py` → 主题审阅与合并导出。
-2. 1000 类候选：`train.py` → `export_compare.py`；复用同一语料和向量，全局重新聚类。
-3. 1000 类语义合并与重合审计：读取样本、记录审阅决定、应用映射；这包含研究者判断，不能由脚本执行替代。
-4. 精细分类：`prepare.py` → `prepare_models.py` → `complete_retrieval.py` → `run_all.py` → `finalize.py` → 抽样审阅和防护修订 → `validate_inputs.py` → `validate_output.py` → `build_delivery.py`。
-5. 750 类平级输出：`build_flat.py` → `validate_flat.py` → `build_delivery.py`。
+除明确注明随库提供的文件外，上表中的输入均须另行准备。`finalize.py` 还读取冻结的 `pipelines/refinement/results/parent_processing_plan.csv` 和分类产生的 `logs/part-*.json`。本次保留核心执行逻辑，未将历史输入准备过程重新封装为自动管线。
 
-原规则中的相似度及证据等级是启发式条件，不是概率或经过金标准验证的准确率。历史快照中“无需复核”和“沿用底稿”也不能等同于逐篇人工验收。
+有完整冻结输入时，在独立副本中安装 `requirements-pipeline.txt`，运行 `refinement/src/classify.py`（用 `--start`、`--stop` 指定语料分片）后运行 `finalize.py`。文本清理后重新编码使用 CUDAExecutionProvider，需要匹配的 GPU、CUDA 和模型文件。原判别阈值与规则没有改动。
 
-`docs/original/` 保存原说明和校验报告，其中相对路径、绝对路径及数据清单指向原完整运行目录，用作溯源；本仓库直接可访问的结果以根 README 中的链接为准。
+也可以直接补齐已有正式决定，跳过分类重算。750 类转换所需文件包括 `refinement/results/ASSIGNMENT_MANIFEST.json`、正式分片、`SUMMARY.json`、`topic_dictionary.csv`、`VALIDATION.json`（位于 `refinement/` 根目录），以及原语料清单。完整校验还需正式标签数组、复核标记、原语料和清理文本。依次运行：
+
+```bash
+python3 pipelines/export750/src/build_flat.py
+python3 pipelines/export750/src/validate_flat.py
+python3 pipelines/export750/src/build_delivery.py
+```
+
+输出写入 `pipelines/export750/`，根目录的已交付结果不作为重算输出目录。正式决定的语义验收仍需研究者判断，脚本和规则不能替代人工复核。重算结果不应在未核验输入指纹和语义决定的情况下被称为与历史结果相同。
+
+`docs/original/` 和 `provenance/original_audit/` 保存历史运行说明与证据，其中旧路径仅用于溯源，不是本仓库的运行路径。当前发布校验见 `provenance/RELEASE_VALIDATION.json`。

@@ -150,7 +150,7 @@ def write_documentation(summary, workbook_name):
 python3 {FLAT}/src/read_flat.py --row-id 4006773 --output /tmp/flat_document.json
 ```
 
-批量读取时把`src`加入Python搜索路径，调用`read_flat.iter_flat_parts()`；只需要题名和标签时传`include_body=False`。读取完整原文需保留原始语料目录`jjjj/bertopic500_all_sources_20260925/data/corpus/`。
+批量读取时把`src`加入Python搜索路径，调用`read_flat.iter_flat_parts()`；只需要题名和标签时传`include_body=False`。读取完整原文需保留原始语料目录`inputs/baseline/data/corpus/`。
 
 结构转换脚本：`src/build_flat.py` → `src/validate_flat.py` → `src/build_delivery.py`。输入正式决定及哈希见`audit/INPUT_REFERENCES.json`。此前版本均保留；历史候选和规则证据可按`row_id`追溯。本版不重新运行语义模型。
 

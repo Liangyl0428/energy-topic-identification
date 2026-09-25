@@ -9,10 +9,8 @@ import sys
 
 FLAT = Path(__file__).resolve().parents[1]
 ROOT = FLAT.parents[1]
-PREVIOUS = ROOT / 'jjjj/bertopic486_hierarchical_refined_20260925'
-CORPUS = ROOT / 'jjjj/bertopic500_all_sources_20260925'
-sys.path[:0] = [str(ROOT / p) for p in (
-    'aaaa/bge_m3/_runtime', 'aaaa/bge_m3/_core', 'cccc/_deps', 'bbbb/_deps')]
+PREVIOUS = ROOT / 'pipelines/refinement'
+CORPUS = ROOT / 'inputs/baseline'
 os.environ.setdefault('OMP_NUM_THREADS', '4')
 os.environ.setdefault('OPENBLAS_NUM_THREADS', '4')
 import numpy as np

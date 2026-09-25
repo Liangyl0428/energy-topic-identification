@@ -33,18 +33,16 @@
 
 ## 核心代码
 
-代码保留原阶段目录及原实现，便于追溯已交付结果。
+`pipelines/` 只保留直接用于最终分类决定和 750 类交付的两个模块，共 13 个 Python 文件：
 
-| 目录（均位于 `pipelines/jjjj/`） | 作用与主要入口 |
+| 目录 | 作用与主要入口 |
 | --- | --- |
-| `bertopic500_all_sources_20260925/src` | 语料准备、分段编码、初始聚类：`prepare.py`、`encode.py`、`cluster.py` |
-| `bertopic1000_all_sources_20260925/src` | 1000 类全局候选聚类及主题词：`train.py`、`experiment_components.py` |
-| `bertopic1000_semantic_merged_20260925/src` | 同义主题审阅与映射：`semantic_mapping.py`、`apply_merges.py` |
-| `bertopic990_strict_overlap_audit_20260925/src` | 主题重合和文本质量审计 |
-| `bertopic486_hierarchical_refined_20260925/src` | 精细分类：`taxonomy.py`、`rule_engine.py`、`classify.py`、`decision_guards.py`、`text_quality.py` |
-| `bertopic750_flat_refined_20260925/src` | 当前目录转换、完整标签校验与交付：`build_flat.py`、`validate_flat.py`、`build_delivery.py` |
+| [`pipelines/refinement/src`](pipelines/refinement/src) | 最终分类与修订：`taxonomy.py` 定义对象/任务规则，`rule_engine.py` 匹配证据，`classify.py` 结合向量支持决定归属，`text_quality.py` 清理文本，`decision_guards.py` 防止误归类，`finalize.py` 固化正式决定 |
+| [`pipelines/export750/src`](pipelines/export750/src) | 750 类输出：`build_flat.py` 统一编号和汇总，`validate_flat.py` 校验完整标签，`build_delivery.py` 生成工作簿，`read_flat.py` 读取逐文档结果 |
 
-精细分类目录下的 `review/` 保存冻结规则、语义修订和别名决定；`provenance/SOURCE_FILES.json` 记录迁移文件的来源与 SHA-256。
+[`pipelines/refinement/review`](pipelines/refinement/review) 保存最终使用的规则、语义修订和别名决定；`results/topic_dictionary.csv` 是转为 C0001–C0750 之前的标签字典，用于对照。源码中的旧标签编号是溯源字段，不代表本仓库另有多套最终主题目录。
+
+历史上不同主题数量的训练试验、版本比较和中间审计只在“识别思路”中说明，不再分目录收录。`provenance/SOURCE_FILES.json` 记录保留文件的原始来源及当前校验和；路径适配过的文件另保留原始校验和。
 
 ## 本地查看与校验
 
@@ -69,4 +67,4 @@ python3 tools/validate_release.py
 
 本仓库提供**核心实现与冻结结果**。全量语料、500 多万条逐文档标签、模型权重、向量和词频缓存不随 Git 仓库分发；仅克隆本仓库不能重跑完整训练，也不能直接对任意新文档提供已验证的分类预测。
 
-查看与校验上述结果可以独立运行。若需全量重算，须补齐原始输入并恢复阶段目录，详见 [复现说明](docs/REPRODUCING.md)。训练依赖另列于 `requirements-pipeline.txt`。原始校验报告是历史运行证据，当前打包校验记录见 [发布校验](provenance/RELEASE_VALIDATION.json)。
+查看与校验上述结果可以独立运行。若需重算最终分类与导出，须补齐冻结的上游输入，详见 [复现说明](docs/REPRODUCING.md)。分类与导出依赖另列于 `requirements-pipeline.txt`。原始校验报告是历史运行证据，当前打包校验记录见 [发布校验](provenance/RELEASE_VALIDATION.json)。

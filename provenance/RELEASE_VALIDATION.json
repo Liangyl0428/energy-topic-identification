@@ -4,6 +4,12 @@
   "category_records": 5111081,
   "quarantined": 7923,
   "excel_csv_equal": true,
-  "source_files_verified": 111,
-  "classification_accuracy_evaluated": false
+  "source_files_verified": 39,
+  "classification_accuracy_evaluated": false,
+  "pipeline_modules_imported": 13,
+  "paths_verified": true,
+  "rules_compiled": 307,
+  "quality_and_guard_controls_passed": true,
+  "cli_help_passed": true,
+  "full_corpus_rerun": false
 }
