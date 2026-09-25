@@ -1,6 +1,6 @@
 # 这些主题是怎么整理出来的
 
-这 750 个主题是在初始聚类的基础上，经过合并重复类别、细分宽泛类别，再统一整理得到的。主要过程是：**500 类底稿 → 合并为 486 类 → 参考 1000 类候选细分 → 486 个保留类别 + 264 个实际使用的细分类 → 750 类目录**。仓库中的代码主要对应最终分类修订和目录导出。
+这 750 个主题是在初始聚类的基础上，经过合并重复类别、细分宽泛类别，再统一整理得到的。主要过程是：**500 类底稿 → 合并为 486 类 → 参考 1000 类候选细分 → 486 个保留类别 + 264 个实际使用的细分类 → 750 类目录**。仓库按功能保留了文本编码、主题聚类、分类修订和目录导出代码。
 
 ## 先找内容相近的研究
 
@@ -45,7 +45,7 @@
 | 独立的细粒度候选聚类 | 1000 | 为宽泛类别的细分提供线索 |
 | 最终统一目录 | 750 | 汇总 486 个仍有直接记录的类别和 264 个实际使用的细分类 |
 
-500 类和 1000 类的历史训练目录已从本仓库移除，这里保留它们的方法说明和与最终结果的关系。
+两种粒度的训练代码统一放在 `topic_modeling/` 中，分别由 `train_baseline.py` 和 `train_candidates.py` 运行；文本编码放在 `embedding/` 中。具体输入和命令见[编码和主题聚类](EMBEDDING_BERTOPIC.md)。
 
 ## 再检查“研究什么、做什么”
 
@@ -71,6 +71,10 @@
 
 | 文件 | 阅读时重点看什么 |
 | --- | --- |
+| [encode.py](../pipelines/embedding/src/encode.py) | 如何分段编码长文本、汇总为文档向量 |
+| [lexical.py](../pipelines/topic_modeling/src/lexical.py) | 如何分词、建立词表，并保存真实文本的词频 |
+| [train_baseline.py](../pipelines/topic_modeling/src/train_baseline.py) | 如何生成 500 类底稿，并在 BERTopic 中提取主题词 |
+| [train_candidates.py](../pipelines/topic_modeling/src/train_candidates.py) | 如何复用向量和词频，重新生成 1000 类候选 |
 | [taxonomy.py](../pipelines/refinement/src/taxonomy.py) | 各类“研究对象 + 研究任务”的规则定义 |
 | [rule_engine.py](../pipelines/refinement/src/rule_engine.py) | 如何从题名和正文中匹配规则、区分证据强弱 |
 | [classify.py](../pipelines/refinement/src/classify.py) | 如何综合规则和向量证据，决定保留、调整或待复核 |

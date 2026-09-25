@@ -39,12 +39,16 @@
 
 ## 代码放在哪里
 
-`pipelines/` 下只有两个模块：
+`pipelines/` 按处理步骤分为四个模块：
 
 | 目录 | 负责什么 |
 | --- | --- |
+| [`embedding`](pipelines/embedding/src) | 下载编码模型，把长文本分段编码并汇总成文档向量 |
+| [`topic_modeling`](pipelines/topic_modeling/src) | 生成 500 类底稿和 1000 类候选，用 BERTopic 提取各类主题词 |
 | [`refinement`](pipelines/refinement/src) | 清理文本，根据分类规则和语义证据调整归属，把证据不足的记录留待复核 |
 | [`export750`](pipelines/export750/src) | 将分类结果统一为 750 类，计算数量，检查数据并生成 Excel |
+
+编码与 BERTopic 的运行顺序见[编码和主题聚类](docs/EMBEDDING_BERTOPIC.md)。这部分提供算法代码；原始语料和模型权重需要另外准备。
 
 另外，`results/` 保存本次结果，`tools/` 提供目录查询和文件检查工具，`provenance/` 保存文件来源与校验记录。想读代码时，建议先看[方法说明中的代码导读](docs/METHOD.md#代码导读)。
 

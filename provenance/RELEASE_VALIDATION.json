@@ -4,17 +4,23 @@
   "category_records": 5111081,
   "quarantined": 7923,
   "excel_csv_equal": true,
-  "source_files_verified": 40,
+  "source_files_verified": 52,
   "classification_accuracy_evaluated": false,
   "documentation_links_checked": true,
-  "documentation_pages_checked": 5,
-  "category_history_checked": {
-    "initial": 500,
-    "after_merging": 486,
-    "candidate_clusters": 1000,
-    "active_parent_categories": 486,
-    "active_child_categories": 264,
-    "final": 750
+  "documentation_pages_checked": 6,
+  "restored_modules_imported": 11,
+  "restored_module_paths_verified": true,
+  "missing_input_failure_verified": true,
+  "component_tests": {
+    "passed": 4,
+    "scope": [
+      "import without download or inference",
+      "masked mean ONNX pooling and normalization",
+      "streamed BERTopic counts and c-TF-IDF equivalence",
+      "1000-topic shape checks"
+    ],
+    "runtime": "Existing research dependencies, including BERTopic 0.17.3; synthetic data; CPU pooling"
   },
-  "full_corpus_rerun": false
+  "full_corpus_rerun": false,
+  "real_encoder_inference_rerun": false
 }

@@ -204,5 +204,89 @@
     "path": "provenance/original_audit/MERGE_REVIEW.json",
     "source": "jjjj/bertopic500_all_sources_20260925/results/MERGE_REVIEW.json",
     "sha256": "06d21d18e82c67d6765f36c874282151a8ee332e577359ce3b8d50b25f8a33b2"
+  },
+  {
+    "path": "pipelines/embedding/src/embedding_common.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/common.py",
+    "original_sha256": "d9f93a7e9f94fab0dadb25efe858657c96330609f4e33ad779bf4536b1ab2467",
+    "sha256": "849c9f1038d418cb460af2e98f6f3abf5773d3314b70919478bff10164969821",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/topic_common.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/common.py",
+    "original_sha256": "d9f93a7e9f94fab0dadb25efe858657c96330609f4e33ad779bf4536b1ab2467",
+    "sha256": "849c9f1038d418cb460af2e98f6f3abf5773d3314b70919478bff10164969821",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/embedding/src/download_encoder.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/download_encoder.py",
+    "original_sha256": "e81f803c7c7a83b63ca51808f8eb2f6c7dce87b5a6ef90cc9ac0f675c2aec909",
+    "sha256": "3d12d919565b14b2405c79e0824bfadede2051ad781796d8fbc027dd8feda40e",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/embedding/src/pool_encoder.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/pool_encoder.py",
+    "original_sha256": "2fe410feed13ab06aec690decb563d12202dc841f5d229911b6fecd5d3962cbb",
+    "sha256": "c3d09a40a10c665cecb78a3cfa7dd67a9ac92c452f1026a8a17eab8b7be5691d",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/embedding/src/encode.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/encode.py",
+    "original_sha256": "31d3b7656b4a00e76621ec0f5c51267a1c4909c93ac0379559c2bc9cc9abe3bc",
+    "sha256": "83335f0ec166c204cd8738b1fad1fe16cf60c3a3a86702a5140e4dbf303202c8",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/lexical.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/lexical.py",
+    "original_sha256": "0f5c1b7b65a1ccbfbbe7fbbaa286c01844329ae10a0143679cbe70fa481385ff",
+    "sha256": "339cf32f475f323c78b5b9380cd3030d39a91529587f35bc8020c58e3a3de8e6",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/components.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/components.py",
+    "original_sha256": "e6fdbeb4fa98733e7ef70e7851d9767d594640bf006cfbe1a25738709fe43532",
+    "sha256": "e6fdbeb4fa98733e7ef70e7851d9767d594640bf006cfbe1a25738709fe43532",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/experiment_components.py",
+    "source": "jjjj/bertopic1000_all_sources_20260925/src/experiment_components.py",
+    "original_sha256": "b2444263fd7b98f9ddcbf591b2eea46fa2ec73c8a388c9b0e7f7451667b45c18",
+    "sha256": "b2444263fd7b98f9ddcbf591b2eea46fa2ec73c8a388c9b0e7f7451667b45c18",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/train_baseline.py",
+    "source": "jjjj/bertopic500_all_sources_20260925/src/cluster.py",
+    "original_sha256": "bda94d13a8e6e63ad7c77687738cb6efc1fc5d049280b3cf8d7712e6a40091e0",
+    "sha256": "978bc00dca948021eee60d04d3fa14b40b16c7508e3930f5f3f12c8c3630bf9a",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/candidate_common.py",
+    "source": "jjjj/bertopic1000_all_sources_20260925/src/common.py",
+    "original_sha256": "3d98181488e7982ee25752351237c5a7738fff3704a110c38ef807bcb6be445c",
+    "sha256": "8ff999345e0d2a012e00f4f10547d2c013a964737c40514cc912cd0a113b907f",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "pipelines/topic_modeling/src/train_candidates.py",
+    "source": "jjjj/bertopic1000_all_sources_20260925/src/train.py",
+    "original_sha256": "49bbfa203c9f38dfd86adf51b18405f1250bef7b26c7a2b0b97a1da92277fa03",
+    "sha256": "64decddd7b64e89674eae368f146c455ca7ce3eb96e86fdeadc54f97e9cd30ca",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
+  },
+  {
+    "path": "tests/test_topic_components.py",
+    "source": "jjjj/bertopic1000_all_sources_20260925/tests/test_components.py",
+    "original_sha256": "d2262e2339b5661e29e9ae5fdf2535f76fc780cad3443b8df4ad6c93610fb36b",
+    "sha256": "f189fd946977f64d2f07b3287c284593d1fbf7e291bd026906059b3f65d8c3bb",
+    "adaptation": "Functional directory and input path adaptation; import-safe entry points and explicit input checks; original algorithm retained."
   }
 ]
