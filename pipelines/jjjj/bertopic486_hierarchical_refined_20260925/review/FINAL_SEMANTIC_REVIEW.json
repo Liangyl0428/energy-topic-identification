@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-09-25T11:15:49.150084+00:00",
+  "completed": true,
+  "reviewer": "assistant semantic diagnostic review",
+  "unique_titles_reviewed": 981,
+  "unique_records_with_body_excerpt_reviewed": 23,
+  "final_sample_records": 604,
+  "final_sample_topics": 302,
+  "final_sample_all_titles_read": true,
+  "final_sample_accepted": 596,
+  "final_sample_deferred_or_quarantined": 8,
+  "known_veto_cases_still_accepted": 0,
+  "active_descriptor_only_rules": 28,
+  "active_descriptor_only_rules_with_reviewed_title_evidence": 28,
+  "logs": [
+    "evidence/read_log_final_review_samples_0_100_0.json",
+    "evidence/read_log_final_review_samples_100_200_0.json",
+    "evidence/read_log_final_review_samples_200_300_0.json",
+    "evidence/read_log_final_review_samples_300_400_0.json",
+    "evidence/read_log_final_review_samples_400_500_0.json",
+    "evidence/read_log_final_review_samples_500_604_0.json",
+    "evidence/read_log_followup_review_samples_0_100_0.json",
+    "evidence/read_log_partial_0_60_0.json",
+    "evidence/read_log_partial_120_200_0.json",
+    "evidence/read_log_partial_200_291_0.json",
+    "evidence/read_log_partial_60_120_0.json",
+    "evidence/read_log_partial_selected_bodies.json",
+    "evidence/read_log_round2_selected_bodies.json"
+  ],
+  "sample_sha256": "38865949835e0204015eeffe91713f569b0b50ba83c789630e8d2eb18743bc96",
+  "methodology": "Adaptive topic-stratified diagnosis, precision-guard correction and regression checks. Title review for each final sample, selective excerpts for ambiguity. Saved excerpts not displayed are not counted as read.",
+  "limitations": [
+    "Not a random population accuracy estimate",
+    "Not expert reading of every full text",
+    "No claim that all 486 baseline parent labels or accepted labels are semantically pure",
+    "Undetected errors may remain; pending review and provenance are retained"
+  ]
+}

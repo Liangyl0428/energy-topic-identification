@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows_read": 20000,
+  "quality_record_checked": 6609,
+  "classified_record_checked": 0,
+  "corrected_text_records_checked": 15,
+  "no_body_read_checked": true,
+  "created_utc": "2026-09-25T11:29:11.038480+00:00"
+}

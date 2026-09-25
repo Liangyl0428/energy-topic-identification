@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "categories": 750,
+  "category_records": 5111081,
+  "quarantined": 7923,
+  "excel_csv_equal": true,
+  "source_files_verified": 111,
+  "classification_accuracy_evaluated": false
+}

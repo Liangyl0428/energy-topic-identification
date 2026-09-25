@@ -1,0 +1,10 @@
+{
+  "aliases": {
+    "M274.biogas_process": "M128",
+    "M005.grid_construction": "M005",
+    "M302.fet": "M302",
+    "M123.carbon_dispatch": "M123",
+    "M446.metering": "M446"
+  },
+  "reason": "合并与已有主类同义的拟议子类；厌氧产气工艺回到厌氧消化主类，避免反应与产物的重复命名。"
+}

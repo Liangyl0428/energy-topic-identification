@@ -1,0 +1,1001 @@
+﻿raw_cluster1000,raw_topic_id,raw_automatic_label,final_topic_index,final_topic_id,final_topic_label,semantic_merge_applied,merge_decision_id,final_label_status,raw_documents,raw_papers,raw_patents,raw_policies
+0,T0000,0_液冷_冷却_冷却液_浸没,0,S0000,0_液冷_冷却_冷却液_浸没,False,,已抽样复核；保留原类；名称仍为自动标签,1354,14,1340,0
+1,T0001,1_arsenic_arsenate_arsenite_arsenopyrite,1,S0001,1_arsenic_arsenate_arsenite_arsenopyrite,False,,完成清单初筛；保留原类及自动标签,4066,4066,0,0
+2,T0002,2_变流器_虚拟_虚拟 阻抗_虚拟 同步,2,S0002,2_变流器_虚拟_虚拟 阻抗_虚拟 同步,False,,完成清单初筛；保留原类及自动标签,1954,354,1600,0
+3,T0003,3_wind energy_offshore wind_wind power_wind farms,3,S0003,3_wind energy_offshore wind_wind power_wind farms,False,,完成清单初筛；保留原类及自动标签,13830,13830,0,0
+4,T0004,4_perovskite oxides_perovskite oxide_perovskite type_perovskites,4,S0004,4_perovskite oxides_perovskite oxide_perovskite type_perovskites,False,,完成清单初筛；保留原类及自动标签,6863,6863,0,0
+5,T0005,5_供电 企业_电网 企业_电力 需求_有序 用电,5,S0005,5_供电 企业_电网 企业_电力 需求_有序 用电,False,,完成清单初筛；保留原类及自动标签,368,158,4,206
+6,T0006,6_lithium intercalation_lithium_lithium ions_lithium diffusion,6,S0006,6_lithium intercalation_lithium_lithium ions_lithium diffusion,False,,已抽样复核；保留原类；名称仍为自动标签,8826,8820,6,0
+7,T0007,7_传感器_检测_裁切_检测 装置,7,S0007,7_传感器_检测_裁切_检测 装置,False,,完成清单初筛；保留原类及自动标签,975,147,828,0
+8,T0008,8_complexes_ligand_ligands_ii complexes,8,S0008,8_complexes_ligand_ligands_ii complexes,False,,完成清单初筛；保留原类及自动标签,6331,6319,12,0
+9,T0009,9_soil_soils_soil organic_organic carbon,9,S0009,9_soil_soils_soil organic_organic carbon,False,,完成清单初筛；保留原类及自动标签,6297,6295,2,0
+10,T0010,10_photocatalytic hydrogen_hydrogen evolution_hydrogen production_driven hydrogen,10,S0010,10_photocatalytic hydrogen_hydrogen evolution_hydrogen production_driven hydrogen,False,,完成清单初筛；保留原类及自动标签,10635,10631,4,0
+11,T0011,11_plasma treatment_nanofluids_spraying_droplets,11,S0011,11_plasma treatment_nanofluids_spraying_droplets,False,,完成清单初筛；保留原类及自动标签,2511,2503,8,0
+12,T0012,12_emi_emc_electromagnetic interference_electromagnetic compatibility,12,S0012,12_emi_emc_electromagnetic interference_electromagnetic compatibility,False,,完成清单初筛；保留原类及自动标签,4228,4197,31,0
+13,T0013,13_pack according_batterie_battery module_liquide,13,S0013,13_pack according_batterie_battery module_liquide,False,,完成清单初筛；保留原类及自动标签,650,14,636,0
+14,T0014,14_sliding mode_nonlinear systems_sliding_mode control,14,S0014,14_sliding mode_nonlinear systems_sliding_mode control,False,,完成清单初筛；保留原类及自动标签,5932,5930,2,0
+15,T0015,15_biomass energy_bioenergy_crops_biomass,15,S0015,15_biomass energy_bioenergy_crops_biomass,False,,完成清单初筛；保留原类及自动标签,10865,10861,3,1
+16,T0016,16_magnet_magnetic field_permanent_magnets,16,S0016,16_magnet_magnetic field_permanent_magnets,False,,完成清单初筛；保留原类及自动标签,5544,5491,53,0
+17,T0017,17_拓扑_节点_神经网络_融合,17,S0017,17_拓扑_节点_神经网络_融合,False,,完成清单初筛；保留原类及自动标签,1811,442,1369,0
+18,T0018,18_sunspot_solar cycle_coronal_solar wind,18,S0018,18_sunspot_solar cycle_coronal_solar wind,False,,完成清单初筛；保留原类及自动标签,8573,8573,0,0
+19,T0019,19_nanocomposites_polypyrrole_halloysite_polyaniline,19,S0019,19_nanocomposites_polypyrrole_halloysite_polyaniline,False,,完成清单初筛；保留原类及自动标签,7596,7595,1,0
+20,T0020,20_copper_cadmium_copper ii_leaching,20,S0020,20_copper_cadmium_copper ii_leaching,False,,完成清单初筛；保留原类及自动标签,7869,7859,10,0
+21,T0021,21_取代_电解液_复合 氧化物_添加剂,21,S0021,21_取代_电解液_复合 氧化物_添加剂,False,,完成清单初筛；保留原类及自动标签,1960,288,1672,0
+22,T0022,22_铜排_铜箔_铝合金_金属,22,S0022,22_铜排_铜箔_铝合金_金属,False,,完成清单初筛；保留原类及自动标签,1017,135,882,0
+23,T0023,23_warming_global warming_ocean_forcing,23,S0023,23_warming_global warming_ocean_forcing,False,,完成清单初筛；保留原类及自动标签,4939,4939,0,0
+24,T0024,24_防护_防护罩_屏蔽_保护器,24,S0024,24_防护_防护罩_屏蔽_保护器,False,,完成清单初筛；保留原类及自动标签,1490,84,1406,0
+25,T0025,25_transformerless_inverter_boost converter_pv inverter,25,S0025,25_transformerless_inverter_boost converter_pv inverter,False,,完成清单初筛；保留原类及自动标签,4545,4534,11,0
+26,T0026,26_ballast_electronic ballast_lamp_amplifier,26,S0026,26_ballast_electronic ballast_lamp_amplifier,False,,完成清单初筛；保留原类及自动标签,4629,4629,0,0
+27,T0027,27_battery electric_vehicle battery_vehicle batteries_ev battery,27,S0027,27_battery electric_vehicle battery_vehicle batteries_ev battery,False,,完成清单初筛；保留原类及自动标签,6353,6308,45,0
+28,T0028,28_thomson scattering_thomson_diagnostic_neutron,28,S0028,28_thomson scattering_thomson_diagnostic_neutron,False,,完成清单初筛；保留原类及自动标签,8133,8123,10,0
+29,T0029,29_碳化_多孔_掺杂_前驱,29,S0029,29_碳化_多孔_掺杂_前驱,False,,已抽样复核；保留原类；名称仍为自动标签,1073,97,976,0
+30,T0030,30_steering_electric drive_drive_drive electric,30,S0030,30_steering_electric drive_drive_drive electric,False,,完成清单初筛；保留原类及自动标签,6888,6790,98,0
+31,T0031,31_矿区_环境影响_矿井_含水层,31,S0031,31_矿区_环境影响_矿井_含水层,False,,完成清单初筛；保留原类及自动标签,154,109,0,45
+32,T0032,32_oil price_oil prices_crude oil_crude,32,S0032,32_oil price_oil prices_crude oil_crude,False,,完成清单初筛；保留原类及自动标签,8389,8389,0,0
+33,T0033,33_gasification_gasifier_syngas_tar,33,S0033,33_gasification_gasifier_syngas_tar,False,,完成清单初筛；保留原类及自动标签,6344,6334,10,0
+34,T0034,34_pv/t_pvt_photovoltaic thermal_electrical efficiency,34,S0034,34_pv/t_pvt_photovoltaic thermal_electrical efficiency,False,,完成清单初筛；保留原类及自动标签,6284,6277,7,0
+35,T0035,35_叶片_风力 涡轮机_涡轮机_风力,35,S0035,35_叶片_风力 涡轮机_涡轮机_风力,False,,完成清单初筛；保留原类及自动标签,1120,167,953,0
+36,T0036,36_μmol_photocatalysts_photogenerated_c3n4,36,S0036,36_μmol_photocatalysts_photogenerated_c3n4,False,,完成清单初筛；保留原类及自动标签,11621,11618,3,0
+37,T0037,37_frequency estimation_fft_calibration_discrete fourier,37,S0037,37_frequency estimation_fft_calibration_discrete fourier,False,,完成清单初筛；保留原类及自动标签,6647,6627,20,0
+38,T0038,38_新型 储能_产业_创新_推动,38,S0038,38_新型 储能_产业_创新_推动,False,,完成清单初筛；保留原类及自动标签,524,354,2,168
+39,T0039,39_carbon tax_carbon pricing_tax_carbon trading,39,S0039,39_carbon tax_carbon pricing_tax_carbon trading,False,,完成清单初筛；保留原类及自动标签,12429,12427,2,0
+40,T0040,40_电池 单元_电池 模块_多个 电池_电池组,40,S0040,40_电池 单元_电池 模块_多个 电池_电池组,False,,完成清单初筛；保留原类及自动标签,2918,32,2886,0
+41,T0041,41_通信_ethernet_数据传输_终端,41,S0041,41_通信_ethernet_数据传输_终端,False,,完成清单初筛；保留原类及自动标签,2472,1301,1171,0
+42,T0042,42_electro fenton_electrochemical oxidation_bdd_electrocoagulation,42,S0042,42_electro fenton_electrochemical oxidation_bdd_electrocoagulation,False,,完成清单初筛；保留原类及自动标签,4837,4831,6,0
+43,T0043,43_pemfc_pem fuel_membrane fuel_pem,43,S0043,质子交换膜燃料电池（PEMFC）性能建模与运行,True,SYN001,经抽样语义复核合并；含边界噪声,4658,4652,6,0
+44,T0044,44_film solar_cigs_ga se2_cigs solar,44,S0044,44_film solar_cigs_ga se2_cigs solar,False,,完成清单初筛；保留原类及自动标签,9471,9459,12,0
+45,T0045,45_coal_coal pyrolysis_char_oxygen carrier,45,S0045,45_coal_coal pyrolysis_char_oxygen carrier,False,,完成清单初筛；保留原类及自动标签,4826,4814,12,0
+46,T0046,46_silica_silica gel_silicate_mesoporous silica,46,S0046,46_silica_silica gel_silicate_mesoporous silica,False,,完成清单初筛；保留原类及自动标签,4856,4841,15,0
+47,T0047,47_配电网_优化_储能_分布式 储能,47,S0047,47_配电网_优化_储能_分布式 储能,False,,完成清单初筛；保留原类及自动标签,1434,230,1204,0
+48,T0048,48_carbon fibers_fibers_carbon fiber_cnt,48,S0048,48_carbon fibers_fibers_carbon fiber_cnt,False,,已抽样复核；保留原类；名称仍为自动标签,4042,3821,221,0
+49,T0049,49_polymer electrolytes_gel polymer_polymer electrolyte_solid polymer,49,S0049,49_polymer electrolytes_gel polymer_polymer electrolyte_solid polymer,False,,已抽样复核；保留原类；名称仍为自动标签,8301,8297,4,0
+50,T0050,50_相变_蓄热_导热_相变 材料,50,S0050,50_相变_蓄热_导热_相变 材料,False,,完成清单初筛；保留原类及自动标签,1576,462,1114,0
+51,T0051,51_电压_输出 电压_电路_电流,51,S0051,51_电压_输出 电压_电路_电流,False,,已抽样复核；保留原类；名称仍为自动标签,1000,57,943,0
+52,T0052,52_configured_control circuit_spannung_mcu,52,S0052,52_configured_control circuit_spannung_mcu,False,,完成清单初筛；保留原类及自动标签,2682,2367,315,0
+53,T0053,53_电价_供电 主体_加价_电费,53,S0053,53_电价_供电 主体_加价_电费,False,,完成清单初筛；保留原类及自动标签,385,109,0,276
+54,T0054,54_raman_raman scattering_raman spectra_raman spectroscopy,54,S0054,54_raman_raman scattering_raman spectra_raman spectroscopy,False,,完成清单初筛；保留原类及自动标签,3566,3565,1,0
+55,T0055,55_elektroenergetycznych_sieci_power supply_electric power,55,S0055,55_elektroenergetycznych_sieci_power supply_electric power,False,,完成清单初筛；保留原类及自动标签,6694,6672,22,0
+56,T0056,56_ghz_amplifier_db_bandpass,56,S0056,56_ghz_amplifier_db_bandpass,False,,完成清单初筛；保留原类及自动标签,11259,11223,36,0
+57,T0057,57_leaching_ore_zinc_laterite,57,S0057,57_leaching_ore_zinc_laterite,False,,完成清单初筛；保留原类及自动标签,7363,7358,5,0
+58,T0058,58_time simulation_electromagnetic transient_simulator_transient simulation,58,S0058,58_time simulation_electromagnetic transient_simulator_transient simulation,False,,完成清单初筛；保留原类及自动标签,4724,4659,65,0
+59,T0059,59_asymmetric supercapacitors_supercapacitors_supercapacitor_asymmetric supercapacitor,59,S0059,59_asymmetric supercapacitors_supercapacitors_supercapacitor_asymmetric supercapacitor,False,,已抽样复核；保留原类；名称仍为自动标签,9767,9766,1,0
+60,T0060,60_metathesis_radical_dehydrogenation_catalyzed,60,S0060,60_metathesis_radical_dehydrogenation_catalyzed,False,,完成清单初筛；保留原类及自动标签,8590,8534,56,0
+61,T0061,61_soil thermal_borehole_pile_rock,61,S0061,61_soil thermal_borehole_pile_rock,False,,完成清单初筛；保留原类及自动标签,6658,6652,6,0
+62,T0062,62_briquettes_pellets_torrefaction_briquette,62,S0062,62_briquettes_pellets_torrefaction_briquette,False,,完成清单初筛；保留原类及自动标签,6562,6552,10,0
+63,T0063,63_锂离子 电池_锂离子_电解液_固态,63,S0063,63_锂离子 电池_锂离子_电解液_固态,False,,完成清单初筛；保留原类及自动标签,2601,472,2129,0
+64,T0064,64_避雷器_防雷_避雷_避雷针,64,S0064,64_避雷器_防雷_避雷_避雷针,False,,完成清单初筛；保留原类及自动标签,534,72,462,0
+65,T0065,65_petroleum_oil industry_oil companies_oil,65,S0065,65_petroleum_oil industry_oil companies_oil,False,,完成清单初筛；保留原类及自动标签,11982,11978,0,4
+66,T0066,66_perovskite solar_pscs_cells pscs_perovskite,66,S0066,66_perovskite solar_pscs_cells pscs_perovskite,False,,已抽样复核；保留原类；名称仍为自动标签,13404,13404,0,0
+67,T0067,67_air cooling_gas turbine_inlet air_compressor,67,S0067,67_air cooling_gas turbine_inlet air_compressor,False,,完成清单初筛；保留原类及自动标签,4636,4630,6,0
+68,T0068,68_film transistors_transistors_otfts_pentacene,68,S0068,68_film transistors_transistors_otfts_pentacene,False,,已抽样复核；保留原类；名称仍为自动标签,6918,6918,0,0
+69,T0069,69_rainfall_streamflow_rainfall prediction_water demand,69,S0069,69_rainfall_streamflow_rainfall prediction_water demand,False,,完成清单初筛；保留原类及自动标签,4830,4787,43,0
+70,T0070,70_copolymers_polymerization_polymers_copolymer,70,S0070,70_copolymers_polymerization_polymers_copolymer,False,,完成清单初筛；保留原类及自动标签,11969,11941,28,0
+71,T0071,71_green hydrogen_氢能_hydrogen economy_hydrogen energy,71,S0071,71_green hydrogen_氢能_hydrogen economy_hydrogen energy,False,,完成清单初筛；保留原类及自动标签,8912,8886,3,23
+72,T0072,72_ion transport_electron transfer_extracellular electron_ionic transport,72,S0072,72_ion transport_electron transfer_extracellular electron_ionic transport,False,,完成清单初筛；保留原类及自动标签,3717,3713,4,0
+73,T0073,73_resilience_restoration_disaster_disasters,73,S0073,73_resilience_restoration_disaster_disasters,False,,完成清单初筛；保留原类及自动标签,4710,4648,62,0
+74,T0074,74_tetracycline_photocatalytic degradation_tetracycline hydrochloride_tetracycline degradation,74,S0074,74_tetracycline_photocatalytic degradation_tetracycline hydrochloride_tetracycline degradation,False,,完成清单初筛；保留原类及自动标签,12526,12526,0,0
+75,T0075,75_hydrogenation_catalysts_furfural_valerolactone,75,S0075,75_hydrogenation_catalysts_furfural_valerolactone,False,,完成清单初筛；保留原类及自动标签,10032,10032,0,0
+76,T0076,76_robot_manipulator_pendulum_flywheel,76,S0076,76_robot_manipulator_pendulum_flywheel,False,,完成清单初筛；保留原类及自动标签,3278,3196,82,0
+77,T0077,77_电池 保护_保护_防爆_防护,77,S0077,77_电池 保护_保护_防爆_防护,False,,完成清单初筛；保留原类及自动标签,981,75,906,0
+78,T0078,78_燃料电池_燃料电池 系统_控制 燃料电池_燃料 气体,78,S0078,78_燃料电池_燃料电池 系统_控制 燃料电池_燃料 气体,False,,已抽样复核；保留原类；名称仍为自动标签,864,99,765,0
+79,T0079,79_antibiotics_antibiotic_inactivation_antibacterial,79,S0079,79_antibiotics_antibiotic_inactivation_antibacterial,False,,完成清单初筛；保留原类及自动标签,6167,6167,0,0
+80,T0080,80_交易_市场_结算_电量,80,S0080,80_交易_市场_结算_电量,False,,完成清单初筛；保留原类及自动标签,430,239,4,187
+81,T0081,81_smart grid_smart_smart grids_grids,81,S0081,81_smart grid_smart_smart grids_grids,False,,完成清单初筛；保留原类及自动标签,8185,8177,8,0
+82,T0082,82_hydropower_cascade hydropower_hydropower stations_hydro,82,S0082,82_hydropower_cascade hydropower_hydropower stations_hydro,False,,完成清单初筛；保留原类及自动标签,5060,4985,75,0
+83,T0083,83_电极 组件_电极_卷绕_第一集,83,S0083,83_电极 组件_电极_卷绕_第一集,False,,完成清单初筛；保留原类及自动标签,1963,9,1954,0
+84,T0084,84_triboelectric_teng_tengs_nanogenerator,84,S0084,84_triboelectric_teng_tengs_nanogenerator,False,,完成清单初筛；保留原类及自动标签,3218,3206,12,0
+85,T0085,85_pv modules_shading_pv module_modules,85,S0085,85_pv modules_shading_pv module_modules,False,,完成清单初筛；保留原类及自动标签,9600,9589,11,0
+86,T0086,86_储氢_氢气_制氢_固态 储氢,86,S0086,86_储氢_氢气_制氢_固态 储氢,False,,完成清单初筛；保留原类及自动标签,1350,145,1205,0
+87,T0087,87_hydrogen production_hydrogen yield_gasification_reforming,87,S0087,87_hydrogen production_hydrogen yield_gasification_reforming,False,,完成清单初筛；保留原类及自动标签,4258,4239,19,0
+88,T0088,88_impulsive noise_impulsive_noise_ofdm,88,S0088,88_impulsive noise_impulsive_noise_ofdm,False,,完成清单初筛；保留原类及自动标签,7899,7879,20,0
+89,T0089,89_充电_充电电流_电池 充电_充电 控制,89,S0089,89_充电_充电电流_电池 充电_充电 控制,False,,完成清单初筛；保留原类及自动标签,1729,275,1454,0
+90,T0090,90_toroidal_gyrokinetic_neoclassical_poloidal,90,S0090,90_toroidal_gyrokinetic_neoclassical_poloidal,False,,完成清单初筛；保留原类及自动标签,6736,6735,1,0
+91,T0091,91_管道 运输_价格_天然气_运输 价格,91,S0091,91_管道 运输_价格_天然气_运输 价格,False,,完成清单初筛；保留原类及自动标签,406,213,0,193
+92,T0092,92_boost converter_modular multilevel_multilevel_converters,92,S0092,92_boost converter_modular multilevel_multilevel_converters,False,,完成清单初筛；保留原类及自动标签,6441,6441,0,0
+93,T0093,93_titania_titanium_titanate_titanium dioxide,93,S0093,93_titania_titanium_titanate_titanium dioxide,False,,完成清单初筛；保留原类及自动标签,6805,6803,2,0
+94,T0094,94_测试_变压器_测试方法_测试 装置,94,S0094,94_测试_变压器_测试方法_测试 装置,False,,完成清单初筛；保留原类及自动标签,1557,581,976,0
+95,T0095,95_控制系统_control systems_plc_automatic control,95,S0095,95_控制系统_control systems_plc_automatic control,False,,完成清单初筛；保留原类及自动标签,3386,2627,759,0
+96,T0096,96_magnetic field_magnetic fields_magnetic_ferromagnetic,96,S0096,96_magnetic field_magnetic fields_magnetic_ferromagnetic,False,,完成清单初筛；保留原类及自动标签,6667,6649,18,0
+97,T0097,97_evaporative_air cooled_evaporative cooling_air conditioning,97,S0097,97_evaporative_air cooled_evaporative cooling_air conditioning,False,,完成清单初筛；保留原类及自动标签,5711,5701,10,0
+98,T0098,98_无人机_无人机 本体_旋翼_drone,98,S0098,98_无人机_无人机 本体_旋翼_drone,False,,完成清单初筛；保留原类及自动标签,903,212,691,0
+99,T0099,99_reconnection_magnetic reconnection_magnetized_magnetic field,99,S0099,99_reconnection_magnetic reconnection_magnetized_magnetic field,False,,完成清单初筛；保留原类及自动标签,7899,7899,0,0
+100,T0100,100_tidal_wave energy_tidal energy_ocean,100,S0100,100_tidal_wave energy_tidal energy_ocean,False,,完成清单初筛；保留原类及自动标签,4352,4335,13,4
+101,T0101,101_arrester_proteksi_arresters_spd,101,S0101,101_arrester_proteksi_arresters_spd,False,,完成清单初筛；保留原类及自动标签,5014,4998,16,0
+102,T0102,102_copper_cucrzr_cu_cu2se,102,S0102,102_copper_cucrzr_cu_cu2se,False,,完成清单初筛；保留原类及自动标签,3867,3819,48,0
+103,T0103,103_engine_diesel engine_stirling_piston,103,S0103,103_engine_diesel engine_stirling_piston,False,,完成清单初筛；保留原类及自动标签,7350,7335,15,0
+104,T0104,104_microgrid_microgrids_micro grid_energy management,104,S0104,104_microgrid_microgrids_micro grid_energy management,False,,已抽样复核；保留原类；名称仍为自动标签,7555,7545,10,0
+105,T0105,105_ev adoption_evs_purchase_adoption,105,S0105,105_ev adoption_evs_purchase_adoption,False,,完成清单初筛；保留原类及自动标签,8864,8864,0,0
+106,T0106,106_octahedra_corners_bonded_li1,106,S0106,106_octahedra_corners_bonded_li1,False,,完成清单初筛；保留原类及自动标签,8934,8925,9,0
+107,T0107,107_充电_车辆_电动 车辆_预警,107,S0107,107_充电_车辆_电动 车辆_预警,False,,完成清单初筛；保留原类及自动标签,839,210,627,2
+108,T0108,108_lead acid_sodium ion_acid batteries_rechargeable,108,S0108,108_lead acid_sodium ion_acid batteries_rechargeable,False,,完成清单初筛；保留原类及自动标签,7563,7553,10,0
+109,T0109,109_防水_密封_防水 结构_密封圈,109,S0109,109_防水_密封_防水 结构_密封圈,False,,完成清单初筛；保留原类及自动标签,1505,74,1431,0
+110,T0110,110_线束_安装_固定_接线盒,110,S0110,110_线束_安装_固定_接线盒,False,,完成清单初筛；保留原类及自动标签,1624,44,1580,0
+111,T0111,111_hydraulic_electro hydraulic_hydraulic control_valve,111,S0111,111_hydraulic_electro hydraulic_hydraulic control_valve,False,,完成清单初筛；保留原类及自动标签,4706,4685,21,0
+112,T0112,112_anatase_tio2 nanoparticles_tio2_tio,112,S0112,112_anatase_tio2 nanoparticles_tio2_tio,False,,已抽样复核；保留原类；名称仍为自动标签,11434,11412,22,0
+113,T0113,113_supercritical water_supercritical_water separation_oil water,113,S0113,113_supercritical water_supercritical_water separation_oil water,False,,完成清单初筛；保留原类及自动标签,6555,6550,5,0
+114,T0114,114_hydrate_hydrate formation_hydrates_gas hydrate,114,S0114,114_hydrate_hydrate formation_hydrates_gas hydrate,False,,完成清单初筛；保留原类及自动标签,4281,4281,0,0
+115,T0115,115_电路_电源_电压_输出,115,S0115,115_电路_电源_电压_输出,False,,已抽样复核；保留原类；名称仍为自动标签,2041,174,1867,0
+116,T0116,116_pcm_pcms_phase change_latent heat,116,S0116,116_pcm_pcms_phase change_latent heat,False,,完成清单初筛；保留原类及自动标签,4890,4883,7,0
+117,T0117,117_管道_管道 保护_管道 企业_油气 管道,117,S0117,117_管道_管道 保护_管道 企业_油气 管道,False,,完成清单初筛；保留原类及自动标签,354,274,0,80
+118,T0118,118_煤矿安全_必须_矿井_煤矿 企业,118,S0118,118_煤矿安全_必须_矿井_煤矿 企业,False,,完成清单初筛；保留原类及自动标签,330,97,3,230
+119,T0119,119_radio_cognitive radio_wireless_cognitive,119,S0119,119_radio_cognitive radio_wireless_cognitive,False,,完成清单初筛；保留原类及自动标签,7949,7787,162,0
+120,T0120,120_underwater_swimming_underwater vehicle_propeller,120,S0120,120_underwater_swimming_underwater vehicle_propeller,False,,完成清单初筛；保留原类及自动标签,5255,5234,21,0
+121,T0121,121_polypropylene_breakdown strength_pp_epoxy,121,S0121,121_polypropylene_breakdown strength_pp_epoxy,False,,完成清单初筛；保留原类及自动标签,6521,6479,42,0
+122,T0122,122_fusion_magnetized_fusion plasmas_magnetic fusion,122,S0122,122_fusion_magnetized_fusion plasmas_magnetic fusion,False,,完成清单初筛；保留原类及自动标签,4119,4113,6,0
+123,T0123,123_排放_二氧化碳 排放_配额_二氧化碳,123,S0123,123_排放_二氧化碳 排放_配额_二氧化碳,False,,完成清单初筛；保留原类及自动标签,365,231,2,132
+124,T0124,124_biofuels_biodiesel_biomass gasification_gasification,124,S0124,124_biofuels_biodiesel_biomass gasification_gasification,False,,完成清单初筛；保留原类及自动标签,4726,4671,55,0
+125,T0125,125_znin2s4_znin_scheme heterojunction_photocatalytic hydrogen,125,S0125,125_znin2s4_znin_scheme heterojunction_photocatalytic hydrogen,False,,完成清单初筛；保留原类及自动标签,8649,8649,0,0
+126,T0126,126_polymer electrolytes_spes_peo_ionic conductivity,126,S0126,126_polymer electrolytes_spes_peo_ionic conductivity,False,,已抽样复核；保留原类；名称仍为自动标签,5940,5916,24,0
+127,T0127,127_biosensor_dna_ultrasensitive_sensing,127,S0127,127_biosensor_dna_ultrasensitive_sensing,False,,完成清单初筛；保留原类及自动标签,5125,5108,17,0
+128,T0128,128_sorghum_sweet sorghum_sugarcane_sweet,128,S0128,128_sorghum_sweet sorghum_sugarcane_sweet,False,,完成清单初筛；保留原类及自动标签,5735,5733,2,0
+129,T0129,129_cyber_cybersecurity_attacks_attack,129,S0129,129_cyber_cybersecurity_attacks_attack,False,,完成清单初筛；保留原类及自动标签,7917,7885,32,0
+130,T0130,130_太阳能 电池_太阳能_钝化_掺杂,130,S0130,130_太阳能 电池_太阳能_钝化_掺杂,False,,已抽样复核；保留原类；名称仍为自动标签,1465,27,1438,0
+131,T0131,131_mno2_mno_mn3o4_mnco,131,S0131,131_mno2_mno_mn3o4_mnco,False,,已抽样复核；保留原类；名称仍为自动标签,4700,4680,20,0
+132,T0132,132_kyoto_emissions trading_ets_eu ets,132,S0132,132_kyoto_emissions trading_ets_eu ets,False,,完成清单初筛；保留原类及自动标签,7599,7599,0,0
+133,T0133,133_ito_film electrodes_films_oxide films,133,S0133,133_ito_film electrodes_films_oxide films,False,,完成清单初筛；保留原类及自动标签,5037,5031,6,0
+134,T0134,134_连接器_端子_接线盒_接线,134,S0134,134_连接器_端子_接线盒_接线,False,,完成清单初筛；保留原类及自动标签,1508,62,1446,0
+135,T0135,135_electricity market_electricity markets_markets_wholesale,135,S0135,135_electricity market_electricity markets_markets_wholesale,False,,完成清单初筛；保留原类及自动标签,10884,10878,6,0
+136,T0136,136_hydrogen generation_organic hydrogen_liquid organic_hydrogenation,136,S0136,136_hydrogen generation_organic hydrogen_liquid organic_hydrogenation,False,,完成清单初筛；保留原类及自动标签,7514,7481,33,0
+137,T0137,137_rooftop_pv systems_pv_self consumption,137,S0137,137_rooftop_pv systems_pv_self consumption,False,,已抽样复核；保留原类；名称仍为自动标签,10137,10132,5,0
+138,T0138,138_leak_pipeline_pipe_leak detection,138,S0138,138_leak_pipeline_pipe_leak detection,False,,完成清单初筛；保留原类及自动标签,4835,4813,22,0
+139,T0139,139_methane_methane production_methane oxidation_methane conversion,139,S0139,139_methane_methane production_methane oxidation_methane conversion,False,,完成清单初筛；保留原类及自动标签,5112,5094,18,0
+140,T0140,140_polymer solar_pcbm_p3ht_bulk heterojunction,140,S0140,140_polymer solar_pcbm_p3ht_bulk heterojunction,False,,已抽样复核；保留原类；名称仍为自动标签,6090,6088,2,0
+141,T0141,141_定子_转子_绕组_线圈,141,S0141,141_定子_转子_绕组_线圈,False,,完成清单初筛；保留原类及自动标签,1343,25,1318,0
+142,T0142,142_connected photovoltaic_connected pv_grid connected_photovoltaic systems,142,S0142,并网光伏系统建模与功率控制,True,D001,经抽样语义复核合并；含边界噪声,5696,5696,0,0
+143,T0143,143_soil_soil compaction_compaction_skid,143,S0143,143_soil_soil compaction_compaction_skid,False,,完成清单初筛；保留原类及自动标签,4435,4423,12,0
+144,T0144,144_rainfall_evapotranspiration_eto_meteorological,144,S0144,144_rainfall_evapotranspiration_eto_meteorological,False,,完成清单初筛；保留原类及自动标签,6774,6771,3,0
+145,T0145,145_seawater electrolysis_seawater_water electrolysis_electrolysis,145,S0145,145_seawater electrolysis_seawater_water electrolysis_electrolysis,False,,完成清单初筛；保留原类及自动标签,6330,6298,32,0
+146,T0146,146_安排_资金_万元_减排 专项资金,146,S0146,146_安排_资金_万元_减排 专项资金,False,,完成清单初筛；保留原类及自动标签,196,8,0,188
+147,T0147,147_涂布_切割_加工_涂覆,147,S0147,147_涂布_切割_加工_涂覆,False,,完成清单初筛；保留原类及自动标签,1344,32,1312,0
+148,T0148,148_patients_melioidosis_cd19_antigen,148,S0148,148_patients_melioidosis_cd19_antigen,False,,完成清单初筛；保留原类及自动标签,4848,4843,5,0
+149,T0149,149_energy society_energy justice_energy literacy_justice,149,S0149,149_energy society_energy justice_energy literacy_justice,False,,完成清单初筛；保留原类及自动标签,9702,9701,1,0
+150,T0150,150_carbonation_cao_sorbents_sorbent,150,S0150,150_carbonation_cao_sorbents_sorbent,False,,完成清单初筛；保留原类及自动标签,5749,5739,10,0
+151,T0151,151_magnesium alloy_magnesium_magnesium alloys_alloys,151,S0151,151_magnesium alloy_magnesium_magnesium alloys_alloys,False,,完成清单初筛；保留原类及自动标签,7415,7407,8,0
+152,T0152,152_sic_c/si_sic crystal_epitaxial,152,S0152,152_sic_c/si_sic crystal_epitaxial,False,,完成清单初筛；保留原类及自动标签,3626,3616,10,0
+153,T0153,153_power line_line communication_plc_line carrier,153,S0153,153_power line_line communication_plc_line carrier,False,,完成清单初筛；保留原类及自动标签,6506,6463,43,0
+154,T0154,154_nife_niooh_oer_uor,154,S0154,154_nife_niooh_oer_uor,False,,完成清单初筛；保留原类及自动标签,7512,7483,29,0
+155,T0155,155_energy efficiency_indicators_能源 绩效_energy consumption,155,S0155,155_energy efficiency_indicators_能源 绩效_energy consumption,False,,完成清单初筛；保留原类及自动标签,7873,7850,20,3
+156,T0156,156_沼气_水流_水轮机_雨水,156,S0156,156_沼气_水流_水轮机_雨水,False,,完成清单初筛；保留原类及自动标签,1563,535,1028,0
+157,T0157,157_故障_故障诊断_缺陷_故障 检测,157,S0157,157_故障_故障诊断_缺陷_故障 检测,False,,完成清单初筛；保留原类及自动标签,2186,566,1620,0
+158,T0158,158_organic solar_oscs_polymer solar_fullerene,158,S0158,有机光伏（OPV/OSC）材料与器件,True,SYN002,经抽样语义复核合并；含边界噪声,10585,10579,6,0
+159,T0159,159_solar irradiance_irradiance_solar radiation_global solar,159,S0159,太阳辐射与辐照度建模估算,True,SYN003,经抽样语义复核合并；含边界噪声,6583,6558,25,0
+160,T0160,160_ip_ethernet_voip_ipv6,160,S0160,160_ip_ethernet_voip_ipv6,False,,完成清单初筛；保留原类及自动标签,10194,10179,13,2
+161,T0161,161_braking_steering_wheel_brake,161,S0161,161_braking_steering_wheel_brake,False,,完成清单初筛；保留原类及自动标签,9020,8974,46,0
+162,T0162,162_检查 装置_图像_测量_检测,162,S0162,162_检查 装置_图像_测量_检测,False,,完成清单初筛；保留原类及自动标签,1060,501,559,0
+163,T0163,163_dg_distribution network_distributed generation_distribution networks,163,S0163,163_dg_distribution network_distributed generation_distribution networks,False,,完成清单初筛；保留原类及自动标签,8595,8529,66,0
+164,T0164,164_fault location_traveling wave_traveling_distance relay,164,S0164,164_fault location_traveling wave_traveling_distance relay,False,,完成清单初筛；保留原类及自动标签,6383,6359,24,0
+165,T0165,165_gas turbine_combined cycle_gas turbines_cycle power,165,S0165,165_gas turbine_combined cycle_gas turbines_cycle power,False,,完成清单初筛；保留原类及自动标签,6420,6416,4,0
+166,T0166,166_solar panels_solar energy_panels_solar power,166,S0166,166_solar panels_solar energy_panels_solar power,False,,已抽样复核；保留原类；名称仍为自动标签,7734,7707,26,1
+167,T0167,167_silicon solar_si solar_crystalline silicon_silicon heterojunction,167,S0167,167_silicon solar_si solar_crystalline silicon_silicon heterojunction,False,,完成清单初筛；保留原类及自动标签,14247,14228,19,0
+168,T0168,168_helium_tungsten_helium bubbles_fuzz,168,S0168,168_helium_tungsten_helium bubbles_fuzz,False,,完成清单初筛；保留原类及自动标签,6369,6364,5,0
+169,T0169,169_ion battery_li ion_soc_lead acid,169,S0169,169_ion battery_li ion_soc_lead acid,False,,已抽样复核；保留原类；名称仍为自动标签,5427,5404,23,0
+170,T0170,170_thermoelectric properties_thermoelectric_thermoelectric performance_enhanced thermoelectric,170,S0170,170_thermoelectric properties_thermoelectric_thermoelectric performance_enhanced thermoelectric,False,,已抽样复核；保留原类；名称仍为自动标签,7574,7574,0,0
+171,T0171,171_district heating_district_heating systems_dh,171,S0171,171_district heating_district_heating systems_dh,False,,已抽样复核；保留原类；名称仍为自动标签,7189,7183,4,2
+172,T0172,172_dispatch_scheduling_load dispatch_economic dispatch,172,S0172,172_dispatch_scheduling_load dispatch_economic dispatch,False,,完成清单初筛；保留原类及自动标签,7108,7075,33,0
+173,T0173,173_pulverized coal_pulverized_coal combustion_coal,173,S0173,173_pulverized coal_pulverized_coal combustion_coal,False,,完成清单初筛；保留原类及自动标签,5128,5118,10,0
+174,T0174,174_正极 材料_包覆_材料 及其_及其 制备,174,S0174,174_正极 材料_包覆_材料 及其_及其 制备,False,,已抽样复核；保留原类；名称仍为自动标签,1724,114,1610,0
+175,T0175,175_bidding_electricity market_electricity markets_电力 市场,175,S0175,175_bidding_electricity market_electricity markets_电力 市场,False,,完成清单初筛；保留原类及自动标签,2553,2026,527,0
+176,T0176,176_tubes_tube_supercritical pressure_pipe,176,S0176,176_tubes_tube_supercritical pressure_pipe,False,,完成清单初筛；保留原类及自动标签,5216,5211,5,0
+177,T0177,177_grid connected_connected photovoltaic_connected pv_pv inverter,142,S0142,并网光伏系统建模与功率控制,True,D001,经抽样语义复核合并；含边界噪声,7314,7307,7,0
+178,T0178,178_nanopore_nanopores_nanobubbles_epoxy,177,S0178,178_nanopore_nanopores_nanobubbles_epoxy,False,,完成清单初筛；保留原类及自动标签,5239,5234,5,0
+179,T0179,179_water electrolysis_membrane water_electrodialysis_aem,178,S0179,179_water electrolysis_membrane water_electrodialysis_aem,False,,完成清单初筛；保留原类及自动标签,5579,5537,42,0
+180,T0180,180_magnets_magnet_superconducting_superconducting magnet,179,S0180,180_magnets_magnet_superconducting_superconducting magnet,False,,完成清单初筛；保留原类及自动标签,4591,4548,43,0
+181,T0181,181_更换_电池 更换_电池 安装_电池组,180,S0181,181_更换_电池 更换_电池 安装_电池组,False,,完成清单初筛；保留原类及自动标签,1478,128,1350,0
+182,T0182,182_drain_gate_ligbt_algan/gan,181,S0182,182_drain_gate_ligbt_algan/gan,False,,完成清单初筛；保留原类及自动标签,4806,4803,3,0
+183,T0183,183_xml_web_database_asp,182,S0183,183_xml_web_database_asp,False,,完成清单初筛；保留原类及自动标签,8873,8853,20,0
+184,T0184,184_pwm_pwm rectifier_phase pwm_rectifier,183,S0184,184_pwm_pwm rectifier_phase pwm_rectifier,False,,完成清单初筛；保留原类及自动标签,5777,5638,139,0
+185,T0185,185_perovskite light_perovskites_perovskite nanocrystals_perovskite,184,S0185,185_perovskite light_perovskites_perovskite nanocrystals_perovskite,False,,完成清单初筛；保留原类及自动标签,11856,11856,0,0
+186,T0186,186_wind turbine_wind turbines_wind farm_turbines,185,S0186,186_wind turbine_wind turbines_wind farm_turbines,False,,完成清单初筛；保留原类及自动标签,8412,8390,22,0
+187,T0187,187_rock_rocks_sandstone_permeability,186,S0187,187_rock_rocks_sandstone_permeability,False,,完成清单初筛；保留原类及自动标签,5930,5929,1,0
+188,T0188,188_地热井_地热_井筒_地层,187,S0188,188_地热井_地热_井筒_地层,False,,完成清单初筛；保留原类及自动标签,1035,732,303,0
+189,T0189,189_union_european_european union_eu,188,S0189,189_union_european_european union_eu,False,,完成清单初筛；保留原类及自动标签,9145,9145,0,0
+190,T0190,190_floating offshore_offshore wind_floating wind_offshore,189,S0190,190_floating offshore_offshore wind_floating wind_offshore,False,,完成清单初筛；保留原类及自动标签,8492,8469,23,0
+191,T0191,191_配电网_优化_求解_调度,190,S0191,191_配电网_优化_求解_调度,False,,已抽样复核；保留原类；名称仍为自动标签,1854,295,1559,0
+192,T0192,192_hydrogen storage_storage materials_hydrides_storage properties,191,S0192,192_hydrogen storage_storage materials_hydrides_storage properties,False,,完成清单初筛；保留原类及自动标签,7976,7920,56,0
+193,T0193,193_spinel_limn2o4_spinel limn2o4_spinels,192,S0193,193_spinel_limn2o4_spinel limn2o4_spinels,False,,完成清单初筛；保留原类及自动标签,2628,2627,1,0
+194,T0194,194_制冷剂_冷却剂_冷却_冷却系统,193,S0194,194_制冷剂_冷却剂_冷却_冷却系统,False,,完成清单初筛；保留原类及自动标签,1769,973,796,0
+195,T0195,195_stock_stock price_stock market_price prediction,194,S0195,195_stock_stock price_stock market_price prediction,False,,完成清单初筛；保留原类及自动标签,7011,7007,4,0
+196,T0196,196_carbon dioxide_solubility_co2 absorption_eos,195,S0196,196_carbon dioxide_solubility_co2 absorption_eos,False,,完成清单初筛；保留原类及自动标签,6421,6416,5,0
+197,T0197,197_hybrid electric_powertrain_hev_fuel economy,196,S0197,197_hybrid electric_powertrain_hev_fuel economy,False,,完成清单初筛；保留原类及自动标签,9466,9444,22,0
+198,T0198,198_thermoelectric properties_heusler_thermoelectric_half heusler,197,S0198,198_thermoelectric properties_heusler_thermoelectric_half heusler,False,,完成清单初筛；保留原类及自动标签,4986,4986,0,0
+199,T0199,199_正极 活性_正极_粒径_d50,198,S0199,199_正极 活性_正极_粒径_d50,False,,已抽样复核；保留原类；名称仍为自动标签,1114,124,990,0
+200,T0200,200_water pumping_charge pump_pumping_water pump,199,S0200,200_water pumping_charge pump_pumping_water pump,False,,完成清单初筛；保留原类及自动标签,2323,2279,44,0
+201,T0201,201_hvdc_vsc_mmc_dc fault,200,S0201,201_hvdc_vsc_mmc_dc fault,False,,完成清单初筛；保留原类及自动标签,6568,6546,22,0
+202,T0202,202_methanol oxidation_electrooxidation_methanol_electro oxidation,201,S0202,202_methanol oxidation_electrooxidation_methanol_electro oxidation,False,,完成清单初筛；保留原类及自动标签,5046,5046,0,0
+203,T0203,203_zno_zno nanoparticles_doped zno_photocatalytic degradation,202,S0203,203_zno_zno nanoparticles_doped zno_photocatalytic degradation,False,,已抽样复核；保留原类；名称仍为自动标签,8881,8881,0,0
+204,T0204,204_gold_gold nanoparticles_nanoporous gold_au,203,S0204,204_gold_gold nanoparticles_nanoporous gold_au,False,,完成清单初筛；保留原类及自动标签,5094,5089,5,0
+205,T0205,205_issue cover_volume issue_zenodo_ipc,204,S0205,205_issue cover_volume issue_zenodo_ipc,False,,完成清单初筛；保留原类及自动标签,5456,5451,4,1
+206,T0206,206_battery energy_lead acid_equalization_charge estimation,205,S0206,206_battery energy_lead acid_equalization_charge estimation,False,,完成清单初筛；保留原类及自动标签,5121,5106,15,0
+207,T0207,207_glasses_optical properties_nonlinear optical_chalcogenide glasses,206,S0207,207_glasses_optical properties_nonlinear optical_chalcogenide glasses,False,,完成清单初筛；保留原类及自动标签,8088,8087,1,0
+208,T0208,208_模具_涂布_垫片_胶带,207,S0208,208_模具_涂布_垫片_胶带,False,,完成清单初筛；保留原类及自动标签,1441,265,1176,0
+209,T0209,209_基金_资金_能源 基金_基金 管理,208,S0209,209_基金_资金_能源 基金_基金 管理,False,,完成清单初筛；保留原类及自动标签,259,210,0,49
+210,T0210,210_photovoltaics_photovoltaic devices_solar blind_photovoltage,209,S0210,210_photovoltaics_photovoltaic devices_solar blind_photovoltage,False,,完成清单初筛；保留原类及自动标签,6684,6682,2,0
+211,T0211,211_source heat_ground source_heat pump_gshp,210,S0211,211_source heat_ground source_heat pump_gshp,False,,完成清单初筛；保留原类及自动标签,4338,4309,26,3
+212,T0212,212_dc dc_dc converter_dc converters_dc/dc,211,S0212,212_dc dc_dc converter_dc converters_dc/dc,False,,已抽样复核；保留原类；名称仍为自动标签,15238,15179,59,0
+213,T0213,213_plasmas_cyclotron_ion temperature_alfvén,212,S0213,213_plasmas_cyclotron_ion temperature_alfvén,False,,完成清单初筛；保留原类及自动标签,8951,8951,0,0
+214,T0214,214_cable_电缆_电缆 故障_cables,213,S0214,214_cable_电缆_电缆 故障_cables,False,,完成清单初筛；保留原类及自动标签,2776,2078,698,0
+215,T0215,215_routing_noc_multicast_packet,214,S0215,215_routing_noc_multicast_packet,False,,完成清单初筛；保留原类及自动标签,10451,10381,70,0
+216,T0216,216_耳机_耳部_焊接_耳机 充电,215,S0216,216_耳机_耳部_焊接_耳机 充电,False,,完成清单初筛；保留原类及自动标签,856,16,840,0
+217,T0217,217_electrical safety_risk assessment_accidents_vulnerability,216,S0217,217_electrical safety_risk assessment_accidents_vulnerability,False,,完成清单初筛；保留原类及自动标签,5812,5773,39,0
+218,T0218,218_bio oil_biodiesel_bio_biodiesel production,217,S0218,218_bio oil_biodiesel_bio_biodiesel production,False,,完成清单初筛；保留原类及自动标签,5079,5056,23,0
+219,T0219,219_net zero_climate policy_low carbon_climate change,218,S0219,219_net zero_climate policy_low carbon_climate change,False,,完成清单初筛；保留原类及自动标签,8880,8880,0,0
+220,T0220,220_perovskite solar_tandem solar_perovskite_inverted perovskite,219,S0220,220_perovskite solar_tandem solar_perovskite_inverted perovskite,False,,已抽样复核；保留原类；名称仍为自动标签,8793,8793,0,0
+221,T0221,221_imbalanced_imbalanced data_class imbalance_oversampling,220,S0221,221_imbalanced_imbalanced data_class imbalance_oversampling,False,,完成清单初筛；保留原类及自动标签,7695,7603,92,0
+222,T0222,222_partial discharge_corona_discharges_corona discharge,221,S0222,222_partial discharge_corona_discharges_corona discharge,False,,完成清单初筛；保留原类及自动标签,6841,6839,2,0
+223,T0223,223_li ion_cathode material_ion batteries_cathode materials,222,S0223,223_li ion_cathode material_ion batteries_cathode materials,False,,完成清单初筛；保留原类及自动标签,7471,7466,5,0
+224,T0224,224_genes_coli_gene_pseudomallei,223,S0224,224_genes_coli_gene_pseudomallei,False,,完成清单初筛；保留原类及自动标签,5071,5059,12,0
+225,T0225,225_centrifugal_impeller_centrifugal pump_flow field,224,S0225,225_centrifugal_impeller_centrifugal pump_flow field,False,,已抽样复核；保留原类；名称仍为自动标签,6501,6495,6,0
+226,T0226,226_biofuels_bioenergy_biofuel_biogas,225,S0226,226_biofuels_bioenergy_biofuel_biogas,False,,完成清单初筛；保留原类及自动标签,10210,10203,4,3
+227,T0227,227_silicone rubber_silicone_rubber_insulators,226,S0227,227_silicone rubber_silicone_rubber_insulators,False,,完成清单初筛；保留原类及自动标签,5200,5190,10,0
+228,T0228,228_ammonia borane_borane_nitrogen reduction_catalytic reduction,227,S0228,228_ammonia borane_borane_nitrogen reduction_catalytic reduction,False,,完成清单初筛；保留原类及自动标签,6187,6187,0,0
+229,T0229,229_ventilation_natural ventilation_hvac_air conditioning,228,S0229,229_ventilation_natural ventilation_hvac_air conditioning,False,,完成清单初筛；保留原类及自动标签,4759,4718,41,0
+230,T0230,230_energy efficiency_energy audit_audit_energy conservation,229,S0230,230_energy efficiency_energy audit_audit_energy conservation,False,,完成清单初筛；保留原类及自动标签,10870,10869,1,0
+231,T0231,231_母线槽_螺纹_套管_螺栓,230,S0231,231_母线槽_螺纹_套管_螺栓,False,,完成清单初筛；保留原类及自动标签,1879,43,1836,0
+232,T0232,232_thermal shock_thermal stress_thermal barrier_thermal insulation,231,S0232,232_thermal shock_thermal stress_thermal barrier_thermal insulation,False,,完成清单初筛；保留原类及自动标签,6331,6318,13,0
+233,T0233,233_portion_claim_claims_said,232,S0233,233_portion_claim_claims_said,False,,完成清单初筛；保留原类及自动标签,1595,184,1411,0
+234,T0234,234_spin_text pdf_pdf kb_antiferromagnetic,233,S0234,234_spin_text pdf_pdf kb_antiferromagnetic,False,,完成清单初筛；保留原类及自动标签,5629,5624,5,0
+235,T0235,235_wastewater_photocatalytic membrane_wastewater treatment_water purification,234,S0235,235_wastewater_photocatalytic membrane_wastewater treatment_water purification,False,,完成清单初筛；保留原类及自动标签,6904,6903,1,0
+236,T0236,236_gan_hemts_algan/gan_hemt,235,S0236,236_gan_hemts_algan/gan_hemt,False,,完成清单初筛；保留原类及自动标签,4015,4008,7,0
+237,T0237,237_induction heating_temperature field_thermal model_temperature rise,236,S0237,237_induction heating_temperature field_thermal model_temperature rise,False,,完成清单初筛；保留原类及自动标签,5377,5354,23,0
+238,T0238,238_氢气_重整_反应器_甲醇,237,S0238,238_氢气_重整_反应器_甲醇,False,,完成清单初筛；保留原类及自动标签,1295,351,944,0
+239,T0239,239_solar pv_solar energy_solar power_solar photovoltaic,238,S0239,239_solar pv_solar energy_solar power_solar photovoltaic,False,,已抽样复核；保留原类；名称仍为自动标签,12115,12107,0,8
+240,T0240,240_green finance_green innovation_green bonds_green,239,S0240,240_green finance_green innovation_green bonds_green,False,,完成清单初筛；保留原类及自动标签,5675,5669,3,3
+241,T0241,241_zrb2_zrb_zirconia_zirconium,240,S0241,241_zrb2_zrb_zirconia_zirconium,False,,完成清单初筛；保留原类及自动标签,4691,4685,6,0
+242,T0242,242_气体_sf6_泄漏_绝缘油,241,S0242,242_气体_sf6_泄漏_绝缘油,False,,完成清单初筛；保留原类及自动标签,2235,1479,755,1
+243,T0243,243_organic semiconductors_organic electronics_organic semiconductor_semiconductors,242,S0243,243_organic semiconductors_organic electronics_organic semiconductor_semiconductors,False,,完成清单初筛；保留原类及自动标签,6202,6192,10,0
+244,T0244,244_fe ii_iron_fe iii_ferrihydrite,243,S0244,244_fe ii_iron_fe iii_ferrihydrite,False,,完成清单初筛；保留原类及自动标签,8390,8367,23,0
+245,T0245,245_plastic waste_plastic_plastics_waste plastics,244,S0245,245_plastic waste_plastic_plastics_waste plastics,False,,完成清单初筛；保留原类及自动标签,5499,5490,9,0
+246,T0246,246_电动机_转子_电机_定子,245,S0246,246_电动机_转子_电机_定子,False,,完成清单初筛；保留原类及自动标签,1354,147,1207,0
+247,T0247,247_porous carbon_hierarchical porous_supercapacitors_porous carbons,246,S0247,247_porous carbon_hierarchical porous_supercapacitors_porous carbons,False,,完成清单初筛；保留原类及自动标签,5659,5654,5,0
+248,T0248,248_优化_调度_求解_优化 调度,247,S0248,248_优化_调度_求解_优化 调度,False,,已抽样复核；保留原类；名称仍为自动标签,1602,603,999,0
+249,T0249,249_lini0_lini_mn0_电化学 性能,248,S0249,249_lini0_lini_mn0_电化学 性能,False,,完成清单初筛；保留原类及自动标签,5669,5625,44,0
+250,T0250,250_事故_应急_防汛_必须,249,S0250,250_事故_应急_防汛_必须,False,,完成清单初筛；保留原类及自动标签,247,110,1,136
+251,T0251,251_ga2o3_ferroelectric_fe2o3_ga2o3 films,250,S0251,251_ga2o3_ferroelectric_fe2o3_ga2o3 films,False,,完成清单初筛；保留原类及自动标签,4236,4235,1,0
+252,T0252,252_换热_导热_电池 单元_散热,251,S0252,252_换热_导热_电池 单元_散热,False,,已抽样复核；保留原类；名称仍为自动标签,1503,17,1486,0
+253,T0253,253_evs_charging stations_ev charging_charging,252,S0253,253_evs_charging stations_ev charging_charging,False,,已抽样复核；保留原类；名称仍为自动标签,5224,5189,35,0
+254,T0254,254_temperature prediction_district heating_district_cooling load,253,S0254,254_temperature prediction_district heating_district_cooling load,False,,完成清单初筛；保留原类及自动标签,4926,4553,373,0
+255,T0255,255_cu_electroreduction_rr_faradaic efficiency,254,S0255,255_cu_electroreduction_rr_faradaic efficiency,False,,完成清单初筛；保留原类及自动标签,7007,7004,3,0
+256,T0256,256_hydrogenase_fefe_hydrogenases_fefe hydrogenase,255,S0256,256_hydrogenase_fefe_hydrogenases_fefe hydrogenase,False,,完成清单初筛；保留原类及自动标签,8971,8970,1,0
+257,T0257,257_li o2_o2 batteries_li2o2_lithium oxygen,256,S0257,257_li o2_o2 batteries_li2o2_lithium oxygen,False,,完成清单初筛；保留原类及自动标签,5954,5944,10,0
+258,T0258,258_znse_zns_znte_zn2,257,S0258,258_znse_zns_znte_zn2,False,,完成清单初筛；保留原类及自动标签,7259,7258,1,0
+259,T0259,259_membrane fuel_proton exchange_exchange membrane_anion exchange,258,S0259,259_membrane fuel_proton exchange_exchange membrane_anion exchange,False,,已抽样复核；保留原类；名称仍为自动标签,3779,3771,8,0
+260,T0260,260_能源 系统_综合 能源_能源 调度_调度,259,S0260,260_能源 系统_综合 能源_能源 调度_调度,False,,完成清单初筛；保留原类及自动标签,2295,1195,1100,0
+261,T0261,261_uranium_uranium vi_uranium extraction_uranyl,260,S0261,261_uranium_uranium vi_uranium extraction_uranyl,False,,完成清单初筛；保留原类及自动标签,4269,4254,15,0
+262,T0262,262_检测 电路_电流_检测_电流 检测,261,S0262,262_检测 电路_电流_检测_电流 检测,False,,已抽样复核；保留原类；名称仍为自动标签,2023,535,1488,0
+263,T0263,263_故障_电流_穿越_无功,262,S0263,263_故障_电流_穿越_无功,False,,完成清单初筛；保留原类及自动标签,1574,291,1283,0
+264,T0264,264_盖板_电池 单体_单体_单体 电池,263,S0264,264_盖板_电池 单体_单体_单体 电池,False,,已抽样复核；保留原类；名称仍为自动标签,2617,9,2608,0
+265,T0265,265_carbon nanotubes_doped carbon_carbon nanofibers_nitrogen doped,264,S0265,265_carbon nanotubes_doped carbon_carbon nanofibers_nitrogen doped,False,,完成清单初筛；保留原类及自动标签,6910,6907,3,0
+266,T0266,266_ecological_biodiversity_sustainability_ecological footprint,265,S0266,266_ecological_biodiversity_sustainability_ecological footprint,False,,完成清单初筛；保留原类及自动标签,10542,10539,3,0
+267,T0267,267_molten salt_molten_salt_molten salts,266,S0267,267_molten salt_molten_salt_molten salts,False,,完成清单初筛；保留原类及自动标签,2998,2930,68,0
+268,T0268,268_supercapacitor_supercapacitor electrodes_supercapacitor electrode_supercapacitors,267,S0268,268_supercapacitor_supercapacitor electrodes_supercapacitor electrode_supercapacitors,False,,已抽样复核；保留原类；名称仍为自动标签,6947,6947,0,0
+269,T0269,269_clutch_pendulum_vibration_motion,268,S0269,269_clutch_pendulum_vibration_motion,False,,完成清单初筛；保留原类及自动标签,5458,5441,17,0
+270,T0270,270_perovskites_halide_halide perovskites_halide perovskite,269,S0270,270_perovskites_halide_halide perovskites_halide perovskite,False,,完成清单初筛；保留原类及自动标签,15454,15454,0,0
+271,T0271,271_液冷_水泵_水冷_连通,270,S0271,271_液冷_水泵_水冷_连通,False,,完成清单初筛；保留原类及自动标签,1622,67,1555,0
+272,T0272,272_carbazole_fluorene_phosphorescent_oxadiazole,271,S0272,272_carbazole_fluorene_phosphorescent_oxadiazole,False,,完成清单初筛；保留原类及自动标签,7127,7125,2,0
+273,T0273,273_propulsion_electric propulsion_aircraft_rocket,272,S0273,273_propulsion_electric propulsion_aircraft_rocket,False,,完成清单初筛；保留原类及自动标签,4602,4585,17,0
+274,T0274,274_biogas_biogas production_digestion_cow,273,S0274,274_biogas_biogas production_digestion_cow,False,,已抽样复核；保留原类；名称仍为自动标签,8698,8689,9,0
+275,T0275,275_安徽省_村级 电站_村级_电站,274,S0275,275_安徽省_村级 电站_村级_电站,False,,完成清单初筛；保留原类及自动标签,220,85,0,135
+276,T0276,276_同步电机_永磁 同步电机_永磁_转矩,275,S0276,276_同步电机_永磁 同步电机_永磁_转矩,False,,完成清单初筛；保留原类及自动标签,1478,454,1024,0
+277,T0277,277_电缆_线缆_护套_电力电缆,276,S0277,277_电缆_线缆_护套_电力电缆,False,,完成清单初筛；保留原类及自动标签,3215,140,3075,0
+278,T0278,278_load frequency_frequency control_interconnected power_area power,277,S0278,278_load frequency_frequency control_interconnected power_area power,False,,完成清单初筛；保留原类及自动标签,6008,6003,5,0
+279,T0279,279_lithium batteries_state lithium_lithium ion_lithium sulfur,278,S0279,279_lithium batteries_state lithium_lithium ion_lithium sulfur,False,,完成清单初筛；保留原类及自动标签,15226,15221,5,0
+280,T0280,280_m6a_rna_mrna_mir,279,S0280,280_m6a_rna_mrna_mir,False,,完成清单初筛；保留原类及自动标签,6568,6566,2,0
+281,T0281,281_oxygen evolution_efficient oxygen_oxygen reduction_reduction reaction,280,S0281,析氧反应（OER）及双功能氧电催化剂,True,SYN004,经抽样语义复核合并；含边界噪声,6188,6185,3,0
+282,T0282,282_光伏 支架_光伏 组件_支架_边框,281,S0282,282_光伏 支架_光伏 组件_支架_边框,False,,完成清单初筛；保留原类及自动标签,1924,1,1923,0
+283,T0283,283_风电 机组_风力_偏航_pitch control,282,S0283,283_风电 机组_风力_偏航_pitch control,False,,完成清单初筛；保留原类及自动标签,2860,1797,1063,0
+284,T0284,284_铁芯_定子 铁芯_定子_冲片,283,S0284,284_铁芯_定子 铁芯_定子_冲片,False,,完成清单初筛；保留原类及自动标签,1006,28,978,0
+285,T0285,285_voltage transformer_voltage divider_divider_high voltage,284,S0285,285_voltage transformer_voltage divider_divider_high voltage,False,,完成清单初筛；保留原类及自动标签,6707,6686,21,0
+286,T0286,286_arc_arcing_arcs_arc flash,285,S0286,286_arc_arcing_arcs_arc flash,False,,完成清单初筛；保留原类及自动标签,3045,3045,0,0
+287,T0287,287_齐全_信用_监管_满足 设计,286,S0287,287_齐全_信用_监管_满足 设计,False,,完成清单初筛；保留原类及自动标签,409,269,0,140
+288,T0288,288_heat flux_electron temperature_divertor_heat load,287,S0288,288_heat flux_electron temperature_divertor_heat load,False,,完成清单初筛；保留原类及自动标签,6594,6578,16,0
+289,T0289,289_pt_pt/c_platinum_orr,288,S0289,289_pt_pt/c_platinum_orr,False,,完成清单初筛；保留原类及自动标签,6929,6907,22,0
+290,T0290,290_cladding_reactor_burnup_water reactor,289,S0290,290_cladding_reactor_burnup_water reactor,False,,完成清单初筛；保留原类及自动标签,3420,3365,53,2
+291,T0291,291_锂电池_充电 锂电池_化成_电解液,290,S0291,291_锂电池_充电 锂电池_化成_电解液,False,,完成清单初筛；保留原类及自动标签,1688,928,760,0
+292,T0292,292_ga2o3_cu2znsns4_films grown_films,291,S0292,292_ga2o3_cu2znsns4_films grown_films,False,,完成清单初筛；保留原类及自动标签,6292,6292,0,0
+293,T0293,293_iron oxide_oxide nanoparticles_superparamagnetic_fe3o4,292,S0293,293_iron oxide_oxide nanoparticles_superparamagnetic_fe3o4,False,,完成清单初筛；保留原类及自动标签,10380,10363,17,0
+294,T0294,294_车用 液化_液化 石油气_石油气_本市 车用,293,S0294,294_车用 液化_液化 石油气_石油气_本市 车用,False,,完成清单初筛；保留原类及自动标签,98,18,0,80
+295,T0295,295_gps_rtk_jt/t_positioning,294,S0295,295_gps_rtk_jt/t_positioning,False,,完成清单初筛；保留原类及自动标签,4317,4302,14,1
+296,T0296,296_bess_battery energy_battery storage_second life,295,S0296,296_bess_battery energy_battery storage_second life,False,,完成清单初筛；保留原类及自动标签,6249,6204,44,1
+297,T0297,297_均衡_电池 管理_电池 管理系统_电池 系统,296,S0297,297_均衡_电池 管理_电池 管理系统_电池 系统,False,,已抽样复核；保留原类；名称仍为自动标签,2081,388,1693,0
+298,T0298,298_films_deposited_film thickness_glass substrates,297,S0298,298_films_deposited_film thickness_glass substrates,False,,完成清单初筛；保留原类及自动标签,8430,8422,8,0
+299,T0299,299_gas storage_gas liquid_gasifier_natural gas,298,S0299,299_gas storage_gas liquid_gasifier_natural gas,False,,完成清单初筛；保留原类及自动标签,5333,5236,97,0
+300,T0300,300_hybrid energy_caes_air energy_storage systems,299,S0300,300_hybrid energy_caes_air energy_storage systems,False,,完成清单初筛；保留原类及自动标签,6602,6551,51,0
+301,T0301,301_spent lithium_lithium recovery_lithium extraction_spent,300,S0301,301_spent lithium_lithium recovery_lithium extraction_spent,False,,完成清单初筛；保留原类及自动标签,6323,6318,5,0
+302,T0302,302_mhd_pedestal_elm_elms,301,S0302,302_mhd_pedestal_elm_elms,False,,完成清单初筛；保留原类及自动标签,4657,4657,0,0
+303,T0303,303_异常_电力设备_识别_特征,302,S0303,303_异常_电力设备_识别_特征,False,,完成清单初筛；保留原类及自动标签,1788,246,1542,0
+304,T0304,304_anthropocene_civilisation_civilisations_planet,303,S0304,304_anthropocene_civilisation_civilisations_planet,False,,完成清单初筛；保留原类及自动标签,7278,7277,1,0
+305,T0305,305_silicon_implantation_implanted_wafers,304,S0305,305_silicon_implantation_implanted_wafers,False,,完成清单初筛；保留原类及自动标签,6522,6519,3,0
+306,T0306,306_integrated energy_multi energy_energy hub_energy systems,305,S0306,306_integrated energy_multi energy_energy hub_energy systems,False,,完成清单初筛；保留原类及自动标签,7819,7818,1,0
+307,T0307,307_lens_fresnel_lenses_fresnel lens,306,S0307,307_lens_fresnel_lenses_fresnel lens,False,,完成清单初筛；保留原类及自动标签,5720,5636,84,0
+308,T0308,308_titanium dioxide_self cleaning_photocatalytic degradation_tio2,307,S0308,308_titanium dioxide_self cleaning_photocatalytic degradation_tio2,False,,已抽样复核；保留原类；名称仍为自动标签,8731,8731,0,0
+309,T0309,309_检测 装置_传感器_检测_监测 装置,308,S0309,309_检测 装置_传感器_检测_监测 装置,False,,完成清单初筛；保留原类及自动标签,1502,29,1473,0
+310,T0310,310_buck_inrush_buck converter_transformer,309,S0310,310_buck_inrush_buck converter_transformer,False,,完成清单初筛；保留原类及自动标签,6614,6600,14,0
+311,T0311,311_heat transfer_convection_natural convection_nusselt,310,S0311,311_heat transfer_convection_natural convection_nusselt,False,,完成清单初筛；保留原类及自动标签,6522,6516,6,0
+312,T0312,312_fpga_processor_dsp_serial,311,S0312,312_fpga_processor_dsp_serial,False,,完成清单初筛；保留原类及自动标签,7643,7562,81,0
+313,T0313,313_车辆_电动 车辆_电动机_驱动,312,S0313,313_车辆_电动 车辆_电动机_驱动,False,,完成清单初筛；保留原类及自动标签,1715,380,1335,0
+314,T0314,314_cuinse2_czts_cigs_cu,313,S0314,314_cuinse2_czts_cigs_cu,False,,完成清单初筛；保留原类及自动标签,6382,6379,3,0
+315,T0315,315_esd_igbt_esd protection_gate driver,314,S0315,315_esd_igbt_esd protection_gate driver,False,,完成清单初筛；保留原类及自动标签,6888,6810,78,0
+316,T0316,316_jpg_south carolina_stahlbau_və,315,S0316,316_jpg_south carolina_stahlbau_və,False,,完成清单初筛；保留原类及自动标签,7335,7335,0,0
+317,T0317,317_harvester_energy harvester_piezoelectric_vibration energy,316,S0317,317_harvester_energy harvester_piezoelectric_vibration energy,False,,完成清单初筛；保留原类及自动标签,2726,2713,13,0
+318,T0318,318_磷酸_前驱_锰铁_磷酸 锰铁,317,S0318,318_磷酸_前驱_锰铁_磷酸 锰铁,False,,完成清单初筛；保留原类及自动标签,1542,130,1412,0
+319,T0319,319_china_energy security_energy cooperation_asia,318,S0319,319_china_energy security_energy cooperation_asia,False,,完成清单初筛；保留原类及自动标签,6204,6202,0,2
+320,T0320,320_fuels_alternative fuels_exergy_combustion,319,S0320,320_fuels_alternative fuels_exergy_combustion,False,,完成清单初筛；保留原类及自动标签,5883,5870,10,3
+321,T0321,321_co2 capture_co2 adsorption_zeolites_zeolite,320,S0321,321_co2 capture_co2 adsorption_zeolites_zeolite,False,,完成清单初筛；保留原类及自动标签,5689,5689,0,0
+322,T0322,322_谐波_频率_信号_行波,321,S0322,322_谐波_频率_信号_行波,False,,完成清单初筛；保留原类及自动标签,1803,593,1210,0
+323,T0323,323_plasmas_plasma_tokamak_divertor,322,S0323,323_plasmas_plasma_tokamak_divertor,False,,已抽样复核；保留原类；名称仍为自动标签,9465,9465,0,0
+324,T0324,324_carbon capture_ccs_capture_ccus,323,S0324,324_carbon capture_ccs_capture_ccus,False,,已抽样复核；保留原类；名称仍为自动标签,7306,7273,32,1
+325,T0325,325_漂浮_海上_波浪_系泊,324,S0325,325_漂浮_海上_波浪_系泊,False,,完成清单初筛；保留原类及自动标签,1301,480,821,0
+326,T0326,326_photocurrent_photoinduced_photoelectrochemical_charge separation,325,S0326,326_photocurrent_photoinduced_photoelectrochemical_charge separation,False,,完成清单初筛；保留原类及自动标签,9000,8999,1,0
+327,T0327,327_电解质_固态 电解质_固态_电解液,326,S0327,327_电解质_固态 电解质_固态_电解液,False,,完成清单初筛；保留原类及自动标签,1373,165,1208,0
+328,T0328,328_forest_forestry_forest management_forests,327,S0328,328_forest_forestry_forest management_forests,False,,完成清单初筛；保留原类及自动标签,10934,10929,4,1
+329,T0329,329_nanowires_boron nitride_nitride nanotubes_nanocrystals,328,S0329,329_nanowires_boron nitride_nitride nanotubes_nanocrystals,False,,完成清单初筛；保留原类及自动标签,8518,8501,17,0
+330,T0330,330_灭火_烟气_燃烧室_燃烧器,329,S0330,330_灭火_烟气_燃烧室_燃烧器,False,,完成清单初筛；保留原类及自动标签,1024,214,810,0
+331,T0331,331_appliances_home energy_hvac_home,330,S0331,331_appliances_home energy_hvac_home,False,,完成清单初筛；保留原类及自动标签,3953,3930,23,0
+332,T0332,332_time series_forecasting_series forecasting_load forecasting,331,S0332,332_time series_forecasting_series forecasting_load forecasting,False,,完成清单初筛；保留原类及自动标签,7389,7365,24,0
+333,T0333,333_collector_solar collector_flat plate_solar air,332,S0333,333_collector_solar collector_flat plate_solar air,False,,已抽样复核；保留原类；名称仍为自动标签,9065,9055,10,0
+334,T0334,334_燃料电池_燃料电池 系统_燃料_空气,333,S0334,334_燃料电池_燃料电池 系统_燃料_空气,False,,已抽样复核；保留原类；名称仍为自动标签,1103,144,959,0
+335,T0335,335_desalination_evaporation_solar desalination_evaporator,334,S0335,335_desalination_evaporation_solar desalination_evaporator,False,,完成清单初筛；保留原类及自动标签,8382,8342,40,0
+336,T0336,336_海口_海南_三亚_考核,335,S0336,336_海口_海南_三亚_考核,False,,完成清单初筛；保留原类及自动标签,173,31,0,142
+337,T0337,337_clock_pll_jitter_fpga,336,S0337,337_clock_pll_jitter_fpga,False,,完成清单初筛；保留原类及自动标签,6080,6005,75,0
+338,T0338,338_gas separation_hollow fiber_mixed matrix_co2 separation,337,S0338,338_gas separation_hollow fiber_mixed matrix_co2 separation,False,,完成清单初筛；保留原类及自动标签,4357,4353,4,0
+339,T0339,339_beam_beams_linac_accelerator,338,S0339,339_beam_beams_linac_accelerator,False,,完成清单初筛；保留原类及自动标签,5183,5180,3,0
+340,T0340,340_电子设备_芯片_电路_显示装置,339,S0340,340_电子设备_芯片_电路_显示装置,False,,完成清单初筛；保留原类及自动标签,1482,454,1028,0
+341,T0341,341_负极_负极 活性_负极 材料_活性 材料,340,S0341,341_负极_负极 活性_负极 材料_活性 材料,False,,已抽样复核；保留原类；名称仍为自动标签,941,8,933,0
+342,T0342,342_solar tracking_solar tracker_tracker_solar panel,341,S0342,342_solar tracking_solar tracker_tracker_solar panel,False,,完成清单初筛；保留原类及自动标签,3718,2959,759,0
+343,T0343,343_refrigeration_refrigerants_absorption refrigeration_refrigerant,342,S0343,343_refrigeration_refrigerants_absorption refrigeration_refrigerant,False,,完成清单初筛；保留原类及自动标签,4124,4124,0,0
+344,T0344,344_ore_ores_rare earth_beneficiation,343,S0344,344_ore_ores_rare earth_beneficiation,False,,完成清单初筛；保留原类及自动标签,3846,3846,0,0
+345,T0345,345_nanocrystals_nanowires_colloidal_nanostructures,344,S0345,345_nanocrystals_nanowires_colloidal_nanostructures,False,,完成清单初筛；保留原类及自动标签,8337,8282,55,0
+346,T0346,346_moiré_der waals_waals_van der,345,S0346,346_moiré_der waals_waals_van der,False,,完成清单初筛；保留原类及自动标签,7413,7410,3,0
+347,T0347,347_activated carbon_activated carbons_biochar_carbonization,346,S0347,347_activated carbon_activated carbons_biochar_carbonization,False,,已抽样复核；保留原类；名称仍为自动标签,5880,5862,18,0
+348,T0348,348_charge estimation_ion battery_lithium ion_lithium plating,347,S0348,348_charge estimation_ion battery_lithium ion_lithium plating,False,,已抽样复核；保留原类；名称仍为自动标签,6929,6924,5,0
+349,T0349,349_蓄电_盖板_蓄电 装置_端盖,348,S0349,349_蓄电_盖板_蓄电 装置_端盖,False,,完成清单初筛；保留原类及自动标签,1199,9,1190,0
+350,T0350,350_ppv_polymers_conjugated_conjugated polymers,349,S0350,350_ppv_polymers_conjugated_conjugated polymers,False,,已抽样复核；保留原类；名称仍为自动标签,7814,7806,8,0
+351,T0351,351_redox flow_flow batteries_flow battery_vanadium redox,350,S0351,351_redox flow_flow batteries_flow battery_vanadium redox,False,,完成清单初筛；保留原类及自动标签,4013,4007,6,0
+352,T0352,352_oecd_europejskiej_eu_united kingdom,351,S0352,352_oecd_europejskiej_eu_united kingdom,False,,完成清单初筛；保留原类及自动标签,7944,7944,0,0
+353,T0353,353_privacy_smart grid_blockchain_privacy preserving,352,S0353,353_privacy_smart grid_blockchain_privacy preserving,False,,完成清单初筛；保留原类及自动标签,4850,4742,108,0
+354,T0354,354_mos2_mos_monolayer mos2_molybdenum disulfide,353,S0354,354_mos2_mos_monolayer mos2_molybdenum disulfide,False,,完成清单初筛；保留原类及自动标签,7954,7943,11,0
+355,T0355,355_gas market_russian gas_gazprom_russian,354,S0355,355_gas market_russian gas_gazprom_russian,False,,完成清单初筛；保留原类及自动标签,5578,5578,0,0
+356,T0356,356_监测_巡检_图像_摄像头,355,S0356,356_监测_巡检_图像_摄像头,False,,完成清单初筛；保留原类及自动标签,1565,489,1076,0
+357,T0357,357_parameter estimation_estimation_state estimation_phasor,356,S0357,357_parameter estimation_estimation_state estimation_phasor,False,,完成清单初筛；保留原类及自动标签,5391,5338,53,0
+358,T0358,358_煤电_煤电 机组_燃煤_煤层气,357,S0358,358_煤电_煤电 机组_燃煤_煤层气,False,,完成清单初筛；保留原类及自动标签,224,83,0,141
+359,T0359,359_electricity generation_energi_fossil_enerji,358,S0359,359_electricity generation_energi_fossil_enerji,False,,完成清单初筛；保留原类及自动标签,6769,6755,3,11
+360,T0360,360_sensitized solar_dye sensitized_sensitized_dsscs,359,S0360,360_sensitized solar_dye sensitized_sensitized_dsscs,False,,已抽样复核；保留原类；名称仍为自动标签,7980,7978,2,0
+361,T0361,361_学习_知识_强化 学习_智能,360,S0361,361_学习_知识_强化 学习_智能,False,,完成清单初筛；保留原类及自动标签,2433,984,1449,0
+362,T0362,362_concrete_pcm_change materials_phase change,361,S0362,362_concrete_pcm_change materials_phase change,False,,完成清单初筛；保留原类及自动标签,3267,3256,11,0
+363,T0363,363_hydrogen evolution_efficient hydrogen_evolution reaction_electrocatalytic hydrogen,362,S0363,363_hydrogen evolution_efficient hydrogen_evolution reaction_electrocatalytic hydrogen,False,,已抽样复核；保留原类；名称仍为自动标签,5705,5705,0,0
+364,T0364,364_供水 供电_供电 供气_供水_收费,363,S0364,364_供水 供电_供电 供气_供水_收费,False,,完成清单初筛；保留原类及自动标签,252,147,0,105
+365,T0365,365_负极 材料_多孔_复合材料_负极,364,S0365,365_负极 材料_多孔_复合材料_负极,False,,已抽样复核；保留原类；名称仍为自动标签,888,109,779,0
+366,T0366,366_镜头_驱动_移动_摄像,365,S0366,366_镜头_驱动_移动_摄像,False,,完成清单初筛；保留原类及自动标签,1138,197,941,0
+367,T0367,367_image_segmentation_images_reconstruction,366,S0367,367_image_segmentation_images_reconstruction,False,,完成清单初筛；保留原类及自动标签,4891,4882,9,0
+368,T0368,368_welding_welding machine_belt_valve,367,S0368,368_welding_welding machine_belt_valve,False,,完成清单初筛；保留原类及自动标签,3691,3687,4,0
+369,T0369,369_junction temperature_self heating_thermal resistance_junction,368,S0369,369_junction temperature_self heating_thermal resistance_junction,False,,完成清单初筛；保留原类及自动标签,4890,4873,17,0
+370,T0370,370_implantable_antenna_rfid_implant,369,S0370,370_implantable_antenna_rfid_implant,False,,完成清单初筛；保留原类及自动标签,2483,2012,471,0
+371,T0371,371_composite phase_phase change_change materials_change material,370,S0371,371_composite phase_phase change_change materials_change material,False,,完成清单初筛；保留原类及自动标签,7367,7366,1,0
+372,T0372,372_sulfuric_sulfuric acid_sulfate_sulfite,371,S0372,372_sulfuric_sulfuric acid_sulfate_sulfite,False,,完成清单初筛；保留原类及自动标签,6413,6410,3,0
+373,T0373,373_foi_foram_com_como,372,S0373,373_foi_foram_com_como,False,,完成清单初筛；保留原类及自动标签,4049,4040,9,0
+374,T0374,374_rechargeable_mah_energy density_capacity retention,373,S0374,374_rechargeable_mah_energy density_capacity retention,False,,完成清单初筛；保留原类及自动标签,7554,7538,16,0
+375,T0375,375_soc_soh_soc estimation_battery state,374,S0375,375_soc_soh_soc estimation_battery state,False,,已抽样复核；保留原类；名称仍为自动标签,4858,4162,696,0
+376,T0376,376_solar radiation_global solar_irradiance_sunshine,159,S0159,太阳辐射与辐照度建模估算,True,SYN003,经抽样语义复核合并；含边界噪声,8085,8085,0,0
+377,T0377,377_electrical energy_energii_stirling_energi,375,S0377,377_electrical energy_energii_stirling_energi,False,,完成清单初筛；保留原类及自动标签,5046,4948,98,0
+378,T0378,378_upfc_voltage control_reactive power_voltage regulator,376,S0378,378_upfc_voltage control_reactive power_voltage regulator,False,,完成清单初筛；保留原类及自动标签,4989,4698,291,0
+379,T0379,379_锂电池_电池 模组_模组_箱体,377,S0379,379_锂电池_电池 模组_模组_箱体,False,,完成清单初筛；保留原类及自动标签,1735,4,1731,0
+380,T0380,380_permanent magnet_magnet synchronous_pmsm_permanent,378,S0380,380_permanent magnet_magnet synchronous_pmsm_permanent,False,,完成清单初筛；保留原类及自动标签,8382,8365,17,0
+381,T0381,381_散热_导热_散热器_加热,379,S0381,电气设备散热与冷却结构,True,SYN005,经抽样语义复核合并；含边界噪声,1398,63,1335,0
+382,T0382,382_热泵_换热器_换热_热交换器,380,S0382,382_热泵_换热器_换热_热交换器,False,,完成清单初筛；保留原类及自动标签,2448,267,2181,0
+383,T0383,383_nanofluids_nanofluid_hybrid nanofluid_hybrid nanofluids,381,S0383,383_nanofluids_nanofluid_hybrid nanofluid_hybrid nanofluids,False,,完成清单初筛；保留原类及自动标签,6814,6808,6,0
+384,T0384,384_perovskite solar_perovskite_hole transporting_ch3nh3pbi3,382,S0384,384_perovskite solar_perovskite_hole transporting_ch3nh3pbi3,False,,已抽样复核；保留原类；名称仍为自动标签,5860,5860,0,0
+385,T0385,385_boiler_steam turbine_steam_boilers,383,S0385,385_boiler_steam turbine_steam_boilers,False,,完成清单初筛；保留原类及自动标签,10110,10093,17,0
+386,T0386,386_natural gas_shale gas_lng_shale,384,S0386,386_natural gas_shale gas_lng_shale,False,,完成清单初筛；保留原类及自动标签,8698,8693,1,4
+387,T0387,387_制氢_电解槽_制氢 系统_electrolyzer,385,S0387,387_制氢_电解槽_制氢 系统_electrolyzer,False,,完成清单初筛；保留原类及自动标签,1392,992,400,0
+388,T0388,388_cnts_carbon nanotubes_nanotubes_cnt,386,S0388,388_cnts_carbon nanotubes_nanotubes_cnt,False,,已抽样复核；保留原类；名称仍为自动标签,8510,8377,133,0
+389,T0389,389_transport sector_transportation_public transport_road transport,387,S0389,389_transport sector_transportation_public transport_road transport,False,,完成清单初筛；保留原类及自动标签,5908,5907,1,0
+390,T0390,390_conducteur_bobine_première_蓄电,388,S0390,390_conducteur_bobine_première_蓄电,False,,完成清单初筛；保留原类及自动标签,1478,104,1374,0
+391,T0391,391_irradiated_irradiation_ion irradiation_radiation damage,389,S0391,391_irradiated_irradiation_ion irradiation_radiation damage,False,,完成清单初筛；保留原类及自动标签,8593,8579,14,0
+392,T0392,392_torque control_direct torque_dtc_torque,390,S0392,392_torque control_direct torque_dtc_torque,False,,完成清单初筛；保留原类及自动标签,7911,7895,16,0
+393,T0393,393_organic light_oleds_tadf_light emitting,391,S0393,有机发光二极管（OLED）材料与器件性能,True,D002,经抽样语义复核合并；含边界噪声,7591,7579,12,0
+394,T0394,394_振动_减振_降噪_振动 电机,392,S0394,394_振动_减振_降噪_振动 电机,False,,完成清单初筛；保留原类及自动标签,982,249,733,0
+395,T0395,395_cfd_fluid dynamics_computational fluid_equations,393,S0395,395_cfd_fluid dynamics_computational fluid_equations,False,,完成清单初筛；保留原类及自动标签,5556,5534,22,0
+396,T0396,396_开关_转换器_变换器_逆变器,394,S0396,396_开关_转换器_变换器_逆变器,False,,完成清单初筛；保留原类及自动标签,1389,85,1304,0
+397,T0397,397_coal fired_fired power_fired_coal,395,S0397,397_coal fired_fired power_fired_coal,False,,完成清单初筛；保留原类及自动标签,4631,4584,47,0
+398,T0398,398_tegangan_daya_rugi_beban,396,S0398,398_tegangan_daya_rugi_beban,False,,完成清单初筛；保留原类及自动标签,6503,6461,40,2
+399,T0399,399_conformation_chains_oligomers_conformational,397,S0399,399_conformation_chains_oligomers_conformational,False,,完成清单初筛；保留原类及自动标签,7542,7537,5,0
+400,T0400,400_cleaning_bag_物料_搅拌,398,S0400,400_cleaning_bag_物料_搅拌,False,,完成清单初筛；保留原类及自动标签,1898,1545,353,0
+401,T0401,401_thermal conductivity_thermal transport_nepcm_phase change,399,S0401,401_thermal conductivity_thermal transport_nepcm_phase change,False,,完成清单初筛；保留原类及自动标签,6372,6351,21,0
+402,T0402,402_injuries_patients_injury_whales,400,S0402,402_injuries_patients_injury_whales,False,,完成清单初筛；保留原类及自动标签,5029,5029,0,0
+403,T0403,403_acceptor_acceptors_donor_triplet,401,S0403,403_acceptor_acceptors_donor_triplet,False,,完成清单初筛；保留原类及自动标签,7821,7819,2,0
+404,T0404,404_漂浮_风机_风力_海上,402,S0404,404_漂浮_风机_风力_海上,False,,完成清单初筛；保留原类及自动标签,1109,78,1031,0
+405,T0405,405_nio_ni oh_nickel_ni,403,S0405,405_nio_ni oh_nickel_ni,False,,完成清单初筛；保留原类及自动标签,6129,6093,36,0
+406,T0406,406_water splitting_splitting_photoelectrochemical water_photocatalytic water,404,S0406,406_water splitting_splitting_photoelectrochemical water_photocatalytic water,False,,完成清单初筛；保留原类及自动标签,7198,7197,1,0
+407,T0407,407_bipm_key comparison_final report_mra,405,S0407,407_bipm_key comparison_final report_mra,False,,完成清单初筛；保留原类及自动标签,5888,5879,8,1
+408,T0408,408_educación_executive summary_education_students,406,S0408,408_educación_executive summary_education_students,False,,完成清单初筛；保留原类及自动标签,9496,9496,0,0
+409,T0409,409_phonon_lattice thermal_thermal transport_thermal conductivity,407,S0409,409_phonon_lattice thermal_thermal transport_thermal conductivity,False,,完成清单初筛；保留原类及自动标签,9475,9473,2,0
+410,T0410,410_electric drive_drive_hybrid electric_braking,408,S0410,410_electric drive_drive_hybrid electric_braking,False,,完成清单初筛；保留原类及自动标签,6316,6270,46,0
+411,T0411,411_空调_空气_新风_空调 系统,409,S0411,411_空调_空气_新风_空调 系统,False,,完成清单初筛；保留原类及自动标签,1173,158,1015,0
+412,T0412,412_swarm_particle swarm_swarm optimization_pso,410,S0412,412_swarm_particle swarm_swarm optimization_pso,False,,完成清单初筛；保留原类及自动标签,9218,9177,41,0
+413,T0413,413_墙体_幕墙_墙板_混凝土,411,S0413,413_墙体_幕墙_墙板_混凝土,False,,完成清单初筛；保留原类及自动标签,1707,951,756,0
+414,T0414,414_mah_anode material_lithium storage_anode materials,412,S0414,414_mah_anode material_lithium storage_anode materials,False,,完成清单初筛；保留原类及自动标签,6648,6627,21,0
+415,T0415,415_fault location_location_fault_fault section,413,S0415,415_fault location_location_fault_fault section,False,,完成清单初筛；保留原类及自动标签,4377,4365,12,0
+416,T0416,416_hydrogen diffusion_hydrogen absorption_hydrogen isotope_hydrogen permeation,414,S0416,416_hydrogen diffusion_hydrogen absorption_hydrogen isotope_hydrogen permeation,False,,完成清单初筛；保留原类及自动标签,8010,7994,16,0
+417,T0417,417_cyclic carbonates_epoxides_carbonates_cycloaddition,415,S0417,417_cyclic carbonates_epoxides_carbonates_cycloaddition,False,,完成清单初筛；保留原类及自动标签,5909,5903,6,0
+418,T0418,418_清洗_清洁_清扫_清洁 装置,416,S0418,418_清洗_清洁_清扫_清洁 装置,False,,完成清单初筛；保留原类及自动标签,778,88,690,0
+419,T0419,419_attacks_ddos_dos attacks_attack,417,S0419,419_attacks_ddos_dos attacks_attack,False,,完成清单初筛；保留原类及自动标签,4061,4044,17,0
+420,T0420,420_breaker_fault_faults_fault diagnosis,418,S0420,420_breaker_fault_faults_fault diagnosis,False,,完成清单初筛；保留原类及自动标签,6513,6489,24,0
+421,T0421,421_cofs_cof_covalent organic_organic frameworks,419,S0421,421_cofs_cof_covalent organic_organic frameworks,False,,完成清单初筛；保留原类及自动标签,4621,4572,49,0
+422,T0422,422_porous media_pore scale_solute_reactive transport,420,S0422,422_porous media_pore scale_solute_reactive transport,False,,完成清单初筛；保留原类及自动标签,6061,6059,2,0
+423,T0423,423_populus_clones_switchgrass_poplar,421,S0423,423_populus_clones_switchgrass_poplar,False,,完成清单初筛；保留原类及自动标签,7146,7142,4,0
+424,T0424,424_titanium_ti_tife_anatase,422,S0424,424_titanium_ti_tife_anatase,False,,完成清单初筛；保留原类及自动标签,7653,7623,30,0
+425,T0425,425_crystals_single crystals_crystal growth_crystal,423,S0425,425_crystals_single crystals_crystal growth_crystal,False,,完成清单初筛；保留原类及自动标签,7646,7636,10,0
+426,T0426,426_electroreduction_electrochemical reduction_electrochemical co2_rr,424,S0426,426_electroreduction_electrochemical reduction_electrochemical co2_rr,False,,已抽样复核；保留原类；名称仍为自动标签,4914,4911,3,0
+427,T0427,427_teaching_testing_automatic test_embedded software,425,S0427,427_teaching_testing_automatic test_embedded software,False,,完成清单初筛；保留原类及自动标签,6350,6326,23,1
+428,T0428,428_carbon fiber_carbon fibers_fibers_aerogels,426,S0428,428_carbon fiber_carbon fibers_fibers_aerogels,False,,完成清单初筛；保留原类及自动标签,5215,5215,0,0
+429,T0429,429_silicon_silicon carbide_carbide_porous silicon,427,S0429,429_silicon_silicon carbide_carbide_porous silicon,False,,完成清单初筛；保留原类及自动标签,8873,8853,20,0
+430,T0430,430_diesel engine_diesel_engine_engines,428,S0430,430_diesel engine_diesel_engine_engines,False,,完成清单初筛；保留原类及自动标签,7263,7220,43,0
+431,T0431,431_评估_配电网_数据_电力 数据,429,S0431,431_评估_配电网_数据_电力 数据,False,,完成清单初筛；保留原类及自动标签,1953,880,1073,0
+432,T0432,432_governance_engagement_actors_public,430,S0432,432_governance_engagement_actors_public,False,,完成清单初筛；保留原类及自动标签,7964,7962,2,0
+433,T0433,433_sic_silicide_si_si3n4,431,S0433,433_sic_silicide_si_si3n4,False,,完成清单初筛；保留原类及自动标签,7396,7377,19,0
+434,T0434,434_智能_电气 自动化_自动化_模块,432,S0434,434_智能_电气 自动化_自动化_模块,False,,完成清单初筛；保留原类及自动标签,1498,589,909,0
+435,T0435,435_solar thermal_solar assisted_solar heating_thermal energy,433,S0435,435_solar thermal_solar assisted_solar heating_thermal energy,False,,已抽样复核；保留原类；名称仍为自动标签,6649,6462,186,1
+436,T0436,436_lightning_lightning protection_lightning current_lightning strike,434,S0436,436_lightning_lightning protection_lightning current_lightning strike,False,,完成清单初筛；保留原类及自动标签,5287,5280,7,0
+437,T0437,437_液流 电池_液流_浆料_固体 氧化物,435,S0437,437_液流 电池_液流_浆料_固体 氧化物,False,,完成清单初筛；保留原类及自动标签,927,139,788,0
+438,T0438,438_anatase_tio_光催化_rutile,436,S0438,438_anatase_tio_光催化_rutile,False,,已抽样复核；保留原类；名称仍为自动标签,8887,8880,7,0
+439,T0439,439_ash_fly ash_fly_ashes,437,S0439,439_ash_fly ash_fly_ashes,False,,完成清单初筛；保留原类及自动标签,4219,4216,3,0
+440,T0440,440_hydrothermal synthesis_hydrothermal_fe2o3_powders,438,S0440,440_hydrothermal synthesis_hydrothermal_fe2o3_powders,False,,完成清单初筛；保留原类及自动标签,5844,5837,7,0
+441,T0441,441_simulator_loop simulation_time simulation_simulation platform,439,S0441,441_simulator_loop simulation_time simulation_simulation platform,False,,完成清单初筛；保留原类及自动标签,6852,6784,68,0
+442,T0442,442_ni rich_cathodes_cathode materials_layered oxide,440,S0442,442_ni rich_cathodes_cathode materials_layered oxide,False,,完成清单初筛；保留原类及自动标签,5422,5421,1,0
+443,T0443,443_控制电路_电压_控制 信号_电流,441,S0443,443_控制电路_电压_控制 信号_电流,False,,已抽样复核；保留原类；名称仍为自动标签,1936,211,1725,0
+444,T0444,444_电功率 预测_电功率_风电 机组_风速,442,S0444,444_电功率 预测_电功率_风电 机组_风速,False,,完成清单初筛；保留原类及自动标签,2305,1202,1103,0
+445,T0445,445_竞争 配置_竞争_项目_申报,443,S0445,445_竞争 配置_竞争_项目_申报,False,,完成清单初筛；保留原类及自动标签,340,91,0,249
+446,T0446,446_monitoring_监控_remote monitoring_监测,444,S0446,446_monitoring_监控_remote monitoring_监测,False,,完成清单初筛；保留原类及自动标签,3394,2545,849,0
+447,T0447,447_sodium ion_sodium metal_sodium_sibs,445,S0447,447_sodium ion_sodium metal_sodium_sibs,False,,已抽样复核；保留原类；名称仍为自动标签,6473,6463,10,0
+448,T0448,448_ree_solos_mineralogical_minerals,446,S0448,448_ree_solos_mineralogical_minerals,False,,完成清单初筛；保留原类及自动标签,6119,6117,2,0
+449,T0449,449_异常_评估_数据_健康,447,S0449,449_异常_评估_数据_健康,False,,完成清单初筛；保留原类及自动标签,2115,915,1200,0
+450,T0450,450_volvo_bmw_mercedes_benz,448,S0450,450_volvo_bmw_mercedes_benz,False,,完成清单初筛；保留原类及自动标签,5853,5827,26,0
+451,T0451,451_photodetector_photodetectors_photoelectrochemical_photochromic,449,S0451,451_photodetector_photodetectors_photoelectrochemical_photochromic,False,,已抽样复核；保留原类；名称仍为自动标签,7485,7485,0,0
+452,T0452,452_carbon nanotubes_walled carbon_walled_carbon nanotube,450,S0452,452_carbon nanotubes_walled carbon_walled_carbon nanotube,False,,已抽样复核；保留原类；名称仍为自动标签,8284,8257,27,0
+453,T0453,453_钠离子_钠离子 电池_离子 电池_水系,451,S0453,453_钠离子_钠离子 电池_离子 电池_水系,False,,完成清单初筛；保留原类及自动标签,1715,158,1557,0
+454,T0454,454_生产 管理人员_管理人员_专项 监察_监察,452,S0454,454_生产 管理人员_管理人员_专项 监察_监察,False,,完成清单初筛；保留原类及自动标签,307,114,1,192
+455,T0455,455_buildings_building energy_building_zero energy,453,S0455,455_buildings_building energy_building_zero energy,False,,完成清单初筛；保留原类及自动标签,9302,9276,25,1
+456,T0456,456_machine learning_descriptors_discovery_ml,454,S0456,456_machine learning_descriptors_discovery_ml,False,,完成清单初筛；保留原类及自动标签,4275,4253,22,0
+457,T0457,457_waves_alfvén_relativistic_magnetized,455,S0457,457_waves_alfvén_relativistic_magnetized,False,,完成清单初筛；保留原类及自动标签,6498,6498,0,0
+458,T0458,458_fault diagnosis_diagnosis_fault detection_fault,456,S0458,458_fault diagnosis_diagnosis_fault detection_fault,False,,完成清单初筛；保留原类及自动标签,8506,8480,26,0
+459,T0459,459_风险_攻击_预警_风险 评估,457,S0459,459_风险_攻击_预警_风险 评估,False,,完成清单初筛；保留原类及自动标签,1875,465,1410,0
+460,T0460,460_water resources_irrigation_water supply_water energy,458,S0460,460_water resources_irrigation_water supply_water energy,False,,完成清单初筛；保留原类及自动标签,8867,8849,17,1
+461,T0461,461_灭火_失控_排气_防爆,459,S0461,461_灭火_失控_排气_防爆,False,,完成清单初筛；保留原类及自动标签,1069,28,1041,0
+462,T0462,462_涡轮_燃气 涡轮_涡轮 发动机_发动机,460,S0462,462_涡轮_燃气 涡轮_涡轮 发动机_发动机,False,,已抽样复核；保留原类；名称仍为自动标签,1223,435,788,0
+463,T0463,463_grid forming_gfm_droop_pll,461,S0463,463_grid forming_gfm_droop_pll,False,,完成清单初筛；保留原类及自动标签,8128,8120,8,0
+464,T0464,464_hybrid renewable_homer_hres_hybrid energy,462,S0464,464_hybrid renewable_homer_hres_hybrid energy,False,,完成清单初筛；保留原类及自动标签,7653,7635,18,0
+465,T0465,465_齿轮_行星_传动_驱动,463,S0465,465_齿轮_行星_传动_驱动,False,,完成清单初筛；保留原类及自动标签,1786,473,1313,0
+466,T0466,466_交换_阴离子 交换_质子_质子 交换,464,S0466,466_交换_阴离子 交换_质子_质子 交换,False,,完成清单初筛；保留原类及自动标签,1068,328,740,0
+467,T0467,467_wood_timber_logging_wood products,465,S0467,467_wood_timber_logging_wood products,False,,完成清单初筛；保留原类及自动标签,6628,6627,1,0
+468,T0468,468_train_bus_passenger_rail,466,S0468,468_train_bus_passenger_rail,False,,完成清单初筛；保留原类及自动标签,4153,4107,46,0
+469,T0469,469_电极_电极 制造_制造 电极_电化学 装置,467,S0469,469_电极_电极 制造_制造 电极_电化学 装置,False,,完成清单初筛；保留原类及自动标签,1647,421,1226,0
+470,T0470,470_transformers_transformer_power transformers_power transformer,468,S0470,470_transformers_transformer_power transformers_power transformer,False,,已抽样复核；保留原类；名称仍为自动标签,5453,5453,0,0
+471,T0471,471_biomasy_biomass_biomass gasification_torrefaction,469,S0471,471_biomasy_biomass_biomass gasification_torrefaction,False,,完成清单初筛；保留原类及自动标签,6734,6733,1,0
+472,T0472,472_ti3sic2_tial_tic_ti,470,S0472,472_ti3sic2_tial_tic_ti,False,,完成清单初筛；保留原类及自动标签,9511,9500,11,0
+473,T0473,473_electrochemistry_electrochemical systems_eis_electrochemical reactions,471,S0473,473_electrochemistry_electrochemical systems_eis_electrochemical reactions,False,,完成清单初筛；保留原类及自动标签,3806,3781,25,0
+474,T0474,474_ammonia_nitrate_ammonia synthesis_nitrate reduction,472,S0474,474_ammonia_nitrate_ammonia synthesis_nitrate reduction,False,,完成清单初筛；保留原类及自动标签,7059,7030,29,0
+475,T0475,475_electric field_electromagnetic field_electromagnetic_conductor,473,S0475,475_electric field_electromagnetic field_electromagnetic_conductor,False,,完成清单初筛；保留原类及自动标签,5632,5618,14,0
+476,T0476,476_teg_thermoelectric generator_tec_tegs,474,S0476,476_teg_thermoelectric generator_tec_tegs,False,,完成清单初筛；保留原类及自动标签,4113,4041,72,0
+477,T0477,477_heat storage_thermal energy_thermal storage_latent heat,475,S0477,477_heat storage_thermal energy_thermal storage_latent heat,False,,完成清单初筛；保留原类及自动标签,7211,7168,43,0
+478,T0478,478_dvr_capacitor_compensation_restorer,476,S0478,478_dvr_capacitor_compensation_restorer,False,,完成清单初筛；保留原类及自动标签,6427,6396,31,0
+479,T0479,479_供应商_投标_公顷_评审,477,S0479,479_供应商_投标_公顷_评审,False,,完成清单初筛；保留原类及自动标签,205,115,0,90
+480,T0480,480_燃料电池_极板_歧管_隔板,478,S0480,480_燃料电池_极板_歧管_隔板,False,,完成清单初筛；保留原类及自动标签,765,40,725,0
+481,T0481,481_reliability_reliability evaluation_reliability analysis_maintenance,479,S0481,481_reliability_reliability evaluation_reliability analysis_maintenance,False,,完成清单初筛；保留原类及自动标签,6365,6326,39,0
+482,T0482,482_methanol fuel_direct methanol_dmfc_oxide fuel,480,S0482,482_methanol fuel_direct methanol_dmfc_oxide fuel,False,,已抽样复核；保留原类；名称仍为自动标签,5315,5295,20,0
+483,T0483,483_储能 系统_储能_储能 设备_储能 变流器,481,S0483,483_储能 系统_储能_储能 设备_储能 变流器,False,,完成清单初筛；保留原类及自动标签,1108,129,979,0
+484,T0484,484_风力_风力 涡轮机_涡轮机_叶片,482,S0484,484_风力_风力 涡轮机_涡轮机_叶片,False,,完成清单初筛；保留原类及自动标签,1696,422,1274,0
+485,T0485,485_multilevel_multilevel inverter_multilevel inverters_mli,483,S0485,485_multilevel_multilevel inverter_multilevel inverters_mli,False,,完成清单初筛；保留原类及自动标签,7425,7417,8,0
+486,T0486,486_sandstone_rock_shale_caprock,484,S0486,486_sandstone_rock_shale_caprock,False,,完成清单初筛；保留原类及自动标签,5461,5458,3,0
+487,T0487,487_carbonation_cement_calcium_calcium carbonate,485,S0487,487_carbonation_cement_calcium_calcium carbonate,False,,完成清单初筛；保留原类及自动标签,5113,5106,7,0
+488,T0488,488_aluminum_corrosion_aluminium_alumina,486,S0488,488_aluminum_corrosion_aluminium_alumina,False,,完成清单初筛；保留原类及自动标签,5508,5483,25,0
+489,T0489,489_wastewater_wastewater treatment_废水_fouling,487,S0489,489_wastewater_wastewater treatment_废水_fouling,False,,完成清单初筛；保留原类及自动标签,8186,8111,75,0
+490,T0490,490_经济 信息化_有限公司 工业_信息化_经济,488,S0490,490_经济 信息化_有限公司 工业_信息化_经济,False,,完成清单初筛；保留原类及自动标签,213,81,0,132
+491,T0491,491_tumor_cancer_therapy_drug,489,S0491,491_tumor_cancer_therapy_drug,False,,完成清单初筛；保留原类及自动标签,5344,5339,5,0
+492,T0492,492_旋转_转子_轴承_旋转轴,490,S0492,492_旋转_转子_轴承_旋转轴,False,,完成清单初筛；保留原类及自动标签,1669,269,1400,0
+493,T0493,493_燃料_气体_喷嘴_燃烧器,491,S0493,493_燃料_气体_喷嘴_燃烧器,False,,完成清单初筛；保留原类及自动标签,1084,141,943,0
+494,T0494,494_oxide electrolysis_solid oxide_electrolysis cells_oxide cells,492,S0494,494_oxide electrolysis_solid oxide_electrolysis cells_oxide cells,False,,完成清单初筛；保留原类及自动标签,3771,3766,5,0
+495,T0495,495_tio2 films_tio2 film_tio2_tio films,493,S0495,495_tio2 films_tio2 film_tio2_tio films,False,,已抽样复核；保留原类；名称仍为自动标签,7379,7379,0,0
+496,T0496,496_electrooxidation_ethanol oxidation_electrocatalytic oxidation_electrocatalytic,494,S0496,496_electrooxidation_ethanol oxidation_electrocatalytic oxidation_electrocatalytic,False,,完成清单初筛；保留原类及自动标签,7467,7467,0,0
+497,T0497,497_china power_power grid_guangdong_east china,495,S0497,497_china power_power grid_guangdong_east china,False,,完成清单初筛；保留原类及自动标签,6133,6132,0,1
+498,T0498,498_oleds_oled_organic light_diodes oleds,391,S0393,有机发光二极管（OLED）材料与器件性能,True,D002,经抽样语义复核合并；含边界噪声,2747,2747,0,0
+499,T0499,499_energy transition_energy transitions_justice_energy security,496,S0499,499_energy transition_energy transitions_justice_energy security,False,,完成清单初筛；保留原类及自动标签,14902,14902,0,0
+500,T0500,500_induction heating_thermoacoustic_thermoelectric generator_induction,497,S0500,500_induction heating_thermoacoustic_thermoelectric generator_induction,False,,完成清单初筛；保留原类及自动标签,4457,4455,2,0
+501,T0501,501_catalytic pyrolysis_bio oil_pyrolysis_pyrolysis oil,498,S0501,501_catalytic pyrolysis_bio oil_pyrolysis_pyrolysis oil,False,,完成清单初筛；保留原类及自动标签,6010,6010,0,0
+502,T0502,502_充电_充电器_插头_充电 插座,499,S0502,502_充电_充电器_插头_充电 插座,False,,完成清单初筛；保留原类及自动标签,1561,11,1550,0
+503,T0503,503_phosphors_phosphor_luminescence_eu3,500,S0503,503_phosphors_phosphor_luminescence_eu3,False,,已抽样复核；保留原类；名称仍为自动标签,7441,7436,5,0
+504,T0504,504_iter_blanket_divertor_tbm,501,S0504,504_iter_blanket_divertor_tbm,False,,完成清单初筛；保留原类及自动标签,4386,4377,9,0
+505,T0505,505_carbon cycle_carbon price_warming_carbon budget,502,S0505,505_carbon cycle_carbon price_warming_carbon budget,False,,完成清单初筛；保留原类及自动标签,4604,4604,0,0
+506,T0506,506_二次 电池_二次_添加剂_电解液,503,S0506,506_二次 电池_二次_添加剂_电解液,False,,完成清单初筛；保留原类及自动标签,2191,106,2085,0
+507,T0507,507_谐振_信号_频率_调制,504,S0507,507_谐振_信号_频率_调制,False,,完成清单初筛；保留原类及自动标签,1796,290,1506,0
+508,T0508,508_hmf_fructose_收率_反应,505,S0508,508_hmf_fructose_收率_反应,False,,完成清单初筛；保留原类及自动标签,5778,5739,39,0
+509,T0509,509_nanoflowers_flower_flower like_microflowers,506,S0509,509_nanoflowers_flower_flower like_microflowers,False,,完成清单初筛；保留原类及自动标签,3171,3171,0,0
+510,T0510,510_nanowire_nanowires_electrodeposition_electrospinning,507,S0510,510_nanowire_nanowires_electrodeposition_electrospinning,False,,完成清单初筛；保留原类及自动标签,5182,5146,36,0
+511,T0511,511_heat exchanger_exchanger_heat transfer_heat exchangers,508,S0511,511_heat exchanger_exchanger_heat transfer_heat exchangers,False,,完成清单初筛；保留原类及自动标签,9131,9122,9,0
+512,T0512,512_antenna_mhz_ghz_radiated,509,S0512,512_antenna_mhz_ghz_radiated,False,,完成清单初筛；保留原类及自动标签,5798,5763,35,0
+513,T0513,513_功率_储能_光伏 储能_发电 系统,510,S0513,513_功率_储能_光伏 储能_发电 系统,False,,完成清单初筛；保留原类及自动标签,1973,651,1322,0
+514,T0514,514_余热 回收_余热_回收_回收 装置,511,S0514,514_余热 回收_余热_回收_回收 装置,False,,完成清单初筛；保留原类及自动标签,1545,375,1170,0
+515,T0515,515_催化剂_催化剂 及其_载体_催化,512,S0515,515_催化剂_催化剂 及其_载体_催化,False,,完成清单初筛；保留原类及自动标签,1303,167,1136,0
+516,T0516,516_lignin_pyrolysis_fast pyrolysis_pyrolysis products,513,S0516,516_lignin_pyrolysis_fast pyrolysis_pyrolysis products,False,,完成清单初筛；保留原类及自动标签,4352,4352,0,0
+517,T0517,517_turbulence_zonal_turbulent_zonal flow,514,S0517,517_turbulence_zonal_turbulent_zonal flow,False,,完成清单初筛；保留原类及自动标签,6373,6373,0,0
+518,T0518,518_evaporative_desiccant_condenser_evaporative cooling,515,S0518,518_evaporative_desiccant_condenser_evaporative cooling,False,,完成清单初筛；保留原类及自动标签,5634,5619,15,0
+519,T0519,519_zns_zno films_zno_zns films,516,S0519,519_zns_zno films_zno_zns films,False,,完成清单初筛；保留原类及自动标签,6251,6251,0,0
+520,T0520,520_隔膜_电化学 装置_多孔_聚合物,517,S0520,520_隔膜_电化学 装置_多孔_聚合物,False,,完成清单初筛；保留原类及自动标签,1329,240,1089,0
+521,T0521,521_heavy metals_heavy metal_heavy_wastewater,518,S0521,521_heavy metals_heavy metal_heavy_wastewater,False,,完成清单初筛；保留原类及自动标签,6450,6430,20,0
+522,T0522,522_beads_chitosan_resin_resins,519,S0522,522_beads_chitosan_resin_resins,False,,完成清单初筛；保留原类及自动标签,6693,6692,1,0
+523,T0523,523_voltage stability_transient stability_stability assessment_reliability evaluation,520,S0523,523_voltage stability_transient stability_stability assessment_reliability evaluation,False,,完成清单初筛；保留原类及自动标签,7377,7331,46,0
+524,T0524,524_空调_空调器_空调 系统_中央空调,521,S0524,524_空调_空调器_空调 系统_中央空调,False,,完成清单初筛；保留原类及自动标签,1697,817,880,0
+525,T0525,525_microbial_bacteria_bacterial_microbial community,522,S0525,525_microbial_bacteria_bacterial_microbial community,False,,完成清单初筛；保留原类及自动标签,8247,8198,49,0
+526,T0526,526_ev charging_evs_charging station_charging stations,523,S0526,526_ev charging_evs_charging station_charging stations,False,,已抽样复核；保留原类；名称仍为自动标签,4732,4679,53,0
+527,T0527,527_vibration_winding_transformer winding_振动,524,S0527,527_vibration_winding_transformer winding_振动,False,,完成清单初筛；保留原类及自动标签,3064,2716,348,0
+528,T0528,528_行政许可_许可_事项 变更_许可证,525,S0528,528_行政许可_许可_事项 变更_许可证,False,,完成清单初筛；保留原类及自动标签,405,291,0,114
+529,T0529,529_amine_co2 absorption_mdea_mea,526,S0529,529_amine_co2 absorption_mdea_mea,False,,完成清单初筛；保留原类及自动标签,5730,5715,15,0
+530,T0530,530_线圈_线束_线圈 部件_延伸,527,S0530,530_线圈_线束_线圈 部件_延伸,False,,完成清单初筛；保留原类及自动标签,1775,125,1650,0
+531,T0531,531_carbon emission_carbon trading_low carbon_integrated energy,528,S0531,531_carbon emission_carbon trading_low carbon_integrated energy,False,,完成清单初筛；保留原类及自动标签,3756,3500,256,0
+532,T0532,532_zhi_ji_xue_shi,529,S0532,532_zhi_ji_xue_shi,False,,完成清单初筛；保留原类及自动标签,2525,2525,0,0
+533,T0533,533_储能 系统_储能_负荷_充放电,530,S0533,533_储能 系统_储能_负荷_充放电,False,,完成清单初筛；保留原类及自动标签,1238,137,1101,0
+534,T0534,534_dye sensitized_sensitized solar_sensitized_counter electrode,531,S0534,534_dye sensitized_sensitized solar_sensitized_counter electrode,False,,已抽样复核；保留原类；名称仍为自动标签,10052,10042,10,0
+535,T0535,535_hts_superconducting_temperature superconducting_superconductor,532,S0535,535_hts_superconducting_temperature superconducting_superconductor,False,,完成清单初筛；保留原类及自动标签,2592,2556,36,0
+536,T0536,536_photodetectors_photodetector_responsivity_detectivity,533,S0536,536_photodetectors_photodetector_responsivity_detectivity,False,,已抽样复核；保留原类；名称仍为自动标签,8043,8038,5,0
+537,T0537,537_端口_三相_直流_整流,534,S0537,537_端口_三相_直流_整流,False,,完成清单初筛；保留原类及自动标签,1322,299,1023,0
+538,T0538,538_geothermal_geothermal energy_geothermal power_geothermal resources,535,S0538,538_geothermal_geothermal energy_geothermal power_geothermal resources,False,,已抽样复核；保留原类；名称仍为自动标签,4735,4733,2,0
+539,T0539,539_carbon trading_carbon emission_carbon market_china,536,S0539,539_carbon trading_carbon emission_carbon market_china,False,,完成清单初筛；保留原类及自动标签,5116,5113,0,3
+540,T0540,540_electric vehicle_electric vehicles_driving range_electric buses,537,S0540,540_electric vehicle_electric vehicles_driving range_electric buses,False,,完成清单初筛；保留原类及自动标签,6333,6285,48,0
+541,T0541,541_weee_waste management_recycling_electronic waste,538,S0541,541_weee_waste management_recycling_electronic waste,False,,完成清单初筛；保留原类及自动标签,7646,7630,16,0
+542,T0542,542_cdse_cds_cdte_cds nanoparticles,539,S0542,542_cdse_cds_cdte_cds nanoparticles,False,,完成清单初筛；保留原类及自动标签,7841,7837,4,0
+543,T0543,543_machining_cutting_machine tool_manufacturing,540,S0543,543_machining_cutting_machine tool_manufacturing,False,,完成清单初筛；保留原类及自动标签,4224,4180,44,0
+544,T0544,544_pyrolysis_bio oil_pyrolysis temperature_biochar,541,S0544,544_pyrolysis_bio oil_pyrolysis temperature_biochar,False,,完成清单初筛；保留原类及自动标签,6711,6711,0,0
+545,T0545,545_再生能源_农村_风电_再生能源 发展,542,S0545,545_再生能源_农村_风电_再生能源 发展,False,,完成清单初筛；保留原类及自动标签,746,587,4,155
+546,T0546,546_solar thermal_chimney_solar energy_solar chimney,543,S0546,546_solar thermal_chimney_solar energy_solar chimney,False,,完成清单初筛；保留原类及自动标签,7110,7106,3,1
+547,T0547,547_films prepared_pulsed laser_laser deposition_films deposited,544,S0547,547_films prepared_pulsed laser_laser deposition_films deposited,False,,完成清单初筛；保留原类及自动标签,7599,7599,0,0
+548,T0548,548_noise_noise reduction_sound_audible,545,S0548,548_noise_noise reduction_sound_audible,False,,完成清单初筛；保留原类及自动标签,4343,4260,83,0
+549,T0549,549_transformers_transformator_transformer_power transformer,546,S0549,549_transformers_transformator_transformer_power transformer,False,,已抽样复核；保留原类；名称仍为自动标签,5024,5016,8,0
+550,T0550,550_electrodeposition_doped diamond_solid electrolyte_doped ceria,547,S0550,550_electrodeposition_doped diamond_solid electrolyte_doped ceria,False,,完成清单初筛；保留原类及自动标签,8517,8510,7,0
+551,T0551,551_电池 壳体_壳体_电池组_电池 外壳,548,S0551,551_电池 壳体_壳体_电池组_电池 外壳,False,,完成清单初筛；保留原类及自动标签,1579,49,1530,0
+552,T0552,552_membrane distillation_fouling_distillation_membrane fouling,549,S0552,552_membrane distillation_fouling_distillation_membrane fouling,False,,完成清单初筛；保留原类及自动标签,8261,8228,33,0
+553,T0553,553_change memory_gst_sb te_ge2sb2te5,550,S0553,553_change memory_gst_sb te_ge2sb2te5,False,,完成清单初筛；保留原类及自动标签,2121,2121,0,0
+554,T0554,554_server_web_database_network management,551,S0554,554_server_web_database_network management,False,,完成清单初筛；保留原类及自动标签,7254,7049,205,0
+555,T0555,555_china_carbon emissions_carbon emission_emission reduction,552,S0555,555_china_carbon emissions_carbon emission_emission reduction,False,,完成清单初筛；保留原类及自动标签,5030,5030,0,0
+556,T0556,556_消耗_蓄电_plurality_控制 装置,553,S0556,556_消耗_蓄电_plurality_控制 装置,False,,完成清单初筛；保留原类及自动标签,730,206,523,1
+557,T0557,557_electroreduction_electrochemical co2_co2 electroreduction_electrocatalytic co2,554,S0557,557_electroreduction_electrochemical co2_co2 electroreduction_electrocatalytic co2,False,,已抽样复核；保留原类；名称仍为自动标签,5389,5389,0,0
+558,T0558,558_induction motor_phase induction_induction_induction motors,555,S0558,感应电机（异步电机）建模与驱动,True,SYN006,经抽样语义复核合并；含边界噪声,4764,4752,12,0
+559,T0559,559_磁悬浮_永磁_转子_永磁 电机,556,S0559,559_磁悬浮_永磁_转子_永磁 电机,False,,完成清单初筛；保留原类及自动标签,1196,126,1070,0
+560,T0560,560_charge transport_charge transfer_charge carrier_organic semiconductors,557,S0560,560_charge transport_charge transfer_charge carrier_organic semiconductors,False,,完成清单初筛；保留原类及自动标签,8765,8765,0,0
+561,T0561,561_hydrogen evolution_evolution reaction_electrocatalytic hydrogen_electrocatalysts,558,S0561,561_hydrogen evolution_evolution reaction_electrocatalytic hydrogen_electrocatalysts,False,,已抽样复核；保留原类；名称仍为自动标签,7771,7766,5,0
+562,T0562,562_ferroelectric_ga2o3_schottky_band alignment,559,S0562,562_ferroelectric_ga2o3_schottky_band alignment,False,,完成清单初筛；保留原类及自动标签,4906,4905,1,0
+563,T0563,563_功率 预测_预测_光伏 功率_气象,560,S0563,563_功率 预测_预测_光伏 功率_气象,False,,已抽样复核；保留原类；名称仍为自动标签,1535,490,1045,0
+564,T0564,564_waves_cyclotron_whistler_flare,561,S0564,564_waves_cyclotron_whistler_flare,False,,完成清单初筛；保留原类及自动标签,7018,7017,1,0
+565,T0565,565_batterie_battery cell_plurality_battery module,562,S0565,565_batterie_battery cell_plurality_battery module,False,,完成清单初筛；保留原类及自动标签,1886,8,1878,0
+566,T0566,566_removal_adsorbent_pfas_mg/g,563,S0566,566_removal_adsorbent_pfas_mg/g,False,,完成清单初筛；保留原类及自动标签,5897,5885,12,0
+567,T0567,567_无线电_传输_无线_接收器,564,S0567,567_无线电_传输_无线_接收器,False,,完成清单初筛；保留原类及自动标签,1989,630,1359,0
+568,T0568,568_b978_e8_12_c0,565,S0568,568_b978_e8_12_c0,False,,完成清单初筛；保留原类及自动标签,2798,2798,0,0
+569,T0569,569_space group_crystal structure_bh4_complexes,566,S0569,569_space group_crystal structure_bh4_complexes,False,,完成清单初筛；保留原类及自动标签,8970,8935,35,0
+570,T0570,570_催化剂_al2o3_催化_反应,567,S0570,570_催化剂_al2o3_催化_反应,False,,完成清单初筛；保留原类及自动标签,6043,6006,37,0
+571,T0571,571_oil recovery_co2 injection_flooding_reservoirs,568,S0571,571_oil recovery_co2 injection_flooding_reservoirs,False,,完成清单初筛；保留原类及自动标签,6562,6556,6,0
+572,T0572,572_bivo4_bivo_bi2wo6_bi,569,S0572,572_bivo4_bivo_bi2wo6_bi,False,,完成清单初筛；保留原类及自动标签,7682,7682,0,0
+573,T0573,573_electricity consumption_residential electricity_households_electricity demand,570,S0573,573_electricity consumption_residential electricity_households_electricity demand,False,,完成清单初筛；保留原类及自动标签,7195,7193,2,0
+574,T0574,574_pd_pt nanoparticles_pt_methanol oxidation,571,S0574,574_pd_pt nanoparticles_pt_methanol oxidation,False,,完成清单初筛；保留原类及自动标签,6565,6538,27,0
+575,T0575,575_夹持_绕线_两个_定位,572,S0575,575_夹持_绕线_两个_定位,False,,完成清单初筛；保留原类及自动标签,1104,31,1073,0
+576,T0576,576_informujące swoich_oraz poszerza_osiągnięciach naukowych_swoich czytelników,573,S0576,576_informujące swoich_oraz poszerza_osiągnięciach naukowych_swoich czytelników,False,,完成清单初筛；保留原类及自动标签,5989,5989,0,0
+577,T0577,577_磁芯_永磁体_磁极_磁体,574,S0577,577_磁芯_永磁体_磁极_磁体,False,,已抽样复核；保留原类；名称仍为自动标签,1592,133,1459,0
+578,T0578,578_罚款_行政处罚_以下 罚款_万元 以下,575,S0578,578_罚款_行政处罚_以下 罚款_万元 以下,False,,完成清单初筛；保留原类及自动标签,735,667,0,68
+579,T0579,579_straw_rice_rice straw_wheat,576,S0579,579_straw_rice_rice straw_wheat,False,,完成清单初筛；保留原类及自动标签,4668,4667,1,0
+580,T0580,580_正极 材料_材料 及其_三元 正极_三元,577,S0580,580_正极 材料_材料 及其_三元 正极_三元,False,,已抽样复核；保留原类；名称仍为自动标签,1392,502,890,0
+581,T0581,581_potencia_uma_sistema_sistemas,578,S0581,581_potencia_uma_sistema_sistemas,False,,完成清单初筛；保留原类及自动标签,4322,4318,4,0
+582,T0582,582_phosphorus_black phosphorus_phosphate_flotation,579,S0582,582_phosphorus_black phosphorus_phosphate_flotation,False,,完成清单初筛；保留原类及自动标签,4496,4470,26,0
+583,T0583,583_桥架_电缆 桥架_电缆_桥架 本体,580,S0583,583_桥架_电缆 桥架_电缆_桥架 本体,False,,完成清单初筛；保留原类及自动标签,1483,389,1094,0
+584,T0584,584_photocatalytic degradation_photodegradation_photo fenton_fenton,581,S0584,584_photocatalytic degradation_photodegradation_photo fenton_fenton,False,,完成清单初筛；保留原类及自动标签,10565,10564,1,0
+585,T0585,585_user interface_数据_信息处理_数据处理,582,S0585,585_user interface_数据_信息处理_数据处理,False,,完成清单初筛；保留原类及自动标签,1948,544,1404,0
+586,T0586,586_聚合物_聚合物 电解质_电解质_共聚物,583,S0586,586_聚合物_聚合物 电解质_电解质_共聚物,False,,完成清单初筛；保留原类及自动标签,2867,1808,1059,0
+587,T0587,587_russia_russian_energy security_russian energy,584,S0587,587_russia_russian_energy security_russian energy,False,,完成清单初筛；保留原类及自动标签,8017,8017,0,0
+588,T0588,588_mxene_mxenes_ti3c2tx_mxene nanosheets,585,S0588,588_mxene_mxenes_ti3c2tx_mxene nanosheets,False,,完成清单初筛；保留原类及自动标签,5922,5886,36,0
+589,T0589,589_zvs_soft switching_zero voltage_buck,586,S0589,589_zvs_soft switching_zero voltage_buck,False,,完成清单初筛；保留原类及自动标签,9454,9438,16,0
+590,T0590,590_coke_coals_coal_coking,587,S0590,590_coke_coals_coal_coking,False,,完成清单初筛；保留原类及自动标签,4709,4700,9,0
+591,T0591,591_sodium ion_na ion_sodium_na,588,S0591,591_sodium ion_na ion_sodium_na,False,,已抽样复核；保留原类；名称仍为自动标签,6260,6258,2,0
+592,T0592,592_局部 放电_信号_监测_局部,589,S0592,592_局部 放电_信号_监测_局部,False,,完成清单初筛；保留原类及自动标签,1979,1042,937,0
+593,T0593,593_extractant_extraction_solvent extraction_cyanex,590,S0593,593_extractant_extraction_solvent extraction_cyanex,False,,已抽样复核；保留原类；名称仍为自动标签,9346,9338,8,0
+594,T0594,594_climate change_adaptation_climate_change adaptation,591,S0594,594_climate change_adaptation_climate_change adaptation,False,,完成清单初筛；保留原类及自动标签,12099,12099,0,0
+595,T0595,595_wear_matrix composites_stir_metal matrix,592,S0595,595_wear_matrix composites_stir_metal matrix,False,,完成清单初筛；保留原类及自动标签,6108,6084,24,0
+596,T0596,596_mooring_floating_hydrodynamic_breakwater,593,S0596,596_mooring_floating_hydrodynamic_breakwater,False,,完成清单初筛；保留原类及自动标签,7873,7863,10,0
+597,T0597,597_蒸汽_锅炉_余热_烟气,594,S0597,597_蒸汽_锅炉_余热_烟气,False,,完成清单初筛；保留原类及自动标签,1776,519,1257,0
+598,T0598,598_oxygen reduction_orr_reduction reaction_ozonation,595,S0598,598_oxygen reduction_orr_reduction reaction_ozonation,False,,已抽样复核；保留原类；名称仍为自动标签,5109,5104,5,0
+599,T0599,599_图像_缺陷_特征_视觉,596,S0599,599_图像_缺陷_特征_视觉,False,,完成清单初筛；保留原类及自动标签,2212,1034,1178,0
+600,T0600,600_提名_中国_标准化_内容,597,S0600,600_提名_中国_标准化_内容,False,,完成清单初筛；保留原类及自动标签,444,289,0,155
+601,T0601,601_sic_stacking faults_sige_dislocations,598,S0601,601_sic_stacking faults_sige_dislocations,False,,完成清单初筛；保留原类及自动标签,7138,7133,5,0
+602,T0602,602_railway_locomotive_train_traction,599,S0602,602_railway_locomotive_train_traction,False,,完成清单初筛；保留原类及自动标签,5398,5341,57,0
+603,T0603,603_supercapacitors_supercapacitor_performance supercapacitors_state supercapacitors,600,S0603,603_supercapacitors_supercapacitor_performance supercapacitors_state supercapacitors,False,,已抽样复核；保留原类；名称仍为自动标签,5050,5050,0,0
+604,T0604,604_cable_cables_ac loss_conductor,601,S0604,604_cable_cables_ac loss_conductor,False,,已抽样复核；保留原类；名称仍为自动标签,6369,6361,8,0
+605,T0605,605_quantum dots_qds_dots_qd,602,S0605,605_quantum dots_qds_dots_qd,False,,完成清单初筛；保留原类及自动标签,8643,8635,8,0
+606,T0606,606_中国_研究院_标准化_石油,603,S0606,606_中国_研究院_标准化_石油,False,,完成清单初筛；保留原类及自动标签,265,185,1,79
+607,T0607,607_zn anode_zn_aqueous zinc_zn metal,604,S0607,607_zn anode_zn_aqueous zinc_zn metal,False,,完成清单初筛；保留原类及自动标签,6911,6889,22,0
+608,T0608,608_dye sensitized_sensitized solar_dyes_sensitized,605,S0608,608_dye sensitized_sensitized solar_dyes_sensitized,False,,已抽样复核；保留原类；名称仍为自动标签,6182,6167,15,0
+609,T0609,609_light photocatalytic_visible light_enhanced visible_ag3po4,606,S0609,609_light photocatalytic_visible light_enhanced visible_ag3po4,False,,完成清单初筛；保留原类及自动标签,12869,12869,0,0
+610,T0610,610_电动机_电机_转速_转矩,607,S0610,610_电动机_电机_转速_转矩,False,,已抽样复核；保留原类；名称仍为自动标签,1084,362,722,0
+611,T0611,611_电线_转动_固定_滑动,608,S0611,611_电线_转动_固定_滑动,False,,完成清单初筛；保留原类及自动标签,2309,26,2283,0
+612,T0612,612_电池组_汇流_端子_串联,609,S0612,612_电池组_汇流_端子_串联,False,,完成清单初筛；保留原类及自动标签,1299,149,1150,0
+613,T0613,613_breaker_circuit breaker_overvoltage_inrush,610,S0613,613_breaker_circuit breaker_overvoltage_inrush,False,,完成清单初筛；保留原类及自动标签,5832,5825,7,0
+614,T0614,614_消化_污泥_废水_废物,611,S0614,614_消化_污泥_废水_废物,False,,完成清单初筛；保留原类及自动标签,1197,685,511,1
+615,T0615,615_散热_冷却_风道_风扇,612,S0615,615_散热_冷却_风道_风扇,False,,已抽样复核；保留原类；名称仍为自动标签,1499,39,1460,0
+616,T0616,616_battery thermal_thermal management_btms_liquid cooling,613,S0616,电池热管理与温度控制,True,SYN007,经抽样语义复核合并；含边界噪声,4270,4242,28,0
+617,T0617,617_高压_低压_调压_直流,614,S0617,617_高压_低压_调压_直流,False,,完成清单初筛；保留原类及自动标签,1507,197,1310,0
+618,T0618,618_mk_煤矿_煤业_矿业,615,S0618,618_mk_煤矿_煤业_矿业,False,,完成清单初筛；保留原类及自动标签,164,22,0,142
+619,T0619,619_千伏 千伏_千伏_电价_输配电,616,S0619,619_千伏 千伏_千伏_电价_输配电,False,,已抽样复核；保留原类；名称仍为自动标签,411,188,0,223
+620,T0620,620_反应堆_核反应堆_堆芯_核燃料,617,S0620,620_反应堆_核反应堆_堆芯_核燃料,False,,完成清单初筛；保留原类及自动标签,1126,409,717,0
+621,T0621,621_alloys_tial_alloy_heusler alloys,618,S0621,621_alloys_tial_alloy_heusler alloys,False,,完成清单初筛；保留原类及自动标签,7466,7464,2,0
+622,T0622,622_energy poverty_poverty_rural_africa,619,S0622,622_energy poverty_poverty_rural_africa,False,,完成清单初筛；保留原类及自动标签,8822,8820,2,0
+623,T0623,623_methane production_manure_methane_digestion,620,S0623,623_methane production_manure_methane_digestion,False,,已抽样复核；保留原类；名称仍为自动标签,5124,5112,12,0
+624,T0624,624_peroxymonosulfate_peroxymonosulfate activation_persulfate_sulfamethoxazole,621,S0624,624_peroxymonosulfate_peroxymonosulfate activation_persulfate_sulfamethoxazole,False,,完成清单初筛；保留原类及自动标签,6590,6590,0,0
+625,T0625,625_desiccant_dehumidification_liquid desiccant_evaporative,622,S0625,625_desiccant_dehumidification_liquid desiccant_evaporative,False,,完成清单初筛；保留原类及自动标签,5755,5703,52,0
+626,T0626,626_plasmas_plasma_plasma flow_corona,623,S0626,626_plasmas_plasma_plasma flow_corona,False,,已抽样复核；保留原类；名称仍为自动标签,6472,6472,0,0
+627,T0627,627_oxide fuel_solid oxide_temperature solid_intermediate temperature,624,S0627,627_oxide fuel_solid oxide_temperature solid_intermediate temperature,False,,已抽样复核；保留原类；名称仍为自动标签,7254,7247,7,0
+628,T0628,628_gasoline_cars_fuel economy_fleet,625,S0628,628_gasoline_cars_fuel economy_fleet,False,,完成清单初筛；保留原类及自动标签,7691,7683,5,3
+629,T0629,629_gps_satellite_cloud_cloud detection,626,S0629,629_gps_satellite_cloud_cloud detection,False,,完成清单初筛；保留原类及自动标签,5408,5337,71,0
+630,T0630,630_clusters_interstitial_atoms_positron,627,S0630,630_clusters_interstitial_atoms_positron,False,,完成清单初筛；保留原类及自动标签,7432,7417,15,0
+631,T0631,631_ion cells_fade_aging_capacity fade,628,S0631,631_ion cells_fade_aging_capacity fade,False,,完成清单初筛；保留原类及自动标签,3440,3431,9,0
+632,T0632,632_li_li ion_li diffusion_li ions,629,S0632,632_li_li ion_li diffusion_li ions,False,,已抽样复核；保留原类；名称仍为自动标签,6007,6003,4,0
+633,T0633,633_runner_francis_turbine_hydrokinetic,630,S0633,633_runner_francis_turbine_hydrokinetic,False,,完成清单初筛；保留原类及自动标签,8142,8129,13,0
+634,T0634,634_磁性_磁芯_磁体_磁钢,631,S0634,634_磁性_磁芯_磁体_磁钢,False,,已抽样复核；保留原类；名称仍为自动标签,1441,602,839,0
+635,T0635,635_thermal comfort_comfort_indoor_buildings,632,S0635,635_thermal comfort_comfort_indoor_buildings,False,,完成清单初筛；保留原类及自动标签,6098,6068,30,0
+636,T0636,636_ionic liquids_solubility_liquids_methylimidazolium,633,S0636,636_ionic liquids_solubility_liquids_methylimidazolium,False,,完成清单初筛；保留原类及自动标签,6610,6562,48,0
+637,T0637,637_油箱_油管_油泵_储油,634,S0637,637_油箱_油管_油泵_储油,False,,完成清单初筛；保留原类及自动标签,1443,95,1348,0
+638,T0638,638_geothermal_geothermal energy_geothermal resources_geothermal power,635,S0638,638_geothermal_geothermal energy_geothermal resources_geothermal power,False,,已抽样复核；保留原类；名称仍为自动标签,2452,2450,2,0
+639,T0639,639_云端_三维_cloud_边缘,636,S0639,639_云端_三维_cloud_边缘,False,,完成清单初筛；保留原类及自动标签,960,388,572,0
+640,T0640,640_synchronous generator_synchronous_transient stability_synchronous machine,637,S0640,640_synchronous generator_synchronous_transient stability_synchronous machine,False,,完成清单初筛；保留原类及自动标签,4375,4286,89,0
+641,T0641,641_geothermal_geothermal field_geothermal resources_geothermal systems,638,S0641,641_geothermal_geothermal field_geothermal resources_geothermal systems,False,,已抽样复核；保留原类；名称仍为自动标签,5185,5184,1,0
+642,T0642,642_光伏 组件_光伏 电池_光伏 装置_光伏,639,S0642,642_光伏 组件_光伏 电池_光伏 装置_光伏,False,,完成清单初筛；保留原类及自动标签,973,22,951,0
+643,T0643,643_无线 充电_无线_手机_无线 充电器,640,S0643,643_无线 充电_无线_手机_无线 充电器,False,,已抽样复核；保留原类；名称仍为自动标签,931,112,819,0
+644,T0644,644_pv power_power forecasting_photovoltaic power_power prediction,641,S0644,644_pv power_power forecasting_photovoltaic power_power prediction,False,,已抽样复核；保留原类；名称仍为自动标签,8080,8049,31,0
+645,T0645,645_sea_coastal_marine_offshore,642,S0645,645_sea_coastal_marine_offshore,False,,完成清单初筛；保留原类及自动标签,4776,4766,10,0
+646,T0646,646_聚合物_隔膜_粘结剂_粘合剂,643,S0646,646_聚合物_隔膜_粘结剂_粘合剂,False,,完成清单初筛；保留原类及自动标签,2227,256,1971,0
+647,T0647,647_heat pump_heat pipe_heat exchanger_exchanger,644,S0647,647_heat pump_heat pipe_heat exchanger_exchanger,False,,完成清单初筛；保留原类及自动标签,7801,7798,3,0
+648,T0648,648_membranes_sulfonated_proton conductivity_composite membranes,645,S0648,648_membranes_sulfonated_proton conductivity_composite membranes,False,,完成清单初筛；保留原类及自动标签,9584,9551,33,0
+649,T0649,649_electrolyte membrane_polymer electrolyte_electrolyte fuel_membrane fuel,646,S0649,649_electrolyte membrane_polymer electrolyte_electrolyte fuel_membrane fuel,False,,已抽样复核；保留原类；名称仍为自动标签,5637,5621,16,0
+650,T0650,650_supercapacitor_supercapacitors_hydrogel_pani,647,S0650,650_supercapacitor_supercapacitors_hydrogel_pani,False,,已抽样复核；保留原类；名称仍为自动标签,3824,3820,4,0
+651,T0651,651_电价_千伏_上网 电价_电度 电价,648,S0651,651_电价_千伏_上网 电价_电度 电价,False,,已抽样复核；保留原类；名称仍为自动标签,213,29,0,184
+652,T0652,652_synchronization_time synchronization_clock_clock synchronization,649,S0652,652_synchronization_time synchronization_clock_clock synchronization,False,,完成清单初筛；保留原类及自动标签,5058,4970,88,0
+653,T0653,653_ods_ferritic_fe cr_oxide dispersion,650,S0653,653_ods_ferritic_fe cr_oxide dispersion,False,,完成清单初筛；保留原类及自动标签,5116,5098,18,0
+654,T0654,654_steam reforming_reforming_methane reforming_steam methane,651,S0654,654_steam reforming_reforming_methane reforming_steam methane,False,,完成清单初筛；保留原类及自动标签,5824,5810,14,0
+655,T0655,655_cus_copper sulfide_cuins2_cuo,652,S0655,655_cus_copper sulfide_cuins2_cuo,False,,完成清单初筛；保留原类及自动标签,6078,6067,11,0
+656,T0656,656_harmonic_harmonics_harmonic analysis_harmonic distortion,653,S0656,656_harmonic_harmonics_harmonic analysis_harmonic distortion,False,,完成清单初筛；保留原类及自动标签,5882,5880,2,0
+657,T0657,657_煤炭_煤炭企业_瓦斯_煤层气,654,S0657,657_煤炭_煤炭企业_瓦斯_煤层气,False,,完成清单初筛；保留原类及自动标签,1411,1219,1,191
+658,T0658,658_silicon anodes_si anodes_anodes_silicon anode,655,S0658,658_silicon anodes_si anodes_anodes_silicon anode,False,,完成清单初筛；保留原类及自动标签,4646,4635,11,0
+659,T0659,659_li metal_lithium metal_metal batteries_sei,656,S0659,659_li metal_lithium metal_metal batteries_sei,False,,已抽样复核；保留原类；名称仍为自动标签,8017,8009,8,0
+660,T0660,660_ferromagnetic_magnetic properties_ferromagnetism_magnetization,657,S0660,660_ferromagnetic_magnetic properties_ferromagnetism_magnetization,False,,完成清单初筛；保留原类及自动标签,10967,10946,21,0
+661,T0661,661_pl_photoluminescence_photoconductivity_photoluminescence pl,658,S0661,661_pl_photoluminescence_photoconductivity_photoluminescence pl,False,,完成清单初筛；保留原类及自动标签,7980,7980,0,0
+662,T0662,662_renewable energy_renewables_renewable_renovables,659,S0662,662_renewable energy_renewables_renewable_renovables,False,,完成清单初筛；保留原类及自动标签,11924,11917,5,2
+663,T0663,663_bifurcation_voltage stability_stability analysis_transient stability,660,S0663,663_bifurcation_voltage stability_stability analysis_transient stability,False,,完成清单初筛；保留原类及自动标签,5246,5212,34,0
+664,T0664,664_line loss_loss allocation_outage_technical losses,661,S0664,664_line loss_loss allocation_outage_technical losses,False,,完成清单初筛；保留原类及自动标签,4987,4961,26,0
+665,T0665,665_hydrate_hydrates_liquid equilibrium_vle,662,S0665,665_hydrate_hydrates_liquid equilibrium_vle,False,,完成清单初筛；保留原类及自动标签,3789,3786,3,0
+666,T0666,666_nanomaterials_nanotechnology_纳米_nanofibers,663,S0666,666_nanomaterials_nanotechnology_纳米_nanofibers,False,,完成清单初筛；保留原类及自动标签,4880,4596,284,0
+667,T0667,667_concentrator_solar absorber_reflector_solar selective,664,S0667,667_concentrator_solar absorber_reflector_solar selective,False,,完成清单初筛；保留原类及自动标签,7378,7347,31,0
+668,T0668,668_机器人_robot_清洁 机器人_行走,665,S0668,668_机器人_robot_清洁 机器人_行走,False,,已抽样复核；保留原类；名称仍为自动标签,1858,797,1061,0
+669,T0669,669_germany_german_german energy_energiewende,666,S0669,669_germany_german_german energy_energiewende,False,,完成清单初筛；保留原类及自动标签,4858,4858,0,0
+670,T0670,670_china_power industry_province_chinese,667,S0670,670_china_power industry_province_chinese,False,,完成清单初筛；保留原类及自动标签,5447,5445,0,2
+671,T0671,671_thermal runaway_runaway_battery thermal_thermal management,668,S0671,671_thermal runaway_runaway_battery thermal_thermal management,False,,完成清单初筛；保留原类及自动标签,6145,6141,4,0
+672,T0672,672_太阳能_水箱_太阳能 热水器_灌溉,669,S0672,672_太阳能_水箱_太阳能 热水器_灌溉,False,,完成清单初筛；保留原类及自动标签,747,43,704,0
+673,T0673,673_overall water_water splitting_splitting_efficient overall,670,S0673,673_overall water_water splitting_splitting_efficient overall,False,,完成清单初筛；保留原类及自动标签,7116,7116,0,0
+674,T0674,674_gdl_liquid water_gas diffusion_diffusion layer,671,S0674,674_gdl_liquid water_gas diffusion_diffusion layer,False,,完成清单初筛；保留原类及自动标签,3981,3976,5,0
+675,T0675,675_phase diagram_phase equilibria_ternary phase_valley,672,S0675,675_phase diagram_phase equilibria_ternary phase_valley,False,,完成清单初筛；保留原类及自动标签,6302,6300,2,0
+676,T0676,676_graphene_graphene oxide_graphene nanosheets_graphene sheets,673,S0676,676_graphene_graphene oxide_graphene nanosheets_graphene sheets,False,,完成清单初筛；保留原类及自动标签,8602,8602,0,0
+677,T0677,677_hydrogen production_hydrogen refueling_refueling_green hydrogen,674,S0677,677_hydrogen production_hydrogen refueling_refueling_green hydrogen,False,,完成清单初筛；保留原类及自动标签,7030,7006,24,0
+678,T0678,678_保护 电路_电路_保护_浪涌,675,S0678,678_保护 电路_电路_保护_浪涌,False,,完成清单初筛；保留原类及自动标签,1543,133,1410,0
+679,T0679,679_solar air_water heater_solar water_solar collector,676,S0679,679_solar air_water heater_solar water_solar collector,False,,已抽样复核；保留原类；名称仍为自动标签,9301,9200,101,0
+680,T0680,680_防尘_灰尘_散热_滤网,677,S0680,680_防尘_灰尘_散热_滤网,False,,完成清单初筛；保留原类及自动标签,1238,24,1214,0
+681,T0681,681_fires_forest fires_wildfire_forest,678,S0681,681_fires_forest fires_wildfire_forest,False,,完成清单初筛；保留原类及自动标签,3203,3193,10,0
+682,T0682,682_oxygen evolution_evolution reaction_efficient oxygen_electrocatalytic oxygen,280,S0281,析氧反应（OER）及双功能氧电催化剂,True,SYN004,经抽样语义复核合并；含边界噪声,7948,7942,6,0
+683,T0683,683_dc link_dc bias_dc dc_ripple,679,S0683,683_dc link_dc bias_dc dc_ripple,False,,已抽样复核；保留原类；名称仍为自动标签,5863,5820,43,0
+684,T0684,684_energy trading_blockchain_p2p_peer,680,S0684,684_energy trading_blockchain_p2p_peer,False,,完成清单初筛；保留原类及自动标签,4045,3967,78,0
+685,T0685,685_负极_负极 活性_活性_活性 物质,681,S0685,685_负极_负极 活性_活性_活性 物质,False,,已抽样复核；保留原类；名称仍为自动标签,1316,15,1301,0
+686,T0686,686_frequency oscillation_oscillation_transmission line_transmission lines,682,S0686,686_frequency oscillation_oscillation_transmission line_transmission lines,False,,完成清单初筛；保留原类及自动标签,5498,5491,7,0
+687,T0687,687_废旧_回收_浸出_废旧 磷酸,683,S0687,687_废旧_回收_浸出_废旧 磷酸,False,,完成清单初筛；保留原类及自动标签,1902,692,1210,0
+688,T0688,688_graphene_graphite_graphene nanoribbons_layer graphene,684,S0688,688_graphene_graphite_graphene nanoribbons_layer graphene,False,,完成清单初筛；保留原类及自动标签,8656,8655,1,0
+689,T0689,689_orr_oxygen reduction_reaction orr_reduction reaction,685,S0689,689_orr_oxygen reduction_reaction orr_reduction reaction,False,,已抽样复核；保留原类；名称仍为自动标签,5444,5424,20,0
+690,T0690,690_insulation_xlpe_cable_aging,686,S0690,690_insulation_xlpe_cable_aging,False,,完成清单初筛；保留原类及自动标签,4096,4088,8,0
+691,T0691,691_quality disturbances_power quality_pq_quality disturbance,687,S0691,691_quality disturbances_power quality_pq_quality disturbance,False,,完成清单初筛；保留原类及自动标签,7350,7327,23,0
+692,T0692,692_carbon capture_co2 capture_capture_post combustion,688,S0692,692_carbon capture_co2 capture_capture_post combustion,False,,已抽样复核；保留原类；名称仍为自动标签,5797,5771,26,0
+693,T0693,693_硅片_负极 材料_负极_氧化亚,689,S0693,693_硅片_负极 材料_负极_氧化亚,False,,已抽样复核；保留原类；名称仍为自动标签,878,134,744,0
+694,T0694,694_fusion_fusion reactor_fission_fusion power,690,S0694,694_fusion_fusion reactor_fission_fusion power,False,,完成清单初筛；保留原类及自动标签,5218,5169,49,0
+695,T0695,695_leaching_sulfuric_sulfuric acid_sulfate,691,S0695,695_leaching_sulfuric_sulfuric acid_sulfate,False,,完成清单初筛；保留原类及自动标签,6029,5998,31,0
+696,T0696,696_电动_客车_城市 客车_汽车,692,S0696,696_电动_客车_城市 客车_汽车,False,,完成清单初筛；保留原类及自动标签,208,136,0,72
+697,T0697,697_oer_oxygen evolution_iro_reaction oer,693,S0697,697_oer_oxygen evolution_iro_reaction oer,False,,完成清单初筛；保留原类及自动标签,7260,7250,10,0
+698,T0698,698_transformer oil_mineral oil_pressboard_insulating oil,694,S0698,698_transformer oil_mineral oil_pressboard_insulating oil,False,,完成清单初筛；保留原类及自动标签,3701,3689,12,0
+699,T0699,699_nuclear_nuclear energy_nuclear power_nucléaire,695,S0699,699_nuclear_nuclear energy_nuclear power_nucléaire,False,,完成清单初筛；保留原类及自动标签,5567,5561,3,3
+700,T0700,700_angew_preface_chem_apex,696,S0700,700_angew_preface_chem_apex,False,,完成清单初筛；保留原类及自动标签,3466,3457,9,0
+701,T0701,701_libs_lib_lithium ion_recycling,697,S0701,701_libs_lib_lithium ion_recycling,False,,完成清单初筛；保留原类及自动标签,7825,7825,0,0
+702,T0702,702_biogas_biogas production_fermentation_biogas upgrading,698,S0702,702_biogas_biogas production_fermentation_biogas upgrading,False,,已抽样复核；保留原类；名称仍为自动标签,5322,5313,9,0
+703,T0703,703_polymer films_conjugated polymers_conjugated polymer_conjugated,699,S0703,703_polymer films_conjugated polymers_conjugated polymer_conjugated,False,,已抽样复核；保留原类；名称仍为自动标签,8496,8492,4,0
+704,T0704,704_zinc_zinc sulfide_zinc oxide_zinc ferrite,700,S0704,704_zinc_zinc sulfide_zinc oxide_zinc ferrite,False,,完成清单初筛；保留原类及自动标签,4938,4933,5,0
+705,T0705,705_distribution equipment_equipment systems_methodological evaluation_bayesian hierarchical,701,S0705,705_distribution equipment_equipment systems_methodological evaluation_bayesian hierarchical,False,,完成清单初筛；保留原类及自动标签,2707,2706,1,0
+706,T0706,706_detectors_detector_imaging_mri,702,S0706,706_detectors_detector_imaging_mri,False,,完成清单初筛；保留原类及自动标签,3795,3672,123,0
+707,T0707,707_保护_保护 电路_保护装置_保护 继电器,703,S0707,707_保护_保护 电路_保护装置_保护 继电器,False,,完成清单初筛；保留原类及自动标签,1794,739,1055,0
+708,T0708,708_space charge_charge accumulation_surface charge_electric field,704,S0708,708_space charge_charge accumulation_surface charge_electric field,False,,完成清单初筛；保留原类及自动标签,5958,5955,3,0
+709,T0709,709_热泵_温度_热泵 系统_环境温度,705,S0709,709_热泵_温度_热泵 系统_环境温度,False,,完成清单初筛；保留原类及自动标签,2150,605,1545,0
+710,T0710,710_电池 诊断_诊断_电池 单元_测量,706,S0710,710_电池 诊断_诊断_电池 单元_测量,False,,完成清单初筛；保留原类及自动标签,2095,415,1680,0
+711,T0711,711_正极_厚度_流体_隔膜,707,S0711,711_正极_厚度_流体_隔膜,False,,完成清单初筛；保留原类及自动标签,787,36,751,0
+712,T0712,712_heat pump_hot water_source heat_water source,708,S0712,712_heat pump_hot water_source heat_water source,False,,完成清单初筛；保留原类及自动标签,5554,5538,16,0
+713,T0713,713_二氧化碳_捕获_co2 capture_吸收剂,709,S0713,713_二氧化碳_捕获_co2 capture_吸收剂,False,,已抽样复核；保留原类；名称仍为自动标签,2958,2215,743,0
+714,T0714,714_pressure sensor_sensor_pressure sensors_camera,710,S0714,714_pressure sensor_sensor_pressure sensors_camera,False,,完成清单初筛；保留原类及自动标签,3327,3243,84,0
+715,T0715,715_mosfet_mosfets_sic mosfets_sic mosfet,711,S0715,715_mosfet_mosfets_sic mosfets_sic mosfet,False,,完成清单初筛；保留原类及自动标签,6749,6706,43,0
+716,T0716,716_optimization design_objective optimization_scroll_multi objective,712,S0716,716_optimization design_objective optimization_scroll_multi objective,False,,完成清单初筛；保留原类及自动标签,5117,5115,2,0
+717,T0717,717_silicon films_si films_poly si_amorphous silicon,713,S0717,717_silicon films_si films_poly si_amorphous silicon,False,,完成清单初筛；保留原类及自动标签,6673,6670,3,0
+718,T0718,718_drying_moisture_moisture content_drying process,714,S0718,718_drying_moisture_moisture content_drying process,False,,完成清单初筛；保留原类及自动标签,3908,3887,21,0
+719,T0719,719_充电 设施_充电 基础设施_基础设施_设施,715,S0719,719_充电 设施_充电 基础设施_基础设施_设施,False,,完成清单初筛；保留原类及自动标签,147,50,0,97
+720,T0720,720_bms_battery management_电池 管理系统_电池 管理,716,S0720,720_bms_battery management_电池 管理系统_电池 管理,False,,已抽样复核；保留原类；名称仍为自动标签,1557,848,709,0
+721,T0721,721_electrical engineering_manager_ieee power_teaching,717,S0721,721_electrical engineering_manager_ieee power_teaching,False,,完成清单初筛；保留原类及自动标签,5439,5436,3,0
+722,T0722,722_mpc_current control_model predictive_predictive control,718,S0722,722_mpc_current control_model predictive_predictive control,False,,完成清单初筛；保留原类及自动标签,9759,9639,120,0
+723,T0723,723_固体 电解质_电解质_电极 活性_电极,719,S0723,723_固体 电解质_电解质_电极 活性_电极,False,,完成清单初筛；保留原类及自动标签,1615,165,1450,0
+724,T0724,724_电机_齿轮_传动_转动,720,S0724,724_电机_齿轮_传动_转动,False,,完成清单初筛；保留原类及自动标签,1866,27,1839,0
+725,T0725,725_microwave_microwave absorption_microwave heating_microwave assisted,721,S0725,725_microwave_microwave absorption_microwave heating_microwave assisted,False,,完成清单初筛；保留原类及自动标签,2970,2969,1,0
+726,T0726,726_burner_flame_combustion_combustion chamber,722,S0726,726_burner_flame_combustion_combustion chamber,False,,完成清单初筛；保留原类及自动标签,8018,7980,38,0
+727,T0727,727_svg_svpwm_svc_space vector,723,S0727,727_svg_svpwm_svc_space vector,False,,完成清单初筛；保留原类及自动标签,2598,2502,96,0
+728,T0728,728_anomaly detection_anomaly_intrusion detection_intrusion,724,S0728,728_anomaly detection_anomaly_intrusion detection_intrusion,False,,完成清单初筛；保留原类及自动标签,7774,7728,46,0
+729,T0729,729_carbons_carbon materials_activated carbons_pore,725,S0729,729_carbons_carbon materials_activated carbons_pore,False,,已抽样复核；保留原类；名称仍为自动标签,5374,5333,41,0
+730,T0730,730_charge controller_battery charging_charger_solar panel,726,S0730,730_charge controller_battery charging_charger_solar panel,False,,完成清单初筛；保留原类及自动标签,3452,3288,164,0
+731,T0731,731_oxygen vacancy_oxygen exchange_oxygen_surface exchange,727,S0731,731_oxygen vacancy_oxygen exchange_oxygen_surface exchange,False,,完成清单初筛；保留原类及自动标签,6141,6127,14,0
+732,T0732,732_电力系统_评估_惯量_暂态,728,S0732,732_电力系统_评估_惯量_暂态,False,,完成清单初筛；保留原类及自动标签,1983,877,1106,0
+733,T0733,733_flight_uav_aircraft_flight control,729,S0733,733_flight_uav_aircraft_flight control,False,,完成清单初筛；保留原类及自动标签,7197,7134,63,0
+734,T0734,734_lifepo4_lifepo4/c_mah/g_li3v2,730,S0734,734_lifepo4_lifepo4/c_mah/g_li3v2,False,,完成清单初筛；保留原类及自动标签,6173,6156,17,0
+735,T0735,735_电池 单体_单体_电池 装置_电极 组件,731,S0735,735_电池 单体_单体_电池 装置_电极 组件,False,,完成清单初筛；保留原类及自动标签,2497,15,2482,0
+736,T0736,736_无线 充电_无线_充电_充电 设备,732,S0736,736_无线 充电_无线_充电_充电 设备,False,,已抽样复核；保留原类；名称仍为自动标签,1412,178,1234,0
+737,T0737,737_sfcl_superconducting fault_superconducting_fault current,733,S0737,737_sfcl_superconducting fault_superconducting_fault current,False,,完成清单初筛；保留原类及自动标签,3482,3477,5,0
+738,T0738,738_load forecasting_term load_forecasting_power load,734,S0738,电力负荷预测,True,SYN008,经抽样语义复核合并；含边界噪声,7810,7803,7,0
+739,T0739,739_orr_single atom_atom catalysts_sacs,735,S0739,739_orr_single atom_atom catalysts_sacs,False,,完成清单初筛；保留原类及自动标签,7908,7898,10,0
+740,T0740,740_poly si_fets_tfts_contacts,736,S0740,740_poly si_fets_tfts_contacts,False,,完成清单初筛；保留原类及自动标签,5490,5476,14,0
+741,T0741,741_gas sensing_gas sensor_gas sensors_sensing,737,S0741,741_gas sensing_gas sensor_gas sensors_sensing,False,,完成清单初筛；保留原类及自动标签,3453,3441,12,0
+742,T0742,742_zno_dot sensitized_buffer layer_solar cell,738,S0742,742_zno_dot sensitized_buffer layer_solar cell,False,,完成清单初筛；保留原类及自动标签,6690,6687,3,0
+743,T0743,743_distribution networks_active distribution_radial distribution_distribution network,739,S0743,743_distribution networks_active distribution_radial distribution_distribution network,False,,完成清单初筛；保留原类及自动标签,5782,5781,1,0
+744,T0744,744_robot_robots_inspection robot_robotic,740,S0744,744_robot_robots_inspection robot_robotic,False,,已抽样复核；保留原类；名称仍为自动标签,3515,3375,140,0
+745,T0745,745_management information_enterprise_automation_information management,741,S0745,745_management information_enterprise_automation_information management,False,,完成清单初筛；保留原类及自动标签,6663,6617,46,0
+746,T0746,746_fibers_fiber_textiles_yarn,742,S0746,746_fibers_fiber_textiles_yarn,False,,完成清单初筛；保留原类及自动标签,3218,3183,35,0
+747,T0747,747_thermoelectric materials_thermoelectric_thermoelectrics_thermoelectric performance,743,S0747,747_thermoelectric materials_thermoelectric_thermoelectrics_thermoelectric performance,False,,已抽样复核；保留原类；名称仍为自动标签,4620,4611,9,0
+748,T0748,748_mining_美元_scrap_mining industry,744,S0748,748_mining_美元_scrap_mining industry,False,,完成清单初筛；保留原类及自动标签,4932,4930,0,2
+749,T0749,749_cooling tower_cooling towers_tower_towers,745,S0749,749_cooling tower_cooling towers_tower_towers,False,,完成清单初筛；保留原类及自动标签,2879,2864,15,0
+750,T0750,750_membrane fuel_proton exchange_exchange membrane_proton,43,S0043,质子交换膜燃料电池（PEMFC）性能建模与运行,True,SYN001,经抽样语义复核合并；含边界噪声,4244,4239,5,0
+751,T0751,751_转换器_courant_extrémité_电力 变换,746,S0751,751_转换器_courant_extrémité_电力 变换,False,,完成清单初筛；保留原类及自动标签,1465,362,1103,0
+752,T0752,752_gold_precious metals_metals_precious,747,S0752,752_gold_precious metals_metals_precious,False,,完成清单初筛；保留原类及自动标签,6156,6092,64,0
+753,T0753,753_wind speed_term wind_speed forecasting_power forecasting,748,S0753,753_wind speed_term wind_speed forecasting_power forecasting,False,,完成清单初筛；保留原类及自动标签,12880,12869,11,0
+754,T0754,754_配电柜_配电箱_安装_箱体,749,S0754,754_配电柜_配电箱_安装_箱体,False,,完成清单初筛；保留原类及自动标签,1747,2,1745,0
+755,T0755,755_wireless power_wpt_power transfer_wireless,750,S0755,755_wireless power_wpt_power transfer_wireless,False,,完成清单初筛；保留原类及自动标签,7641,7620,21,0
+756,T0756,756_新能源 汽车_汽车产业_汽车_新能源 汽车产业,751,S0756,756_新能源 汽车_汽车产业_汽车_新能源 汽车产业,False,,完成清单初筛；保留原类及自动标签,166,101,0,65
+757,T0757,757_photocatalysts_photocatalysis_photoredox_photocatalyst,752,S0757,757_photocatalysts_photocatalysis_photoredox_photocatalyst,False,,完成清单初筛；保留原类及自动标签,10208,10207,1,0
+758,T0758,758_节能 审查_审查_节能_投资 项目,753,S0758,758_节能 审查_审查_节能_投资 项目,False,,完成清单初筛；保留原类及自动标签,392,117,1,274
+759,T0759,759_盖板_顶盖_塑胶_圆柱,754,S0759,759_盖板_顶盖_塑胶_圆柱,False,,已抽样复核；保留原类；名称仍为自动标签,1546,12,1534,0
+760,T0760,760_flywheel_均衡_flywheel energy_飞行器,755,S0760,760_flywheel_均衡_flywheel energy_飞行器,False,,完成清单初筛；保留原类及自动标签,1237,648,589,0
+761,T0761,761_gdc_sdc_ce0_sofcs,756,S0761,761_gdc_sdc_ce0_sofcs,False,,完成清单初筛；保留原类及自动标签,5061,5042,19,0
+762,T0762,762_sofc_fuel cell_stack_pem fuel,757,S0762,762_sofc_fuel cell_stack_pem fuel,False,,已抽样复核；保留原类；名称仍为自动标签,4781,4770,11,0
+763,T0763,763_充电_充电站_车辆_车辆 充电,758,S0763,763_充电_充电站_车辆_车辆 充电,False,,完成清单初筛；保留原类及自动标签,1563,147,1416,0
+764,T0764,764_grounding_grounding grid_grounding resistance_earthing,759,S0764,764_grounding_grounding grid_grounding resistance_earthing,False,,完成清单初筛；保留原类及自动标签,3728,3719,9,0
+765,T0765,765_hydrogen fuel_refueling_hydrogen refueling_hydrogen powered,760,S0765,765_hydrogen fuel_refueling_hydrogen refueling_hydrogen powered,False,,完成清单初筛；保留原类及自动标签,4639,4610,29,0
+766,T0766,766_wind energy_wind turbine_speed wind_wind power,761,S0766,766_wind energy_wind turbine_speed wind_wind power,False,,完成清单初筛；保留原类及自动标签,6208,6201,7,0
+767,T0767,767_real options_investment_real option_firm,762,S0767,767_real options_investment_real option_firm,False,,完成清单初筛；保留原类及自动标签,7602,7599,3,0
+768,T0768,768_photocatalytic activity_tio2_doped tio2_tio2 nanotube,763,S0768,768_photocatalytic activity_tio2_doped tio2_tio2 nanotube,False,,已抽样复核；保留原类；名称仍为自动标签,18016,18016,0,0
+769,T0769,769_automotive_autonomous driving_ecu_driver,764,S0769,769_automotive_autonomous driving_ecu_driver,False,,完成清单初筛；保留原类及自动标签,5521,5333,187,1
+770,T0770,770_导电_定子_半导体器件_绕组,765,S0770,770_导电_定子_半导体器件_绕组,False,,完成清单初筛；保留原类及自动标签,1534,7,1527,0
+771,T0771,771_transmission network_congestion_transmission expansion_expansion planning,766,S0771,771_transmission network_congestion_transmission expansion_expansion planning,False,,完成清单初筛；保留原类及自动标签,5022,5013,8,1
+772,T0772,772_anaerobic_digestion_anaerobic digestion_cod,767,S0772,772_anaerobic_digestion_anaerobic digestion_cod,False,,已抽样复核；保留原类；名称仍为自动标签,8882,8844,38,0
+773,T0773,773_supercapacitors_supercapacitor_specific capacitance_capacitance,768,S0773,773_supercapacitors_supercapacitor_specific capacitance_capacitance,False,,已抽样复核；保留原类；名称仍为自动标签,6494,6483,11,0
+774,T0774,774_瓶装 液化_液化 石油气_石油气_瓶装,769,S0774,774_瓶装 液化_液化 石油气_石油气_瓶装,False,,完成清单初筛；保留原类及自动标签,145,28,0,117
+775,T0775,775_地热能_地热能 开发利用_建筑节能_民用 建筑节能,770,S0775,775_地热能_地热能 开发利用_建筑节能_民用 建筑节能,False,,完成清单初筛；保留原类及自动标签,305,138,1,166
+776,T0776,776_正极_正极 活性_活性_活性 材料,771,S0776,776_正极_正极 活性_活性_活性 材料,False,,已抽样复核；保留原类；名称仍为自动标签,1707,100,1607,0
+777,T0777,777_microstrip_fdtd_interconnects_peec,772,S0777,777_microstrip_fdtd_interconnects_peec,False,,完成清单初筛；保留原类及自动标签,6204,6177,27,0
+778,T0778,778_故障_故障 检测_故障 定位_线路,773,S0778,778_故障_故障 检测_故障 定位_线路,False,,完成清单初筛；保留原类及自动标签,1749,508,1241,0
+779,T0779,779_emc_ugc_dell emc_journal,774,S0779,779_emc_ugc_dell emc_journal,False,,完成清单初筛；保留原类及自动标签,6007,6002,5,0
+780,T0780,780_serum_rats_coq10_blood,775,S0780,780_serum_rats_coq10_blood,False,,完成清单初筛；保留原类及自动标签,3900,3894,6,0
+781,T0781,781_lignocellulosic_lignocellulosic biomass_biochar_fermentation,776,S0781,781_lignocellulosic_lignocellulosic biomass_biochar_fermentation,False,,完成清单初筛；保留原类及自动标签,7309,7298,11,0
+782,T0782,782_lithium metal_metal batteries_solid electrolyte_sei,777,S0782,782_lithium metal_metal batteries_solid electrolyte_sei,False,,已抽样复核；保留原类；名称仍为自动标签,10806,10799,7,0
+783,T0783,783_biodiesel_diesel_diesel fuel_blends,778,S0783,783_biodiesel_diesel_diesel fuel_blends,False,,完成清单初筛；保留原类及自动标签,4817,4805,12,0
+784,T0784,784_ofets_organic field_field effect_pentacene,779,S0784,784_ofets_organic field_field effect_pentacene,False,,已抽样复核；保留原类；名称仍为自动标签,4370,4367,3,0
+785,T0785,785_anaerobic digestion_digestion_anaerobic_food waste,780,S0785,785_anaerobic digestion_digestion_anaerobic_food waste,False,,已抽样复核；保留原类；名称仍为自动标签,9220,9215,5,0
+786,T0786,786_现场 查验_煤矿_查验_甲烷 传感器,781,S0786,786_现场 查验_煤矿_查验_甲烷 传感器,False,,完成清单初筛；保留原类及自动标签,273,68,0,205
+787,T0787,787_pscs_perovskite solar_htms_cells pscs,782,S0787,787_pscs_perovskite solar_htms_cells pscs,False,,已抽样复核；保留原类；名称仍为自动标签,6759,6758,1,0
+788,T0788,788_石墨_浆料_烧结_人造 石墨,783,S0788,788_石墨_浆料_烧结_人造 石墨,False,,完成清单初筛；保留原类及自动标签,1399,613,786,0
+789,T0789,789_mppt_power point_point tracking_maximum power,784,S0789,789_mppt_power point_point tracking_maximum power,False,,完成清单初筛；保留原类及自动标签,6975,6962,13,0
+790,T0790,790_oxygen permeation_oxygen separation_permeation_oxygen transport,785,S0790,790_oxygen permeation_oxygen separation_permeation_oxygen transport,False,,完成清单初筛；保留原类及自动标签,2371,2358,13,0
+791,T0791,791_microgrid_microgrids_islanded_micro grid,786,S0791,791_microgrid_microgrids_islanded_micro grid,False,,已抽样复核；保留原类；名称仍为自动标签,7495,7271,224,0
+792,T0792,792_thermal resistance_thermal conductivity_heat conduction_effective thermal,787,S0792,792_thermal resistance_thermal conductivity_heat conduction_effective thermal,False,,完成清单初筛；保留原类及自动标签,5710,5696,14,0
+793,T0793,793_lithium extraction_lithium mining_brines_spodumene,788,S0793,793_lithium extraction_lithium mining_brines_spodumene,False,,完成清单初筛；保留原类及自动标签,1610,1610,0,0
+794,T0794,794_超级 电容器_超级_电容器_电容器 及其,789,S0794,794_超级 电容器_超级_电容器_电容器 及其,False,,完成清单初筛；保留原类及自动标签,500,103,397,0
+795,T0795,795_转动_支撑_螺纹_滑动,790,S0795,795_转动_支撑_螺纹_滑动,False,,完成清单初筛；保留原类及自动标签,2654,136,2518,0
+796,T0796,796_co2rr_co2 reduction_rr_formate,791,S0796,796_co2rr_co2 reduction_rr_formate,False,,已抽样复核；保留原类；名称仍为自动标签,6814,6810,4,0
+797,T0797,797_观测器_同步电机_永磁 同步电机_永磁,792,S0797,797_观测器_同步电机_永磁 同步电机_永磁,False,,完成清单初筛；保留原类及自动标签,1801,777,1024,0
+798,T0798,798_exciton_excitons_excitonic_phonon,793,S0798,798_exciton_excitons_excitonic_phonon,False,,完成清单初筛；保留原类及自动标签,8132,8131,1,0
+799,T0799,799_激光_滤波器_滤波_激光器,794,S0799,799_激光_滤波器_滤波_激光器,False,,完成清单初筛；保留原类及自动标签,1129,534,595,0
+800,T0800,800_电动 车辆_车辆_车辆 充电_充电,795,S0800,800_电动 车辆_车辆_车辆 充电_充电,False,,完成清单初筛；保留原类及自动标签,980,55,925,0
+801,T0801,801_antibiotics_antibiotic_tetracycline_peroxymonosulfate,796,S0801,801_antibiotics_antibiotic_tetracycline_peroxymonosulfate,False,,完成清单初筛；保留原类及自动标签,4991,4991,0,0
+802,T0802,802_检测_采样_检测 电路_检测 模块,797,S0802,802_检测_采样_检测 电路_检测 模块,False,,已抽样复核；保留原类；名称仍为自动标签,786,123,663,0
+803,T0803,803_dc 转换器_转换器_dc 变换器_变换器,798,S0803,803_dc 转换器_转换器_dc 变换器_变换器,False,,已抽样复核；保留原类；名称仍为自动标签,2010,730,1280,0
+804,T0804,804_外部 电极_半导体_电极_电感器,799,S0804,804_外部 电极_半导体_电极_电感器,False,,完成清单初筛；保留原类及自动标签,1206,35,1171,0
+805,T0805,805_biogas_biogas production_biomass gasification_biogas plant,800,S0805,805_biogas_biogas production_biomass gasification_biogas plant,False,,已抽样复核；保留原类；名称仍为自动标签,3796,3786,10,0
+806,T0806,806_通信 管道_电力 管道_隧道_公路,801,S0806,806_通信 管道_电力 管道_隧道_公路,False,,完成清单初筛；保留原类及自动标签,1154,762,391,1
+807,T0807,807_电力 安全_监督_齐全_监督 检查,802,S0807,807_电力 安全_监督_齐全_监督 检查,False,,完成清单初筛；保留原类及自动标签,373,230,1,142
+808,T0808,808_功率 模块_端子_功率_连接器,803,S0808,808_功率 模块_端子_功率_连接器,False,,完成清单初筛；保留原类及自动标签,993,71,922,0
+809,T0809,809_pompa_pump_pumps_centrifugal,804,S0809,809_pompa_pump_pumps_centrifugal,False,,完成清单初筛；保留原类及自动标签,6362,6323,39,0
+810,T0810,810_paraffin_wax_paraffin wax_wood,805,S0810,810_paraffin_wax_paraffin wax_wood,False,,完成清单初筛；保留原类及自动标签,4425,4424,1,0
+811,T0811,811_晶体管_端子_二极管_电路,806,S0811,811_晶体管_端子_二极管_电路,False,,完成清单初筛；保留原类及自动标签,1346,39,1307,0
+812,T0812,812_thermoelectric generator_thermoelectric_thermoelectric generators_flexible thermoelectric,807,S0812,812_thermoelectric generator_thermoelectric_thermoelectric generators_flexible thermoelectric,False,,完成清单初筛；保留原类及自动标签,5248,5248,0,0
+813,T0813,813_iot_energy meter_meter_home,808,S0813,813_iot_energy meter_meter_home,False,,完成清单初筛；保留原类及自动标签,5717,5561,156,0
+814,T0814,814_虚拟 电厂_虚拟_virtual power_电厂,809,S0814,814_虚拟 电厂_虚拟_virtual power_电厂,False,,完成清单初筛；保留原类及自动标签,2165,1544,602,19
+815,T0815,815_zinc ion_aqueous zinc_zinc air_zinc,810,S0815,815_zinc ion_aqueous zinc_zinc air_zinc,False,,完成清单初筛；保留原类及自动标签,9607,9574,33,0
+816,T0816,816_electricity price_price forecasting_forecasting_electricity demand,811,S0816,816_electricity price_price forecasting_forecasting_electricity demand,False,,完成清单初筛；保留原类及自动标签,7392,7357,35,0
+817,T0817,817_licoo2_o2 cathode_mn0_co0,812,S0817,817_licoo2_o2 cathode_mn0_co0,False,,完成清单初筛；保留原类及自动标签,5206,5202,4,0
+818,T0818,818_coils_coil_tf_hts,813,S0818,818_coils_coil_tf_hts,False,,完成清单初筛；保留原类及自动标签,3557,3555,2,0
+819,T0819,819_绿色_减排_园区_节能 环保,814,S0819,819_绿色_减排_园区_节能 环保,False,,完成清单初筛；保留原类及自动标签,594,389,3,202
+820,T0820,820_groundwater_aquifer_lake_water harvesting,815,S0820,820_groundwater_aquifer_lake_water harvesting,False,,完成清单初筛；保留原类及自动标签,4813,4802,11,0
+821,T0821,821_magnesium_mg_tfsi_tfsa,816,S0821,821_magnesium_mg_tfsi_tfsa,False,,完成清单初筛；保留原类及自动标签,4790,4762,28,0
+822,T0822,822_thiophene_derivatives_oligomers_yl,817,S0822,822_thiophene_derivatives_oligomers_yl,False,,完成清单初筛；保留原类及自动标签,9001,8971,30,0
+823,T0823,823_太阳能_电池板_太阳能 电池板_太阳能 光伏,818,S0823,823_太阳能_电池板_太阳能 电池板_太阳能 光伏,False,,完成清单初筛；保留原类及自动标签,1630,187,1443,0
+824,T0824,824_二次 电池_二次_电极 组件_制造 二次,819,S0824,824_二次 电池_二次_电极 组件_制造 二次,False,,完成清单初筛；保留原类及自动标签,1686,14,1672,0
+825,T0825,825_steels_steel_ferritic_stainless,820,S0825,825_steels_steel_ferritic_stainless,False,,完成清单初筛；保留原类及自动标签,6512,6480,32,0
+826,T0826,826_co2 capture_co2 adsorption_co2 separation_capture,821,S0826,826_co2 capture_co2 adsorption_co2 separation_capture,False,,完成清单初筛；保留原类及自动标签,4361,4310,51,0
+827,T0827,827_fenton_cod_textile_textile wastewater,822,S0827,827_fenton_cod_textile_textile wastewater,False,,完成清单初筛；保留原类及自动标签,3693,3689,4,0
+828,T0828,828_anode material_anode materials_performance anode_performance lithium,823,S0828,828_anode material_anode materials_performance anode_performance lithium,False,,完成清单初筛；保留原类及自动标签,10728,10726,2,0
+829,T0829,829_mof_evolution reaction_oer_mv,824,S0829,829_mof_evolution reaction_oer_mv,False,,完成清单初筛；保留原类及自动标签,6938,6893,45,0
+830,T0830,830_upqc_vsc_dvr_hvdc,825,S0830,830_upqc_vsc_dvr_hvdc,False,,完成清单初筛；保留原类及自动标签,4816,4799,17,0
+831,T0831,831_wave energy_energy converter_wec_energy converters,826,S0831,831_wave energy_energy converter_wec_energy converters,False,,完成清单初筛；保留原类及自动标签,5066,5016,50,0
+832,T0832,832_graphene oxide_graphene_reduced graphene_doped graphene,827,S0832,832_graphene oxide_graphene_reduced graphene_doped graphene,False,,完成清单初筛；保留原类及自动标签,8330,8330,0,0
+833,T0833,833_涡轮_涡轮 发动机_叶片_燃气 涡轮,828,S0833,833_涡轮_涡轮 发动机_叶片_燃气 涡轮,False,,已抽样复核；保留原类；名称仍为自动标签,870,121,749,0
+834,T0834,834_distribution network_reconfiguration_distribution networks_network reconfiguration,829,S0834,834_distribution network_reconfiguration_distribution networks_network reconfiguration,False,,完成清单初筛；保留原类及自动标签,9431,9404,27,0
+835,T0835,835_coatings_electroless_corrosion resistance_corrosion,830,S0835,835_coatings_electroless_corrosion resistance_corrosion,False,,完成清单初筛；保留原类及自动标签,5562,5497,65,0
+836,T0836,836_密封_液冷_防水_箱体,831,S0836,836_密封_液冷_防水_箱体,False,,完成清单初筛；保留原类及自动标签,1478,32,1446,0
+837,T0837,837_utility regulator_customer_discount_customers,832,S0837,837_utility regulator_customer_discount_customers,False,,完成清单初筛；保留原类及自动标签,4145,4139,5,1
+838,T0838,838_superconductivity_superconductors_superconducting_superconductor,833,S0838,838_superconductivity_superconductors_superconducting_superconductor,False,,完成清单初筛；保留原类及自动标签,4652,4650,2,0
+839,T0839,839_排放_排放 因子_足迹_排放量,834,S0839,839_排放_排放 因子_足迹_排放量,False,,完成清单初筛；保留原类及自动标签,1407,581,826,0
+840,T0840,840_oils_heavy oil_crude_crude oil,835,S0840,840_oils_heavy oil_crude_crude oil,False,,完成清单初筛；保留原类及自动标签,5896,5860,36,0
+841,T0841,841_routing_congestion_traffic_congestion management,836,S0841,841_routing_congestion_traffic_congestion management,False,,完成清单初筛；保留原类及自动标签,4056,3952,104,0
+842,T0842,842_farmers_peasants_peasant_rural,837,S0842,842_farmers_peasants_peasant_rural,False,,完成清单初筛；保留原类及自动标签,6472,6472,0,0
+843,T0843,843_organic solar_solar cell_junction solar_solar cells,838,S0843,843_organic solar_solar cell_junction solar_solar cells,False,,已抽样复核；保留原类；名称仍为自动标签,14855,14852,3,0
+844,T0844,844_co2 capture_co2 adsorption_ceo2_efficient co2,839,S0844,844_co2 capture_co2 adsorption_ceo2_efficient co2,False,,完成清单初筛；保留原类及自动标签,4006,4001,5,0
+845,T0845,845_zt_thermoelectric_thermoelectric performance_thermoelectric properties,840,S0845,845_zt_thermoelectric_thermoelectric performance_thermoelectric properties,False,,已抽样复核；保留原类；名称仍为自动标签,7796,7789,7,0
+846,T0846,846_inflation_monetary_monetary policy_commodity,841,S0846,846_inflation_monetary_monetary policy_commodity,False,,完成清单初筛；保留原类及自动标签,7924,7924,0,0
+847,T0847,847_congestion_demand response_congestion management_dr,842,S0847,847_congestion_demand response_congestion management_dr,False,,完成清单初筛；保留原类及自动标签,5420,5393,27,0
+848,T0848,848_转子_磁体_永磁体_磁通,843,S0848,848_转子_磁体_永磁体_磁通,False,,已抽样复核；保留原类；名称仍为自动标签,1667,137,1530,0
+849,T0849,849_methylene blue_methylene_dyes_blue dye,844,S0849,849_methylene blue_methylene_dyes_blue dye,False,,完成清单初筛；保留原类及自动标签,6077,6077,0,0
+850,T0850,850_正极 活性_活性 材料_活性_正极,845,S0850,850_正极 活性_活性 材料_活性_正极,False,,已抽样复核；保留原类；名称仍为自动标签,1355,80,1275,0
+851,T0851,851_heart_cardiac_heart failure_myocardial,846,S0851,851_heart_cardiac_heart failure_myocardial,False,,完成清单初筛；保留原类及自动标签,5970,5968,2,0
+852,T0852,852_bidding_pricing_auction_nash,847,S0852,852_bidding_pricing_auction_nash,False,,完成清单初筛；保留原类及自动标签,6593,6590,3,0
+853,T0853,853_microbial fuel_mfc_mfcs_microbial,848,S0853,853_microbial fuel_mfc_mfcs_microbial,False,,完成清单初筛；保留原类及自动标签,6748,6686,62,0
+854,T0854,854_coal_coals_bituminous_bituminous coal,849,S0854,854_coal_coals_bituminous_bituminous coal,False,,完成清单初筛；保留原类及自动标签,4053,4048,5,0
+855,T0855,855_platinum_pt/c_cathode catalyst_catalyst layer,850,S0855,855_platinum_pt/c_cathode catalyst_catalyst layer,False,,完成清单初筛；保留原类及自动标签,5882,5871,11,0
+856,T0856,856_公报_北京市人民政府_北京市人民政府 公报_环保 能源,851,S0856,856_公报_北京市人民政府_北京市人民政府 公报_环保 能源,False,,完成清单初筛；保留原类及自动标签,167,29,1,137
+857,T0857,857_ai_artificial intelligence_intelligence_intelligence ai,852,S0857,857_ai_artificial intelligence_intelligence_intelligence ai,False,,完成清单初筛；保留原类及自动标签,5219,5102,103,14
+858,T0858,858_supercapacitors_supercapacitor_performance supercapacitors_supercapacitor electrodes,853,S0858,858_supercapacitors_supercapacitor_performance supercapacitors_supercapacitor electrodes,False,,已抽样复核；保留原类；名称仍为自动标签,7099,7095,4,0
+859,T0859,859_ugc_journal_care_conference,854,S0859,859_ugc_journal_care_conference,False,,完成清单初筛；保留原类及自动标签,4099,4098,0,1
+860,T0860,860_天然气_管网_管网 设施_油气 管网,855,S0860,860_天然气_管网_管网 设施_油气 管网,False,,完成清单初筛；保留原类及自动标签,703,593,1,109
+861,T0861,861_search algorithm_optimal power_neural network_reinforcement learning,856,S0861,861_search algorithm_optimal power_neural network_reinforcement learning,False,,完成清单初筛；保留原类及自动标签,4538,4538,0,0
+862,T0862,862_crop_agrivoltaic_planting_crops,857,S0862,862_crop_agrivoltaic_planting_crops,False,,完成清单初筛；保留原类及自动标签,4844,4751,93,0
+863,T0863,863_water pumping_irrigation_pumping_pumping systems,858,S0863,863_water pumping_irrigation_pumping_pumping systems,False,,完成清单初筛；保留原类及自动标签,3350,3330,20,0
+864,T0864,864_顶盖_盖板_顶盖 组件_通孔,859,S0864,864_顶盖_盖板_顶盖 组件_通孔,False,,已抽样复核；保留原类；名称仍为自动标签,1399,2,1397,0
+865,T0865,865_theorem_symplectic_algebraic_polynomial,860,S0865,865_theorem_symplectic_algebraic_polynomial,False,,完成清单初筛；保留原类及自动标签,9830,9826,4,0
+866,T0866,866_tio2_doped tio2_photocatalytic activity_tio,861,S0866,866_tio2_doped tio2_photocatalytic activity_tio,False,,已抽样复核；保留原类；名称仍为自动标签,17349,17349,0,0
+867,T0867,867_消纳 责任_消纳_责任 权重_再生能源 电力,862,S0867,867_消纳 责任_消纳_责任 权重_再生能源 电力,False,,完成清单初筛；保留原类及自动标签,332,176,0,156
+868,T0868,868_dislocation_dislocations_crack_fracture,863,S0868,868_dislocation_dislocations_crack_fracture,False,,完成清单初筛；保留原类及自动标签,6572,6561,11,0
+869,T0869,869_nickel foam_nickel_electrochemical energy_nickel hydroxide,864,S0869,869_nickel foam_nickel_electrochemical energy_nickel hydroxide,False,,完成清单初筛；保留原类及自动标签,5038,5038,0,0
+870,T0870,870_wobei_claim_deuxième_huile,865,S0870,870_wobei_claim_deuxième_huile,False,,完成清单初筛；保留原类及自动标签,943,64,879,0
+871,T0871,871_无人机_巡检_基于 无人机_飞行,866,S0871,871_无人机_巡检_基于 无人机_飞行,False,,完成清单初筛；保留原类及自动标签,1120,469,651,0
+872,T0872,872_wing_flapping_wings_parachute,867,S0872,872_wing_flapping_wings_parachute,False,,完成清单初筛；保留原类及自动标签,8396,8365,31,0
+873,T0873,873_composites_fiber reinforced_reinforced_polymer composites,868,S0873,873_composites_fiber reinforced_reinforced_polymer composites,False,,完成清单初筛；保留原类及自动标签,5711,5697,14,0
+874,T0874,874_ice_融冰_icing_除冰,869,S0874,874_ice_融冰_icing_除冰,False,,完成清单初筛；保留原类及自动标签,2475,2187,288,0
+875,T0875,875_hydrogen storage_storage alloys_storage alloy_alloys,870,S0875,875_hydrogen storage_storage alloys_storage alloy_alloys,False,,完成清单初筛；保留原类及自动标签,6471,6467,4,0
+876,T0876,876_散热_散热 结构_冷却_导热,379,S0381,电气设备散热与冷却结构,True,SYN005,经抽样语义复核合并；含边界噪声,1633,29,1604,0
+877,T0877,877_turkey_foreign policy_turkish_russia,871,S0877,877_turkey_foreign policy_turkish_russia,False,,完成清单初筛；保留原类及自动标签,10626,10626,0,0
+878,T0878,878_propeller_propellers_thrust_rotor,872,S0878,878_propeller_propellers_thrust_rotor,False,,完成清单初筛；保留原类及自动标签,6996,6989,7,0
+879,T0879,879_charging stations_charging_vehicle charging_ev charging,873,S0879,879_charging stations_charging_vehicle charging_ev charging,False,,已抽样复核；保留原类；名称仍为自动标签,7228,7202,26,0
+880,T0880,880_extraction_extractant_reactive extraction_liquid extraction,874,S0880,880_extraction_extractant_reactive extraction_liquid extraction,False,,已抽样复核；保留原类；名称仍为自动标签,6970,6968,2,0
+881,T0881,881_vapor_flue gas_flue_vapor liquid,875,S0881,881_vapor_flue gas_flue_vapor liquid,False,,完成清单初筛；保留原类及自动标签,3933,3930,3,0
+882,T0882,882_graph_clustering_imbalanced_imbalanced data,876,S0882,882_graph_clustering_imbalanced_imbalanced data,False,,完成清单初筛；保留原类及自动标签,7291,7290,1,0
+883,T0883,883_power filter_shunt active_active power_apf,877,S0883,883_power filter_shunt active_active power_apf,False,,完成清单初筛；保留原类及自动标签,5153,5128,25,0
+884,T0884,884_新能源 有限公司_分布式 光伏_光伏 竞价_竞价,878,S0884,884_新能源 有限公司_分布式 光伏_光伏 竞价_竞价,False,,完成清单初筛；保留原类及自动标签,177,64,1,112
+885,T0885,885_sic_sic composites_sic/sic_si3n4,879,S0885,885_sic_sic composites_sic/sic_si3n4,False,,完成清单初筛；保留原类及自动标签,4274,4272,2,0
+886,T0886,886_phosphor_phosphors_eu3_eu2,880,S0886,886_phosphor_phosphors_eu3_eu2,False,,已抽样复核；保留原类；名称仍为自动标签,6144,6144,0,0
+887,T0887,887_hydropower_hydro_hydro power_hydroelectric,881,S0887,887_hydropower_hydro_hydro power_hydroelectric,False,,完成清单初筛；保留原类及自动标签,6084,6044,40,0
+888,T0888,888_award_primary entry_journal_conference,882,S0888,888_award_primary entry_journal_conference,False,,完成清单初筛；保留原类及自动标签,6318,6318,0,0
+889,T0889,889_zif_zsm_zro2_zro,883,S0889,889_zif_zsm_zro2_zro,False,,完成清单初筛；保留原类及自动标签,5269,5237,32,0
+890,T0890,890_ventricular assist_ventricular_assist device_lvad,884,S0890,890_ventricular assist_ventricular_assist device_lvad,False,,完成清单初筛；保留原类及自动标签,3439,3429,10,0
+891,T0891,891_bi2s3_bi_bi2te3_bi2se3,885,S0891,891_bi2s3_bi_bi2te3_bi2se3,False,,完成清单初筛；保留原类及自动标签,4193,4185,8,0
+892,T0892,892_magnetic properties_magnetite_magnetite nanoparticles_magnets,886,S0892,892_magnetic properties_magnetite_magnetite nanoparticles_magnets,False,,完成清单初筛；保留原类及自动标签,9324,9315,9,0
+893,T0893,893_soh_soc estimation_rul_soh estimation,887,S0893,893_soh_soc estimation_rul_soh estimation,False,,已抽样复核；保留原类；名称仍为自动标签,7155,7154,1,0
+894,T0894,894_电路_控制电路_充电 电路_继电器,888,S0894,894_电路_控制电路_充电 电路_继电器,False,,已抽样复核；保留原类；名称仍为自动标签,1045,15,1030,0
+895,T0895,895_sic_sic power_sic schottky_jbs,889,S0895,895_sic_sic power_sic schottky_jbs,False,,完成清单初筛；保留原类及自动标签,6150,6141,9,0
+896,T0896,896_风险_气象_预警_灾害,890,S0896,896_风险_气象_预警_灾害,False,,完成清单初筛；保留原类及自动标签,1359,327,1032,0
+897,T0897,897_wind power_wind farm_wind farms_farm,891,S0897,897_wind power_wind farm_wind farms_farm,False,,完成清单初筛；保留原类及自动标签,7946,7920,26,0
+898,T0898,898_است_که_nie_در,892,S0898,898_است_که_nie_در,False,,完成清单初筛；保留原类及自动标签,5516,5476,40,0
+899,T0899,899_jet_nozzle_jets_intake,893,S0899,899_jet_nozzle_jets_intake,False,,完成清单初筛；保留原类及自动标签,4079,4073,6,0
+900,T0900,900_super capacitor_超级_超级 电容_supercapacitor,894,S0900,900_super capacitor_超级_超级 电容_supercapacitor,False,,已抽样复核；保留原类；名称仍为自动标签,2564,2446,118,0
+901,T0901,901_sludge_sewage sludge_sewage_activated sludge,895,S0901,901_sludge_sewage sludge_sewage_activated sludge,False,,完成清单初筛；保留原类及自动标签,6234,6216,18,0
+902,T0902,902_authentication_security_encryption_network security,896,S0902,902_authentication_security_encryption_network security,False,,完成清单初筛；保留原类及自动标签,6742,6554,188,0
+903,T0903,903_fatigue_crack_fatigue life_wire rope,897,S0903,903_fatigue_crack_fatigue life_wire rope,False,,完成清单初筛；保留原类及自动标签,4998,4991,7,0
+904,T0904,904_hydropower station_diversion_dam_hydropower,898,S0904,904_hydropower station_diversion_dam_hydropower,False,,完成清单初筛；保留原类及自动标签,4128,4105,21,2
+905,T0905,905_水质_water distribution_水位_水电 机组,899,S0905,905_水质_water distribution_水位_水电 机组,False,,完成清单初筛；保留原类及自动标签,2311,1493,818,0
+906,T0906,906_elastic_elastic constants_bulk modulus_elastic properties,900,S0906,906_elastic_elastic constants_bulk modulus_elastic properties,False,,完成清单初筛；保留原类及自动标签,6431,6430,1,0
+907,T0907,907_engine_燃气轮机_automatic control_gas turbine,901,S0907,907_engine_燃气轮机_automatic control_gas turbine,False,,完成清单初筛；保留原类及自动标签,3216,2672,544,0
+908,T0908,908_climate change_climate_paris_climate policy,902,S0908,908_climate change_climate_paris_climate policy,False,,完成清单初筛；保留原类及自动标签,11463,11463,0,0
+909,T0909,909_dfig_pmsg_doubly fed_induction generator,903,S0909,909_dfig_pmsg_doubly fed_induction generator,False,,完成清单初筛；保留原类及自动标签,10733,10705,28,0
+910,T0910,910_cdte_cds films_cds_cadmium,904,S0910,910_cdte_cds films_cds_cadmium,False,,完成清单初筛；保留原类及自动标签,5072,5070,2,0
+911,T0911,911_ceramics_ceramic_陶瓷_sintering,905,S0911,911_ceramics_ceramic_陶瓷_sintering,False,,完成清单初筛；保留原类及自动标签,5988,5957,31,0
+912,T0912,912_涂层_陶瓷_涂料_coatings,906,S0912,912_涂层_陶瓷_涂料_coatings,False,,完成清单初筛；保留原类及自动标签,2194,1683,511,0
+913,T0913,913_chimney_solar chimney_chimney power_solar power,907,S0913,913_chimney_solar chimney_chimney power_solar power,False,,完成清单初筛；保留原类及自动标签,7777,7745,32,0
+914,T0914,914_纤维_玻璃纤维_碳纤维_无纺布,908,S0914,914_纤维_玻璃纤维_碳纤维_无纺布,False,,完成清单初筛；保留原类及自动标签,1056,557,499,0
+915,T0915,915_waves_wave_breakwater_water waves,909,S0915,915_waves_wave_breakwater_water waves,False,,完成清单初筛；保留原类及自动标签,7782,7776,6,0
+916,T0916,916_damping_load frequency_lfc_stabilizer,910,S0916,916_damping_load frequency_lfc_stabilizer,False,,完成清单初筛；保留原类及自动标签,8274,8232,42,0
+917,T0917,917_cavitation_cavitating_hydrofoil_bubble,911,S0917,917_cavitation_cavitating_hydrofoil_bubble,False,,完成清单初筛；保留原类及自动标签,7313,7310,3,0
+918,T0918,918_co2 emissions_ghg_ghg emissions_emissions,912,S0918,918_co2 emissions_ghg_ghg emissions_emissions,False,,完成清单初筛；保留原类及自动标签,9624,9622,2,0
+919,T0919,919_蓄电_储能_储能 装置_储能 电源,913,S0919,919_蓄电_储能_储能 装置_储能 电源,False,,完成清单初筛；保留原类及自动标签,1090,55,1035,0
+920,T0920,920_carbon nitride_graphitic carbon_nitride_graphitic,914,S0920,920_carbon nitride_graphitic carbon_nitride_graphitic,False,,完成清单初筛；保留原类及自动标签,7008,7007,1,0
+921,T0921,921_rope_tension_stiffness_friction,915,S0921,921_rope_tension_stiffness_friction,False,,完成清单初筛；保留原类及自动标签,6348,6335,13,0
+922,T0922,922_district heating_thermal power_district_heat supply,916,S0922,922_district heating_thermal power_district_heat supply,False,,已抽样复核；保留原类；名称仍为自动标签,5262,5195,66,1
+923,T0923,923_dc microgrid_dc microgrids_droop_microgrids,917,S0923,923_dc microgrid_dc microgrids_droop_microgrids,False,,完成清单初筛；保留原类及自动标签,5275,5263,12,0
+924,T0924,924_hard carbon_sodium ion_doped carbon_air batteries,918,S0924,924_hard carbon_sodium ion_doped carbon_air batteries,False,,完成清单初筛；保留原类及自动标签,9821,9806,15,0
+925,T0925,925_impeller_centrifugal_centrifugal pump_cavitation,919,S0925,925_impeller_centrifugal_centrifugal pump_cavitation,False,,已抽样复核；保留原类；名称仍为自动标签,7808,7805,3,0
+926,T0926,926_功率_控制_控制系统_指令,920,S0926,926_功率_控制_控制系统_指令,False,,完成清单初筛；保留原类及自动标签,1520,211,1309,0
+927,T0927,927_玻璃_透明_反射_光伏 组件,921,S0927,927_玻璃_透明_反射_光伏 组件,False,,完成清单初筛；保留原类及自动标签,965,323,642,0
+928,T0928,928_tax_taxes_environmental taxes_environmental tax,922,S0928,928_tax_taxes_environmental taxes_environmental tax,False,,完成清单初筛；保留原类及自动标签,8808,8808,0,0
+929,T0929,929_lithium storage_ion storage_enhanced lithium_storage performance,923,S0929,929_lithium storage_ion storage_enhanced lithium_storage performance,False,,完成清单初筛；保留原类及自动标签,6820,6820,0,0
+930,T0930,930_exchange membranes_anion exchange_aems_membranes,924,S0930,930_exchange membranes_anion exchange_aems_membranes,False,,完成清单初筛；保留原类及自动标签,8493,8482,11,0
+931,T0931,931_methanogens_methanogenic_methanogenesis_genome,925,S0931,931_methanogens_methanogenic_methanogenesis_genome,False,,完成清单初筛；保留原类及自动标签,3927,3926,1,0
+932,T0932,932_photocatalytic co2_photoreduction_co2 reduction_co2 photoreduction,926,S0932,932_photocatalytic co2_photoreduction_co2 reduction_co2 photoreduction,False,,完成清单初筛；保留原类及自动标签,9608,9607,1,0
+933,T0933,933_zno_zns_doped zno_zno nanoparticles,927,S0933,933_zno_zns_doped zno_zno nanoparticles,False,,已抽样复核；保留原类；名称仍为自动标签,7278,7269,9,0
+934,T0934,934_ofdm_antenna_mimo_multiplexing,928,S0934,934_ofdm_antenna_mimo_multiplexing,False,,完成清单初筛；保留原类及自动标签,9006,8917,88,1
+935,T0935,935_energia_da_uma_os,929,S0935,935_energia_da_uma_os,False,,完成清单初筛；保留原类及自动标签,6393,6393,0,0
+936,T0936,936_tio_electron transfer_electron transport_etl,930,S0936,936_tio_electron transfer_electron transport_etl,False,,完成清单初筛；保留原类及自动标签,3182,3181,1,0
+937,T0937,937_tritium_tritium breeding_blanket_breeding,931,S0937,937_tritium_tritium breeding_blanket_breeding,False,,完成清单初筛；保留原类及自动标签,2476,2476,0,0
+938,T0938,938_charger_wireless charging_battery charger_battery charging,932,S0938,938_charger_wireless charging_battery charger_battery charging,False,,完成清单初筛；保留原类及自动标签,4362,4301,61,0
+939,T0939,939_太阳能 电池_太阳能_太阳电池_钝化,933,S0939,939_太阳能 电池_太阳能_太阳电池_钝化,False,,已抽样复核；保留原类；名称仍为自动标签,1120,280,840,0
+940,T0940,940_polymer electrolytes_solid polymer_polymer electrolyte_ionic conductivity,934,S0940,940_polymer electrolytes_solid polymer_polymer electrolyte_ionic conductivity,False,,已抽样复核；保留原类；名称仍为自动标签,9097,9086,11,0
+941,T0941,941_ldh_ldhs_layered double_superhydrophobic,935,S0941,941_ldh_ldhs_layered double_superhydrophobic,False,,完成清单初筛；保留原类及自动标签,4910,4889,21,0
+942,T0942,942_pem fuel_pem_oxide fuel_solid oxide,936,S0942,942_pem fuel_pem_oxide fuel_solid oxide,False,,已抽样复核；保留原类；名称仍为自动标签,5435,5433,2,0
+943,T0943,943_mah_reversible capacity_doped carbon_rate capability,937,S0943,943_mah_reversible capacity_doped carbon_rate capability,False,,完成清单初筛；保留原类及自动标签,7661,7640,21,0
+944,T0944,944_welding_friction stir_stir_stir welding,938,S0944,944_welding_friction stir_stir_stir welding,False,,完成清单初筛；保留原类及自动标签,4217,4170,47,0
+945,T0945,945_switching frequency_resonant_resonant converter_modulation,939,S0945,945_switching frequency_resonant_resonant converter_modulation,False,,完成清单初筛；保留原类及自动标签,7813,7780,33,0
+946,T0946,946_activated carbon_carbons_activated carbons_activated,940,S0946,946_activated carbon_carbons_activated carbons_activated,False,,已抽样复核；保留原类；名称仍为自动标签,6084,6082,2,0
+947,T0947,947_chinese_china_hong kong_marxism,941,S0947,947_chinese_china_hong kong_marxism,False,,完成清单初筛；保留原类及自动标签,5360,5359,0,1
+948,T0948,948_温度_失控_加热_电池 温度,613,S0616,电池热管理与温度控制,True,SYN007,经抽样语义复核合并；含边界噪声,1280,185,1095,0
+949,T0949,949_event triggered_attacks_dos attacks_deception,942,S0949,949_event triggered_attacks_dos attacks_deception,False,,完成清单初筛；保留原类及自动标签,6461,6398,63,0
+950,T0950,950_zns_zno_znse_zns nanoparticles,943,S0950,950_zns_zno_znse_zns nanoparticles,False,,已抽样复核；保留原类；名称仍为自动标签,7163,7141,22,0
+951,T0951,951_metal dichalcogenides_dichalcogenides_tmds_transition metal,944,S0951,951_metal dichalcogenides_dichalcogenides_tmds_transition metal,False,,完成清单初筛；保留原类及自动标签,5114,5106,8,0
+952,T0952,952_cheminform_cheminform abstract_weekly abstracting_delivering concise,945,S0952,952_cheminform_cheminform abstract_weekly abstracting_delivering concise,False,,完成清单初筛；保留原类及自动标签,4051,4051,0,0
+953,T0953,953_负荷 预测_预测_负荷_电力 负荷,734,S0738,电力负荷预测,True,SYN008,经抽样语义复核合并；含边界噪声,1603,388,1215,0
+954,T0954,954_cloud_clouds_aerosol_sky,946,S0954,954_cloud_clouds_aerosol_sky,False,,完成清单初筛；保留原类及自动标签,4944,4941,3,0
+955,T0955,955_合金_合金 电极_吸附_样品,947,S0955,955_合金_合金 电极_吸附_样品,False,,完成清单初筛；保留原类及自动标签,4602,4548,54,0
+956,T0956,956_critical minerals_mining_minerals_mineral resources,948,S0956,956_critical minerals_mining_minerals_mineral resources,False,,完成清单初筛；保留原类及自动标签,4374,4373,1,0
+957,T0957,957_automation_manager_electric power_management information,949,S0957,957_automation_manager_electric power_management information,False,,完成清单初筛；保留原类及自动标签,7641,7571,70,0
+958,T0958,958_硫化物_硫化_硫化物 固态_硫化物 固体,950,S0958,958_硫化物_硫化_硫化物 固态_硫化物 固体,False,,完成清单初筛；保留原类及自动标签,1466,359,1107,0
+959,T0959,959_lithium sulfur_sulfur batteries_sulfur_polysulfides,951,S0959,959_lithium sulfur_sulfur batteries_sulfur_polysulfides,False,,完成清单初筛；保留原类及自动标签,6235,6225,10,0
+960,T0960,960_开关柜_抽屉_联锁_柜门,952,S0960,960_开关柜_抽屉_联锁_柜门,False,,完成清单初筛；保留原类及自动标签,1255,85,1170,0
+961,T0961,961_demand response_scheduling_ess_distributed energy,953,S0961,961_demand response_scheduling_ess_distributed energy,False,,完成清单初筛；保留原类及自动标签,7709,7625,84,0
+962,T0962,962_电源_电源 系统_转换_负载,954,S0962,962_电源_电源 系统_转换_负载,False,,完成清单初筛；保留原类及自动标签,1584,201,1383,0
+963,T0963,963_motors_asynchronous_induction motor_motor,555,S0558,感应电机（异步电机）建模与驱动,True,SYN006,经抽样语义复核合并；含边界噪声,5664,5640,24,0
+964,T0964,964_fuel cell_cell technology_cell power_fuel cells,955,S0964,964_fuel cell_cell technology_cell power_fuel cells,False,,已抽样复核；保留原类；名称仍为自动标签,5310,5308,2,0
+965,T0965,965_steels_irradiated_neutron irradiation_austenitic,956,S0965,965_steels_irradiated_neutron irradiation_austenitic,False,,完成清单初筛；保留原类及自动标签,4977,4976,1,0
+966,T0966,966_organic light_light emitting_emitting diodes_emitting,957,S0966,966_organic light_light emitting_emitting diodes_emitting,False,,已抽样复核；保留原类；名称仍为自动标签,5773,5768,5,0
+967,T0967,967_sei_electrolytes_electrolyte interphase_interphase,958,S0967,967_sei_electrolytes_electrolyte interphase_interphase,False,,完成清单初筛；保留原类及自动标签,7520,7498,22,0
+968,T0968,968_ion transport_proton transport_proton transfer_pcet,959,S0968,968_ion transport_proton transport_proton transfer_pcet,False,,完成清单初筛；保留原类及自动标签,6305,6305,0,0
+969,T0969,969_制氢_氢气_制氢 系统_储氢,960,S0969,969_制氢_氢气_制氢 系统_储氢,False,,完成清单初筛；保留原类及自动标签,1035,195,840,0
+970,T0970,970_power industry_reform_power sector_electric power,961,S0970,970_power industry_reform_power sector_electric power,False,,完成清单初筛；保留原类及自动标签,8299,8296,2,1
+971,T0971,971_fuzzy_fuzzy logic_logic controller_logic,962,S0971,971_fuzzy_fuzzy logic_logic controller_logic,False,,完成清单初筛；保留原类及自动标签,5273,5271,2,0
+972,T0972,972_wake_axis wind_wind turbine_aerodynamic,963,S0972,972_wake_axis wind_wind turbine_aerodynamic,False,,完成清单初筛；保留原类及自动标签,8973,8957,16,0
+973,T0973,973_电池组_电池 模块_baterai_battery cell,964,S0973,973_电池组_电池 模块_baterai_battery cell,False,,完成清单初筛；保留原类及自动标签,2105,1278,826,1
+974,T0974,974_organic photovoltaic_organic photovoltaics_opv_opvs,158,S0158,有机光伏（OPV/OSC）材料与器件,True,SYN002,经抽样语义复核合并；含边界噪声,6065,6063,2,0
+975,T0975,975_nanofiltration_nanofiltration membranes_membranes_film composite,965,S0975,975_nanofiltration_nanofiltration membranes_membranes_film composite,False,,完成清单初筛；保留原类及自动标签,10236,10233,3,0
+976,T0976,976_ysz_yttria_yttria stabilized_stabilized zirconia,966,S0976,976_ysz_yttria_yttria stabilized_stabilized zirconia,False,,完成清单初筛；保留原类及自动标签,4003,3999,4,0
+977,T0977,977_碳化_负极 材料_沥青_多孔,967,S0977,977_碳化_负极 材料_沥青_多孔,False,,已抽样复核；保留原类；名称仍为自动标签,1462,601,861,0
+978,T0978,978_fe2o3_fe3o4_fe_fes,968,S0978,978_fe2o3_fe3o4_fe_fes,False,,完成清单初筛；保留原类及自动标签,6490,6450,40,0
+979,T0979,979_thermal decomposition_thermal expansion_enthalpy_thermodynamic properties,969,S0979,979_thermal decomposition_thermal expansion_enthalpy_thermodynamic properties,False,,完成清单初筛；保留原类及自动标签,8047,8019,28,0
+980,T0980,980_lighting_lamps_照明_lamp,970,S0980,980_lighting_lamps_照明_lamp,False,,完成清单初筛；保留原类及自动标签,3160,2659,499,2
+981,T0981,981_catalysts_reforming_tropsch_catalyst,971,S0981,981_catalysts_reforming_tropsch_catalyst,False,,完成清单初筛；保留原类及自动标签,7375,7365,10,0
+982,T0982,982_马达_旋转_转速_速度,972,S0982,982_马达_旋转_转速_速度,False,,已抽样复核；保留原类；名称仍为自动标签,1124,343,781,0
+983,T0983,983_hard carbon_carbons_porous carbon_carbon materials,973,S0983,983_hard carbon_carbons_porous carbon_carbon materials,False,,已抽样复核；保留原类；名称仍为自动标签,5233,5188,45,0
+984,T0984,984_rankine_rankine cycle_organic rankine_orc,974,S0984,984_rankine_rankine cycle_organic rankine_orc,False,,完成清单初筛；保留原类及自动标签,6412,6405,7,0
+985,T0985,985_电力电缆_cable_cables_xlpe,975,S0985,985_电力电缆_cable_cables_xlpe,False,,已抽样复核；保留原类；名称仍为自动标签,2654,2144,510,0
+986,T0986,986_carbon electrodes_activated carbon_specific capacitance_carbon electrode,976,S0986,986_carbon electrodes_activated carbon_specific capacitance_carbon electrode,False,,完成清单初筛；保留原类及自动标签,4549,4524,25,0
+987,T0987,987_co2 storage_geological_geological storage_geologic,977,S0987,987_co2 storage_geological_geological storage_geologic,False,,完成清单初筛；保留原类及自动标签,5135,5128,7,0
+988,T0988,988_biohydrogen_fermentative_fermentation_biohydrogen production,978,S0988,988_biohydrogen_fermentative_fermentation_biohydrogen production,False,,完成清单初筛；保留原类及自动标签,4490,4487,3,0
+989,T0989,989_温度传感器_温度_测温_温度 检测,979,S0989,989_温度传感器_温度_测温_温度 检测,False,,完成清单初筛；保留原类及自动标签,2277,1212,1065,0
+990,T0990,990_manganese_manganese oxide_manganese oxides_manganese dioxide,980,S0990,990_manganese_manganese oxide_manganese oxides_manganese dioxide,False,,已抽样复核；保留原类；名称仍为自动标签,5178,5178,0,0
+991,T0991,991_加工_定子_焊接_工位,981,S0991,991_加工_定子_焊接_工位,False,,完成清单初筛；保留原类及自动标签,1582,56,1526,0
+992,T0992,992_sulfonated_aerogels_sulfonated poly_sulfonation,982,S0992,992_sulfonated_aerogels_sulfonated poly_sulfonation,False,,完成清单初筛；保留原类及自动标签,6604,6600,4,0
+993,T0993,993_logs_lumber_trees_wood,983,S0993,993_logs_lumber_trees_wood,False,,完成清单初筛；保留原类及自动标签,5557,5551,6,0
+994,T0994,994_温度_加热_控制器_感应 加热,984,S0994,994_温度_加热_控制器_感应 加热,False,,完成清单初筛；保留原类及自动标签,1120,375,745,0
+995,T0995,995_fra_measuring_measurement_vibration signals,985,S0995,995_fra_measuring_measurement_vibration signals,False,,完成清单初筛；保留原类及自动标签,4620,4568,52,0
+996,T0996,996_desalination_osmosis_reverse osmosis_seawater desalination,986,S0996,996_desalination_osmosis_reverse osmosis_seawater desalination,False,,完成清单初筛；保留原类及自动标签,3912,3912,0,0
+997,T0997,997_power flow_opf_optimal power_opf problem,987,S0997,997_power flow_opf_optimal power_opf problem,False,,完成清单初筛；保留原类及自动标签,6691,6669,22,0
+998,T0998,998_double gate_finfet_gate_siw,988,S0998,998_double gate_finfet_gate_siw,False,,完成清单初筛；保留原类及自动标签,4389,4387,2,0
+999,T0999,999_hydrogels_microfluidic_hydrogel_extracellular,989,S0999,999_hydrogels_microfluidic_hydrogel_extracellular,False,,完成清单初筛；保留原类及自动标签,3534,3503,31,0

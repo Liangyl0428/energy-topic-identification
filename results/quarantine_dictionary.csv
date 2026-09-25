@@ -1,0 +1,5 @@
+﻿quarantine_code,quarantine_reason,documents,needs_review_documents,retracted_documents,paper_documents,patent_documents,policy_documents
+Q.EDITORIAL,封面、索引、勘误等非研究正文,2786,0,4,2786,0,0
+Q.INSUFFICIENT,题名摘要不足，待补全,2709,2709,0,2709,0,0
+Q.TEMPLATE,仍有模板干扰，待复核,37,37,0,37,0,0
+Q.UNUSABLE,原始文本不可用,2391,0,0,828,1563,0

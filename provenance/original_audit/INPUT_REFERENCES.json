@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-25T11:25:21.296933+00:00",
+  "previous_export_directory": "jjjj/bertopic486_hierarchical_refined_20260925",
+  "original_corpus": "jjjj/bertopic500_all_sources_20260925",
+  "source_assignment_manifest_sha256": "1861563b466205e7c67d1867b25a98ec4bd4a9943ff7e513254dff3932ab99ed",
+  "source_dictionary_sha256": "799c90d4ef3710bda4c1eba2238165738ca8ad7775852fbf8c6eb931efc93470",
+  "source_summary_sha256": "b5fa750552386c251e6e0dff701345b595343d903e52590a42df68bf5c017e55",
+  "source_validation_sha256": "6fbca5a14bfb6af9a38b634583816096e098f4c9ddff6984e21b878ddd047124",
+  "original_corpus_manifest_sha256": "6d02513da2a8c410086ef23bee3cbd397694fbf21e2f522f33c39992b6f815fa",
+  "source_decisions": "results/assignments/",
+  "note": "All current decisions are preserved. Historical candidates and rule evidence remain in the previous export, joined by row_id."
+}

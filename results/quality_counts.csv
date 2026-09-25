@@ -1,0 +1,9 @@
+﻿quality,description,documents
+usable_text,正文可用,3252487
+title_only,仅题名可用,1844438
+cleaned_title_only,清理后仅题名可用,11851
+nonresearch_editorial,封面、索引、勘误等非研究正文,2786
+insufficient_metadata,题名摘要不足,2709
+unusable_original,原始文本不可用,2391
+cleaned_text,清理后正文可用,2305
+unresolved_template,模板干扰未解除,37

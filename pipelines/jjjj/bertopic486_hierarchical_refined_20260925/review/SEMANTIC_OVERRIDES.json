@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-09-25T11:00:29.375039+00:00",
+  "semantic_veto": [
+    {
+      "row_id": 4375491,
+      "title": "Resource Utilization of Sewage Sludge: Heavy Metal Removal and Phosphorus Recovery for Sustainable Bio/Hydro-Char Production",
+      "reason": "题名并列重金属去除、磷回收与炭生产，主要任务不足以唯一认作营养元素回收"
+    },
+    {
+      "row_id": 4597264,
+      "title": "A Visible-Light-Active TiO2/Bi2O3/g-C3N4 Heterojunction: Synthesis, Photocatalytic Degradation of Rhodamine B, and Antibacterial Activity",
+      "reason": "题名并列污染物降解与抗菌活性，作为单一光催化去污主题的依据仍不充分"
+    },
+    {
+      "row_id": 4931326,
+      "title": "一种废旧锂电池带电破碎回收电解液及其资源化利用方法",
+      "reason": "已读摘要：破碎、电解液转化及湿法浸出的一体化全组分回收，不能唯一细分为物理拆解"
+    },
+    {
+      "row_id": 4277310,
+      "title": "Sustainable valorisation of wastewater sludge into activated carbon for permanganate adsorption and reuse in supercapacitors",
+      "reason": "题名并列污泥资源化、吸附和超级电容器复用，需确定主要研究任务"
+    },
+    {
+      "row_id": 3396618,
+      "title": "Enhanced multi-cycle CO2 capture and tar reforming via a hybrid CaO-based absorbent/catalyst: Effects of preparation, reaction conditions and application for hydrogen production",
+      "reason": "题名同时给出CO2捕集与焦油重整，双功能研究保留复核"
+    },
+    {
+      "row_id": 4155230,
+      "title": "Energy and exergy comparison of mobile thermochemical energy storage-based refrigeration system with vapor absorption refrigeration system",
+      "reason": "热化学储能制冷与吸收式制冷的比较研究，不能仅作为单一吸收循环"
+    },
+    {
+      "row_id": 4593762,
+      "title": "Improve the interface and electrochemical properties of zirconium-cerium oxide with palladium diselenide and graphene (ZrCeO4@PdSe2@Gr) in energy storage and hydrogen evolution reactions",
+      "reason": "题名同时给出储能与析氢应用，不能唯一归为析氢催化"
+    }
+  ],
+  "quality_veto": [
+    {
+      "row_id": 2775237,
+      "title": "Potassium-Ion Batteries: Stimulating the Reversibility of Sb 2 S 3 Anode for High-Performance Potassium-Ion Batteries (Small 10/2021)",
+      "reason": "已读摘要明确In article number 2008133及Small期号题名，属于封面/研究亮点简介，非独立研究正文"
+    }
+  ],
+  "scope": "Explicit sample-level review judgments; general recurring errors are handled by corpus-wide precision guards."
+}

@@ -1,0 +1,14 @@
+﻿status,description,documents
+retained_needs_review,沿用原类别，待复核,2314588
+retained_baseline,沿用底稿标签，未重新逐条验收,1879595
+reclassified,依据规则接受类别调整,373576
+abstract_task_pending,任务仅在摘要或正文出现，待复核,176317
+peripheral_retained,沿用外围或非研究类别，待复核,110336
+supported_current_label,当前类别获规则支持,101312
+multiple_tasks_pending,多任务冲突，待复核,54859
+broader_candidate_pending,候选过宽，待复核,42253
+precision_guard_pending,自动决定被精度检查撤回，待复核,35425
+cleaned_pending_reclassification,已清理文本，主题待复核,13196
+candidate_margin_pending,候选语义支持不足，待复核,8901
+quality_quarantine,质量隔离,7923
+reclassified_after_cleaning,文本清理后接受类别调整,723

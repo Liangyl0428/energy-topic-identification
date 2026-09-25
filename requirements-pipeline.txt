@@ -1,0 +1,17 @@
+# Original research pipeline dependencies; requires external inputs and GPU setup.
+-r requirements.txt
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+bertopic
+joblib
+threadpoolctl
+jieba
+tokenizers
+onnx
+onnxruntime-gpu
+requests
+duckdb
+matplotlib
