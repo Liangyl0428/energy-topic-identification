@@ -1,0 +1,28 @@
+{
+  "raw_clusters": 500,
+  "merged_groups": 486,
+  "merge_groups": 13,
+  "removed_duplicate_cluster_count": 14,
+  "all_500_reviewed": true,
+  "review_scope": {
+    "initial_clusters_reviewed": 500,
+    "initial_review": "全部500簇的主题词和抽样中心/随机题名；非全部摘要核读。",
+    "initial_unique_documents": 1335,
+    "detailed_review": "候选合并及选定保留案例的可用正文片段、额外题名；部分文本仅有题名。",
+    "detailed_clusters": 54,
+    "detailed_unique_documents": 249,
+    "detailed_documents_with_body": 187,
+    "evidence_selection": "中心及随机样本辅助判断主任务，边界/远点辅助暴露错分；不是估算准确率的随机金标准。",
+    "reviewer": "本会话助手语义审阅；未调用外部模型推理API；非独立行业专家验收。",
+    "merge_groups": 13,
+    "final_groups": 486,
+    "candidate_pairs": 3016,
+    "candidate_pair_review": "候选相似对未逐对全部裁决；只在明确记录的组上作出合并决定。",
+    "taxonomy_mutually_exclusive_proven": false,
+    "granularity_uniform_proven": false,
+    "created_utc": "2026-09-25T04:41:51.760909+00:00"
+  },
+  "decisions_sha256": "c75b000c18efcb6bb49a837dde446f36b4cc8bba567b901170b1309d7af9231f",
+  "manual_reviews_sha256": "880f9d0efef02a6a202c7874d5de00218d237f495a1a3c5cc6029e9256cbd66c",
+  "completed_utc": "2026-09-25T04:43:49.133702+00:00"
+}

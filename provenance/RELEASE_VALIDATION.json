@@ -4,9 +4,17 @@
   "category_records": 5111081,
   "quarantined": 7923,
   "excel_csv_equal": true,
-  "source_files_verified": 39,
+  "source_files_verified": 40,
   "classification_accuracy_evaluated": false,
   "documentation_links_checked": true,
   "documentation_pages_checked": 5,
+  "category_history_checked": {
+    "initial": 500,
+    "after_merging": 486,
+    "candidate_clusters": 1000,
+    "active_parent_categories": 486,
+    "active_child_categories": 264,
+    "final": 750
+  },
   "full_corpus_rerun": false
 }
