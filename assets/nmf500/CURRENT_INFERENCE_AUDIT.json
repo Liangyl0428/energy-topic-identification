@@ -1,0 +1,70 @@
+{
+  "version": "v0.2.1",
+  "assignment_method": "fixed-H-l2-contribution-v2",
+  "papers": 142000,
+  "changed_from_v020": 30359,
+  "fraction_changed_from_v020": 0.21379577464788732,
+  "transfer_changes_from_v020": {
+    "patent": {
+      "size": 17918,
+      "sum": 3308,
+      "mean": 0.18461881906462774
+    },
+    "policy": {
+      "size": 5865,
+      "sum": 1061,
+      "mean": 0.18090366581415174
+    }
+  },
+  "input_sha256": {
+    "energy-topic-hotspots/outputs/nmf500/paper_assignments.parquet": "34c644eba2e904dab985f1264a4adccb098829128a639b2e4bc5f86dc439c700",
+    "energy-topic-hotspots/outputs/nmf500/patent_policy_assignments.parquet": "858a85410d1945a71fb66b208afe879ad428dcfd65753d340cf726b7282061ae",
+    "energy-topic-hotspots/outputs/nmf500_v021/paper_assignments.parquet": "870f09d4a95b1c169d9694f11088da68f9d31e0a3773b4242c783ec41d7403f8",
+    "energy-topic-hotspots/outputs/nmf500_v021/patent_policy_assignments.parquet": "8829144d893c09d5acdf894f8a2bc180fbc937dcd428900b45add9eaf0f6996e"
+  },
+  "component_norm_min": 6.645773410797119,
+  "component_norm_max": 21.394149780273438,
+  "margin_below_005_fraction": 0.4510140845070423,
+  "relative_mass_is_probability": false,
+  "semantic_accuracy_measured": false,
+  "selected_k": 500,
+  "selection_basis": "Fixed business resolution retained; no claim that corrected inference re-optimizes K",
+  "historical_grid": "candidate_metrics.csv and selection experiments describe v0.2.0 fit-W labels only",
+  "fitted_H_reused": true,
+  "actual_inference_metrics": {
+    "requested_k": 500,
+    "active_topics": 499,
+    "empty_topics": 1,
+    "empty_topic_fraction": 0.002,
+    "train_documents_assigned": 111943,
+    "train_topic_size_min": 23,
+    "train_topic_size_p10": 108.80000000000001,
+    "train_topic_size_median": 196.0,
+    "train_topic_size_p90": 366.2,
+    "train_topics_below_20": 0,
+    "train_topic_size_gini": 0.27554740543323686,
+    "effective_topic_count": 437.8653587256988,
+    "validation_keyword_coverage": 0.9990833333333333,
+    "validation_active_topic_coverage": 0.9990833333333333,
+    "sampled_cosine_silhouette": -0.0796952098608017,
+    "sampled_silhouette_n": 6000,
+    "simplified_silhouette_mean": -0.04866975545883179,
+    "simplified_silhouette_negative_fraction": 0.6432563182917674,
+    "davies_bouldin": 4.706268786556035,
+    "keyword_embedding_top1_agreement": 0.35674368170823256,
+    "keyword_embedding_ari": 0.17833138919355165,
+    "validation_nearest_centroid_cosine_mean": 0.7341879606246948,
+    "validation_nearest_centroid_margin_mean": 0.017040038481354713,
+    "nmf_reconstruction_error": 243.81988525390625,
+    "nmf_relative_reconstruction_error": 0.7287367582321167,
+    "nearest_center_cosine_mean": 0.9523037672042847,
+    "nearest_center_cosine_p90": 0.9752306938171387,
+    "nearest_center_cosine_max": 0.9899771213531494
+  },
+  "caveats": [
+    "BGE geometry is not expert-label accuracy",
+    "Paper similarity quantiles do not calibrate patent/policy precision",
+    "All transfer links require semantic review",
+    "Uniform .05 margin is a sensitivity setting, not calibrated abstention"
+  ]
+}

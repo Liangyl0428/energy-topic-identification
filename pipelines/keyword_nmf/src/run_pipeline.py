@@ -22,6 +22,8 @@ from components import (
     embedding_centroids,
     hard_assign,
     nearest_centroid_assign,
+    infer_contributions,
+    ASSIGNMENT_METHOD,
 )
 
 
@@ -81,6 +83,9 @@ class DataBundle:
             expected = self.x[split].shape[0]
             if len(self.embeddings[split]) != expected or len(self.metadata[split]) != expected:
                 raise ValueError(f"Misaligned inputs for {split}")
+        ids = pd.concat([self.metadata[s].work_id for s in SPLITS], ignore_index=True)
+        if ids.isna().any() or not ids.is_unique:
+            raise ValueError("Paper IDs must be unique across temporal splits")
 
 
 def fit_model(
@@ -120,11 +125,7 @@ def fit_model(
 
 
 def transform(model: MiniBatchNMF, matrix: sparse.csr_matrix) -> np.ndarray:
-    has_keywords = matrix.getnnz(axis=1) > 0
-    weights = np.zeros((matrix.shape[0], model.n_components), dtype=np.float32)
-    if has_keywords.any():
-        weights[has_keywords] = model.transform(matrix[has_keywords]).astype(np.float32)
-    return weights
+    return infer_contributions(model, matrix)
 
 
 def topic_keywords(
@@ -158,12 +159,16 @@ def run_candidate(
     candidate_dir = output / "candidates" / f"k{k}"
     metrics_path = candidate_dir / "metrics.json"
     if metrics_path.exists() and not overwrite:
-        return json.loads(metrics_path.read_text(encoding="utf-8"))
+        cached = json.loads(metrics_path.read_text(encoding="utf-8"))
+        if cached.get("assignment_method") != ASSIGNMENT_METHOD:
+            raise ValueError("Legacy fit-W metrics: use a fresh output directory or explicitly rebuild the grid")
+        return cached
     candidate_dir.mkdir(parents=True, exist_ok=True)
     print(f"START candidate k={k}", flush=True)
     model, train_weights, messages, seconds = fit_model(
         data.x["train"], k, seed, max_iter, batch_size
     )
+    train_weights = transform(model, data.x["train"])
     train_labels = hard_assign(train_weights)
     validation_weights = transform(model, data.x["validation"])
     validation_labels = hard_assign(validation_weights)
@@ -193,6 +198,7 @@ def run_candidate(
             "batch_size": batch_size,
             "fit_seconds": seconds,
             "convergence_warnings": messages,
+            "assignment_method": ASSIGNMENT_METHOD,
         }
     )
     joblib.dump(model, candidate_dir / "nmf.joblib", compress=1)
@@ -237,6 +243,8 @@ def select_candidate(metrics: pd.DataFrame) -> tuple[int, pd.DataFrame]:
         "keyword_embedding_ari": False,
     }
     rank_columns = []
+    if not scored.requested_k.is_unique or not np.isfinite(scored.loc[admissible, list(directions)]).all().all():
+        raise ValueError("Selection requires unique candidates and complete finite metrics")
     for column, ascending in directions.items():
         rank_column = f"rank_{column}"
         scored.loc[admissible, rank_column] = scored.loc[admissible, column].rank(
@@ -307,50 +315,41 @@ def run_grid(args: argparse.Namespace, data: DataBundle) -> int:
 def assign_all_papers(
     data: DataBundle,
     model: MiniBatchNMF,
-    fitted_train_labels: np.ndarray,
-    fitted_train_strength: np.ndarray,
+    fitted_train_labels: np.ndarray | None = None,
+    fitted_train_strength: np.ndarray | None = None,
 ) -> tuple[
     pd.DataFrame, np.ndarray, np.ndarray, dict[str, np.ndarray], np.ndarray
 ]:
     weights_by_split = {
         split: transform(model, data.x[split])
-        for split in ("validation", "replay")
+        for split in SPLITS
     }
-    raw_train_labels = np.asarray(fitted_train_labels, dtype=np.int32)
-    train_counts = np.bincount(
-        raw_train_labels[raw_train_labels >= 0], minlength=model.n_components
-    )
-    active_topics = np.flatnonzero(train_counts > 0).astype(np.int32)
     frames = []
     labels_by_split = {}
     all_embeddings = []
     all_labels = []
     for split in SPLITS:
-        if split == "train":
-            labels = raw_train_labels.copy()
-            best_weight = fitted_train_strength[:, 0]
-            weight_margin = fitted_train_strength[:, 1]
-        else:
-            weights = weights_by_split[split]
-            has_keywords = weights.sum(axis=1) > 1e-12
-            labels = np.full(len(weights), -1, dtype=np.int32)
-            labels[has_keywords] = active_topics[
-                np.argmax(weights[has_keywords][:, active_topics], axis=1)
-            ]
-            best_weight = np.where(labels >= 0, weights.max(axis=1), 0.0)
-            second_weight = np.partition(weights, -2, axis=1)[:, -2]
-            weight_margin = best_weight - second_weight
+        weights = weights_by_split[split]
+        labels = hard_assign(weights)
+        best_weight = weights.max(axis=1)
+        second_weight = np.partition(weights, -2, axis=1)[:, -2]
+        weight_margin = best_weight - second_weight
         labels_by_split[split] = labels
         frame = data.metadata[split][["work_id", "model_date", "quarter"]].copy()
         frame.insert(1, "split", split)
         frame["topic_id"] = labels
         frame["nmf_top1_weight"] = best_weight
         frame["nmf_top1_top2_margin"] = weight_margin
+        frame["assignment_method"] = ASSIGNMENT_METHOD
         frames.append(frame)
         all_embeddings.append(np.asarray(data.embeddings[split]))
         all_labels.append(labels)
     embeddings = np.concatenate(all_embeddings)
     labels = np.concatenate(all_labels)
+    # A fitted component can first become Top1 in a later split. Do not force
+    # such papers into another topic merely because it had no training winners.
+    counts = np.bincount(labels[labels >= 0], minlength=model.n_components)
+    active_topics = np.flatnonzero(counts > 0).astype(np.int32)
     return (
         pd.concat(frames, ignore_index=True),
         embeddings,
@@ -451,9 +450,9 @@ def run_final(args: argparse.Namespace, data: DataBundle, selected_k: int) -> No
     joblib.dump(model, args.output / "selected_nmf.joblib", compress=1)
 
     # Thresholds are calibrated without leakage: validation documents against train-only centers.
-    train_centroids = np.load(candidate_dir / "train_centroids.npy")
+    train_centroids, training_counts = embedding_centroids(data.embeddings["train"], labels_by_split["train"], selected_k)
     validation_ids, validation_scores = nearest_centroid_assign(
-        data.embeddings["validation"], train_centroids, active, top_n=2
+        data.embeddings["validation"], train_centroids, np.flatnonzero(training_counts > 0), top_n=2
     )
     valid = data.x["validation"].getnnz(axis=1) > 0
     thresholds = {
@@ -486,7 +485,9 @@ def run_final(args: argparse.Namespace, data: DataBundle, selected_k: int) -> No
     transfer["top1_top2_margin"] = scores[:, 0] - scores[:, 1]
     transfer["low_cosine"] = scores[:, 0] < thresholds["cosine_p10"]
     transfer["low_margin"] = transfer.top1_top2_margin < thresholds["margin_p10"]
-    transfer["needs_review"] = transfer.low_cosine | transfer.low_margin
+    transfer["similarity_filter_passed"] = ~(transfer.low_cosine | transfer.low_margin)
+    transfer["needs_review"] = True
+    transfer["assignment_status"] = "automatic_candidate_needs_semantic_review"
     transfer.to_parquet(
         args.output / "patent_policy_assignments.parquet", index=False
     )
@@ -514,9 +515,15 @@ def run_final(args: argparse.Namespace, data: DataBundle, selected_k: int) -> No
         .reset_index()
     )
     summary_by_source.to_csv(args.output / "transfer_summary.csv", index=False)
-    selected_metrics = json.loads(
-        (candidate_dir / "metrics.json").read_text(encoding="utf-8")
-    )
+    legacy_metrics = json.loads((candidate_dir / "metrics.json").read_text(encoding="utf-8"))
+    train_counts = np.bincount(labels_by_split['train'][labels_by_split['train'] >= 0], minlength=selected_k)
+    selected_metrics = candidate_metrics(requested_k=selected_k,
+        train_labels=labels_by_split['train'], validation_labels=labels_by_split['validation'],
+        train_centroids=train_centroids, train_counts=train_counts,
+        validation_embeddings=data.embeddings['validation'], validation_has_keywords=valid,
+        reconstruction_error=legacy_metrics['nmf_reconstruction_error'],
+        relative_reconstruction_error=legacy_metrics['nmf_relative_reconstruction_error'])
+    write_json(args.output / 'current_inference_metrics.json', json_ready({'assignment_method': ASSIGNMENT_METHOD, **selected_metrics}))
     candidate_comparison = pd.read_csv(args.output / "candidate_metrics.csv")
     candidate_comparison = candidate_comparison[
         [
@@ -546,7 +553,7 @@ def run_final(args: argparse.Namespace, data: DataBundle, selected_k: int) -> No
 
 NMF was fitted only on score-weighted OpenAlex keyword TF-IDF from training papers. Patent and policy text never entered NMF fitting or candidate selection.
 
-### Candidate comparison
+### Stored candidate-selection comparison (check assignment_method; legacy grids use fit-W)
 
 {candidate_comparison.to_markdown(index=False)}
 
@@ -554,11 +561,11 @@ NMF was fitted only on score-weighted OpenAlex keyword TF-IDF from training pape
 
 - Validation cosine p10 threshold: {thresholds['cosine_p10']:.6f}
 - Validation top1--top2 margin p10 threshold: {thresholds['margin_p10']:.6f}
-- A patent/policy record is marked `needs_review` when either threshold is missed.
+- All patent/policy links require semantic review. `similarity_filter_passed` is a paper-domain retrieval filter, not calibrated transfer accuracy.
 
 {summary_by_source.to_markdown(index=False)}
 
-## Stability
+## Stored fit stability (historical records are not recalculated by this inference fix)
 
 {stability.to_markdown(index=False)}
 

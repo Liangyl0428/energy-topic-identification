@@ -11,6 +11,33 @@ from sklearn.metrics import adjusted_rand_score, davies_bouldin_score, silhouett
 
 
 EPS = 1e-12
+ASSIGNMENT_METHOD = "fixed-H-l2-contribution-v2"
+
+
+def contribution_weights(weights: np.ndarray, components: np.ndarray) -> np.ndarray:
+    """Contribution to unit-norm topics; invariant to reciprocal W/H scaling.
+
+    These nonnegative contributions are not posterior topic probabilities.
+    """
+    weights = np.asarray(weights)
+    components = np.asarray(components)
+    if weights.ndim != 2 or components.ndim != 2 or weights.shape[1] != len(components):
+        raise ValueError("Incompatible NMF weights/components")
+    if not np.isfinite(weights).all() or not np.isfinite(components).all() or (weights < 0).any() or (components < 0).any():
+        raise ValueError("NMF values must be finite and nonnegative")
+    return weights * np.linalg.norm(components, axis=1)
+
+
+def infer_contributions(model, matrix, batch_size=4096):
+    """Use the same fixed-H transform and batch size for every time split."""
+    if type(batch_size) is not int or batch_size <= 0:
+        raise ValueError("batch_size must be positive")
+    result = np.zeros((matrix.shape[0], model.n_components), dtype=np.float32)
+    rows = np.flatnonzero(matrix.getnnz(axis=1) > 0)
+    for start in range(0, len(rows), batch_size):
+        selected = rows[start:start + batch_size]
+        result[selected] = contribution_weights(model.transform(matrix[selected]), model.components_)
+    return result
 
 
 def l2_normalize(values: np.ndarray) -> np.ndarray:
@@ -22,6 +49,8 @@ def l2_normalize(values: np.ndarray) -> np.ndarray:
 def hard_assign(weights: np.ndarray, minimum_mass: float = EPS) -> np.ndarray:
     """Return the maximum-weight component, or -1 for empty representations."""
     weights = np.asarray(weights)
+    if weights.ndim != 2 or weights.shape[1] == 0 or not np.isfinite(weights).all() or (weights < 0).any():
+        raise ValueError("Expected finite nonnegative topic weights")
     labels = np.argmax(weights, axis=1).astype(np.int32)
     labels[np.asarray(weights.sum(axis=1)).ravel() <= minimum_mass] = -1
     return labels
@@ -50,11 +79,26 @@ def nearest_centroid_assign(
     top_n: int = 3,
 ) -> tuple[np.ndarray, np.ndarray]:
     """Cosine-nearest topic IDs and scores, evaluated in bounded-size batches."""
+    embeddings = np.asarray(embeddings)
+    centroids = np.asarray(centroids)
+    if embeddings.ndim != 2 or centroids.ndim != 2 or embeddings.shape[1] != centroids.shape[1]:
+        raise ValueError("Incompatible embedding dimensions")
+    if not np.isfinite(embeddings).all() or not np.isfinite(centroids).all():
+        raise ValueError("Non-finite embeddings")
+    if (np.linalg.norm(embeddings, axis=1) <= EPS).any():
+        raise ValueError("Zero embedding cannot receive a cosine topic")
+    if type(batch_size) is not int or batch_size <= 0 or type(top_n) is not int or top_n <= 0:
+        raise ValueError("Positive batch_size and top_n required")
     embeddings = l2_normalize(embeddings)
     centroids = l2_normalize(centroids)
     if active_topics is None:
         active_topics = np.flatnonzero(np.linalg.norm(centroids, axis=1) > EPS)
     active_topics = np.asarray(active_topics, dtype=np.int32)
+    if len(np.unique(active_topics)) != len(active_topics) or (active_topics < 0).any() or (active_topics >= len(centroids)).any():
+        raise ValueError("Invalid active topic IDs")
+    active_topics = np.sort(active_topics)
+    if (np.linalg.norm(centroids[active_topics], axis=1) <= EPS).any():
+        raise ValueError("Inactive centroid selected")
     if not len(active_topics):
         raise ValueError("No active topic centroids")
     top_n = min(int(top_n), len(active_topics))
@@ -64,13 +108,7 @@ def nearest_centroid_assign(
     for start in range(0, len(embeddings), batch_size):
         stop = min(start + batch_size, len(embeddings))
         similarity = embeddings[start:stop] @ active_centroids.T
-        if top_n == len(active_topics):
-            local = np.argsort(similarity, axis=1)[:, ::-1][:, :top_n]
-        else:
-            local = np.argpartition(similarity, -top_n, axis=1)[:, -top_n:]
-            values = np.take_along_axis(similarity, local, axis=1)
-            order = np.argsort(values, axis=1)[:, ::-1]
-            local = np.take_along_axis(local, order, axis=1)
+        local = np.argsort(-similarity, axis=1, kind="stable")[:, :top_n]
         topic_ids[start:stop] = active_topics[local]
         scores[start:stop] = np.take_along_axis(similarity, local, axis=1)
     return topic_ids, scores

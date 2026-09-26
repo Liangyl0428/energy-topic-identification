@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 
 REPO=Path(__file__).resolve().parents[3]
 METRICS={'sampled_cosine_silhouette':False,'simplified_silhouette_mean':False,
@@ -12,9 +13,13 @@ METRICS={'sampled_cosine_silhouette':False,'simplified_silhouette_mean':False,
 
 
 def choose(frame,penalty=.15,tolerance=.05,omit=None):
-    if penalty<0 or tolerance<0:
-        raise ValueError('Penalty and tolerance must be nonnegative')
+    if not np.isfinite([penalty,tolerance]).all() or penalty<0 or tolerance<0:
+        raise ValueError('Penalty and tolerance must be finite and nonnegative')
+    if omit is not None and omit not in METRICS:
+        raise ValueError('Unknown metric ablation')
     z=frame[frame.requested_k.between(450,550)].set_index('requested_k')
+    if z.empty or not z.index.is_unique or not np.isfinite(z[list(METRICS)]).all().all():
+        raise ValueError('Selection requires unique candidates and complete finite metrics')
     ranks=pd.DataFrame({m:z[m].rank(ascending=ascending) for m,ascending in METRICS.items() if m!=omit})
     score=ranks.mean(axis=1)+penalty*abs(z.index-500)/50
     tied=score[score<=score.min()+tolerance]
@@ -35,7 +40,7 @@ def run(inp,out):
     result=pd.DataFrame(rows)
     result.to_csv(out/'selection_sensitivity.csv',index=False)
     assert choose(metrics)==500
-    report='''# NMF 模型选择灵敏度与指标消融
+    report='''# 历史v0.2.0 NMF模型选择灵敏度与指标消融
 
 复用已运行的 K=400/450/500/550/600、seed29、80%抽样实验，不重复训练。
 本脚本检验 450–550 候选区间内选模偏好与六项指标留一，不是 TF-IDF/编码器表示消融。
@@ -52,10 +57,12 @@ seed29验证ARI约0.734；80%训练样本验证ARI约0.603，后者达到30次�
 
 '''+result.to_markdown(index=False)+'''
 
-K网格使用拟合时的训练W标签评估。交付下游改用所有切分统一 model.transform，
-标签改变1735篇训练论文；重建中心后专利646条、政策139条Top1改变。
-这是推断方式对照，不是重新训练或泛化准确率。当前生效目录见 ../current_topic_catalog.csv，
-该目录与热点/TRL仓库一致；历史网格目录仅用于记录选择过程。
+K网格使用拟合时的训练W标签评估。v0.2.0下游改用所有切分统一model.transform，
+当时标签改变1735篇训练论文；重建中心后专利646条、政策139条Top1改变。
+上述是历史推断方式对照，不是v0.2.1实验，也不是重新训练或泛化准确率。
+v0.2.1另修复NMF组件尺度依赖，相对v0.2.0生产标签改变30,359篇；
+当前生效目录见 ../current_topic_catalog.csv，当前几何指标见 ../current_validation_metrics.csv。
+历史网格目录仅用于记录选择过程，不据此声称新推断的最优K。
 跨来源余弦的拒绝阈值、来源删除实验见热点仓库 assets/nmf500/experiments。
 '''
     (out/'REPORT.md').write_text(report)

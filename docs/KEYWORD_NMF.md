@@ -4,6 +4,20 @@ This pipeline is the reproducible candidate for a roughly 500-topic paper taxono
 It does not replace the released 750-topic result until the candidate metrics and
 topic catalogue have been reviewed.
 
+## Current v0.2.1 delivery
+
+The frozen 500-component H is retained, not refitted or reselected. All splits now
+use the same fixed-H transform and compare `W[:, j] * ||H[j]||₂`, not raw W.
+These contributions are scale-invariant reconstruction weights, not probabilities.
+The corrected delivery has 499 active topics; N0069 is explicitly inactive.
+30,359 of 142,000 labels differ from the v0.2.0 production delivery.
+
+Current validation silhouette is -0.07970 and keyword/BGE top-1 agreement is 35.67%.
+These still indicate substantial overlap, not proven classification accuracy.
+Use [current results](../assets/nmf500/REPORT.md) and the
+[strict audit](V0.2.1_AUDIT.md). The grid, selection rule and stability figures
+below are historical v0.2.0 experiments; they were not rerun for v0.2.1.
+
 ## Separation of roles
 
 1. Topic discovery uses only score-weighted OpenAlex keyword phrases attached to
@@ -42,8 +56,10 @@ comparison, not a substitute for reviewing the resulting keyword catalogue.
 
 Production topic embeddings average all labelled paper embeddings after K is fixed.
 Transfer records include top-1/top-2/top-3 cosine scores and the top-1 minus top-2
-margin. A record is marked `needs_review` if either value is below the tenth
-percentile measured on 2024 validation papers against training-only topic centres.
+margin. `similarity_filter_passed` compares both values to tenth percentiles
+measured on 2024 validation papers against training-only topic centres.
+Every patent/policy link remains `needs_review=true`, including links that pass
+this numerical filter. Paper-domain quantiles do not calibrate cross-domain accuracy.
 
 The selected K is refitted with seed 29 and with a fixed 80% training subsample.
 Hungarian component matching reports keyword-component cosine and validation ARI.
@@ -58,14 +74,18 @@ scikit-learn, pyarrow, and joblib:
 
 ```bash
 .venv-hotspots/bin/python \
-  energy-topic-identification/pipelines/keyword_nmf/src/run_pipeline.py all
+  energy-topic-identification/pipelines/keyword_nmf/src/run_pipeline.py all \
+  --output energy-topic-identification/work/nmf-new-grid
 ```
 
-Large generated artefacts are written under `pipelines/keyword_nmf/results/`, which
-is ignored by Git. The tracked implementation and this method note are sufficient
-to reproduce them from the frozen local inputs.
+This runs a new grid; it is not the frozen-H v0.2.1 replay. Use a fresh output
+directory: old cached grids have a different inference method and are rejected.
+The frozen model is stored locally under `pipelines/keyword_nmf/results/`.
+To replay the current release, first run the sibling hotspot build/review/validate
+pipeline, then `audit_current.py` and `export_snapshot.py` in this pipeline.
+Large local inputs are required and are not included in Git.
 
-## 2026-09-26 run
+## Historical v0.2.0 grid (2026-09-26)
 
 All five models used the same 112,000-paper training split, seed 17, batch size
 4,096, and at most 30 passes. Geometry was evaluated on the independent
@@ -83,7 +103,7 @@ K=450 and K=500 had selection scores 1.9833 and 2.0000, respectively, so they
 fell inside the documented 0.05 practical-tie band. K=500 was selected because it
 matches the requested resolution. The negative silhouettes and low
 keyword/embedding ARI show substantial overlap in the BGE-M3 geometry; the result
-should be treated as a useful fine-grained taxonomy, not as evidence of naturally
+should be treated as an exploratory fine-grained taxonomy, not as evidence of naturally
 separated semantic clusters.
 
 The selected model assigned 141,895 of 142,000 papers; 105 papers had no usable

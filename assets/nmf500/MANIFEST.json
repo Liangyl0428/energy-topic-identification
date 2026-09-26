@@ -1,13 +1,19 @@
 {
-  "REPORT.md": "57f5b2e7efd228aa1f508a02a7fdb70302af8947c380264daa5508dffb1da75e",
+  "CURRENT_INFERENCE_AUDIT.json": "baf48f9790b204b7f1735cee89318bc4e3196620512e9dab62b08025cb5235b9",
+  "REPORT.md": "1afe9d12580049cccb88e4666abcb21837cfecf7de77a4ab4cd9a8a0176f60f4",
+  "V020_MODEL_REPORT.md": "57f5b2e7efd228aa1f508a02a7fdb70302af8947c380264daa5508dffb1da75e",
+  "assignment_changes_v021.csv": "4271a1a2210092cb6c38167822311f036be75e5db9359d5f89ceac714790fadd",
   "candidate_metrics.csv": "891381b1838190a27fb2b4a07cb4509b64ec8a84790be824482b08255329d94c",
-  "current_confidence_thresholds.json": "984bcce5cfa1da2cd0f43df11b781366a19f9ad46d60b3e8f0b3e174a15b59b4",
-  "current_topic_catalog.csv": "246f88b0791d78ee915bf7fe547dd963332f226a6a3edca7ba0dcfb7f6a6c8b6",
+  "current_confidence_thresholds.json": "52c78f80819867007b12a5ef3560485b3967f599218e64e68dbb8f00f3cb0d21",
+  "current_topic_catalog.csv": "4603379c5e5aeeb22bd727a90d58b1e7de17ba655054ee4aa75d387e130de338",
+  "current_validation_metrics.csv": "b9c5dbb5105873551b485a4fbed6c4fe18d306c007cb1ac3ae7cac70169ca1d7",
   "experiments/PROTOCOL.json": "3217af05785b05f0b222effd5eee1a4aac51e9938507a5d5187cadba21156d84",
-  "experiments/REPORT.md": "ba029deba49d586ec97827c4824021f84a56324fbc4a97974f9cb2966e939d8d",
+  "experiments/REPORT.md": "13a1fb83c3667a751428a1141f73ddde9c35e98fc4c051186f5ec2feee5fa9dd",
   "experiments/selection_sensitivity.csv": "2aa0c6f73ea5b835251443eab030ced38d2dd948c18e54d7deebf22e0b2f5f7e",
   "selection.json": "c12843b7c2527d3ac72c980b2aa4f37690f088e87b2faadd900003573bcaa431",
   "stability_metrics.csv": "bf5f1663c18bb015d9f1932a1584ae1e394060fafd1096a90d77bbbc23847457",
-  "transfer_recalibration_audit.csv": "0f76f42ce6c38b8e005c7afc408518e2de3a8976f6234152e818c5debb6e3600",
-  "uniform_inference_changes.csv": "e85f916018bacc9f8adb2ed5948882f988e0cdd66544064d126926a26ad18239"
+  "topic_assignment_quality.csv": "6d1c917868a16aef496ea91346ef5eec01dd70617c4c242174f7166d0e2b39d5",
+  "transfer_changes_v021.csv": "aeba33d6f9d1669c8f2e92b38a5f5e40697c3cdb6efc9639cef3fd21ebb52787",
+  "transfer_recalibration_audit.csv": "dead11eb059bc27cc2474e92b1be30d89bea417b9e55bd6d58b1da1882e740ff",
+  "uniform_inference_changes.csv": "ca92665f19f36ab7d04c7d90fd6ea39c7da8ea136a1e2e80ef2b4dca3052a4f3"
 }
