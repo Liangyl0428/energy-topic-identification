@@ -1,8 +1,17 @@
 # 能源电力主题识别
 
+`v0.2.0` 已完成 [OpenAlex关键词TF-IDF+NMF约500主题的实验与交付](docs/V0.2.0_AUDIT.md)，
+新增选模灵敏度/指标消融，并发布[生效500主题目录和轻量结果](assets/nmf500/)。
+500是结合业务偏好的选择，不代表语义簇完全分离。下面的750主题结果保留为历史基线。
+
 这个项目把能源电力领域的论文、专利和政策整理成 **750 个研究主题**，方便查看每个方向包含哪些研究内容，以及相关记录的数量。仓库里提供了主题表、分类的核心代码和方法说明。
 
 当前结果整理于 **2026 年 9 月 25 日**，主题编号为 `C0001` 至 `C0750`。
+
+仓库另外提供一条已在冻结样本上完成、尚未替换750类全量数据的路线：仅用论文的
+OpenAlex keywords 做 TF-IDF + NMF，在 400--600 类之间定量比较，并用
+论文主题向量的余弦相似度分类专利和政策。方法、指标定义和运行方式见
+[OpenAlex keywords TF-IDF + NMF](docs/KEYWORD_NMF.md)。
 
 ## 先看什么
 
@@ -39,12 +48,13 @@
 
 ## 代码放在哪里
 
-`pipelines/` 按处理步骤分为四个模块：
+`pipelines/` 包含以下模块：
 
 | 目录 | 负责什么 |
 | --- | --- |
 | [`embedding`](pipelines/embedding/src) | 下载编码模型，把长文本分段编码并汇总成文档向量 |
 | [`topic_modeling`](pipelines/topic_modeling/src) | 生成 500 类底稿和 1000 类候选，用 BERTopic 提取各类主题词 |
+| [`keyword_nmf`](pipelines/keyword_nmf/src) | 用 OpenAlex keywords 的 TF-IDF + NMF 生成约 500 类候选，并以论文主题中心迁移分类专利和政策 |
 | [`refinement`](pipelines/refinement/src) | 清理文本，根据分类规则和语义证据调整归属，把证据不足的记录留待复核 |
 | [`export750`](pipelines/export750/src) | 将分类结果统一为 750 类，计算数量，检查数据并生成 Excel |
 

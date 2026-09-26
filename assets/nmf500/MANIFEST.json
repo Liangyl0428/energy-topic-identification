@@ -1,0 +1,13 @@
+{
+  "REPORT.md": "57f5b2e7efd228aa1f508a02a7fdb70302af8947c380264daa5508dffb1da75e",
+  "candidate_metrics.csv": "891381b1838190a27fb2b4a07cb4509b64ec8a84790be824482b08255329d94c",
+  "current_confidence_thresholds.json": "984bcce5cfa1da2cd0f43df11b781366a19f9ad46d60b3e8f0b3e174a15b59b4",
+  "current_topic_catalog.csv": "246f88b0791d78ee915bf7fe547dd963332f226a6a3edca7ba0dcfb7f6a6c8b6",
+  "experiments/PROTOCOL.json": "3217af05785b05f0b222effd5eee1a4aac51e9938507a5d5187cadba21156d84",
+  "experiments/REPORT.md": "ba029deba49d586ec97827c4824021f84a56324fbc4a97974f9cb2966e939d8d",
+  "experiments/selection_sensitivity.csv": "2aa0c6f73ea5b835251443eab030ced38d2dd948c18e54d7deebf22e0b2f5f7e",
+  "selection.json": "c12843b7c2527d3ac72c980b2aa4f37690f088e87b2faadd900003573bcaa431",
+  "stability_metrics.csv": "bf5f1663c18bb015d9f1932a1584ae1e394060fafd1096a90d77bbbc23847457",
+  "transfer_recalibration_audit.csv": "0f76f42ce6c38b8e005c7afc408518e2de3a8976f6234152e818c5debb6e3600",
+  "uniform_inference_changes.csv": "e85f916018bacc9f8adb2ed5948882f988e0cdd66544064d126926a26ad18239"
+}

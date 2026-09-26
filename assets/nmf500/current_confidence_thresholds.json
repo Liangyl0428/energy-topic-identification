@@ -1,0 +1,7 @@
+{
+  "cosine_p10": 0.6780791282653809,
+  "margin_p10": 0.0016787766944617033,
+  "calibration_documents": 11989,
+  "active_centers": 500,
+  "calibration": "uniform-NMF 2024 validation papers against uniform-NMF train-only centers; retrospective threshold, not transfer accuracy"
+}

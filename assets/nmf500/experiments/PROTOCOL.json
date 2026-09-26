@@ -1,0 +1,31 @@
+{
+  "retrained": false,
+  "post_hoc": true,
+  "eligible_k": [
+    450,
+    500,
+    550
+  ],
+  "penalties": [
+    0.0,
+    0.05,
+    0.15,
+    0.3
+  ],
+  "tolerances": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "metric_ablation": [
+    "sampled_cosine_silhouette",
+    "simplified_silhouette_mean",
+    "davies_bouldin",
+    "nearest_center_cosine_mean",
+    "empty_topic_fraction",
+    "keyword_embedding_ari"
+  ],
+  "does_not_measure_expert_accuracy": true
+}
