@@ -1,0 +1,10 @@
+{
+  "active_topics": 500,
+  "largest_topic_papers": 68756,
+  "largest_topic_share": 0.014269307126310637,
+  "centroid_nearest_cosine_median": 0.9584947228431702,
+  "centroid_nearest_cosine_max": 0.9930449724197388,
+  "topics_with_nearest_cosine_over_095": 335,
+  "semantic_accuracy_measured": false,
+  "note": "Geometric overlap and label margins are diagnostics, not semantic accuracy or calibrated probabilities."
+}

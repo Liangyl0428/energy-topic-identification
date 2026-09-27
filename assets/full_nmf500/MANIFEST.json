@@ -1,0 +1,29 @@
+{
+  "files": {
+    "SUMMARY.json": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568",
+    "VALIDATION.json": "0223352b749ef8517fd06b224bcba180317dff6092c8d1e3ec591a8f6c87cb79",
+    "REPORT.md": "38a21c94d4931309056ab9a925a711b5ba8cd241bc168025cba206a89c9a3eb6",
+    "coverage.csv": "800e8c5906115a79843113a62841ff97a530bd8867c8f8fefd45213fe4c02db9",
+    "topic_catalog.csv": "ad525d40acd42963211e93a980de17c50b33920dc50d9636f5d593062f9b15cb",
+    "topic_assignment_quality.csv": "d55acf2e9dd59e691512b669cac8ece1e8755a9add51cc21f4194409671f9f29",
+    "QUALITY_DIAGNOSTICS.json": "2ae80bcb7361a67c27c4db73d571353778698b58537976cb922da781a8dc64ab",
+    "ASSIGNMENTS_MANIFEST.json": "db596796fefdd3643e499f4939a55eb22f062d507f7a4b5037817ba496e33cf6",
+    "TRAINING_COMPLETE.json": "f270608d7b7d512bb4b9787fefc642ea2cd9a8a3dfb777ff8d78678261c0d99f",
+    "INFERENCE_COMPLETE.json": "9f542522904cd82fbb35568280cd8aeb7b0938680a82c17dead3c52b489ff07f",
+    "VOCABULARY_COMPLETE.json": "44945abc2e9a5d59080477a381b3d2256f3e6142d8dd4c7ffb7e6ccd588384af",
+    "ENCODING_COMPLETE.json": "10a8a22aab265fd2ee387b88cf574500a2211bee79ea185bf2ffbf52fce08fe5",
+    "POSTPROCESS_DELIVERY.json": "633d35ec0e721f254dfc7f02e634995bee752939402d1f930e178606b2430f46",
+    "topic_evaluation/COHORTS.json": "6eaf59a82b8040b1bc8400d874b0aea0634e8a4ca0ca905e7d884c4b05392bda",
+    "topic_evaluation/silhouette.csv": "b103aa75ee06c29a4c54c2359b9a66c2a14ae71694c6b3a6568f5a9221ce72ee",
+    "topic_evaluation/coverage.csv": "5f16e4a37147687f3fa60cb002d210ee8fb873061e482f0369b8725ca35f8647",
+    "topic_evaluation/INPUTS.json": "29f1b62442da145668e15f68b55f859589199f2a2c26eb1374d4e1d551e0750c",
+    "topic_evaluation/agreement.csv": "41937442282314108b59833fc21bd2aaf85aa8e001f62bb87e419b993776e451",
+    "topic_evaluation/geometry.csv": "b6c9d5675569d6661d793eddf38aeff3311972e07476402967f8cd6e5aefbdb6",
+    "topic_evaluation/PROTOCOL.json": "8e2bef71be95e681edc71e69ec02d631d970abfd153ae11e3988c6076e0120b3",
+    "topic_evaluation/RESULTS.md": "f5e266caf8a956641552b640640fc9bd17f8a3f10f0a4642194446d06d50f636",
+    "topic_evaluation/keyword_coherence.csv": "f9d834f55dd3bf66449b1b50b53b91327475891dbdfbd52813a685bdc383621d",
+    "topic_evaluation/REPORT.md": "c0e2e552ea4c5558adf987913067e1309a8d677266ebcfd210aa22d5db0718b4",
+    "topic_evaluation/COMPLETE.json": "455b9b68182b6c9a97315ea1486f627d2b281a1fa0b6c4b2a12ac57910f7eb48"
+  },
+  "classification_summary_sha256": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568"
+}

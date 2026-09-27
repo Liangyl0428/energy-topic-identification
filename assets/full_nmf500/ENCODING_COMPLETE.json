@@ -1,0 +1,21 @@
+{
+  "documents": 5119004,
+  "valid_embeddings": 5116613,
+  "parts": 259,
+  "method": {
+    "encoder": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "dimension": 1024,
+    "precision": "FP16",
+    "saved_dtype": "float32",
+    "max_tokens": 2048,
+    "paper_text": "title + newline + abstract; first 2048 tokens",
+    "transfer_text": "title up to192 tokens plus body head/middle/tail within2044-token budget; decoded and encoded with special tokens",
+    "pooling": "official CLS sentence_embedding, L2 normalized",
+    "input_corpus": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus"
+  },
+  "execution_backends": [
+    "original_fp16",
+    "same_weight_fp16_graph_fusion"
+  ]
+}

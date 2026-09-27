@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "exact_identity_coverage": true,
+  "transfer_argmax_checked_all": true,
+  "top3_order": true,
+  "centroids_unit_norm": true,
+  "source_counts": [
+    {
+      "source": "paper",
+      "input_records": 4831088,
+      "assigned_records": 4818454,
+      "unassigned_records": 12634
+    },
+    {
+      "source": "patent",
+      "input_records": 281295,
+      "assigned_records": 279732,
+      "unassigned_records": 1563
+    },
+    {
+      "source": "policy",
+      "input_records": 6621,
+      "assigned_records": 6621,
+      "unassigned_records": 0
+    }
+  ]
+}

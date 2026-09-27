@@ -1,0 +1,43 @@
+{
+  "configuration": {
+    "topics": 500,
+    "epochs": 5,
+    "batch_size": 4096,
+    "random_seed": 17,
+    "forget_factor": 1.0,
+    "fit_population": 4818454,
+    "vocabulary_sha256": "b31a0f1510ad966b5f310483324667551bc4401d5a84c8e72be47bfc4c4fe20f",
+    "assignment": "fixed-H-l2-contribution-v2",
+    "training": "MiniBatchNMF.partial_fit, each nonempty paper once per epoch; no early stop within epochs"
+  },
+  "paper_visits": 24092270,
+  "model_sha256": "d9c18afa7367fc84a4383519fa53d65fd67bd73b2c237992125900297f8d3d2c",
+  "convergence": "fixed full epochs; no claim of global optimum",
+  "history": [
+    {
+      "epoch": 1,
+      "diagnostic_relative_error": 0.4890083697408202,
+      "paper_visits": 4818454
+    },
+    {
+      "epoch": 2,
+      "diagnostic_relative_error": 0.48359149198975565,
+      "paper_visits": 9636908
+    },
+    {
+      "epoch": 3,
+      "diagnostic_relative_error": 0.4808484569707664,
+      "paper_visits": 14455362
+    },
+    {
+      "epoch": 4,
+      "diagnostic_relative_error": 0.4797706805249967,
+      "paper_visits": 19273816
+    },
+    {
+      "epoch": 5,
+      "diagnostic_relative_error": 0.47822250419179607,
+      "paper_visits": 24092270
+    }
+  ]
+}

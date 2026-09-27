@@ -1,0 +1,9 @@
+{
+  "papers": 4831088,
+  "vocabulary": 28540,
+  "min_df": 10,
+  "max_df_fraction": 0.5,
+  "idf_fit": "all frozen papers, binary keyword presence",
+  "missing_score": "zero; not invented",
+  "source_vocabulary": 48329
+}

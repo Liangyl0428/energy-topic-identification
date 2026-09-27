@@ -1,0 +1,5 @@
+-r requirements-nmf500.txt
+duckdb>=1.2
+threadpoolctl>=3
+# Optional CUDA acceleration; the saved class also supports the CPU implementation.
+cupy-cuda12x>=13,<15
