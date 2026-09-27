@@ -55,21 +55,6 @@
     "sha256": "4e30a88b24c194c478c87757561abd7111319d733140685440a9e3ecda35f225"
   },
   {
-    "path": "docs/original/REPORT.md",
-    "source": "jjjj/bertopic750_flat_refined_20260925/REPORT.md",
-    "sha256": "f5c6a1d3920e74556c8a091256762c4338939c281b2155fa02f26890bd825217"
-  },
-  {
-    "path": "docs/original/DATA_DICTIONARY.md",
-    "source": "jjjj/bertopic750_flat_refined_20260925/DATA_DICTIONARY.md",
-    "sha256": "848cc7ac1e1b8688fdd5fe7d00c7486a13765fd73fb9c726610baeba6cfa50a0"
-  },
-  {
-    "path": "docs/original/README.md",
-    "source": "jjjj/bertopic750_flat_refined_20260925/README.md",
-    "sha256": "c6de3e902d0f41a4c9a37659c0481cea3070474fda28f2c4f77dfee5f2d264ee"
-  },
-  {
     "path": "docs/original/VALIDATION.json",
     "source": "jjjj/bertopic750_flat_refined_20260925/VALIDATION.json",
     "sha256": "3470178b56ffa7f3d503ff5df101bc43c126c53e7f282d4b6bd7e5d9867a3528"

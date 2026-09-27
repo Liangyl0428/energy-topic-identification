@@ -99,11 +99,28 @@ def test_orchestrator_commits_and_verifies_three_local_remotes(tmp_path,monkeypa
             (base/'REPORT.md').write_text('Synthetic fixture artifact, not a real full-data result.')
             delivery.dump(base/'MANIFEST.json',{'files':{'REPORT.md':delivery.sha(base/'REPORT.md')}})
     monkeypatch.setattr(delivery,'package',package)
-    monkeypatch.setattr(delivery,'verify_topic_evaluation',lambda source:None)
+    monkeypatch.setattr(delivery,'verify_topic_evaluation',lambda source:pytest.fail('Current delivery must not require version comparisons'))
     delivery.execute(config)
     receipt=json.loads((source/'FULL_DELIVERY_AND_PUSH_COMPLETE.json').read_text())
-    assert receipt['passed'] and len(calls)==8
+    assert receipt['passed'] and len(calls)==11
     for path in paths:
         row=receipt['repositories'][path]
         assert row['pushed'] and row['verified_remote_commit']==delivery.remote_tip(tmp_path/path,'main')
         assert row['commit']!=config['repositories'][path]['head']
+
+
+def test_packaging_does_not_publish_comparison_reports(tmp_path,monkeypatch):
+    source=tmp_path/'run';source.mkdir()
+    delivery.dump(source/'SUMMARY.json',{'population_records':5119004})
+    comparison=source/'topic_evaluation';comparison.mkdir()
+    (comparison/'REPORT.md').write_text('Optional analysis is not a current publication artifact.')
+    repo=tmp_path/'repo';base=repo/'assets/full_nmf500';base.mkdir(parents=True)
+    (repo/'README.md').write_text('# Current method\n\nCurrent implementation.\n')
+    (base/'REPORT.md').write_text('Current result.')
+    delivery.dump(base/'MANIFEST.json',{'classification_summary_sha256':delivery.sha(source/'SUMMARY.json'),
+        'files':{'REPORT.md':delivery.sha(base/'REPORT.md')}})
+    monkeypatch.setattr(delivery,'ROOT',tmp_path);monkeypatch.setattr(delivery,'NAMES',['repo'])
+    delivery.package(source,{})
+    assert not (base/'topic_evaluation').exists()
+    assert 'TOPIC_EVALUATION' not in (repo/'README.md').read_text()
+    delivery.checked_assets(repo)

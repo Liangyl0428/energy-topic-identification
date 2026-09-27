@@ -1,94 +1,29 @@
 # 能源电力主题识别
 
-全量冻结快照已完成：4,831,088篇论文、281,295条专利、6,621条政策，共5,119,004条。查看[全量结果报告](assets/full_nmf500/REPORT.md)、[覆盖与校验记录](assets/full_nmf500/)。主题编号F0001–F0500；下方v0.2.1与750类为保留的历史结果，不能混用。
+以全量论文的OpenAlex关键词进行TF-IDF + NMF主题建模，再将全部可用专利、政策匹配到论文主题中心。当前目录为500个主题，编号F0001–F0500。
 
-本次交付版本为重新定义的 Git `v0.2.0`：全量 NMF500、全量专利／政策候选匹配、热点与有界 TRL/CRL 重评，以及消融／灵敏度实验。主题效果比较见[结果摘要](assets/full_nmf500/topic_evaluation/RESULTS.md)和[评测口径](docs/TOPIC_EVALUATION.md)。旧 `v0.2.0`/`v0.2.1` 标签已按要求移除，历史材料保留用于比较；不要用下方样本版链接作为本次全量结果入口。
+## 当前流程
 
-## 保留的历史样本与750类基线说明
+1. 从4,831,088篇论文提取关键词，用全部论文统计文档频率、拟合IDF。
+2. 对全部非零关键词论文训练500组件MiniBatchNMF，共5轮；冻结H后统一推断论文归属。
+3. 对论文、专利、政策共5,119,004条记录生成同一BGE-M3空间的1024维归一化向量。
+4. 每个主题内有效论文向量求均值并归一化。专利／政策与500个中心计算余弦，取最高者为候选类别，保留Top3及差距。
+5. 校验记录身份、覆盖数量、中心范数和全部跨来源最大余弦归属，输出供热点及成熟度流程使用的结果。
 
-`v0.2.1` 已完成[严格审查与分类重算](docs/V0.2.1_AUDIT.md)：修复训练/推断标签混用和NMF尺度依赖，
-统一按归一化组件贡献推断；14.2万篇中30,359篇标签改变。保留500个组件编号，其中499个实际使用。
-[当前目录、质量诊断及验证指标](assets/nmf500/)与下游热点、TRL/CRL一致。
-主题仍明显重叠，所有自动跨来源关联仍待语义复核；未证明分类准确率达标。下面750主题为历史基线。
+已分类5,104,807条，14,197条因缺少有效关键词或可用文本保留未分类。自动候选仍需语义审核，未宣称人工准确率。
 
-这个项目把能源电力领域的论文、专利和政策整理成 **750 个研究主题**，方便查看每个方向包含哪些研究内容，以及相关记录的数量。仓库里提供了主题表、分类的核心代码和方法说明。
+## 核心代码与结果
 
-750主题历史结果整理于 **2026 年 9 月 25 日**，编号为 `C0001` 至 `C0750`，
-不可与当前NMF500的 `N0001` 至 `N0500` 直接互换。
+|内容|入口|
+|---|---|
+|完整流水线|[run.py](pipelines/full_nmf/run.py)|
+|关键词与TF-IDF|[prepare.py](pipelines/full_nmf/prepare.py)|
+|NMF训练及统一推断|[train.py](pipelines/full_nmf/train.py)、[fast_nmf.py](pipelines/full_nmf/fast_nmf.py)、[components.py](pipelines/keyword_nmf/src/components.py)|
+|全来源embedding|[encode.py](pipelines/full_nmf/encode.py)|
+|主题中心与跨来源匹配|[finalize.py](pipelines/full_nmf/finalize.py)|
+|500主题目录|[topic_catalog.csv](assets/full_nmf500/topic_catalog.csv)|
+|覆盖及程序校验|[coverage.csv](assets/full_nmf500/coverage.csv)、[VALIDATION.json](assets/full_nmf500/VALIDATION.json)|
 
-仓库另外提供一条已在冻结样本上完成、尚未替换750类全量数据的路线：仅用论文的
-OpenAlex keywords 做 TF-IDF + NMF，在 400--600 类之间定量比较，并用
-论文主题向量的余弦相似度分类专利和政策。方法、指标定义和运行方式见
-[OpenAlex keywords TF-IDF + NMF](docs/KEYWORD_NMF.md)。
+[算法方法](docs/METHOD.md) · [字段说明](docs/DATA_DICTIONARY.md) · [复现运行](docs/REPRODUCING.md) · [核心文件清单](docs/CORE_FILES.md) · [实验与交付](docs/FULL_EXPERIMENTS.md)。
 
-## 先看什么
-
-旧样本版500组件目录与质量诊断保留在[历史样本报告](assets/nmf500/REPORT.md)。本次全量发布请使用顶部 assets/full_nmf500 入口；以下入口针对750主题历史基线。
-
-如果想了解这 750 个主题，直接打开 [Excel 主题表](results/750类平级目录与文献标签.xlsx)，从“类别目录”工作表开始看。每行是一个主题，列出了名称、记录总数，以及论文、专利和政策各有多少条。
-
-如果需要用程序处理数据，可以下载 [CSV 主题表](results/category_dictionary.csv)。它和 Excel 中的类别目录对应，包含全部 750 个主题。
-
-| 想了解什么 | 从这里开始 |
-| --- | --- |
-| 结果有多大，表里的数量怎么理解 | [结果说明](docs/RESULTS.md) |
-| 这些主题是怎么整理出来的 | [方法说明](docs/METHOD.md) |
-| CSV 中每一列是什么意思 | [字段说明](docs/DATA_DICTIONARY.md) |
-| 如何查询主题、检查文件或重新运行代码 | [使用说明](docs/REPRODUCING.md) |
-
-## 这次整理了多少记录
-
-| 项目 | 数量 |
-| --- | ---: |
-| 全部输入记录 | 5,119,004 |
-| 已分配到研究主题的记录 | 5,111,081 |
-| 因文本质量问题单独处理的记录 | 7,923 |
-| 历史全量主题数量 | 750 |
-| 仍需要复核的记录 | 2,758,621 |
-
-每条已归类记录只计入一个主题。**有了主题标签，也可能仍需复核**：当前结果结合了自动规则和抽样检查，还没有逐篇人工确认。
-
-表中有三种常用数量：“记录数”包括该主题下的全部记录；“可统计记录数”排除了撤稿；“自动规则支持数”还要求分类有相应规则证据。使用数据时，应先选定需要的统计范围，具体区别见[结果说明](docs/RESULTS.md)。
-
-## 主题是怎么得到的
-
-先形成 **500 类聚类底稿**，把其中已确认重复或冗余的类别合并为 **486 类基础目录**。再参考同一批语料上独立生成的 **1000 类候选**，对宽泛、混杂的方向进行细分，并检查每篇记录“研究的对象是什么、具体做什么”。
-
-最终，仍有记录直接归入的 486 个原类别，加上 264 个实际使用的细分类，形成 **486 + 264 = 750 个主题**。统一编号后，每篇已归类记录只计入一个当前主题。详细过程见[方法说明](docs/METHOD.md)。
-
-## 代码放在哪里
-
-`pipelines/` 包含以下模块：
-
-| 目录 | 负责什么 |
-| --- | --- |
-| [`embedding`](pipelines/embedding/src) | 下载编码模型，把长文本分段编码并汇总成文档向量 |
-| [`topic_modeling`](pipelines/topic_modeling/src) | 生成 500 类底稿和 1000 类候选，用 BERTopic 提取各类主题词 |
-| [`keyword_nmf`](pipelines/keyword_nmf/src) | 用 OpenAlex keywords 的 TF-IDF + NMF 生成约 500 类候选，并以论文主题中心迁移分类专利和政策 |
-| [`refinement`](pipelines/refinement/src) | 清理文本，根据分类规则和语义证据调整归属，把证据不足的记录留待复核 |
-| [`export750`](pipelines/export750/src) | 将分类结果统一为 750 类，计算数量，检查数据并生成 Excel |
-
-编码与 BERTopic 的运行顺序见[编码和主题聚类](docs/EMBEDDING_BERTOPIC.md)。这部分提供算法代码；原始语料和模型权重需要另外准备。
-
-另外，`results/` 保存本次结果，`tools/` 提供目录查询和文件检查工具，`provenance/` 保存文件来源与校验记录。想读代码时，建议先看[方法说明中的代码导读](docs/METHOD.md#代码导读)。
-
-## 在本地查一个主题
-
-安装 Python 3.10 或更新版本，在仓库根目录运行：
-
-```bash
-python3 tools/catalog.py --search 储能
-python3 tools/catalog.py --id C0001
-```
-
-这些命令查询的是已有的 750 主题目录。查看 Excel 则不需要安装 Python。
-
-仓库包含核心代码和结果表。完整原始语料、逐篇分类文件、模型和向量体积较大，没有随仓库上传；若要重新计算分类，需要另行补齐这些输入。具体操作见[使用说明](docs/REPRODUCING.md)。
-
-
-<!-- FULL_EXPERIMENTS -->
-全量消融与灵敏度实验已重新计算并通过验证。[三仓库实验交付绑定](assets/full_nmf500/POSTPROCESS_DELIVERY.json)。具体范围与证据边界见[实验及发布流程](docs/FULL_EXPERIMENTS.md)。
-
-
-<!-- TOPIC_EVALUATION -->
-本次全量版与历史主题版本、其他方法的[统一口径效果对比](assets/full_nmf500/topic_evaluation/REPORT.md)已完成；[评测口径及局限](docs/TOPIC_EVALUATION.md)。这是回溯聚类质量诊断，不是人工语义准确率或独立留出验证。
+Git包含核心源码、参数记录和紧凑结果；大型原始语料、完整向量、训练矩阵和模型权重保留在工作区，不是克隆即有的全量数据包。

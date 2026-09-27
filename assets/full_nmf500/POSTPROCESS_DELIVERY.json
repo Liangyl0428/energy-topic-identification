@@ -3,10 +3,15 @@
   "classification_summary_sha256": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568",
   "experiments_passed": true,
   "experiment_complete_sha256": {
-    "energy-topic-hotspots": "c261de455c905a918b51d4b7163d721ece59af06e3fb115f31154bcd5cc7917b",
-    "energy-technology-trl-crl": "9ba7cb65a67ba490870d285bb763d07935103b3d2b1fa67db50d6d4622775b44"
+    "energy-topic-hotspots": "8675cc30e70ce0bde9e982395b02935c2981a1d8cee4de6d436045b43eb34d27",
+    "energy-technology-trl-crl": "3c3c42f39713cf0723e51a5b6ec1ffcc2a363226b1fcbb045590129fb8f308be"
   },
   "publication": "Push receipts are recorded separately after remote verification; this file is not proof of push.",
   "evidence_limit": "Full topic mapping; maturity remains bounded to existing reviewed objects.",
-  "topic_evaluation_complete_sha256": "455b9b68182b6c9a97315ea1486f627d2b281a1fa0b6c4b2a12ac57910f7eb48"
+  "source_experiment_complete_sha256": {
+    "energy-topic-hotspots": "c261de455c905a918b51d4b7163d721ece59af06e3fb115f31154bcd5cc7917b",
+    "energy-technology-trl-crl": "9ba7cb65a67ba490870d285bb763d07935103b3d2b1fa67db50d6d4622775b44"
+  },
+  "documentation_only_refresh": true,
+  "computed_numeric_artifacts_unchanged": true
 }

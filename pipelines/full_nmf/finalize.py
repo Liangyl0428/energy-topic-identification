@@ -149,7 +149,7 @@ def main():
         f"{int(counts.sum()):,}篇已归类且向量有效的论文参与{len(active)}个主题中心，先算术平均再L2归一化。"
         "全部可用专利与政策在同一BGE-M3空间取余弦最高的主题作为候选，同时保留Top3。\n\n"
         "全量是全部冻结记录，不是最新滚动采集记录或PDF全文；缺有效关键词、缺文本的记录不强行归类。"
-        "新主题编号F0001–F0500，不继承旧主题语义审核与成熟度等级。模型使用全部年份，历史趋势仅作回溯描述。"
+        "主题编号F0001–F0500，范围和语义需审核，主题不自动获得成熟度等级。模型使用全部年份，历史趋势仅作回溯描述。"
         "尚未测得人工语义准确率；几何诊断见QUALITY_DIAGNOSTICS.json。\n")
     dump(RUN/'VALIDATION.json',{'passed':True,'exact_identity_coverage':True,'transfer_argmax_checked_all':True,'top3_order':all(checks),
         'centroids_unit_norm':bool(np.allclose(np.linalg.norm(centers[active],axis=1),1,atol=1e-6)),

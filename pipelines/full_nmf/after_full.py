@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 NAMES=['energy-topic-identification','energy-topic-hotspots','energy-technology-trl-crl']
 PY=ROOT/'.venv-hotspots/bin/python'
 JOB=RUN/'postprocess'
-GENERATED=['README.md','provenance/SHA256SUMS.json','provenance/FILE_MANIFEST.json']
+GENERATED=['README.md','provenance/SHA256SUMS.json','provenance/FILE_MANIFEST.json','provenance/CORE_FILES.json']
 
 
 def git(repo,*args):
@@ -35,11 +35,11 @@ def generated(path):return path in GENERATED or path.startswith('assets/full_nmf
 
 
 def in_scope(path):
-    return generated(path) or path.startswith('pipelines/full_nmf/') or path in {
+    return generated(path) or path.startswith(('pipelines/full_nmf/','docs/')) or path in {
         'docs/FULL_NMF.md','docs/FULL_EXPERIMENTS.md','docs/TOPIC_EVALUATION.md','requirements-full-nmf.txt',
         'tests/test_full_nmf.py','tests/test_full_experiments.py','tests/test_full_delivery.py',
         'tests/test_topic_evaluation.py',
-        'tools/update_release_manifest.py'}
+        'tools/update_release_manifest.py','tools/check_current_release.py','tests/test_current_release.py'}
 
 
 def remote_tip(repo,branch):
@@ -147,21 +147,18 @@ def package(source,experiments):
             folder=experiments[name];target=base/'experiments';target.mkdir(exist_ok=True)
             for filename in [*reports[name]['files'],'COMPLETE.json']:
                 shutil.copy2(folder/filename,target/filename)
+                if filename.endswith('.md'):
+                    (target/filename).write_text(current_report_text((target/filename).read_text()))
                 manifest['files']['experiments/'+filename]=sha(target/filename)
+            public_marker={**reports[name],'files':{f:sha(target/f) for f in reports[name]['files']},
+                'documentation_normalized':True,'source_complete_sha256':sha(folder/'COMPLETE.json')}
+            dump(target/'COMPLETE.json',public_marker)
+            manifest['files']['experiments/COMPLETE.json']=sha(target/'COMPLETE.json')
         delivery={'full_population_records':json.loads((source/'SUMMARY.json').read_text())['population_records'],
             'classification_summary_sha256':classification_hash,'experiments_passed':True,
             'experiment_complete_sha256':{n:sha(p/'COMPLETE.json') for n,p in experiments.items()},
             'publication':'Push receipts are recorded separately after remote verification; this file is not proof of push.',
             'evidence_limit':'Full topic mapping; maturity remains bounded to existing reviewed objects.'}
-        dump(base/'POSTPROCESS_DELIVERY.json',delivery)
-        manifest['files']['POSTPROCESS_DELIVERY.json']=sha(base/'POSTPROCESS_DELIVERY.json')
-        evaluation=source/'topic_evaluation'
-        evaluation_marker=verify_experiments(evaluation,classification_hash)
-        target=base/'topic_evaluation';target.mkdir(exist_ok=True)
-        for filename in [*evaluation_marker['files'],'COMPLETE.json']:
-            shutil.copy2(evaluation/filename,target/filename)
-            manifest['files']['topic_evaluation/'+filename]=sha(target/filename)
-        delivery['topic_evaluation_complete_sha256']=sha(evaluation/'COMPLETE.json')
         dump(base/'POSTPROCESS_DELIVERY.json',delivery)
         manifest['files']['POSTPROCESS_DELIVERY.json']=sha(base/'POSTPROCESS_DELIVERY.json')
         dump(base/'MANIFEST.json',manifest)
@@ -171,9 +168,6 @@ def package(source,experiments):
         notice+=('[实验报告](assets/full_nmf500/experiments/REPORT.md)。' if name in experiments else '[三仓库实验交付绑定](assets/full_nmf500/POSTPROCESS_DELIVERY.json)。')
         notice+='具体范围与证据边界见[实验及发布流程](docs/FULL_EXPERIMENTS.md)。\n'
         if '<!-- FULL_EXPERIMENTS -->' not in text:readme.write_text(text+notice)
-        text=readme.read_text()
-        if '<!-- TOPIC_EVALUATION -->' not in text:
-            readme.write_text(text+'\n\n<!-- TOPIC_EVALUATION -->\n本次全量版与历史主题版本、其他方法的[统一口径效果对比](assets/full_nmf500/topic_evaluation/REPORT.md)已完成；[评测口径及局限](docs/TOPIC_EVALUATION.md)。这是回溯聚类质量诊断，不是人工语义准确率或独立留出验证。\n')
 
 
 def execute(config):
@@ -194,8 +188,6 @@ def execute(config):
     if config.get('expected_model_sha256') and source.get('model_sha256')!=config['expected_model_sha256']:
         raise ValueError('Completed classification uses a different trained model')
     for name in NAMES:verify_worktree(ROOT/name,config['repositories'][name])
-    status('verifying_topic_evaluation')
-    verify_topic_evaluation(RUN)
     hot=ROOT/NAMES[1];trl=ROOT/NAMES[2]
     hi=hot/'outputs/full_nmf500_20260926';ti=trl/'results/full_nmf500_20260926'
     outputs={NAMES[1]:hi/'experiments',NAMES[2]:ti/'experiments'}
@@ -212,6 +204,7 @@ def execute(config):
     run([PY,'-m','pytest','-q'],trl)
     for name in NAMES:verify_worktree(ROOT/name,config['repositories'][name])
     package(RUN,outputs)
+    for name in NAMES:run([PY,ROOT/name/'tools/check_current_release.py','--write-manifest'])
     run([PY,ROOT/NAMES[0]/'tools/update_release_manifest.py'])
     run([PY,ROOT/NAMES[0]/'tools/validate_release.py'])
     run([PY,hot/'tools/update_release_manifest.py'])

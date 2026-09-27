@@ -10,8 +10,9 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     paths=subprocess.check_output(['git','ls-files','-z','--cached','--others','--exclude-standard'],cwd=ROOT).decode().split('\0')
     manifest={}
+    deleted=set(subprocess.check_output(['git','diff','--name-only','--diff-filter=D','-z','HEAD'],cwd=ROOT).decode().split('\0'))
     for relative in sorted(set(paths)):
-        if not relative or relative=='provenance/SHA256SUMS.json':
+        if not relative or relative=='provenance/SHA256SUMS.json' or relative in deleted:
             continue
         path=ROOT/relative
         if not path.is_file() or path.is_symlink() or path.stat().st_size>=10*1024**2:

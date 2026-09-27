@@ -29,3 +29,15 @@ def sha(path):
 
 def parts():
     return sorted(CORPUS.glob('part-*.parquet'))
+
+
+def current_report_text(text):
+    """Normalize cached report prose without changing computed data."""
+    replacements={
+        '新主题编号F0001–F0500，不继承旧主题语义审核与成熟度等级。':'主题编号F0001–F0500，范围和语义需审核，主题不自动获得成熟度等级。',
+        '不复用样本版实验结果或人工审核。':'主题范围和语义需独立审核。',
+        'v0.2.1补充时间、对象和判据绑定校验，并修正W011证据解释；':'当前引擎执行时间、对象和判据绑定校验；',
+        '证据实验全部重新执行；复用的是评估引擎，不是旧实验结果。':'证据实验通过共用评估引擎执行。',
+    }
+    for old,new in replacements.items():text=text.replace(old,new)
+    return text
