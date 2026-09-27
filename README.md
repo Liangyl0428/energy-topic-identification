@@ -27,3 +27,7 @@
 [算法方法](docs/METHOD.md) · [字段说明](docs/DATA_DICTIONARY.md) · [复现运行](docs/REPRODUCING.md) · [核心文件清单](docs/CORE_FILES.md) · [实验与交付](docs/FULL_EXPERIMENTS.md)。
 
 Git包含核心源码、参数记录和紧凑结果；大型原始语料、完整向量、训练矩阵和模型权重保留在工作区，不是克隆即有的全量数据包。
+
+## 目录导航
+
+[完整项目结构及每个文件用途](docs/PROJECT_STRUCTURE.md)。当前成果在 `assets/full_nmf500/`；`tests/fixtures/` 只用于回归测试。

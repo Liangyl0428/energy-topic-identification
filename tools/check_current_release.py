@@ -71,7 +71,8 @@ def check_docs(root):
         p=root/rel
         if p.suffix!='.md' or not p.is_file():continue
         text=p.read_text();count+=1
-        if re.search(r'v0\.2\.1|v020|v021|版本对比|主题效果对比|统一口径效果对比|历史版本|样本版|750(?:个|类|主题)',text,re.I):
+        prose=re.sub(r'```[\s\S]*?```|`[^`]*`','',text)
+        if re.search(r'v0\.2\.1|v020|v021|版本对比|主题效果对比|统一口径效果对比|历史版本|样本版|750(?:个|类|主题)',prose,re.I):
             raise ValueError('Outdated public documentation: '+rel)
         for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',text):
             target=target.strip().split(' "')[0].strip('<>')

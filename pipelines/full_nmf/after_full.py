@@ -12,6 +12,7 @@ import shutil
 import subprocess
 import sys
 import time
+import runpy
 from urllib.parse import urlsplit
 
 NAMES=['energy-topic-identification','energy-topic-hotspots','energy-technology-trl-crl']
@@ -36,9 +37,8 @@ def generated(path):return path in GENERATED or path.startswith('assets/full_nmf
 
 def in_scope(path):
     return generated(path) or path.startswith(('pipelines/full_nmf/','docs/')) or path in {
-        'docs/FULL_NMF.md','docs/FULL_EXPERIMENTS.md','docs/TOPIC_EVALUATION.md','requirements-full-nmf.txt',
+        'docs/FULL_NMF.md','docs/FULL_EXPERIMENTS.md','requirements-full-nmf.txt',
         'tests/test_full_nmf.py','tests/test_full_experiments.py','tests/test_full_delivery.py',
-        'tests/test_topic_evaluation.py',
         'tools/update_release_manifest.py','tools/check_current_release.py','tests/test_current_release.py'}
 
 
@@ -118,23 +118,6 @@ def verify_experiments(folder,classification_hash):
     return marker
 
 
-def verify_topic_evaluation(source):
-    folder=source/'topic_evaluation'
-    marker=verify_experiments(folder,sha(source/'SUMMARY.json'))
-    if not {'keyword_coherence.csv','RESULTS.md'}.issubset(marker['files']):
-        raise ValueError('Keyword coherence or evaluation conclusions missing')
-    protocol=json.loads((folder/'PROTOCOL.json').read_text())
-    if protocol['semantic_accuracy_measured'] or protocol['independent_holdout']:
-        raise ValueError('Unsupported evaluation claim')
-    if protocol['full_common_papers']<4000000 or len(protocol['validation_methods'])<40:
-        raise ValueError('Missing requested full/history/method comparison')
-    for relative,digest in json.loads((folder/'INPUTS.json').read_text()).items():
-        p=(ROOT/relative).resolve()
-        if not p.is_relative_to(ROOT.resolve()) or sha(p)!=digest:
-            raise ValueError('Evaluation input changed: '+relative)
-    return marker
-
-
 def package(source,experiments):
     classification_hash=sha(source/'SUMMARY.json')
     reports={}
@@ -150,6 +133,10 @@ def package(source,experiments):
                 if filename.endswith('.md'):
                     (target/filename).write_text(current_report_text((target/filename).read_text()))
                 manifest['files']['experiments/'+filename]=sha(target/filename)
+            renderer=repo/'pipelines/full_nmf/report.py'
+            if renderer.is_file():
+                runpy.run_path(str(renderer))['render'](target)
+                manifest['files']['experiments/REPORT.md']=sha(target/'REPORT.md')
             public_marker={**reports[name],'files':{f:sha(target/f) for f in reports[name]['files']},
                 'documentation_normalized':True,'source_complete_sha256':sha(folder/'COMPLETE.json')}
             dump(target/'COMPLETE.json',public_marker)
@@ -199,7 +186,7 @@ def execute(config):
         status('maturity_experiments')
         run([PY,trl/'pipelines/full_nmf/experiments.py','--classification',RUN,'--input',ti,'--output',outputs[NAMES[2]]])
     status('tests_and_packaging')
-    run([PY,'-m','pytest','tests/test_keyword_nmf.py','tests/test_full_nmf.py','tests/test_full_delivery.py','tests/test_topic_evaluation.py','-q'],ROOT/NAMES[0])
+    run([PY,'-m','pytest','tests/test_keyword_nmf.py','tests/test_full_nmf.py','tests/test_full_delivery.py','-q'],ROOT/NAMES[0])
     run([PY,'-m','pytest','-q'],hot)
     run([PY,'-m','pytest','-q'],trl)
     for name in NAMES:verify_worktree(ROOT/name,config['repositories'][name])

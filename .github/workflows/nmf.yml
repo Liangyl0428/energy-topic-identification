@@ -10,6 +10,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install -r requirements-nmf500.txt -r requirements.txt
-      - run: python -m pytest tests/test_keyword_nmf.py -q
+      - run: python -m pip install -r requirements-nmf500.txt -r requirements.txt duckdb threadpoolctl
+      - run: python -m pytest tests/test_keyword_nmf.py tests/test_full_nmf.py tests/test_full_delivery.py tests/test_current_release.py tests/test_readable_report.py -q
       - run: python tools/validate_release.py

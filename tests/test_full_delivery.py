@@ -44,19 +44,16 @@ def test_unrelated_work_is_not_staged(tmp_path):
     assert delivery.remote_tip(repo,'main')==record['remote_tip']
 
 
-def test_evaluation_is_required_and_checksums_are_enforced(tmp_path):
-    source=tmp_path/'run';folder=source/'topic_evaluation';folder.mkdir(parents=True)
-    delivery.dump(source/'SUMMARY.json',{'fixture':True})
+def test_experiment_checksums_are_enforced(tmp_path):
+    folder=tmp_path/'experiments';folder.mkdir()
+    (folder/'REPORT.md').write_text('fixture')
     delivery.dump(folder/'COMPLETE.json',{'passed':True,
-        'classification_summary_sha256':delivery.sha(source/'SUMMARY.json'),'files':{}})
-    with pytest.raises(ValueError,match='coherence'):
-        delivery.verify_topic_evaluation(source)
-    (folder/'RESULTS.md').write_text('fixture')
-    delivery.dump(folder/'COMPLETE.json',{'passed':True,
-        'classification_summary_sha256':delivery.sha(source/'SUMMARY.json'),
-        'files':{'RESULTS.md':'incorrect_digest'}})
+        'classification_summary_sha256':'fixture',
+        'files':{'REPORT.md':delivery.sha(folder/'REPORT.md')}})
+    assert delivery.verify_experiments(folder,'fixture')['passed']
+    (folder/'REPORT.md').write_text('changed')
     with pytest.raises(ValueError,match='checksum'):
-        delivery.verify_topic_evaluation(source)
+        delivery.verify_experiments(folder,'fixture')
 
 
 def test_remote_changes_block_publication(tmp_path):
@@ -99,7 +96,6 @@ def test_orchestrator_commits_and_verifies_three_local_remotes(tmp_path,monkeypa
             (base/'REPORT.md').write_text('Synthetic fixture artifact, not a real full-data result.')
             delivery.dump(base/'MANIFEST.json',{'files':{'REPORT.md':delivery.sha(base/'REPORT.md')}})
     monkeypatch.setattr(delivery,'package',package)
-    monkeypatch.setattr(delivery,'verify_topic_evaluation',lambda source:pytest.fail('Current delivery must not require version comparisons'))
     delivery.execute(config)
     receipt=json.loads((source/'FULL_DELIVERY_AND_PUSH_COMPLETE.json').read_text())
     assert receipt['passed'] and len(calls)==11

@@ -3,6 +3,7 @@ from common import *
 import shutil
 import subprocess
 import sys
+import runpy
 
 
 def main():
@@ -15,6 +16,8 @@ def main():
         for name in names:
             shutil.copy2(source/name,target/name)
             if name.endswith('.md'):(target/name).write_text(current_report_text((target/name).read_text()))
+        if repo==REPO:
+            runpy.run_path(str(repo/'pipelines/full_nmf/report.py'))['render'](target)
         dump(target/'MANIFEST.json',{'files':{str(p.relative_to(target)):sha(p) for p in target.rglob('*') if p.is_file() and p.name!='MANIFEST.json'},'classification_summary_sha256':sha(RUN/'SUMMARY.json')})
         readme=repo/'README.md'
         text=readme.read_text()

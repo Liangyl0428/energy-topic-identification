@@ -142,18 +142,11 @@ def main():
         'assignments_manifest_sha256':sha(RUN/'ASSIGNMENTS_MANIFEST.json'),
         'training_used_all_years':True,'not_independent_temporal_validation':True,'semantic_accuracy_measured':False}
     dump(RUN/'SUMMARY.json',summary)
-    (RUN/'REPORT.md').write_text(f"# 全量论文NMF与专利／政策匹配\n\n"
-        f"覆盖{total:,}条冻结记录：论文{expected['paper']:,}篇、专利{expected['patent']:,}条、政策{expected['policy']:,}条。"
-        f"已分配{summary['assigned_records']:,}条，未分配{summary['unassigned_records']:,}条；具体原因保留在逐条分类中。\n\n"
-        f"500组件NMF在全部有效关键词论文上训练5轮，全部论文用固定H统一推断。"
-        f"{int(counts.sum()):,}篇已归类且向量有效的论文参与{len(active)}个主题中心，先算术平均再L2归一化。"
-        "全部可用专利与政策在同一BGE-M3空间取余弦最高的主题作为候选，同时保留Top3。\n\n"
-        "全量是全部冻结记录，不是最新滚动采集记录或PDF全文；缺有效关键词、缺文本的记录不强行归类。"
-        "主题编号F0001–F0500，范围和语义需审核，主题不自动获得成熟度等级。模型使用全部年份，历史趋势仅作回溯描述。"
-        "尚未测得人工语义准确率；几何诊断见QUALITY_DIAGNOSTICS.json。\n")
     dump(RUN/'VALIDATION.json',{'passed':True,'exact_identity_coverage':True,'transfer_argmax_checked_all':True,'top3_order':all(checks),
         'centroids_unit_norm':bool(np.allclose(np.linalg.norm(centers[active],axis=1),1,atol=1e-6)),
         'source_counts':stats.to_dict('records')})
+    import runpy
+    runpy.run_path(str(REPO/'pipelines/full_nmf/report.py'))['render'](RUN)
     dump(RUN/'COMPLETE.json',{'summary_sha256':sha(RUN/'SUMMARY.json'),'validation_sha256':sha(RUN/'VALIDATION.json')})
     print(json.dumps(summary,ensure_ascii=False),flush=True)
 

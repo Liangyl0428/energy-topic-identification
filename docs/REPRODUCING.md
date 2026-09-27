@@ -28,3 +28,12 @@
     python tools/check_current_release.py
 
 完整模型selected_nmf.joblib、components.npy、vocabulary.csv、topic_centroids.npy与逐条标签保留在工作目录。加载NMF需将pipelines/full_nmf加入Python模块路径，导入fast_nmf.GpuMiniBatchNMF。Git提供源码、参数记录与结果摘要，不包含完整训练权重、全量文献或向量。
+
+## 仅重建报告和目录说明
+
+无需重跑模型即可执行：
+
+    python pipelines/full_nmf/report.py --input assets/full_nmf500
+    python tools/project_structure.py
+
+报告直接汇总已有 CSV/JSON；若修改了发布文件，提交前必须同步更新成果指纹与核心文件清单。

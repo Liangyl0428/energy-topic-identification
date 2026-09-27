@@ -3,8 +3,8 @@
   "classification_summary_sha256": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568",
   "experiments_passed": true,
   "experiment_complete_sha256": {
-    "energy-topic-hotspots": "8675cc30e70ce0bde9e982395b02935c2981a1d8cee4de6d436045b43eb34d27",
-    "energy-technology-trl-crl": "3c3c42f39713cf0723e51a5b6ec1ffcc2a363226b1fcbb045590129fb8f308be"
+    "energy-topic-hotspots": "57edf104350faae624e1bcee1ed73cfb36b6fb8ae146d17c90cd1dfa8e51d66f",
+    "energy-technology-trl-crl": "454b9c48161d5790afd4a8973f3450aaaab5c6d0b7dda9468d6397f943251d82"
   },
   "publication": "Push receipts are recorded separately after remote verification; this file is not proof of push.",
   "evidence_limit": "Full topic mapping; maturity remains bounded to existing reviewed objects.",

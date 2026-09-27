@@ -32,6 +32,9 @@ def test_finalization_counts_every_record_and_uses_papers_only(tmp_path,monkeypa
     for folder in ['paper_assignments','embeddings']:(tmp_path/folder).mkdir()
     for marker in ['PREPARE_COMPLETE','TRAINING_COMPLETE','INFERENCE_COMPLETE','ENCODING_COMPLETE']:
         (tmp_path/(marker+'.json')).write_text(json.dumps({'paper_count':5,'papers':5,'documents':9}))
+    (tmp_path/'TRAINING_COMPLETE.json').write_text(json.dumps({
+        'configuration':{'fit_population':4,'epochs':1},'paper_visits':4,
+        'history':[{'epoch':1,'diagnostic_relative_error':0.5,'paper_visits':4}]}))
     (tmp_path/'selected_nmf.joblib').write_bytes(b'test model identity')
     sources=['paper']*5+['patent']*2+['policy']*2
     data=pd.DataFrame({'row_id':range(9),'doc_id':[f'{s}:{i}' for i,s in enumerate(sources)],'source':sources,

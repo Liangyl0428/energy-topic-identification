@@ -56,7 +56,7 @@ def test_actual_selection_preference_and_metric_ablation():
     import pandas as pd
     from selection_experiments import choose
     repo = Path(__file__).resolve().parents[1]
-    frame = pd.read_csv(repo / 'assets/nmf500/candidate_metrics.csv')
+    frame = pd.read_csv(repo / 'tests/fixtures/nmf500/candidate_metrics.csv')
     assert choose(frame) == 500
     assert choose(frame, tolerance=0) == 450
     assert choose(frame, omit='davies_bouldin') == 450
@@ -135,7 +135,7 @@ def test_selection_rejects_invalid_candidate_metrics(mutation):
     from selection_experiments import choose
     from run_pipeline import select_candidate
     repo = Path(__file__).resolve().parents[1]
-    frame = pd.read_csv(repo / 'assets/nmf500/candidate_metrics.csv')
+    frame = pd.read_csv(repo / 'tests/fixtures/nmf500/candidate_metrics.csv')
     if mutation in {'nan', 'inf'}:
         frame.loc[frame.requested_k.eq(500), 'davies_bouldin'] = float(mutation)
     elif mutation == 'duplicate':
@@ -151,7 +151,7 @@ def test_selection_experiment_rejects_invalid_controls():
     import pandas as pd
     from selection_experiments import choose
     repo = Path(__file__).resolve().parents[1]
-    frame = pd.read_csv(repo / 'assets/nmf500/candidate_metrics.csv')
+    frame = pd.read_csv(repo / 'tests/fixtures/nmf500/candidate_metrics.csv')
     for options in [{'penalty': np.nan}, {'tolerance': np.inf}, {'omit': 'typo'}]:
         with pytest.raises(ValueError):
             choose(frame, **options)
@@ -160,7 +160,7 @@ def test_selection_experiment_rejects_invalid_controls():
 def test_current_snapshot_keeps_inactive_component_and_audit_accounting():
     import json
     import pandas as pd
-    snapshot = Path(__file__).resolve().parents[1] / 'assets/nmf500'
+    snapshot = Path(__file__).resolve().parents[1] / 'tests/fixtures/nmf500'
     catalog = pd.read_csv(snapshot/'current_topic_catalog.csv')
     assert catalog.topic_id.tolist() == list(range(500))
     assert catalog.active.equals(catalog.paper_documents.gt(0))

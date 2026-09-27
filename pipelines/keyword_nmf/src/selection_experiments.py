@@ -63,7 +63,7 @@ K网格使用拟合时的训练W标签评估。v0.2.0下游改用所有切分统
 v0.2.1另修复NMF组件尺度依赖，相对v0.2.0生产标签改变30,359篇；
 当前生效目录见 ../current_topic_catalog.csv，当前几何指标见 ../current_validation_metrics.csv。
 历史网格目录仅用于记录选择过程，不据此声称新推断的最优K。
-跨来源余弦的拒绝阈值、来源删除实验见热点仓库 assets/nmf500/experiments。
+跨来源余弦的拒绝阈值、来源删除实验见热点仓库 tests/fixtures/nmf500/experiments。
 '''
     (out/'REPORT.md').write_text(report)
     (out/'PROTOCOL.json').write_text(json.dumps(dict(retrained=False,post_hoc=True,
@@ -74,7 +74,7 @@ v0.2.1另修复NMF组件尺度依赖，相对v0.2.0生产标签改变30,359篇�
 
 if __name__=='__main__':
     p=argparse.ArgumentParser()
-    p.add_argument('--input',type=Path,default=REPO/'assets/nmf500')
-    p.add_argument('--output',type=Path,default=REPO/'assets/nmf500/experiments')
+    p.add_argument('--input',type=Path,default=REPO/'tests/fixtures/nmf500')
+    p.add_argument('--output',type=Path,default=REPO/'tests/fixtures/nmf500/experiments')
     args=p.parse_args()
     run(args.input,args.output)

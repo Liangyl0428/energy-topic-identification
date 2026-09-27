@@ -15,3 +15,5 @@
 ## 外部运行资产
 
 完整原始文献、逐条标签、embedding、训练矩阵、NMF权重、BGE-M3权重、论文元数据数据库及对象上下文embedding保留在工作区。源码和紧凑结果齐全不等于克隆即可离线重训全量数据。路径与命令见[复现说明](REPRODUCING.md)。
+
+完整目录和逐文件用途见 [项目结构](PROJECT_STRUCTURE.md)。固定回归数据已集中在 `tests/fixtures/`，不代表当前全量结果。
