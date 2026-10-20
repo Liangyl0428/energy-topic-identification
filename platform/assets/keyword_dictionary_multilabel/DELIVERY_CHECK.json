@@ -1,0 +1,19 @@
+{
+  "full_population_rules_valid": true,
+  "dictionary_hash_matches_memberships": true,
+  "topic_definition_hash_matches": true,
+  "paper_source_snapshot_still_current": true,
+  "browser_topic_count": true,
+  "browser_no_script_errors": true,
+  "browser_no_mobile_overflow": true,
+  "browser_search_and_tabs": true,
+  "workbook_rows_checked": {
+    "完整关键词词典": 48327,
+    "待逐项审核词": 45497,
+    "有效词主题映射": 1056,
+    "主题与篇数": 71,
+    "逐主题样本初审": 142
+  },
+  "single_paper_query_checked": "paper:W3140535007 returned original Astrobiology + Physics and no assigned theme",
+  "semantic_acceptance_passed": false
+}

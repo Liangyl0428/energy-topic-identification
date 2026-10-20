@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": {
+    "all_papers_present_once": true,
+    "all_48329_source_keyword_ids_accounted_for": true,
+    "all_source_observations_preserved": true,
+    "one_relation_per_document_topic": true,
+    "no_membership_for_empty_or_nontrigger_keywords": true,
+    "membership_lists_agree_with_edges": true,
+    "all_topic_counts_and_lists_valid": true,
+    "every_relation_has_observed_keyword_evidence": true,
+    "all_expected_matches_exported": true,
+    "conditional_hits_have_compatible_anchor": true,
+    "conditional_relations_have_same_document_direct_anchor": true,
+    "export_doc_ids_match_source": true,
+    "summary_counts_match_exports": true,
+    "behavioral_checks": true,
+    "old_nmf_deliverables_unchanged": true
+  },
+  "behavioral_checks": {
+    "ambiguous_hydrogen_is_not_fuel": true,
+    "solar_wind_does_not_match_solar_energy": true,
+    "medical_lithium_is_not_a_battery": true,
+    "generic_transition_is_not_energy_transition": true,
+    "method_only_does_not_create_energy_topic": true,
+    "energy_plus_method_yields_multiple_topics": true,
+    "synonyms_do_not_duplicate_themes": true,
+    "hyphen_variants_are_normalized": true,
+    "all_matching_themes_no_top_n_cap": true,
+    "hydrothermal_pv_does_not_create_geothermal": true,
+    "coal_boiler_does_not_create_nuclear_topic": true,
+    "pv_dielectric_does_not_create_insulation_topic": true,
+    "powerline_relay_does_not_create_protection_topic": true,
+    "transmission_line_alone_is_ambiguous": true,
+    "unknown_terms_abstain": true
+  },
+  "low_frequency_trigger_documents": 14,
+  "low_frequency_trigger_hits": 14,
+  "zero_score_hits_retained_because_presence_is_rule": 0,
+  "semantic_accuracy_validated": false,
+  "scope": "Full-population integrity and rule correctness; not evidence that source keywords are semantically accurate."
+}

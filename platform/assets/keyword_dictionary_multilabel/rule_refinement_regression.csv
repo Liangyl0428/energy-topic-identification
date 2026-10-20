@@ -1,0 +1,14 @@
+﻿initial_evidence_id,row_id,doc_id,title,topic_code,still_has_original_topic,final_topic_codes,classification_status
+D019,576055,paper:W2045799991,Influence of Proteins on the Hydrothermal Gasification and Liquefaction of Biomass. 1. Comparison of Different Feedstocks,KWD-T0010,False,KWD-T0011,assigned
+D020,583845,paper:W2047326785,Preparation of porous nanoparticle TiO2 films for flexible dye-sensitized solar cells,KWD-T0010,False,KWD-T0001 | KWD-T0068 | KWD-T0069,assigned
+D025,3077188,paper:W4211225816,Numerical Simulation of By-Product Fuel Combustion in a Tangential Gas-Fired Boiler: Effect of Proportion and Angle on Coke Oven Gas,KWD-T0013,False,KWD-T0051 | KWD-T0055 | KWD-T0057,assigned
+D026,2373422,paper:W2978301979,Quantitative Effect Model of Setting No.0 High Pressure Heater on Exhaust Flue Gas Temperature of Supercritical Once-through Boiler,KWD-T0013,False,KWD-T0051 | KWD-T0057,assigned
+D051,3174197,paper:W4244589756,Development of Solar PV Charge Controller System for Rural Application,KWD-T0026,False,KWD-T0001 | KWD-T0004 | KWD-T0019 | KWD-T0063,assigned
+D061,599365,paper:W2050383592,Relay-Aided Amplify-and-Forward Powerline Communications,KWD-T0031,False,KWD-T0025 | KWD-T0064 | KWD-T0067,assigned
+D063,2042263,paper:W2802141874,Performance and Dielectric Property of Single/Double Acceptor Based Planar Heterojuntion Organic Photovoltaic Cells with P3HT Donor,KWD-T0032,False,KWD-T0001 | KWD-T0069,assigned
+D086,1422257,paper:W2374666212,The Design of Automobile Brake Disc Integration Balancing Machine System,KWD-T0043,False,KWD-T0027 | KWD-T0067,assigned
+D089,123825,paper:W177079012,A new approximation method with a rational fraction for the parameters of a power transmission line by a genetic algorithm,KWD-T0045,False,KWD-T0026 | KWD-T0035 | KWD-T0066 | KWD-T0067,assigned
+D098,1029245,paper:W2188665944,Design and Fabrication of Solar Thermal Battery using Molten Salt,KWD-T0049,False,KWD-T0004 | KWD-T0019 | KWD-T0022 | KWD-T0055 | KWD-T0063 | KWD-T0069,assigned
+D102,1011234,paper:W2183718533,State-of-the-Art of Storage and Handling issues related to High Pressure Gaseous Hydrogen to make use in Internal Combustion Engines.,KWD-T0051,False,KWD-T0054 | KWD-T0059,assigned
+D107,962933,paper:W2157071813,태양열을 이용한 개방형 제습ᆞ건조시스템의 저장탱크 유동특성에 관한 연구 (재생기용 저장탱크의 입ᆞ출구 위치에 따라),KWD-T0054,False,KWD-T0050 | KWD-T0055,assigned
+D111,472218,paper:W2025127827,Novel Single Stripper with Side-Draw to Remove Ammonia and Sour Gas Simultaneously for Coal-Gasification Wastewater Treatment and the Industrial Implementation,KWD-T0056,False,KWD-T0052 | KWD-T0057,assigned

@@ -1,0 +1,302 @@
+{
+  "scope": "Files added or changed for P0; other pilot/experiment artifacts are outside this repair",
+  "backup_root": "work/p0_repair_20261018/before",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 1269,
+      "sha256": "177d97d3a24089cf07d24da54bd966c1615522d50b4edfccbff68f79b42ca9d9"
+    },
+    {
+      "file": "config/runtime_paths.json",
+      "bytes": 1739,
+      "sha256": "9bb16300c9c4a0b68399ed3eb3586a6c36d6306ac0f271d28e1f69f2f3320a99"
+    },
+    {
+      "file": "docs/P0修复验收.md",
+      "bytes": 3237,
+      "sha256": "0276b71d69a097f891774accf898aacc1da3ed844ac57a95b654ca4fb85da082"
+    },
+    {
+      "file": "docs/数据与指标字典.md",
+      "bytes": 7792,
+      "sha256": "ad1b88b9725c84394ef3b19a56b9487483b95b9c937db69f1c6157af39a06001"
+    },
+    {
+      "file": "docs/运行配置与输入清单.md",
+      "bytes": 5411,
+      "sha256": "436fb0889ce77d3e68c74c82113e8dd8fbc72f74a66dc7ad04bd4f4d8566d3ee"
+    },
+    {
+      "file": "energy-technology-trl-crl/README.md",
+      "bytes": 2320,
+      "sha256": "54b738bbed7f6d10a3889f14ffe7c2092e245c8825c2617e2cdaf95bed69554b"
+    },
+    {
+      "file": "energy-technology-trl-crl/assets/full_nmf500/MANIFEST.json",
+      "bytes": 1748,
+      "sha256": "294674d219eddc021aa93ec64f2c9ebff033291c88f3feba1ac773c7a464f775"
+    },
+    {
+      "file": "energy-technology-trl-crl/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "bytes": 1327,
+      "sha256": "4dbd7640ef4399899d1e029b0e382820a36fb387860d8bbba84ddd0926dbde31"
+    },
+    {
+      "file": "energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.csv",
+      "bytes": 153512,
+      "sha256": "095e8e0a63b1b4f28e069281ffc841c0d3dd5ecf4732e0e3f7211a82fae09533"
+    },
+    {
+      "file": "energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "bytes": 316542,
+      "sha256": "af7e67d07aea3d51475e0b148ccc92af30e329c8854ab5d3358f25e2b8743ec5"
+    },
+    {
+      "file": "energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.schema.json",
+      "bytes": 2259,
+      "sha256": "da8f884a4a3de681bd00f2d13f0e4a42d4a6aa99debabce92276b3905b1b3c4d"
+    },
+    {
+      "file": "energy-technology-trl-crl/docs/DATA_SCHEMA.md",
+      "bytes": 3380,
+      "sha256": "34f4fdbc884cbd98195dc0dc6f090a8e03a434708c2cd962aba5c1de702dfb63"
+    },
+    {
+      "file": "energy-technology-trl-crl/docs/REPRODUCING.md",
+      "bytes": 2434,
+      "sha256": "90e1c9040960d132a47c567eb7b1cda64209d0630cee5dfc421c2b360bf6b208"
+    },
+    {
+      "file": "energy-technology-trl-crl/pipelines/full_nmf/build.py",
+      "bytes": 6348,
+      "sha256": "5546cb3f019a0cb094bdc0a92203aab5ff675fb8a079fc2ea108af2e1cb4686b"
+    },
+    {
+      "file": "energy-technology-trl-crl/pipelines/full_nmf/build_crl_reason.py",
+      "bytes": 1281,
+      "sha256": "ec800c0fe2009b9e910c5b95ce5ced562e3226c997c99c3a595b58d4fc7f6344"
+    },
+    {
+      "file": "energy-technology-trl-crl/pipelines/nmf500/encode_context.py",
+      "bytes": 4904,
+      "sha256": "9da93e16923cc0b17c62944b5caacd160895a8f5f3f1ca51cf12b643d9214a7f"
+    },
+    {
+      "file": "energy-technology-trl-crl/provenance/CORE_FILES.json",
+      "bytes": 7463,
+      "sha256": "b45f6310cdee35c9a3243f01264ca5418be20c50d0bee345c6e1c01b93b8c75f"
+    },
+    {
+      "file": "energy-technology-trl-crl/tests/test_p0_delivery.py",
+      "bytes": 4007,
+      "sha256": "58a84810b71a647aa088a643da790fcf07a3cc7f3716cc54ff1640cde67fd872"
+    },
+    {
+      "file": "energy-technology-trl-crl/tools/check_current_release.py",
+      "bytes": 7051,
+      "sha256": "51e3267d65a9cfd4fce681d88fa039422e2674f29dac2017979f9f7cbdd7d32d"
+    },
+    {
+      "file": "energy-technology-trl-crl/trl_crl/delivery.py",
+      "bytes": 6773,
+      "sha256": "24c0dce843bef5ce5cf45c9aa2995adaedf683c3cd4af2d599f5368be2fef426"
+    },
+    {
+      "file": "energy-topic-hotspots/README.md",
+      "bytes": 2081,
+      "sha256": "3c147e1a9bf313eace604fe48f8806a82ff6640c404300f9b4cd7385214ef269"
+    },
+    {
+      "file": "energy-topic-hotspots/assets/full_nmf500/MANIFEST.json",
+      "bytes": 3628,
+      "sha256": "14ce9e6653d9f86eef414a965d7a32b2dff2902ad8cc9f842544fb7e96d282e4"
+    },
+    {
+      "file": "energy-topic-hotspots/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "bytes": 1154,
+      "sha256": "8d7c2e3aa1cac9b96a8f4d59933f00601280573dabf5942dd32eb5b611e7130c"
+    },
+    {
+      "file": "energy-topic-hotspots/docs/REPRODUCING.md",
+      "bytes": 1871,
+      "sha256": "e8c6e432194329055abd0449b26850f735aa717da983e1baebaadeee957c834c"
+    },
+    {
+      "file": "energy-topic-hotspots/pipelines/full_nmf/build.py",
+      "bytes": 8766,
+      "sha256": "4e6edc7202a538210346634302b3ef8d6fce3f4c17af8917a25f5c7cd270afb7"
+    },
+    {
+      "file": "energy-topic-hotspots/pipelines/full_nmf/experiments.py",
+      "bytes": 17817,
+      "sha256": "f1e409d83be2fce19241524c363ed4149eb5434bbfce0646912fa6ddaaa573c6"
+    },
+    {
+      "file": "energy-topic-hotspots/provenance/CORE_FILES.json",
+      "bytes": 9927,
+      "sha256": "4fd9252d8a80f7728f1a894775159ae2f437f9b81069b0bdaf09cb41cbc66e21"
+    },
+    {
+      "file": "energy-topic-hotspots/provenance/FILE_MANIFEST.json",
+      "bytes": 44975,
+      "sha256": "9308589cb53d4a70c1d3e66c6c7f213357bcf40517e28a03f04524055e9ab3b2"
+    },
+    {
+      "file": "energy-topic-hotspots/tests/test_full_experiments.py",
+      "bytes": 4528,
+      "sha256": "a1c4495e3b201e8b3b55c4580bfc5829603b6d3d0fd526b84c263fcf11fb2104"
+    },
+    {
+      "file": "energy-topic-hotspots/tests/test_full_nmf.py",
+      "bytes": 3339,
+      "sha256": "aac6812fa982e5c7b51135d6cdaf8c6637732edc505c71d79885fe69b15fe275"
+    },
+    {
+      "file": "energy-topic-hotspots/tools/check_current_release.py",
+      "bytes": 7051,
+      "sha256": "51e3267d65a9cfd4fce681d88fa039422e2674f29dac2017979f9f7cbdd7d32d"
+    },
+    {
+      "file": "energy-topic-identification/README.md",
+      "bytes": 2543,
+      "sha256": "9db8b4be3a16979455d330160e5eaeeffe6bc75875b95d62158032becb941e43"
+    },
+    {
+      "file": "energy-topic-identification/assets/full_nmf500/MANIFEST.json",
+      "bytes": 1369,
+      "sha256": "efcd7769c80ff9b74fce89dc7dfd31b9e71e27a16f254a64555bd678f259e7cf"
+    },
+    {
+      "file": "energy-topic-identification/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "bytes": 1154,
+      "sha256": "8d7c2e3aa1cac9b96a8f4d59933f00601280573dabf5942dd32eb5b611e7130c"
+    },
+    {
+      "file": "energy-topic-identification/docs/REPRODUCING.md",
+      "bytes": 1985,
+      "sha256": "f32e3d419e7d54603c95274e6bd3f65cedff88b667ef419734e6549625c420c8"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/after_full.py",
+      "bytes": 15323,
+      "sha256": "637433b8e4448abd51821e807a6ce71b73d76957969d04c0eeced25a7803e34d"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/common.py",
+      "bytes": 1751,
+      "sha256": "a1e11e251bdd1ce1e8a42d2164833bffad9bfd5e76d3712f9a48556aafb71ba7"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/encode.py",
+      "bytes": 7199,
+      "sha256": "3dc69de27f914e64462e9d71e24fd506821a6563e6e4acb7ec35d18f7b144967"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/optimize_encoder.py",
+      "bytes": 2717,
+      "sha256": "146402fe18b61744b468b222b5c8c2e17893c0282a8958e0c2eeede2d444d577"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/prepare.py",
+      "bytes": 8523,
+      "sha256": "95ef2913276980c33f9a8fe86605740c3cbea0df381a624a74e69a0d68a7482a"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/publish_local.py",
+      "bytes": 3153,
+      "sha256": "510a196e51764d04c07ee9f7fe9ef8f98dfa661dd3647b53693440bdc9e4c80a"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/resume_delivery.py",
+      "bytes": 2371,
+      "sha256": "ab26eaded07178fec2afdb029f0131bd814de3916d734a94fc4a8a3cff766910"
+    },
+    {
+      "file": "energy-topic-identification/pipelines/full_nmf/run.py",
+      "bytes": 2877,
+      "sha256": "264f183e4372c47d0164b3b49ee4f78037bc530534bf7f8a32c2b7c9872b342a"
+    },
+    {
+      "file": "energy-topic-identification/provenance/CORE_FILES.json",
+      "bytes": 7402,
+      "sha256": "1749ea0f7b316fb3f99c9b63018107a0af9b7093296a7d41e867a7188c5fc867"
+    },
+    {
+      "file": "energy-topic-identification/provenance/SHA256SUMS.json",
+      "bytes": 9213,
+      "sha256": "1f9d3dcd6d3c725c493aae3efa594dd3c4d3f28e1d975ca781e183cecf7e5d51"
+    },
+    {
+      "file": "energy-topic-identification/tests/test_full_delivery.py",
+      "bytes": 6769,
+      "sha256": "3484a9bdbdcc0ec1ff626962199cce033def23923d53119d648e4d6c481a81ec"
+    },
+    {
+      "file": "energy-topic-identification/tools/check_current_release.py",
+      "bytes": 7051,
+      "sha256": "51e3267d65a9cfd4fce681d88fa039422e2674f29dac2017979f9f7cbdd7d32d"
+    },
+    {
+      "file": "provenance/INPUT_MANIFEST.json",
+      "bytes": 20494,
+      "sha256": "fec33ac2855c8ba04e8f729fcc4c3b83519d97f24eba5d86822c1a71c497022b"
+    },
+    {
+      "file": "provenance/P0_TESTS.xml",
+      "bytes": 5956,
+      "sha256": "4d605d1ac9cad3f15a218d0a9468fd2cdf50576b70dbcf25965f2ea79e9afd27"
+    },
+    {
+      "file": "provenance/P0_TEST_SUMMARY.json",
+      "bytes": 226,
+      "sha256": "89a65a4d59a88ed91dd90920a8067ebeb2515f0ce6fda643813ef86814f3dcfe"
+    },
+    {
+      "file": "provenance/P0_VALIDATION.json",
+      "bytes": 7688,
+      "sha256": "9358a07bd8018c40ab55b6ac1e6923648715a0c11664770a40a58f0eb3dd21aa"
+    },
+    {
+      "file": "provenance/p0_maturity_plot_check.png",
+      "bytes": 24657,
+      "sha256": "8109a14387cdec19e11907df675923a619cb4fac4ff4603d8433ca104f4b59f1"
+    },
+    {
+      "file": "runtime_config.py",
+      "bytes": 4227,
+      "sha256": "3c7483a37ffcffb48551bda497776f2ba0b648ce5d89c79d8f4440fa6e2c8457"
+    },
+    {
+      "file": "tests/test_runtime_config.py",
+      "bytes": 3061,
+      "sha256": "2e51f984a5a7d9b37577f9609f193ca7a02f4cd5d2445c360cd6091ccd49742f"
+    },
+    {
+      "file": "tools/check_inputs.py",
+      "bytes": 6851,
+      "sha256": "a9a4d356dc20943cb2607525efea5f8d426d9af6f4b1c40c6168a97db9308819"
+    },
+    {
+      "file": "tools/refresh_p0_manifests.py",
+      "bytes": 1786,
+      "sha256": "8a9f7ef8ec26db63afb6223af4b1de10bd1bb08eef2038efa587eb15b575fa45"
+    },
+    {
+      "file": "tools/validate_p0.py",
+      "bytes": 7682,
+      "sha256": "53315e1c6c0fe2c9d4342c4603399e8bf55c19d849947f2024b5acaa8a787501"
+    }
+  ],
+  "tests": {
+    "tests": 39,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "passed": 39,
+    "scope": "P0 types, metadata, runtime relocation, full pipeline fixtures, diagnostics and local release guards; temporary Git fixtures only"
+  },
+  "input_checks_passed": 49,
+  "acceptance_checks_passed": 50,
+  "workspace_committed_or_published": false
+}

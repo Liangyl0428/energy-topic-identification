@@ -1,0 +1,15 @@
+{
+  "ACCEPTANCE.json": "91158725a8bdd3023cd8eb8dfdd87629121b309ef718d3a6742eefe8e9bf5353",
+  "AUDIT_CHECKS.json": "c5a5f348c67d021289240d611902413fa0c355f942b62bb9bf83411bf01fd747",
+  "K500验收报告.html": "6a8ba6a378f2955d70679eec6cf40e879adfd674265891d2a281ab675354f3c8",
+  "K500验收问题与抽样.xlsx": "18596a40dbaf8bdb07f17203c97619a8b3da266dfa3a761fdf01b4a1466c533c",
+  "REPORT_VALIDATION.json": "eebeebd65f003fdfb45e91a20d590fd1bfafcdea7483d041ec1f6ae542b076d8",
+  "acceptance_checklist.csv": "2ea6fb46999df4aa8aa451a4947ef10d6b4e6e73e3d2507899338a29c1e09de2",
+  "cross_review.csv": "e324239f5421ed94c0f3537f70c141b125e2cc3b0d1b13c0db1aa77ae9274692",
+  "issues.csv": "84114f680f4cbe2fdc47b2210cede2755a408a4054055e9766784254e64519cd",
+  "keyword_trace.csv": "157627a957ba595aad987291603bdcaa957ec39ebe8d049a334b7a30b355d433",
+  "near_duplicate_components.csv": "ae1729c8123ff7a8bda4480905f0719aac68859441939747751aaddd2af768b3",
+  "paper_review.csv": "4dd55337e404781929d17a1fd6b5b098c2b60c4a202cb110a544592e54f07ae4",
+  "topic_count_distribution.csv": "258f1cb5e2639a7697598d8a886f607a33e58341902eb4f6d25a2e0a47a40cec",
+  "topic_review.csv": "6af8d7824cff3c791b1b6e4738847a2d7c061086adb6bc2c79acf3337f7cb423"
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "all_record_identities_unique_and_complete": true,
+    "all_three_source_populations_complete": true,
+    "all_membership_lists_weights_and_abstentions_valid": true,
+    "excluded_pending_and_rejected_edges_absent_from_default": true,
+    "all_five_known_bad_relations_rejected": true,
+    "assignment_lists_and_edge_counts_agree": true,
+    "every_exported_membership_matches_exact_edge": true,
+    "all_original_edge_scores_preserved_without_renormalization": true,
+    "published_counts_match_full_assignments": true,
+    "exactly_500_nonnegative_topics_and_20_removed_terms": true,
+    "all_topics_have_scope_decisions": true,
+    "paper_reference_and_diagnostic_ids_disjoint": true,
+    "behavioral_unit_checks_pass": true
+  },
+  "identity": [
+    5119004,
+    5119004,
+    5119004,
+    0,
+    5119003
+  ],
+  "default_retained_edges": 10406525,
+  "raw_edge_score_mismatches": 0,
+  "scope_ledger_sha256": "9590a1deaba3619311b92148098e757426e238418e9abbb1ae32dfc3675c16b7",
+  "semantic_accuracy_validated": false
+}

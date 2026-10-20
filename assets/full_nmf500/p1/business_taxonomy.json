@@ -1,0 +1,279 @@
+{
+  "business_version": "energy_business_p1_20261018",
+  "status": "draft_navigation_taxonomy",
+  "business_categories": [
+    {
+      "id": "renewable_generation",
+      "name_zh": "新能源发电",
+      "definition": "风、光、水、生物质及相关发电系统"
+    },
+    {
+      "id": "conventional_nuclear",
+      "name_zh": "常规能源与核能",
+      "definition": "煤油气与核能的开发、转化及安全"
+    },
+    {
+      "id": "transmission_distribution",
+      "name_zh": "输配电",
+      "definition": "输电线路、变电设备、配电与保护"
+    },
+    {
+      "id": "grid_operation",
+      "name_zh": "电网运行",
+      "definition": "调度、预测、控制、信息通信与系统稳定"
+    },
+    {
+      "id": "storage",
+      "name_zh": "储能",
+      "definition": "电化学、热、机械等储能系统及部件"
+    },
+    {
+      "id": "hydrogen_fuels",
+      "name_zh": "氢能与燃料",
+      "definition": "制氢、储运、燃料电池及可持续燃料"
+    },
+    {
+      "id": "end_use",
+      "name_zh": "终端用能",
+      "definition": "建筑、工业、交通用能及节能"
+    },
+    {
+      "id": "low_carbon_environment",
+      "name_zh": "低碳环保",
+      "definition": "能源相关碳管理、减排及环境影响"
+    },
+    {
+      "id": "market_policy",
+      "name_zh": "能源市场与政策",
+      "definition": "能源市场、经济性、投资、治理与政策"
+    }
+  ],
+  "content_types": [
+    "材料",
+    "算法",
+    "设备",
+    "系统",
+    "资源",
+    "经济政策"
+  ],
+  "business_topics": [
+    {
+      "business_topic_id": "B-SOLAR-CORROSION",
+      "display_name_zh": "光热储热系统材料腐蚀",
+      "business_categories": [
+        "renewable_generation",
+        "storage"
+      ],
+      "content_types": [
+        "材料"
+      ],
+      "definition": "聚光太阳能及熔盐储热工况下的材料腐蚀与耐久性",
+      "included_scope": [
+        "聚光太阳能及熔盐储热工况下的材料腐蚀与耐久性"
+      ],
+      "excluded_scope": [
+        "脱离能源工况的一般电镀工艺"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-BATTERY-INTERFACE",
+      "display_name_zh": "锂金属电池界面与多孔结构",
+      "business_categories": [
+        "storage"
+      ],
+      "content_types": [
+        "材料"
+      ],
+      "definition": "锂金属电池界面、电解质保持与循环稳定性",
+      "included_scope": [
+        "锂金属电池界面、电解质保持与循环稳定性"
+      ],
+      "excluded_scope": [
+        "肿瘤治疗纳米载体"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-GRID-DIGITAL",
+      "display_name_zh": "电力企业信息资源管理",
+      "business_categories": [
+        "grid_operation"
+      ],
+      "content_types": [
+        "系统"
+      ],
+      "definition": "电力企业网络与信息资源管理；不据此认定直接提升调度性能",
+      "included_scope": [
+        "电力企业网络与信息资源管理；不据此认定直接提升调度性能"
+      ],
+      "excluded_scope": [
+        "一般企业信息化"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-GAS-RESOURCE",
+      "display_name_zh": "天然气资源开发",
+      "business_categories": [
+        "conventional_nuclear"
+      ],
+      "content_types": [
+        "资源"
+      ],
+      "definition": "天然气资源规模、开发与供应研究",
+      "included_scope": [
+        "天然气资源规模、开发与供应研究"
+      ],
+      "excluded_scope": [
+        "未说明能源用途的普通地质描述"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-GRID-PROTECTION",
+      "display_name_zh": "变压器过电压保护",
+      "business_categories": [
+        "transmission_distribution"
+      ],
+      "content_types": [
+        "设备"
+      ],
+      "definition": "变压器中性点与绝缘保护配置",
+      "included_scope": [
+        "变压器中性点与绝缘保护配置"
+      ],
+      "excluded_scope": [
+        "电力市场机制"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-THERMOELECTRIC",
+      "display_name_zh": "热电转换材料",
+      "business_categories": [
+        "end_use"
+      ],
+      "content_types": [
+        "材料"
+      ],
+      "definition": "面向热电转换的载流子与声子输运研究",
+      "included_scope": [
+        "面向热电转换的载流子与声子输运研究"
+      ],
+      "excluded_scope": [
+        "一般材料性质且无热电功能证据"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-POWER-MARKET",
+      "display_name_zh": "电力市场机制",
+      "business_categories": [
+        "market_policy"
+      ],
+      "content_types": [
+        "经济政策"
+      ],
+      "definition": "电力市场制度、交易规则与政策机制",
+      "included_scope": [
+        "电力市场制度、交易规则与政策机制"
+      ],
+      "excluded_scope": [
+        "变压器保护、未明确能源任务的绿色口号"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-WIND-FORECAST",
+      "display_name_zh": "风电功率概率预测",
+      "business_categories": [
+        "renewable_generation",
+        "grid_operation"
+      ],
+      "content_types": [
+        "算法"
+      ],
+      "definition": "面向风机或风场功率的点预测、区间预测与不确定性评估",
+      "included_scope": [
+        "面向风机或风场功率的点预测、区间预测与不确定性评估"
+      ],
+      "excluded_scope": [
+        "考古存留概率、未连接电力任务的天气预测"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-SUBSTATION-DESIGN",
+      "display_name_zh": "变电站概率设计与绝缘配合",
+      "business_categories": [
+        "transmission_distribution"
+      ],
+      "content_types": [
+        "设备"
+      ],
+      "definition": "变电站电气间隙、绝缘配合与机械约束的概率设计",
+      "included_scope": [
+        "变电站电气间隙、绝缘配合与机械约束的概率设计"
+      ],
+      "excluded_scope": [
+        "风电出力预测"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-INDUSTRIAL-AIR",
+      "display_name_zh": "工业压缩空气需求预测",
+      "business_categories": [
+        "end_use"
+      ],
+      "content_types": [
+        "算法"
+      ],
+      "definition": "围绕压缩机主要耗电工序的空气需求预测与控制支持",
+      "included_scope": [
+        "围绕压缩机主要耗电工序的空气需求预测与控制支持"
+      ],
+      "excluded_scope": [
+        "未体现用能任务的一般工业预测"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    },
+    {
+      "business_topic_id": "B-EV-FORECAST",
+      "display_name_zh": "电动汽车充电负荷预测",
+      "business_categories": [
+        "end_use",
+        "grid_operation"
+      ],
+      "content_types": [
+        "算法"
+      ],
+      "definition": "电动汽车充电负荷及其不确定性预测",
+      "included_scope": [
+        "电动汽车充电负荷及其不确定性预测"
+      ],
+      "excluded_scope": [
+        "只预测车辆销量或道路流量"
+      ],
+      "review_status": "assistant_reviewed_subset_pending_domain_review",
+      "rank_eligible": false
+    }
+  ],
+  "rules": [
+    "业务分类和研究内容类型分开",
+    "允许多业务归属；汇总按 doc_id 去重",
+    "当前业务子主题仅覆盖所列诊断样本，不能代表全量成员",
+    "新增命名不自动批准范围；来源题名、引用标题中的学科名不直接变成能源业务分类"
+  ]
+}

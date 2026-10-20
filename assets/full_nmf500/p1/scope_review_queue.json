@@ -1,0 +1,4002 @@
+[
+  {
+    "category_id": "F0001",
+    "priority": 1,
+    "reviewed_documents": 8,
+    "remaining_paper_documents": 11303,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "partial_review"
+  },
+  {
+    "category_id": "F0002",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4628,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0003",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8718,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0004",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7118,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0005",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2910,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0006",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3191,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0007",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5965,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0008",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10072,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0009",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10537,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0010",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4512,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0011",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5061,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0012",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4880,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0013",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11985,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0014",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13020,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0015",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6262,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0016",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12015,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0017",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5258,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0018",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6025,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0019",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 37071,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0020",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5228,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0021",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8551,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0022",
+    "priority": 1,
+    "reviewed_documents": 8,
+    "remaining_paper_documents": 30142,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "partial_review"
+  },
+  {
+    "category_id": "F0023",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6853,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0024",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18700,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0025",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13285,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0026",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11522,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0027",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8036,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0028",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3117,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0029",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 22697,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0030",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9633,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0031",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12210,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0032",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5487,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0033",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8696,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0034",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3543,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0035",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15514,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0036",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8654,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0037",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10108,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0038",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 20111,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0039",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14478,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0040",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11547,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0041",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3688,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0042",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18518,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0043",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9456,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0044",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6194,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0045",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16159,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0046",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11058,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0047",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5508,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0048",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8388,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0049",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10286,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0050",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8464,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0051",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7200,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0052",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5052,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0053",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4867,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0054",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10169,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0055",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3546,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0056",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17013,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0057",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7064,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0058",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3963,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0059",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15262,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0060",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5160,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0061",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3175,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0062",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4122,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0063",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18241,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0064",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9481,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0065",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6507,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0066",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3022,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0067",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7991,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0068",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3517,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0069",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 19283,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0070",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5079,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0071",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6935,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0072",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8463,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0073",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14464,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0074",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14724,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0075",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11386,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0076",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9986,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0077",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 27356,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0078",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13515,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0079",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4545,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0080",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6554,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0081",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7493,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0082",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2983,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0083",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4079,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0084",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12691,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0085",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7984,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0086",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 972,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0087",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 32722,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0088",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7794,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0089",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3751,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0090",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4977,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0091",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10490,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0092",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3021,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0093",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17758,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0094",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3712,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0095",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 31150,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0096",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8807,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0097",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3880,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0098",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6890,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0099",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4286,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0100",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1609,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0101",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3615,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0102",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11957,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0103",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11114,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0104",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13696,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0105",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8487,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0106",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10318,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0107",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5361,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0108",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2987,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0109",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 28604,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0110",
+    "priority": 1,
+    "reviewed_documents": 8,
+    "remaining_paper_documents": 7016,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "partial_review"
+  },
+  {
+    "category_id": "F0111",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15096,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0112",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11265,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0113",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9289,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0114",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5777,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0115",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3527,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0116",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6816,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0117",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4363,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0118",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 28133,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0119",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4054,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0120",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3510,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0121",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18376,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0122",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5164,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0123",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5511,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0124",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7321,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0125",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3699,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0126",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5997,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0127",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5080,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0128",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15148,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0129",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18526,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0130",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11084,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0131",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13480,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0132",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 43460,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0133",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5432,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0134",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10192,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0135",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15178,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0136",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2501,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0137",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6628,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0138",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6868,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0139",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 23620,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0140",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7833,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0141",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4939,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0142",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 37664,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0143",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13578,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0144",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11822,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0145",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 33317,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0146",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8429,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0147",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9359,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0148",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8891,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0149",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6541,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0150",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3284,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0151",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14238,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0152",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2330,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0153",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 710,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0154",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8233,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0155",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6856,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0156",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11442,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0157",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9119,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0158",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3877,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0159",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12907,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0160",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13065,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0161",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3676,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0162",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11327,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0163",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7256,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0164",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3526,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0165",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2687,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0166",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2020,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0167",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10391,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0168",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6252,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0169",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18424,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0170",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4247,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0171",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7470,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0172",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4711,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0173",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7733,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0174",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12152,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0175",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9176,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0176",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6670,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0177",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6830,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0178",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9671,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0179",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6741,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0180",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9594,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0181",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17491,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0182",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13322,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0183",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3789,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0184",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9032,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0185",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8343,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0186",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11949,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0187",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4913,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0188",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2700,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0189",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4098,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0190",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 27222,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0191",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6158,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0192",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 21468,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0193",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11540,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0194",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3789,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0195",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10797,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0196",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1976,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0197",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3468,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0198",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10679,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0199",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17664,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0200",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1131,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0201",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9171,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0202",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7119,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0203",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11609,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0204",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8548,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0205",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6284,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0206",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11477,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0207",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 31674,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0208",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16357,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0209",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5357,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0210",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6257,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0211",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6685,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0212",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1404,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0213",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6739,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0214",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11452,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0215",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2859,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0216",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8572,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0217",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6603,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0218",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5696,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0219",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4116,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0220",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12547,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0221",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17967,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0222",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5022,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0223",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6997,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0224",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11878,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0225",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4315,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0226",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13221,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0227",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8178,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0228",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5479,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0229",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9653,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0230",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 30100,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0231",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5511,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0232",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9070,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0233",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6738,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0234",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9238,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0235",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8204,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0236",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2816,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0237",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4155,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0238",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8557,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0239",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4808,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0240",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6588,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0241",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7084,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0242",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7002,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0243",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8592,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0244",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6599,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0245",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14791,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0246",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11267,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0247",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6272,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0248",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4340,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0249",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6264,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0250",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4050,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0251",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7889,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0252",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10003,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0253",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17185,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0254",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5782,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0255",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12892,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0256",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8940,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0257",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7043,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0258",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7798,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0259",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18909,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0260",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14207,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0261",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 32763,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0262",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3621,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0263",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1694,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0264",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3718,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0265",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5270,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0266",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8785,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0267",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10466,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0268",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3181,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0269",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10581,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0270",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 25767,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0271",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 31004,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0272",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2114,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0273",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11881,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0274",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5720,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0275",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6499,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0276",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6274,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0277",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2335,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0278",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5402,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0279",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6122,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0280",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6266,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0281",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5587,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0282",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10654,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0283",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5661,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0284",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6729,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0285",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6888,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0286",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 24132,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0287",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12310,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0288",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4234,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0289",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4242,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0290",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7223,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0291",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8674,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0292",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1460,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0293",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7823,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0294",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3039,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0295",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8808,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0296",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10471,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0297",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10821,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0298",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7164,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0299",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4397,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0300",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12406,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0301",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8593,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0302",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4968,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0303",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6015,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0304",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14377,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0305",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13876,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0306",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6705,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0307",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7998,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0308",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 20380,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0309",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3766,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0310",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2129,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0311",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14881,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0312",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9657,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0313",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15247,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0314",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3313,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0315",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3863,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0316",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16551,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0317",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3446,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0318",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6263,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0319",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 21744,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0320",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8278,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0321",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3981,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0322",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3326,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0323",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10381,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0324",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4642,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0325",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5337,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0326",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5004,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0327",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 44312,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0328",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5674,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0329",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7652,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0330",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8401,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0331",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5605,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0332",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2518,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0333",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9980,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0334",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3412,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0335",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10279,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0336",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18977,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0337",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6126,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0338",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9031,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0339",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7283,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0340",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6101,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0341",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17529,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0342",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8687,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0343",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8307,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0344",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12526,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0345",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8643,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0346",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 21482,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0347",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14577,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0348",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5071,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0349",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3773,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0350",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9601,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0351",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 35403,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0352",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2815,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0353",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8252,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0354",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4267,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0355",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7510,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0356",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6048,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0357",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4744,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0358",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3413,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0359",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7658,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0360",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15312,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0361",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6670,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0362",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4086,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0363",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8040,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0364",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13273,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0365",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8257,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0366",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 36206,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0367",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7772,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0368",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4628,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0369",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15414,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0370",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 22542,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0371",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16476,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0372",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7151,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0373",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14551,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0374",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5093,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0375",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6693,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0376",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5903,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0377",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 44318,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0378",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10072,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0379",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 23909,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0380",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 18911,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0381",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11470,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0382",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13713,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0383",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5440,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0384",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9352,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0385",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9115,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0386",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 22476,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0387",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7321,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0388",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8247,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0389",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4810,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0390",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8272,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0391",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2510,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0392",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6174,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0393",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6672,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0394",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9271,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0395",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7352,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0396",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4877,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0397",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6604,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0398",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16004,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0399",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 20059,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0400",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6410,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0401",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4344,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0402",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6027,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0403",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5965,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0404",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6015,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0405",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9455,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0406",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7866,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0407",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6982,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0408",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16114,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0409",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15330,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0410",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7664,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0411",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13689,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0412",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6936,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0413",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13606,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0414",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5481,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0415",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12476,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0416",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15821,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0417",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7809,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0418",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14498,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0419",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 17635,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0420",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8016,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0421",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13376,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0422",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8811,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0423",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2593,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0424",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10836,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0425",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5111,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0426",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5767,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0427",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3583,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0428",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 20199,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0429",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4172,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0430",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10637,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0431",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8735,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0432",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11556,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0433",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6678,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0434",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7744,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0435",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5141,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0436",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2860,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0437",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5199,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0438",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7590,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0439",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3748,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0440",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5318,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0441",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2531,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0442",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14234,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0443",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13240,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0444",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6262,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0445",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7260,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0446",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16920,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0447",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12651,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0448",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 13505,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0449",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10352,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0450",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 11818,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0451",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16911,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0452",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4662,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0453",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9943,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0454",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6189,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0455",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 16397,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0456",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5481,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0457",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4583,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0458",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6551,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0459",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8244,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0460",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9083,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0461",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5771,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0462",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9506,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0463",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12414,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0464",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10828,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0465",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3461,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0466",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5603,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0467",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8354,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0468",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5186,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0469",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6829,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0470",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7442,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0471",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2619,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0472",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5784,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0473",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6743,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0474",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8683,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0475",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 68756,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0476",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9343,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0477",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6878,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0478",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3757,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0479",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14674,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0480",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6407,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0481",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 9845,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0482",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 10948,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0483",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 14702,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0484",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 12540,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0485",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 8224,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0486",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2808,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0487",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 15598,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0488",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 1729,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0489",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5184,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0490",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4802,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0491",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 4072,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0492",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 3888,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0493",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6381,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0494",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 5051,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0495",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6338,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0496",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 24546,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0497",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7821,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0498",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 2740,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0499",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 6362,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  },
+  {
+    "category_id": "F0500",
+    "priority": 2,
+    "reviewed_documents": 0,
+    "remaining_paper_documents": 7873,
+    "next_action": "按年份、分类差距及来源分层补审；确认业务范围后对全量成员执行筛选与重算。",
+    "status": "pending"
+  }
+]

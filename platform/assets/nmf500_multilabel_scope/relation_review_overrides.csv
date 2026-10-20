@@ -1,0 +1,6 @@
+﻿doc_id,topic_id,action,reason,reviewer
+patent26:e41c2de399fd99c6468ba054,450,reject,风光供电的油气井加药装置，不是燃料电池或污水处理；拒绝这两条已发现的误配。,assistant_content_review
+patent26:e41c2de399fd99c6468ba054,294,reject,风光供电的油气井加药装置，不是燃料电池或污水处理；拒绝这两条已发现的误配。,assistant_content_review
+patent26:a68f7beea883a399b329c8d4,229,reject,导热有机硅封装材料不是电解质；不能因同属电池就接受该细主题误配。,assistant_content_review
+patent26:97ce31c538baae1e326c8eaf,276,reject,水下物联网链路优化未建立电网能源应用关联，拒绝已发现的范围外迁移关系。,assistant_content_review
+policy:7a38f94da1949610c2963474,112,reject,液化石油气价格可关联能源价格，正文不是计量经济建模，拒绝Econometrics关系；Humanities待审。,assistant_content_review

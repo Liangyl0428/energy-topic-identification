@@ -1,0 +1,42 @@
+{
+  "summary": "本轮逐项审读词名并复查181条论文主题/关键词实例，修正泛化触发及有文本依据的逐篇错配。抽样用于诊断与迭代，不是全库语义准确率验收。",
+  "term_name_reviewed": 2472,
+  "newly_read_terms": 2234,
+  "old_terms_revisited": 238,
+  "unread_terms_before": 45497,
+  "unread_terms_after": 43263,
+  "unread_keyword_occurrence_mass_before": 14634034,
+  "unread_keyword_occurrence_mass_after": 8049926,
+  "term_name_review_is_not_article_context_validation": true,
+  "fresh_topic_samples": 144,
+  "new_direct_term_samples": 37,
+  "sample_status_counts": {
+    "题名支持": 142,
+    "摘要支持": 10,
+    "证据不足": 10,
+    "背景关联": 7,
+    "已撤销触发": 3,
+    "范围待定": 2,
+    "全局规则已修正": 2,
+    "子词需核对": 2,
+    "文献类型提醒": 1,
+    "题录质量问题": 1,
+    "保守规则可能漏分": 1
+  },
+  "old_flagged_semantic_relations": 9,
+  "old_flagged_relations_no_longer_present": 8,
+  "old_missed_annotation_corrected": "D028: PV decommissioning had been incorrectly title-supported in v1; nuclear trigger withheld in r2.",
+  "document_trigger_withholdings": 7,
+  "explicit_unresolved_source_tags": 3,
+  "missing_keyword_suggestions_not_applied": 7,
+  "semantic_accuracy_validated": false,
+  "independent_blind_test": false,
+  "caveat": "Fresh samples excluded v1 papers but were then used to refine rules; do not interpret counts as a held-out accuracy score or every removed relation as a corrected error.",
+  "remaining_issues": [
+    "43k词尚未逐项审读；已读通用词多数仍需语境判断。",
+    "来源标签错误、缺关键词和题录错误仍存在，未按题名单独批量删除。",
+    "设备或技术词可能仅作为背景/实验条件出现；主题相关不等于主要研究对象。",
+    "收紧通用词提高了判断门槛，也可能造成漏分；R134已保留为补词候选。",
+    "医学供能、航天核能等边界应用仍需按招标业务范围审定。"
+  ]
+}

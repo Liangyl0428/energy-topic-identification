@@ -1,0 +1,145 @@
+[
+  {
+    "from_category_id": "F0001",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-BATTERY-INTERFACE",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7163012620"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0001",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-SOLAR-CORROSION",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7133390392"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0022",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-GAS-RESOURCE",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W234819835"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0022",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-GRID-DIGITAL",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W2348011751"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0022",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-GRID-PROTECTION",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W2348415734"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0022",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-POWER-MARKET",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W2354627511"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0022",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-THERMOELECTRIC",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W2352268102"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0110",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-EV-FORECAST",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7166710595"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0110",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-INDUSTRIAL-AIR",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7164412679"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0110",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-SUBSTATION-DESIGN",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7163397305"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  },
+  {
+    "from_category_id": "F0110",
+    "from_taxonomy_version": "full_nmf500_20260926",
+    "to_business_topic_id": "B-WIND-FORECAST",
+    "to_business_version": "energy_business_p1_20261018",
+    "relation": "reviewed_subset_of_mixed_cluster",
+    "doc_ids": [
+      "paper:W7128315464"
+    ],
+    "whole_cluster_relabel": false,
+    "requires_recompute": true,
+    "review_status": "assistant_reviewed_pending_domain_review"
+  }
+]

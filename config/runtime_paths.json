@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "paths": {
+    "data_root": "../..",
+    "raw_data_dir": "{data_root}/data",
+    "corpus_dir": "{data_root}/jjjj/bertopic500_all_sources_20260925/data/corpus",
+    "metadata_db": "{data_root}/analyze/data/independent_corpus.duckdb",
+    "keyword_sources": "{data_root}/aaaa/openalex_keywords_nmf/verified_sources.json",
+    "bge_model_dir": "{data_root}/aaaa/bge_m3/models/bge-m3",
+    "bge_runtime_dir": "{data_root}/aaaa/bge_m3/_runtime",
+    "bge_core_dir": "{data_root}/aaaa/bge_m3/_core",
+    "classification_run": "{data_root}/energy-topic-identification/work/full_nmf500_20260926",
+    "hotspots_run": "{delivery_root}/energy-topic-hotspots/outputs/full_nmf500_20260926",
+    "maturity_run": "{delivery_root}/energy-technology-trl-crl/results/full_nmf500_20260926",
+    "context_dir": "{data_root}/energy-technology-trl-crl/work/nmf500/context"
+  },
+  "windows": {
+    "classification_snapshot_id": "bertopic500_all_sources_20260925",
+    "classification_run_id": "full_nmf500_20260926",
+    "hotspots_history": [
+      "2021-07-01",
+      "2026-06-30"
+    ],
+    "hotspots_core": [
+      "2023-07-01",
+      "2026-06-30"
+    ],
+    "hotspots_recent": [
+      "2025-07-01",
+      "2026-06-30"
+    ],
+    "hotspots_baseline": [
+      "2022-07-01",
+      "2025-06-30"
+    ],
+    "cross_source_comparison": [
+      "2026-01-01",
+      "2026-06-30"
+    ],
+    "maturity_assessment_cutoff": "2026-09-25"
+  },
+  "window_policy": "Recorded frozen-release semantics, not editable tuning parameters. Changing windows requires a new computation/version; path configuration alone must not relabel existing results.",
+  "source_path_prefixes": {}
+}

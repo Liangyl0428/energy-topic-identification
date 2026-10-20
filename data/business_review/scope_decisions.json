@@ -1,0 +1,288 @@
+[
+  {
+    "doc_id": "paper:W2348011751",
+    "category_id": "F0022",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-GRID-DIGITAL"
+    ],
+    "quote_field": "title",
+    "quote": "Platform Research",
+    "reason": "题名明确电力企业信息资源管理；仅支持任务归类，效果与正文待补。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W234819835",
+    "category_id": "F0022",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-GAS-RESOURCE"
+    ],
+    "quote_field": "title",
+    "quote": "Botswana's massive gas resources",
+    "reason": "题名明确天然气资源；仅支持资源任务归类，储量和开发结论待正文核实。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W2348415734",
+    "category_id": "F0022",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-GRID-PROTECTION"
+    ],
+    "quote_field": "body",
+    "quote": "neutral point over-voltage protection for a 110kV transformer",
+    "reason": "明确 110kV 变压器中性点过电压保护，应从经济类分流。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W234853219",
+    "category_id": "F0022",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "body",
+    "quote": "研究了微酸性氯化物体系中(Zn-Co)-TiO2复合电镀的工艺",
+    "reason": "现有材料说明工艺与耐蚀性，未明确能源应用；不能按来源主题自动纳入。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W234978226",
+    "category_id": "F0022",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "Zatwierdzono regulamin mundurów wodnych ZHP",
+    "reason": "题名是波兰童军水上制服规定，所给文本无能源研究任务。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W2352268102",
+    "category_id": "F0022",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-THERMOELECTRIC"
+    ],
+    "quote_field": "body",
+    "quote": "thermoelectric (TE) materials",
+    "reason": "正文研究热电材料及电热输运，有明确能量转换功能，应从经济类分流。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W2352598222",
+    "category_id": "F0022",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "Game Analysis on Carrying out Green Policy",
+    "reason": "只有绿色政策博弈题名，不能确定能源或碳政策的具体任务。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W2354627511",
+    "category_id": "F0022",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-POWER-MARKET"
+    ],
+    "quote_field": "title",
+    "quote": "Power Market System",
+    "reason": "电力市场制度题名足以作狭义任务归类，不能替代对政策效果的实证核查。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W4415677717",
+    "category_id": "F0110",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "IN PORTS",
+    "reason": "正文为清水港洪水外力与重现期，无能源设施任务；属于本轮能源范围外的通用防灾研究。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7106791247",
+    "category_id": "F0110",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "body",
+    "quote": "Egyptian sites",
+    "reason": "研究古埃及工具考古存留与采样偏差，概率方法不构成能源任务。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7106817402",
+    "category_id": "F0110",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "body",
+    "quote": "Egyptian sites",
+    "reason": "同题名考古记录，能源范围外；另保留相似版本核查，不仅凭题名删除记录。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7128315464",
+    "category_id": "F0110",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-WIND-FORECAST"
+    ],
+    "quote_field": "body",
+    "quote": "Accurate wind-power forecasting is essential for maintaining grid stability",
+    "reason": "明确风机功率预测与电网运行场景；算法论文不自动支持产品成熟度。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7133390392",
+    "category_id": "F0001",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-SOLAR-CORROSION"
+    ],
+    "quote_field": "body",
+    "quote": "La generación de electricidad a partir de Concentradores Solares Térmicos (CST)",
+    "reason": "正文明确太阳能热发电、熔盐储热和腐蚀试验，应按工况归入能源材料。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7134113234",
+    "category_id": "F0001",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "therapy and drug resistance reversal in osteosarcoma",
+    "reason": "题名明确骨肉瘤治疗；不能因为 MXene 和多孔材料词汇归入储能。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7135229693",
+    "category_id": "F0001",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "transpiration cooling",
+    "reason": "只有多孔结构蒸腾冷却题名，缺少具体能源设备或用能场景。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7139627074",
+    "category_id": "F0001",
+    "decision": "outside_current_energy_scope",
+    "business_topic_ids": [],
+    "quote_field": "body",
+    "quote": "饱和石英砂填充柱中纳米二氧化钛(nTiO2)的迁移和滞留机制",
+    "reason": "当前原文是环境颗粒迁移研究，无能源应用链条；不等于该方法永远无能源用途。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7145159298",
+    "category_id": "F0001",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "Cooling Applications",
+    "reason": "保水冷却题名缺少用能系统边界，待补摘要后判断。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7160693920",
+    "category_id": "F0001",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "iodine capture",
+    "reason": "碘捕集题名未明确放射性碘或核能应用，不能自动归为核能安全。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7163012620",
+    "category_id": "F0001",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-BATTERY-INTERFACE"
+    ],
+    "quote_field": "body",
+    "quote": "lithium-metal batteries",
+    "reason": "明确锂金属电池界面稳定性与多孔 SEI，归入储能材料。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7163397305",
+    "category_id": "F0110",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-SUBSTATION-DESIGN"
+    ],
+    "quote_field": "body",
+    "quote": "Air Insulated Switchgear (AIS) substations",
+    "reason": "研究变电站绝缘间隙和概率设计，能源相关，但不同于功率预测任务。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7164412679",
+    "category_id": "F0110",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-INDUSTRIAL-AIR"
+    ],
+    "quote_field": "body",
+    "quote": "As the compressor is the dominant power consumer",
+    "reason": "明确压缩机为主要耗电设备及空气需求预测，可服务工业用能分析；没有实际节能量证据。",
+    "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7164442561",
+    "category_id": "F0001",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "Transpiration cooling",
+    "reason": "只有多孔结构冷却题名，暂无法判断能源应用任务。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7166658717",
+    "category_id": "F0110",
+    "decision": "insufficient_evidence",
+    "business_topic_ids": [],
+    "quote_field": "title",
+    "quote": "monthly temperature anomalies",
+    "reason": "仅有气温异常预测题名，尚不能确定电力任务。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  },
+  {
+    "doc_id": "paper:W7166710595",
+    "category_id": "F0110",
+    "decision": "include",
+    "business_topic_ids": [
+      "B-EV-FORECAST"
+    ],
+    "quote_field": "title",
+    "quote": "EV charging load forecasting",
+    "reason": "题名明确电动汽车充电负荷预测；仅支持任务归类，工程效果待正文核查。",
+    "evidence_limit": "仅题名",
+    "next_action": "领域审核任务边界；必要时补摘要或原文"
+  }
+]

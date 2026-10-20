@@ -1,0 +1,21 @@
+{
+  "source_release": "keyword_dictionary_multilabel_20261019",
+  "prepared_manifest_is_reused": true,
+  "source_extraction_repeated_in_r2": false,
+  "view_definitions": [
+    {
+      "view_name": "observations",
+      "sql": "CREATE VIEW observations AS SELECT row_id, keyword_id, score FROM read_parquet('/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/keyword_parts/*.parquet');"
+    },
+    {
+      "view_name": "papers",
+      "sql": "CREATE VIEW papers AS SELECT row_id, doc_id, date, \"language\", title_only, retracted, template_record, usable FROM read_parquet('/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus/*.parquet') WHERE (\"source\" = 'paper');"
+    }
+  ],
+  "reused_work_files": {
+    "all_raw_keywords.csv": "4b2f6bab1da5bb319aa8de348654d89aef8f0630c2bd5014d87a8d94ab1c0d45",
+    "raw_name_aliases.parquet": "471069ea1c6604497be7230d30c43d43d21e24c05c5e39d07882737e4dd863b3",
+    "PREPARED.json": "f42670845521be4b53dae34d107ea73c12d7c4f233f4368bad455b9477115bf3"
+  },
+  "old_release_manifest_sha256": "dd1e368c651e98374525b0f2118956b884e55565b309c34d2d71dffaf0eb27f1"
+}

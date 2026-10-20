@@ -1,0 +1,62 @@
+term,topic_code,mode,status
+Solar thermal energy,KWD-T0003,direct,not_observed_not_active
+Concentrating solar power,KWD-T0003,direct,not_observed_not_active
+Solar power tower,KWD-T0003,direct,not_observed_not_active
+Wind turbine,KWD-T0006,direct,not_observed_not_active
+Wind farm,KWD-T0006,direct,not_observed_not_active
+Hydroelectric power,KWD-T0007,direct,not_observed_not_active
+Pelton wheel,KWD-T0007,direct,not_observed_not_active
+Kaplan turbine,KWD-T0007,direct,not_observed_not_active
+Pumped storage,KWD-T0008,direct,not_observed_not_active
+Gravity energy storage,KWD-T0008,direct,not_observed_not_active
+Anaerobic digester,KWD-T0012,conditional,not_observed_not_active
+ITER,KWD-T0015,direct,not_observed_not_active
+Solid-state battery,KWD-T0019,direct,not_observed_not_active
+Zinc–air battery,KWD-T0019,direct,not_observed_not_active
+Lithium air battery,KWD-T0019,direct,not_observed_not_active
+Nickel–metal hydride battery,KWD-T0019,direct,not_observed_not_active
+Nickel–cadmium battery,KWD-T0019,direct,not_observed_not_active
+Rechargeable battery,KWD-T0019,direct,not_observed_not_active
+Battery management system,KWD-T0020,direct,not_observed_not_active
+Solid electrolyte interphase,KWD-T0020,conditional,not_observed_not_active
+Battery recycling,KWD-T0020,conditional,not_observed_not_active
+Thermal storage,KWD-T0022,direct,not_observed_not_active
+Heat storage,KWD-T0022,direct,not_observed_not_active
+Cold thermal energy storage,KWD-T0022,direct,not_observed_not_active
+Ice storage air conditioning,KWD-T0022,direct,not_observed_not_active
+Hybrid energy storage,KWD-T0023,direct,not_observed_not_active
+Distributed energy resources,KWD-T0024,direct,not_observed_not_active
+Integrated energy system,KWD-T0024,direct,not_observed_not_active
+Energy internet,KWD-T0025,direct,not_observed_not_active
+Smart energy,KWD-T0025,direct,not_observed_not_active
+Unit commitment,KWD-T0028,conditional,not_observed_not_active
+Load forecasting,KWD-T0029,direct,not_observed_not_active
+Electric load forecasting,KWD-T0029,direct,not_observed_not_active
+Power outage,KWD-T0029,direct,not_observed_not_active
+Demand-side management,KWD-T0029,direct,not_observed_not_active
+Reactive power,KWD-T0030,direct,not_observed_not_active
+Voltage stability,KWD-T0030,direct,not_observed_not_active
+Grounding,KWD-T0033,conditional,not_observed_not_active
+Power supply,KWD-T0037,conditional,not_observed_not_active
+Multilevel inverter,KWD-T0038,conditional,not_observed_not_active
+IGBT,KWD-T0039,conditional,not_observed_not_active
+Hybrid electric vehicle,KWD-T0042,direct,not_observed_not_active
+Plug-in hybrid,KWD-T0042,direct,not_observed_not_active
+Smart charging,KWD-T0042,direct,not_observed_not_active
+Dynamic braking system,KWD-T0043,conditional,not_observed_not_active
+Railway electrification system,KWD-T0044,direct,not_observed_not_active
+Triboelectric nanogenerator,KWD-T0046,direct,not_observed_not_active
+Piezoelectric energy harvesting,KWD-T0046,direct,not_observed_not_active
+Carbon capture,KWD-T0056,direct,not_observed_not_active
+Advanced metering infrastructure,KWD-T0064,conditional,not_observed_not_active
+Neural network,KWD-T0065,conditional,not_observed_not_active
+Deep reinforcement learning,KWD-T0065,conditional,not_observed_not_active
+Transfer learning,KWD-T0065,conditional,not_observed_not_active
+Digital twin,KWD-T0065,conditional,not_observed_not_active
+Mixed integer programming,KWD-T0066,conditional,not_observed_not_active
+Fuzzy control,KWD-T0066,conditional,not_observed_not_active
+Control theory,KWD-T0066,conditional,not_observed_not_active
+Cybersecurity,KWD-T0067,conditional,not_observed_not_active
+Ion exchange membrane,KWD-T0068,conditional,not_observed_not_active
+Solid electrolyte,KWD-T0068,conditional,not_observed_not_active
+Photocatalytic activity,KWD-T0070,conditional,not_observed_not_active

@@ -1,0 +1,143 @@
+﻿evidence_id,review_status,review_note,reviewer,review_scope,expert_approved,independent_blind_test
+D001,背景关联,正文以抽水蓄能为主，太阳能并网是应用背景；光伏标签不等于光伏为主要研究对象。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D002,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D003,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D004,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D005,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D006,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D007,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D008,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D009,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D010,证据不足,题名仅说明水电联产、淡化和储能，缺正文；Geothermal desalination词不能单独验证地热驱动。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D011,疑似误分,题名是种马精液与饲料补充研究，却带Wind power来源标签；字面规则继承了源标签错误。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D012,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D013,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D014,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D015,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D016,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D017,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D018,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D019,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D020,正文支持,正文讨论地热资源、温泉与地震构造关系，支持地热资源主题。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D021,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D022,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D023,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D024,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D025,正文支持,正文为ARIES聚变电站中子学与屏蔽；通用核能主题允许与聚变主题重叠，不应称其为裂变研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D026,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D027,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D028,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D029,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D030,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D031,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D032,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D033,证据不足,题名涉及合金中的氢固溶行为，但缺正文；储氢能源应用目前只由Hydrogen storage标签指示。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D034,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D035,证据不足,氢动力SUV与燃料电池相容，但缺正文，题名尚不能排除其他氢动力路线。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D036,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D037,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D038,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D039,正文支持,正文明确讨论电池SOC、过充过放和充放电控制，支持电池管理。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D040,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D041,证据不足,题名为制氢电极，Supercapacitor标签可能误配；无正文，保留待核。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D042,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D043,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D044,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D045,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D046,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D047,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D048,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D049,正文支持,正文明确讨论智能电网、PMU布置和网络攻击。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D050,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D051,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D052,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D053,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D054,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D055,疑似过度推断,正文是风力发电机恒频运行，甚至说明无需频率控制；Automatic frequency control不足以证明调度与灵活性研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D056,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D057,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D058,证据不足,正文讨论最优潮流与电压补偿，Reliability engineering条件词对供电可靠性主题的证据偏弱。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D059,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D060,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D061,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D062,正文支持,正文明确提出故障限流型超导电缆并分析限流性能，符合保护设备主题。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D063,疑似误分,正文开路电压约0.95—1.00 V；相对较高的光伏电压被标成High voltage，不能视为电网高电压研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D064,疑似误分,正文绝缘层用于光伏半导体背接触，来源Insulator (electricity)不能证明电力高压绝缘或局放。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D065,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D066,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D067,证据不足,题名是华东电网输配电展望，Transformer标签提供线索，但尚未逐项确认变压器研究内容。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D068,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D069,范围待定,正文为短电源线的多频段滤波和电磁兼容，广义供电相关；是否纳入电网输电线路专题需业务判断。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D070,正文支持,正文多导体线路时域仿真并与EMTP对照，支持线路分析主题。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D071,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D072,证据不足,题名只表明广域阻尼控制，HVDC应用需结合完整正文核实。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D073,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D074,证据不足,风能与电能质量控制相关，Converters词触发变换器主题；题名不足以确定变换器是研究对象。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D075,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D076,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D077,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D078,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D079,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D080,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D081,证据不足,燃料电池热电联产题名不能证明旋转发电机研究，Auxiliary power unit条件词偏宽。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D082,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D083,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D084,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D085,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D086,正文支持,正文明确提到提高制动再生效率，支持再生制动。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D087,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D088,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D089,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D090,范围待定,题名明确为植入医疗器械无线供能；技术上匹配，但电网招标业务是否需要此场景须单独筛选。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D091,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D092,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D093,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D094,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D095,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D096,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D097,疑似误分,正文研究太阳能蒸馏器，并未研究建筑；Passive solar building design标签疑似错配。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D098,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D099,证据不足,题名涉及冷却塔防冻，换热词提供关联，但能源应用范围需更完整内容确认。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D100,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D101,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D102,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D103,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D104,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D105,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D106,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D107,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D108,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D109,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D110,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D111,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D112,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D113,疑似过度推断,正文烟气再循环用于燃料利用率和抑制积碳；直接扩展成排放治理主题证据偏弱。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D114,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D115,证据不足,题名支持经济环境评估，具体碳核算或碳治理内容仍需全文确认。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D116,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D117,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D118,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D119,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D120,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D121,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D122,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D123,范围待定,芯片网络节能属于广义能效，不能自动当成电网能源业务的核心研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D124,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D125,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D126,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D127,正文支持,正文明确包含智能电表部署、计量数据管理与用户接受度。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D128,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D129,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D130,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D131,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D132,疑似过度推断,正文为SVM负荷预测，Nonlinear system是问题性质，不能独立证明优化与控制方法研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D133,证据不足,题名为SOI LDMOS高压互连效应，Telecommunications标签不足以证明能源通信网络应用。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D134,疑似过度推断,正文为托卡马克可见光成像诊断，Telecommunications标签不能证明通信或网络安全研究。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D135,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D136,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D137,疑似误分,正文为印度碳封存选项与政策前景，未见碳纤维研究；Carbon fibers标签疑似错配。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D138,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D139,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D140,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D141,背景关联,电弧炉粉尘是原料来源，题名主要研究废渣制铁酸锌；电热设备不是明确主要对象。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False
+D142,题名支持,已阅读题名与触发词，二者支持该主题的初步关联；未据此断言是论文唯一或主要研究方向。,assistant,title_and_keyword_evidence; excerpts read for ambiguous cases,False,False

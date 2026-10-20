@@ -1,0 +1,97 @@
+{
+  "version": "energy_business_p2_20261019",
+  "created_utc": "2026-10-18T17:29:14.432224+00:00",
+  "business_topics": 51,
+  "business_categories": 9,
+  "legacy_f_topics": 500,
+  "population_records": 5119004,
+  "populations": [
+    {
+      "source": "paper",
+      "records": 4831088,
+      "quality_eligible_records": 4817892
+    },
+    {
+      "source": "patent",
+      "records": 281295,
+      "quality_eligible_records": 279732
+    },
+    {
+      "source": "policy",
+      "records": 6621,
+      "quality_eligible_records": 6621
+    }
+  ],
+  "matched_unique_by_source": [
+    {
+      "source": "paper",
+      "matched_unique_documents": 975638
+    },
+    {
+      "source": "patent",
+      "matched_unique_documents": 65683
+    },
+    {
+      "source": "policy",
+      "matched_unique_documents": 2143
+    }
+  ],
+  "membership_links": 1105686,
+  "evidence_sample_links": 696,
+  "evidence_sample_unique_docs": 678,
+  "object_cards": 122,
+  "objects_with_business_candidates": 38,
+  "paired_axis_objects": 13,
+  "full_corpus_title_screening_completed": true,
+  "rule_scope_trends_recomputed": true,
+  "expert_approved_topics": 0,
+  "semantic_accuracy_independently_validated": false,
+  "future_predictions_available": false,
+  "external_network_used": false,
+  "production_frontend_deployed": false,
+  "input_fingerprint": {
+    "version": "energy_business_p2_20261019",
+    "taxonomy_sha256": "979f401f35a05013db8c253dad730613edeb4c0b23aa6eae80e20cd60a98958b",
+    "builder_sha256": "9058cfe633255922813041f5d3fb79e44e30a85b26b23a31d06e2dac9631d437",
+    "membership_code_sha256": "8d4deefb1ad012e17bbf7923573971d722873fc091c949632a20d7c935d762f9",
+    "assignments_manifest_sha256": "db596796fefdd3643e499f4939a55eb22f062d507f7a4b5037817ba496e33cf6",
+    "assignment_parts_freshly_hashed": 259,
+    "metadata_path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/analyze/data/independent_corpus.duckdb",
+    "metadata_bytes": 274432,
+    "metadata_mtime_ns": 1790013326732627366,
+    "metadata_full_hash_recomputed": false,
+    "source_kind": "frozen_assignments_with_original_titles_and_quality_flags",
+    "raw_data_path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/data",
+    "corpus_path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus",
+    "external_network_used": false,
+    "windows": {
+      "history": [
+        "2021-07-01",
+        "2026-06-30"
+      ],
+      "core": [
+        "2023-07-01",
+        "2026-06-30"
+      ],
+      "recent": [
+        "2025-07-01",
+        "2026-06-30"
+      ],
+      "previous": [
+        "2024-07-01",
+        "2025-06-30"
+      ],
+      "baseline": [
+        "2022-07-01",
+        "2025-06-30"
+      ],
+      "cross_source": [
+        "2026-01-01",
+        "2026-06-30"
+      ]
+    }
+  },
+  "membership_artifact": "work/business_p2_20261019/memberships.parquet",
+  "membership_sha256": "b3b370cc01c020337a2318ff9b3641b1b15ba0527f8c2f1e074e41aef930740d",
+  "interpretation": "全量冻结语料上的明确题名检索范围与重算趋势；不是已经人工逐篇审定的全行业分类。"
+}

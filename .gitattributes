@@ -1,0 +1,2 @@
+# Preserve exact bytes for manifest hashing (no line-ending conversion).
+* -text

@@ -9,8 +9,8 @@ import runpy
 def main():
     if not (RUN/'COMPLETE.json').exists():raise RuntimeError('Full classification is not complete')
     jobs=[(REPO,RUN,['SUMMARY.json','VALIDATION.json','REPORT.md','coverage.csv','topic_catalog.csv','topic_assignment_quality.csv','QUALITY_DIAGNOSTICS.json','ASSIGNMENTS_MANIFEST.json','TRAINING_COMPLETE.json','INFERENCE_COMPLETE.json','VOCABULARY_COMPLETE.json','ENCODING_COMPLETE.json']),
-        (ROOT/'energy-topic-hotspots',ROOT/'energy-topic-hotspots/outputs/full_nmf500_20260926',['SUMMARY.json','REPORT.md','coverage.csv','topic_catalog.csv','hotspot_metrics.csv','quarter_counts.csv','institution_citation_context.csv','cross_source_signals.csv','transfer_source_summary.csv','core_components.csv','emerging_components.csv']),
-        (ROOT/'energy-technology-trl-crl',ROOT/'energy-technology-trl-crl/results/full_nmf500_20260926',['SUMMARY.json','REPORT.md','theme_context_top3.csv','case_hotspot_links.csv','theme_evidence_profiles.csv'])]
+        (DELIVERY/'energy-topic-hotspots',RUNTIME.path('hotspots_run'),['SUMMARY.json','REPORT.md','coverage.csv','topic_catalog.csv','hotspot_metrics.csv','quarter_counts.csv','institution_citation_context.csv','cross_source_signals.csv','transfer_source_summary.csv','core_components.csv','emerging_components.csv']),
+        (DELIVERY/'energy-technology-trl-crl',RUNTIME.path('maturity_run'),['SUMMARY.json','REPORT.md','theme_context_top3.csv','case_hotspot_links.csv','case_hotspot_links.json','case_hotspot_links.schema.json','theme_evidence_profiles.csv'])]
     for repo,source,names in jobs:
         target=repo/'assets/full_nmf500';target.mkdir(parents=True,exist_ok=True)
         for name in names:
@@ -33,10 +33,10 @@ def main():
         subprocess.run([sys.executable,str(repo/'tools/check_current_release.py'),'--write-manifest'],check=True)
     subprocess.run([sys.executable,str(REPO/'tools/update_release_manifest.py')],check=True)
     subprocess.run([sys.executable,str(REPO/'tools/validate_release.py')],check=True)
-    hot=ROOT/'energy-topic-hotspots'
+    hot=DELIVERY/'energy-topic-hotspots'
     subprocess.run([sys.executable,str(hot/'tools/update_release_manifest.py')],check=True)
     dump(RUN/'RELEASE_VALIDATION.json',{'identification':True,'hotspots':True,
-        'maturity_assets_manifest':sha(ROOT/'energy-technology-trl-crl/assets/full_nmf500/MANIFEST.json')})
+        'maturity_assets_manifest':sha(DELIVERY/'energy-technology-trl-crl/assets/full_nmf500/MANIFEST.json')})
 
 
 if __name__=='__main__':main()

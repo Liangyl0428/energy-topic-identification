@@ -17,3 +17,8 @@ pipelines/*/*.npy
 pipelines/*/*.xlsx
 pipelines/*/*.json
 pipelines/*/*.md
+
+# Full document exports remain external runtime assets.
+platform/assets/*/paper_assignments/
+platform/assets/*/paper_topic_relations/
+!pipelines/keyword_dictionary_full_review/README.md

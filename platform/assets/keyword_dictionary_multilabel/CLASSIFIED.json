@@ -1,0 +1,22 @@
+{
+  "release_id": "keyword_dictionary_multilabel_20261019",
+  "counts": {
+    "papers": 4831088,
+    "assigned_papers": 1806658,
+    "multilabel_papers": 1435964,
+    "relations": 4818075,
+    "quality_eligible_assigned_papers": 1805040,
+    "flagged_records": 12368,
+    "maximum_topics_per_paper": 14
+  },
+  "topics": 71,
+  "dictionary_sha256": "eabcbbb172da013a01af8ea4cd179e59c2a541bae8af93be3b4fae7b00b20b47",
+  "rule": "Every exact observed direct keyword triggers its topic. Conditional keywords require a compatible direct-topic anchor in the SAME paper; only supporting themes allow any direct energy anchor. Allowed families are explicit in the dictionary. Union all matching themes, deduplicate; no score threshold or top-N cap.",
+  "quality_policy": "All papers receive literal dictionary memberships, including flagged records. Retracted/template flags and quality_eligible are retained so downstream users can exclude them; no document is physically deleted.",
+  "matching_fields": "Canonical original source keyword identities only. Titles/abstracts not used to infer missing keywords.",
+  "no_nmf": true,
+  "no_transfer": true,
+  "no_renormalization": true,
+  "semantic_accuracy_validated": false,
+  "scope": "all 4831088 frozen paper records; patents and policies not inferred in this release"
+}

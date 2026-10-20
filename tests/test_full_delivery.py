@@ -82,7 +82,7 @@ def test_orchestrator_commits_and_verifies_three_local_remotes(tmp_path,monkeypa
     paths=[name+'/repo' for name in names]
     config={'base_pid':99999999,'repositories':{path:records[name] for path,name in zip(paths,names)}}
     source=tmp_path/'classification';source.mkdir();job=source/'postprocess';job.mkdir()
-    monkeypatch.setattr(delivery,'ROOT',tmp_path);monkeypatch.setattr(delivery,'RUN',source)
+    monkeypatch.setattr(delivery,'DELIVERY',tmp_path);monkeypatch.setattr(delivery,'RUN',source)
     monkeypatch.setattr(delivery,'JOB',job);monkeypatch.setattr(delivery,'NAMES',paths)
     (source/'ALL_REPOSITORIES_COMPLETE.json').write_text('{}')
     delivery.dump(source/'SUMMARY.json',{'full_training':True,'full_inference':True,'full_transfer':True,'population_records':5119004})
@@ -115,7 +115,7 @@ def test_packaging_does_not_publish_comparison_reports(tmp_path,monkeypatch):
     (base/'REPORT.md').write_text('Current result.')
     delivery.dump(base/'MANIFEST.json',{'classification_summary_sha256':delivery.sha(source/'SUMMARY.json'),
         'files':{'REPORT.md':delivery.sha(base/'REPORT.md')}})
-    monkeypatch.setattr(delivery,'ROOT',tmp_path);monkeypatch.setattr(delivery,'NAMES',['repo'])
+    monkeypatch.setattr(delivery,'DELIVERY',tmp_path);monkeypatch.setattr(delivery,'NAMES',['repo'])
     delivery.package(source,{})
     assert not (base/'topic_evaluation').exists()
     assert 'TOPIC_EVALUATION' not in (repo/'README.md').read_text()

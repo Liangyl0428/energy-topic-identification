@@ -1,0 +1,23 @@
+{
+  "release_id": "keyword_dictionary_semantic_review_20261019_r2",
+  "counts": {
+    "papers": 4831088,
+    "assigned_papers": 1807502,
+    "multilabel_papers": 1408940,
+    "relations": 4694128,
+    "quality_eligible_assigned_papers": 1805886,
+    "flagged_records": 12368,
+    "maximum_topics_per_paper": 14
+  },
+  "topics": 72,
+  "dictionary_sha256": "efbd3547dacd2d81e5dd2997e6a83f85af0f5d940b4d5a125a2b1421dadef97e",
+  "rule": "Every exact observed direct keyword triggers its topic. Conditional keywords require a compatible direct-topic anchor in the SAME paper; only supporting themes allow any direct energy anchor. Allowed families are explicit in the dictionary. Union all matching themes, deduplicate; no score threshold or top-N cap.",
+  "quality_policy": "All papers receive literal dictionary memberships, including flagged records. Retracted/template flags and quality_eligible are retained so downstream users can exclude them; no document is physically deleted.",
+  "matching_fields": "Canonical original source keyword identities, with explicitly documented per-paper trigger withholdings after assistant review of titles/abstracts. No title-derived keywords are added.",
+  "document_keyword_review_sha256": "6c7b43bde1139cd0e60d274dc762a1a6d0a69d79f8ada31cbc9013823dcf7760",
+  "no_nmf": true,
+  "no_transfer": true,
+  "no_renormalization": true,
+  "semantic_accuracy_validated": false,
+  "scope": "all 4831088 frozen paper records; patents and policies not inferred in this release"
+}

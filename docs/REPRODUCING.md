@@ -1,39 +1,28 @@
 # 复现与运行
 
-三个仓库放在同一工作区。CPU依赖见requirements-full-nmf.txt；编码另需Python3.10、ONNX Runtime CUDA、tokenizers、BGE-M3权重及匹配的CUDA运行库。
+当前全量入口可读取本仓库的 `config/runtime_paths.json`；跨模块 P1/P2 构建使用组装后的 `final` 运行包。先参照 [平台接入说明](PLATFORM_INTEGRATION.md) 确认运行布局。先查看[运行配置与输入清单](https://github.com/Liangyl0428/energy-topic-identification/blob/main/platform/docs/运行配置与输入清单.md)和[平台字段字典](https://github.com/Liangyl0428/energy-topic-identification/blob/main/platform/docs/数据与指标字典.md)。数据根目录、冻结语料、元数据库、BGE 模型和输出位置均可配置；相对路径相对于配置文件，不依赖启动目录。
 
-## 外部运行资产
+在项目根目录先做只读预检：
 
-- jjjj/bertopic500_all_sources_20260925/data/corpus/part-*.parquet：冻结全来源记录。
-- aaaa/openalex_keywords_nmf/verified_sources.json及指向的论文CSV。
-- aaaa/bge_m3/models/bge-m3/：模型和tokenizer；_runtime、_core为编码运行时搜索目录。
-- analyze/data/independent_corpus.duckdb：热点所需论文元数据。
-- energy-technology-trl-crl/work/nmf500/context/：已核验对象上下文及embedding。
+```sh
+.venv-hotspots/bin/python final/tools/check_inputs.py
+```
 
-## 执行
+外部语料、模型和元数据库不会随紧凑交付打包。搬迁时保留 `final/runtime_config.py` 与 `final/config/`，设置 `ENERGY_DATA_ROOT` 或 `ENERGY_PLATFORM_CONFIG`；缺失依赖会明确报错。基础依赖见本模块 requirements 或 pyproject。
 
-在共享工作区根目录：
+## 分类全量流程
 
-    .venv-hotspots/bin/python energy-topic-identification/pipelines/full_nmf/run.py
+```sh
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/full_nmf/status.py
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/full_nmf/run.py
+```
 
-按prepare、encode、train、finalize、两个下游build及publish_local完成基础处理。缓存和大文件在work/full_nmf500_20260926，有哈希及完成标记。不要在同目录并发重复启动。
+默认配置引用已有完成缓存；独立重跑前把 `classification_run` 或 `FULL_NMF_RUN` 指向新目录。流程按 prepare、encode、train、finalize、下游 build 和本地资产导出执行。不要在同一缓存目录并发启动。编码仍需既有 Python 3.10、ONNX CUDA 运行时和 BGE-M3 权重。
 
-只读查看：
+输入关键词清单含绝对路径，按统一配置 `source_path_prefixes` 重定位。模型、向量和逐条分配留在配置的工作目录；加载 NMF 需要把 `pipelines/full_nmf` 加入模块路径并导入对应模型类。
 
-    .venv-hotspots/bin/python energy-topic-identification/pipelines/full_nmf/status.py
+P0 没有重跑分类，也没有修改主题成员或模型权重。历史发布调度脚本不属于本地复现入口，未在本次执行。
 
-在本仓库根目录检查：
+## 本地校验
 
-    python -m pytest tests/test_keyword_nmf.py tests/test_full_nmf.py tests/test_full_delivery.py -q
-    python tools/check_current_release.py
-
-完整模型selected_nmf.joblib、components.npy、vocabulary.csv、topic_centroids.npy与逐条标签保留在工作目录。加载NMF需将pipelines/full_nmf加入Python模块路径，导入fast_nmf.GpuMiniBatchNMF。Git提供源码、参数记录与结果摘要，不包含完整训练权重、全量文献或向量。
-
-## 仅重建报告和目录说明
-
-无需重跑模型即可执行：
-
-    python pipelines/full_nmf/report.py --input assets/full_nmf500
-    python tools/project_structure.py
-
-报告直接汇总已有 CSV/JSON；若修改了发布文件，提交前必须同步更新成果指纹与核心文件清单。
+在模块目录按 README 的 CPU 测试命令运行；可选 ONNX 和 BERTopic 兼容测试需另装其依赖。发布前需更新本地资产和源码指纹；当前 P0 的统一验收结果见[验收记录](https://github.com/Liangyl0428/energy-topic-identification/blob/main/platform/docs/P0修复验收.md)。完整性检查通过只说明字段、证据及版本一致，不替代主题语义审核或正式成熟度评定。

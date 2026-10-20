@@ -1,0 +1,87 @@
+{
+  "topics": 72,
+  "raw_keyword_ids": 48329,
+  "canonical_keywords": 48327,
+  "decisions": {
+    "unreviewed": 43263,
+    "general_auxiliary": 2338,
+    "excluded_rule": 1192,
+    "direct": 633,
+    "conditional": 588,
+    "excluded": 212,
+    "broad_auxiliary": 101
+  },
+  "keyword_document_occurrences_by_decision": {
+    "broad_auxiliary": 19093231,
+    "conditional": 8426785,
+    "direct": 3945371,
+    "excluded": 1554176,
+    "excluded_rule": 86640,
+    "general_auxiliary": 17840461,
+    "unreviewed": 8049926
+  },
+  "normalization": "Unicode NFKC, casefold, hyphen variants to spaces, collapse whitespace; retain sense qualifiers.",
+  "synonym_groups": [
+    [
+      "Fuel cells",
+      "Fuel cell"
+    ],
+    [
+      "Supercapacitor",
+      "Supercapacitors"
+    ],
+    [
+      "Solar cell",
+      "Solar cells"
+    ],
+    [
+      "Hydropower",
+      "Hydro power",
+      "Hydroelectricity"
+    ],
+    [
+      "Power grid",
+      "Electric grid",
+      "Electrical grid"
+    ],
+    [
+      "Lithium-ion battery",
+      "Lithium ion batteries",
+      "Lithium-ion batteries"
+    ],
+    [
+      "Sodium-ion battery",
+      "Sodium ion batteries"
+    ],
+    [
+      "Wind power",
+      "Wind energy"
+    ],
+    [
+      "Carbon capture and storage (timeline)",
+      "Carbon capture and storage"
+    ],
+    [
+      "Regenerative brake",
+      "Regenerative braking"
+    ],
+    [
+      "Power-flow study",
+      "Power flow study"
+    ]
+  ],
+  "unobserved_candidate_terms_inactive": 61,
+  "dictionary_sha256": "efbd3547dacd2d81e5dd2997e6a83f85af0f5d940b4d5a125a2b1421dadef97e",
+  "aliases_sha256": "b0a1940f5daa4953d216d60a42914669284c6b98b284709f947e013015148a84",
+  "topic_definitions_sha256": "dd527e7c4d175b175548b2cb35ab67cc70e303c0fb5d3ea4e7a7b3739378e354",
+  "outside_screening_patterns": {
+    "medical_disease": "\\b(?:cancer|carcinoma|tumou?r|lymphoma|leukemia|diabetes|diabetic|dementia|alzheimer|parkinson|schizophrenia|arthritis|hepatitis|asthma|myocardial|cardiac|coronary|renal|kidney|pulmonary|pulseless|epilepsy|epileptic|hypertension|fibrosis|sepsis|pneumonia|osteoporosis|glaucoma|retinopathy|encephalitis)\\b",
+    "medical_care": "\\b(?:patient|patients|clinical|surgical|surgery|surgeon|pharmacology|pharmacokinetic|chemotherapy|radiotherapy|anesthesia|anaesthesia|nursing|rehabilitation|vaccine|vaccination|antibiotic|antibody|antibodies|immunotherapy|biomarker|diagnosis|prognosis)\\b",
+    "cellular_biology": "\\b(?:gene|genes|genome|genomic|rna|dna|protein|proteins|enzyme|enzymes|receptor|receptors|neuron|neuronal|neurons|mitochondrial|chromosome|chromosomal|ribosomal|apoptosis|transcription|cytokine|cytokines|lymphocyte|lymphocytes)\\b",
+    "non_energy_power_sense": "\\b(?:purchasing power|power of attorney|power politics|power walking|sums of powers|prime power|perfect power|power of two|power structure|power transform|convolution power|formal power series|absolute power|symbolic power|will to power|manpower|empowerment)\\b",
+    "non_energy_solar_sense": "\\b(?:solar neutrino|solar mass|solar core|stellar wind|carbon star|solar system|solarisation)\\b"
+  },
+  "r2_term_name_review_count": 2472,
+  "r2_newly_read_terms": 2234,
+  "boundary": "All original keyword identities accounted for. Explicit trigger terms are assistant-reviewed; rule-excluded terms and the unreviewed long tail are not claimed to be individually manually reviewed. No unsupported automatic deletion."
+}

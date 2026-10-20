@@ -1,0 +1,731 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "sha:README.md",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p1/BUILD.json",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p1/SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P0修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P1修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/平台业务与使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/运行配置与输入清单.md",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/README.md",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/case_insights.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/case_insights.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/evidence_index.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/evidence_index.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/gate_evidence.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/gate_evidence.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/observation_index.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/observation_index.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/source_index.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/source_index.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/topic_case_distributions.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p1/topic_case_distributions.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/provenance/CORE_FILES.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/trl_crl/insights.py",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/README.md",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/reviewed_quarter_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/reviewed_quarter_counts.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/reviewed_scope_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/reviewed_scope_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/topic_insights.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p1/topic_insights.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/provenance/CORE_FILES.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/provenance/FILE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/src/energy_hotspots/insights.py",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/README.md",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/POSTPROCESS_DELIVERY.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/business_taxonomy.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/reviewed_memberships.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/reviewed_memberships.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_evidence.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_evidence.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_review_queue.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_review_queue.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_reviews.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/topic_business_cards.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/topic_business_cards.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/topic_business_mappings.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p1/topic_business_mappings.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_review/SOURCE_SNAPSHOT.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_review/documents.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_review/scope_decisions.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_review/taxonomy.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_review/topic_definitions.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/pipelines/business/build.py",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/provenance/CORE_FILES.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/provenance/SHA256SUMS.json",
+      "passed": true
+    },
+    {
+      "name": "sha:p1_common.py",
+      "passed": true
+    },
+    {
+      "name": "sha:provenance/P1_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "sha:tests/test_p1_delivery.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/build_p1.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/refresh_p1_manifests.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/validate_p1.py",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/assets/full_nmf500/SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/assets/full_nmf500/SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/assets/full_nmf500/topic_catalog.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/data/business_review/SOURCE_SNAPSHOT.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/data/business_review/documents.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/data/business_review/scope_decisions.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/data/business_review/taxonomy.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-identification/data/business_review/topic_definitions.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/case_technology_links.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/dataset.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/evidence.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/gate_reviews.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/objects.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/observations.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/observed_facts.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/sources.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/technical_profiles.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/technology_registry.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/theme_direction_links.json",
+      "passed": true
+    },
+    {
+      "name": "inputs:energy-technology-trl-crl/data/themes.json",
+      "passed": true
+    },
+    {
+      "name": "code:tools/build_p1.py",
+      "passed": true
+    },
+    {
+      "name": "code:p1_common.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-topic-identification/pipelines/business/build.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-topic-hotspots/src/energy_hotspots/insights.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-technology-trl-crl/trl_crl/insights.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-technology-trl-crl/trl_crl/rules.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-technology-trl-crl/trl_crl/engine.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-technology-trl-crl/trl_crl/pipeline.py",
+      "passed": true
+    },
+    {
+      "name": "code:energy-technology-trl-crl/trl_crl/delivery.py",
+      "passed": true
+    },
+    {
+      "name": "release:energy-topic-identification",
+      "passed": true
+    },
+    {
+      "name": "release:energy-topic-hotspots",
+      "passed": true
+    },
+    {
+      "name": "release:energy-technology-trl-crl",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:preview/index.html",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p2/业务主题与决策解读.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p2/platform_data.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P1修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/平台业务与使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P0修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/运行配置与输入清单.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:config/runtime_paths.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-topic-identification/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-topic-hotspots/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.csv",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../provenance/P0_TEST_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../provenance/P0_TESTS.xml",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../provenance/P0_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../provenance/p0_maturity_plot_check.png",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:../energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.schema.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P0修复验收.md:运行配置与输入清单.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../assets/p1/BUILD.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../provenance/P1_TESTS.xml",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../provenance/P1_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../provenance/P1_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../provenance/P1_FILES.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:../assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:平台业务与使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P1修复验收.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P2业务主题与决策使用手册.md:../preview/index.html",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P2业务主题与决策使用手册.md:../assets/p2/业务主题与决策解读.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P2业务主题与决策使用手册.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/P2业务主题与决策使用手册.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:../assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:../assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/平台业务与使用说明.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/数据与指标字典.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/数据与指标字典.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/数据与指标字典.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/数据与指标字典.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/模块接口与展示规范.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/模块接口与展示规范.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/运行配置与输入清单.md:../config/runtime_paths.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/运行配置与输入清单.md:../runtime_config.py",
+      "passed": true
+    },
+    {
+      "name": "doclink:docs/运行配置与输入清单.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "p1_and_p0_regression_tests",
+      "passed": true
+    },
+    {
+      "name": "honest_coverage",
+      "passed": true
+    }
+  ],
+  "test_count": 53,
+  "failures": 0,
+  "summary": {
+    "business_version": "energy_business_p1_20261018",
+    "taxonomy_version": "full_nmf500_20260926",
+    "topic_cards": 500,
+    "detailed_topic_cards": 3,
+    "numeric_insight_cards": 500,
+    "reviewed_documents": 24,
+    "included_documents": 11,
+    "outside_scope_documents": 6,
+    "insufficient_evidence_documents": 7,
+    "business_subtopics_with_reviewed_members": 11,
+    "object_insights": 122,
+    "paired_axis_objects": 13,
+    "topic_case_distributions": 500,
+    "joined_examples": 6,
+    "full_cluster_scope_approved": 0,
+    "formally_graded_objects": 0,
+    "external_network_used": false,
+    "full_business_ranking_recomputed": false,
+    "reviewed_subset_counts_recomputed": true,
+    "remaining_work": [
+      "其余 497 个主题需要文献审阅与具体中文业务定义；当前仅有待审字段占位。",
+      "三个重点主题尚需跨年份、分类差距和来源的分层复审，再筛选全量成员。",
+      "全量业务成员确定后，重新计算领域份额、机构和排名；24 条诊断样本不支持该推断。",
+      "对象关联、专属细则与独立专家正式评定仍待完成。"
+    ]
+  },
+  "scope": "Local P1 integration and source integrity; no independent expert scope approval"
+}

@@ -1,0 +1,514 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>K500 多主题版本验收报告</title>
+<style>body{font-family:system-ui,"Noto Sans CJK SC",sans-serif;color:#203746;max-width:1180px;margin:32px auto;padding:0 20px;line-height:1.8}h1{font-size:28px}h2{font-size:21px;margin-top:32px}.verdict{padding:20px;background:#fff2d8;border-left:5px solid #ad771c}.muted{color:#5d7280;font-size:14px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px solid #d8e3e9;text-align:left;padding:10px;vertical-align:top}th{background:#edf4f7}.scroll{overflow-x:auto}a{color:#007580}code{overflow-wrap:anywhere}li{margin:9px 0}</style>
+<h1>K=500 多主题与能源范围：验收报告</h1><p class="muted">日期：2026-10-19 · 对象：nmf500_multilabel_scope_20261019 · 助手验收，非领域专家签字</p>
+<div class="verdict"><b>工程实现通过本轮检查；内容质量未通过正式业务使用验收，仅可继续内部审阅与探索。</b><br>可用于内部查看主题、检查贡献与复核证据；当前不能作为已经验证的正式分类或甲方决策依据。验收对象是本轮分类交付，不是整个平台合同验收。</div>
+<p><a href="K500验收问题与抽样.xlsx">下载逐项验收工作簿</a> · <a href="issues.csv">问题清单CSV</a> · <a href="ACCEPTANCE.json">机器可读结论</a> · <a href="../../preview/nmf500_multilabel.html">查看被验收版本</a></p>
+<h2>验收范围与证据</h2><p>重新执行13项全量一致性检查、5项行为测试和8项离线页面检查；14个交付文件及7个流水线源码哈希均一致。全量数据包含5,119,004条记录，默认10%下保留10,406,525条关系。</p>
+<p>有目的选取30个主题（12核心、10支撑、7待审、1排除），每个另抽5条论文关系，共150条；其中110条是实际已保留关系，40条是待审或排除关系。另抽15项专利和15项政策，每来源10项已保留、5项未归属。180条文档均未出现在此前对应审核证据中。论文样本中46条仅有题名；其余读已有摘要摘录，关键争议例补读完整已有摘要。</p>
+<p class="muted">主题选择偏重覆盖与风险；本次不是独立专家标注，也不是总体精度测量。不能将通过样本比例推广到500个主题或全部文档。政策阅读范围为正文开头及关键条款，不是对全部附件逐字核验。</p>
+<div class="scroll"><table class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>验收项</th>
+      <th>结论</th>
+      <th>依据与边界</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>交付完整与版本一致</td>
+      <td>通过</td>
+      <td>14个交付文件、7个流水线源码哈希与清单一致，预览版本单独检查。</td>
+    </tr>
+    <tr>
+      <td>全量数据与归属规则</td>
+      <td>通过</td>
+      <td>重新执行13项全量一致性检查；覆盖5,119,004记录，默认10,406,525条保留关系；5项行为测试通过。</td>
+    </tr>
+    <tr>
+      <td>离线交互页面</td>
+      <td>通过（限定范围）</td>
+      <td>8项离线浏览器检查通过，未开展线上并发、性能或真实用户易用性验收。</td>
+    </tr>
+    <tr>
+      <td>主题数据驱动与多主题实现</td>
+      <td>通过（方法实现）</td>
+      <td>500成分由NMF产生；范围和中文名称是后处理。无top-N上限、无强制单主题回退、不重归一化。</td>
+    </tr>
+    <tr>
+      <td>能源范围与主题语义</td>
+      <td>未通过正式使用验收</td>
+      <td>新抽样发现范围错收、名称错配及多语种能源漏收。</td>
+    </tr>
+    <tr>
+      <td>专利与政策正式分类质量</td>
+      <td>未通过</td>
+      <td>迁移候选标识明确，但新抽样存在错配和漏配；尚无来源独立的语义准确率。</td>
+    </tr>
+    <tr>
+      <td>阈值最佳性/K最佳性</td>
+      <td>尚未证明</td>
+      <td>10%为工作默认；K500为工程折中。不能声称各来源最优或500个成分均独立。</td>
+    </tr>
+    <tr>
+      <td>主题说明与接入文档</td>
+      <td>部分通过</td>
+      <td>已说明方法、字段、限制；仍需具体主题用途、反馈导入和业务使用闭环。</td>
+    </tr>
+    <tr>
+      <td>趋势、热点及TRL/CRL新版本闭环</td>
+      <td>尚未完成</td>
+      <td>旧分析未按新归属重算，不能按新旧相同序号拼接。</td>
+    </tr>
+    <tr>
+      <td>招标准确率等指标</td>
+      <td>未能验收</td>
+      <td>招标段落449的热点识别/趋势指标与本次关系复核对象不同；没有独立金标准，不能宣称达标或测得不达标。</td>
+    </tr>
+  </tbody>
+</table></div>
+<h2>直接影响业务使用的实例</h2><div class="scroll"><table class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>问题类型</th>
+      <th>记录</th>
+      <th>当前行为</th>
+      <th>证据与含义</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>上游关键词错误</td>
+      <td>锂电池正极论文 W3140535007</td>
+      <td>Astrobiology + Physics；删除Physics后只有天体生物学。</td>
+      <td>X002、X009近邻迁移继承错误。</td>
+    </tr>
+    <tr>
+      <td>能源范围错收</td>
+      <td>出口竞争力论文 W2573304641</td>
+      <td>能源转型贡献25.1%；放行工商管理等支撑关系。</td>
+      <td>“transition economy”未证明能源转型。</td>
+    </tr>
+    <tr>
+      <td>专利错配</td>
+      <td>极耳固定组件 d38a4fe8…</td>
+      <td>无线电能传输贡献约13.0%。</td>
+      <td>摘要为夹持与折弯工装，没有无线传能。</td>
+    </tr>
+    <tr>
+      <td>整篇漏收</td>
+      <td>变压器监测论文 W2808770485</td>
+      <td>进入Gynecology待审，默认无保留主题。</td>
+      <td>350 MVA变压器、150多项监测参数、SCADA。</td>
+    </tr>
+    <tr>
+      <td>阈值漏配</td>
+      <td>安徽车网互动政策 ced6dcea…</td>
+      <td>EV主题约9.7%，未达10%；没有业务主题。</td>
+      <td>近邻相关，但平均后的主题贡献被摊薄。</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>另有两个Humanities成分（RBK500-T0132、RBK500-T0259）的余弦相似度为0.999884。500是模型成分数量，不代表已经确认500个独立、清晰的能源研究方向。仅删20个学科词没有解决残留宽词、错误词义和多语种关键词失真。</p>
+<p>专利方面，新抽10项已保留候选中，4项出现明确或明显错配（X001、X002、X003、X009）。这是小样本问题信号，不是总体准确率。已有论文迁移诊断F1约0.403，是与NMF标签的一致性，不是专利/政策的语义正确率。近邻召回相关论文后，仍会继承论文错误标签，或把相邻技术的主题迁移过来。</p>
+<h2>多主题与10%阈值是否可用</h2><p>多主题机制实现符合约定：贡献达到阈值即归属，没有top-N截断或强制主主题回退，范围筛选后不重新归一化。但贡献不是概率或置信度；错误特征也能产生100%贡献。统一10%尚未按论文、专利、政策分别校准。</p>
+<div class="scroll"><table class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>来源</th>
+      <th>阈值</th>
+      <th>保留文档数</th>
+      <th>每个已保留文档平均主题数</th>
+      <th>占该来源总记录</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>paper</td>
+      <td>5.0%</td>
+      <td>3069861</td>
+      <td>5.01</td>
+      <td>63.5%</td>
+    </tr>
+    <tr>
+      <td>paper</td>
+      <td>10.0%</td>
+      <td>2878927</td>
+      <td>3.53</td>
+      <td>59.6%</td>
+    </tr>
+    <tr>
+      <td>paper</td>
+      <td>15.0%</td>
+      <td>2612788</td>
+      <td>2.31</td>
+      <td>54.1%</td>
+    </tr>
+    <tr>
+      <td>patent</td>
+      <td>5.0%</td>
+      <td>256538</td>
+      <td>3.93</td>
+      <td>91.2%</td>
+    </tr>
+    <tr>
+      <td>patent</td>
+      <td>10.0%</td>
+      <td>153528</td>
+      <td>1.48</td>
+      <td>54.6%</td>
+    </tr>
+    <tr>
+      <td>patent</td>
+      <td>15.0%</td>
+      <td>66499</td>
+      <td>1.10</td>
+      <td>23.6%</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>5.0%</td>
+      <td>5970</td>
+      <td>3.31</td>
+      <td>90.2%</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>10.0%</td>
+      <td>3571</td>
+      <td>1.31</td>
+      <td>53.9%</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>15.0%</td>
+      <td>1702</td>
+      <td>1.09</td>
+      <td>25.7%</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>提高阈值会压缩关系和覆盖，不能补回错误关键词；降低到5%会增加候选，也可能引入更多误配。论文默认覆盖率59.6%并不等于召回率，因为分母中同时含范围外、待审和无特征记录。多主题数量多本身也不能证明内容混杂，应看具体关系证据。</p>
+<h2>30个主题逐项结论</h2><div class="scroll"><table class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>主题</th>
+      <th>当前名称</th>
+      <th>复核结论</th>
+      <th>样本证据</th>
+      <th>建议</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RBK500-T0001</td>
+      <td>Porosity / Porous medium / Permeability (electromagnetism)</td>
+      <td>样本支持条件保留</td>
+      <td>5例涉及超级电容器、地热、电池、燃料电池或储氢。</td>
+      <td>保留材料支撑定位，不直接把孔隙率当成单一能源技术。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0012</td>
+      <td>能源效率与环境经济</td>
+      <td>样本支持保留</td>
+      <td>5例涉及交通用能、氢能系统、EV采纳、家庭能源管理和建筑能效。</td>
+      <td>环境经济学可以是能源相关研究方法，需保持应用证据。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0017</td>
+      <td>Position (finance) / Rotor (electric) / Position sensor</td>
+      <td>继续待审并修复特征</td>
+      <td>同组含聚变诊断、电机位置估计，也含土建和土耳其军政研究。</td>
+      <td>不可整组删除；按文本校验Position词义，回收能源记录。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0025</td>
+      <td>智能电网与智能电表</td>
+      <td>样本支持保留</td>
+      <td>5例均与电网、智能计量、牵引供电或储能应用有关。</td>
+      <td>可供内部检索试用，当前小样本不证明整个主题准确。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0026</td>
+      <td>光伏最大功率点跟踪</td>
+      <td>名称与关系需复核</td>
+      <td>P021是离网光伏经济性比较，全文摘要未谈MPPT；其余含光伏控制与微网。</td>
+      <td>检查MPPT名称是否比实际成分过窄；保留原始主题，不靠改名掩盖混杂。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0028</td>
+      <td>Traditional medicine / Guan / Ancient history</td>
+      <td>继续待审并修复特征</td>
+      <td>传统医学主题内出现染料降解、企业政策、葡萄病害及SiC表征。</td>
+      <td>明显词义和特征污染，当前证据不足以整组剔除或保留。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0055</td>
+      <td>Data science / Big data / Analytics</td>
+      <td>条件规则需加强</td>
+      <td>P031—P033有明确能源信息学或数据方法；P034仅为CAD管线制图。</td>
+      <td>共属管输核心主题不应自动证明大数据与能源关联；P034、P035需关系复核。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0064</td>
+      <td>Government (linguistics) / Subsidy / Public economics</td>
+      <td>样本支持条件保留</td>
+      <td>5例均有能源政策或公共治理内容。原始Government (linguistics)词义不当。</td>
+      <td>修正展示解释并标明支撑方法，不改动已发现的成分。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0078</td>
+      <td>储氢材料与氢化物</td>
+      <td>样本支持保留</td>
+      <td>5例都涉及储氢；P041是储氢系统采用策略，粒度比材料更宽。</td>
+      <td>显示名称宜覆盖储氢技术及应用边界，避免承诺纯材料主题。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0108</td>
+      <td>氢能制取与储存</td>
+      <td>关系质量不通过</td>
+      <td>P046氢等离子刻蚀被纳入氢能制取与储存，同时被纳入聚变。</td>
+      <td>对氢、等离子等多义词做文本一致性校验；不整组删除氢能主题。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0113</td>
+      <td>Econometrics / Statistics / Stock (firearms)</td>
+      <td>样本支持条件保留</td>
+      <td>5例涉及油气企业、能源市场或碳风险的定量经济分析。</td>
+      <td>明确计量经济学是方法类支撑；去掉Stock (firearms)错误词义展示。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0114</td>
+      <td>仿星器与聚变约束</td>
+      <td>样本基本支持但有边界</td>
+      <td>4例明确Wendelstein 7-X等聚变装置；P056为一般超导线圈，未证明仿星器应用。</td>
+      <td>保留聚变方向，核实一般线圈归属；能源词未命中不等于无关。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0132</td>
+      <td>Humanities / Cartography / Forestry</td>
+      <td>继续待审并回收漏收</td>
+      <td>P061气候目标、P062热电站改造、P063居民用电优化均整篇未获保留归属。</td>
+      <td>补提多语种关键词；该成分与T0259余弦相似度0.999884。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0135</td>
+      <td>电力设备故障检测与定位</td>
+      <td>名称边界需复核</td>
+      <td>5例均为电力故障相关，但P067是故障后重构、P068是故障后稳态求解。</td>
+      <td>当前“故障检测与定位”比实际覆盖范围窄，应复核名称或关系。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0139</td>
+      <td>电池与电化学储能</td>
+      <td>样本支持保留</td>
+      <td>5例涉及电池材料、储能、EV充电、V2G及消防。</td>
+      <td>保留为较宽电池主题；技术成熟度应落到具体技术对象。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0170</td>
+      <td>Band gap / Semiconductor / Optoelectronics</td>
+      <td>样本基本支持但有边界</td>
+      <td>4例明确热电、制氢或光伏；P077只有光催化/光电化学题名，应用证据不足。</td>
+      <td>对缺摘要记录保留不确定性，不能仅凭共属光电流主题确认能源用途。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0200</td>
+      <td>Business administration / Business management / Management</td>
+      <td>范围规则不通过</td>
+      <td>P081一般企业社会责任、P083出口竞争力研究被核心共属机制放行。</td>
+      <td>修复可持续发展、能源转型等核心主题误收，支撑关系需独立能源证据。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0210</td>
+      <td>能源系统韧性</td>
+      <td>关系质量不通过</td>
+      <td>P090智能制造韧性被直接作为能源系统韧性；P089主体是城市交通。</td>
+      <td>通用韧性和能源系统韧性必须按文本区分。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0259</td>
+      <td>Humanities / Gynecology / Geomorphology</td>
+      <td>继续待审并回收漏收</td>
+      <td>5例中4例涉及电力线通信、风机、储热或谐波，另1例为染料降解。</td>
+      <td>P091、P093、P095整篇无保留归属；不能据Humanities标签删除。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0270</td>
+      <td>Type (biology) / Semiconductor / Organic semiconductor</td>
+      <td>继续待审并修复特征</td>
+      <td>Type泛词混入发电机、氧还原催化、发电厂冷却水、逆变器及有机晶体管。</td>
+      <td>修复Type的错误词义；已有其他正确归属的记录不应重复计为整篇漏收。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0281</td>
+      <td>Methylene blue / Photodegradation / Methylene</td>
+      <td>继续待审且避免整组删除</td>
+      <td>P101同一论文同时做亚甲基蓝吸附和超级电容器，其余多为污染物降解。</td>
+      <td>按应用或关系筛选；P101已有超级电容器归属，未被整篇漏收。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0341</td>
+      <td>Photocatalysis / Visible spectrum / Chemical engineering</td>
+      <td>能源用途仍需复核</td>
+      <td>P107、P108明确制氢；P106实验为染料降解且末句提及太阳能电池潜力，另有环境修复题名。</td>
+      <td>区分实际研究对象与背景/展望能源提及，尤其光催化制氢与污染降解。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0345</td>
+      <td>锂与锂金属电池</td>
+      <td>样本支持保留</td>
+      <td>5例均涉及锂电池；原始词名仍包含Lithium (medication)。</td>
+      <td>修复错误词义来源，不能因出现医学词就删除整个主题。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0415</td>
+      <td>Artificial intelligence / Machine learning / Data mining</td>
+      <td>样本支持条件保留</td>
+      <td>5例均为电力状态估计、负荷或光伏/风电预测中的AI方法。</td>
+      <td>保留交叉方法主题，使用时展示应用对象与方法的共属。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0434</td>
+      <td>局部放电与高压绝缘</td>
+      <td>关系质量不通过</td>
+      <td>P121电厂人员定位不属于局放；P124通信波形容量比较不属于高压绝缘。</td>
+      <td>核对UHF、波形等技术词语境，核心主题也需要文献级检查。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0451</td>
+      <td>Wastewater / Pollutant / Sewage treatment</td>
+      <td>样本有支持但边界未定</td>
+      <td>含油田废水电催化、煤气化废水和清洁能源综述；也有一般工业废气、虾养殖废水。</td>
+      <td>能源设施治理可保留；一般环保研究不因共属沼气/生物质标签就自动合格。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0457</td>
+      <td>Cardiology / Internal medicine / Heart failure</td>
+      <td>样本支持排除但主题不纯</td>
+      <td>4例为临床/兽医，1例为超压气球结构；5例均无直接能源证据。</td>
+      <td>继续可逆排除；不能声称主题内100%为医学或永久删除原文。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0468</td>
+      <td>电力系统调度与潮流</td>
+      <td>名称与关系需复核</td>
+      <td>多例属于电力系统运行；P140为感应耦合传能的动态负载稳压，不是系统调度潮流。</td>
+      <td>显示名称和边界应与实际内容一致，或对具体错配关系作修正。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0487</td>
+      <td>Gynecology / Medicinal chemistry / Animal science</td>
+      <td>继续待审并回收漏收</td>
+      <td>P141为350MVA变压器监测，P145为建筑用能，均整篇待审；也含医疗成本。</td>
+      <td>Gynecology标签不可靠；补提关键词后重新推断，避免整组删除。</td>
+    </tr>
+    <tr>
+      <td>RBK500-T0490</td>
+      <td>Politics / Political economy / Economic system</td>
+      <td>样本支持条件保留</td>
+      <td>5例涉及能源供应、排放治理、EV采纳、能源安全与核能地缘政治。</td>
+      <td>能源治理与政治经济可作为支撑类；用途解释优于强制改成技术分类。</td>
+    </tr>
+  </tbody>
+</table></div>
+<h2>整改顺序与重新验收条件</h2><ol><li>先修复关键词与题名摘要不符、仅剩泛词的记录；不按Humanities、Gynecology主题名批量删除文档。必要时从题名摘要补提技术词，记录来源与版本。</li><li>对核心主题也设置文献级语境审查，修复“核心共属自动放行支撑关系”的误收传播。区分能源对象、通用方法、背景提及和潜在用途。</li><li>清理迁移参考论文的错误标签；专利和政策分别做“文档—主题”证据判断、独立标注和阈值校准。保留拒判/待审，不强行top1填补。</li><li>把本次问题样本冻结为回归检查集，修复后另抽未见样本评估。按来源报告关系精确率、召回率及覆盖，预先约定口径；本次不能替代招标热点准确率或趋势预测验收。</li><li>分类版本稳定后，重算趋势、热点及跨源关联；TRL/CRL按具体技术对象和研发/商业证据解释，不能把宽主题直接评为成熟。最后再完成平台业务闭环。</li></ol>
+<div class="scroll"><table class="dataframe data">
+  <thead>
+    <tr style="text-align: right;">
+      <th>问题号</th>
+      <th>优先级</th>
+      <th>问题</th>
+      <th>证据</th>
+      <th>发现</th>
+      <th>修复方向</th>
+      <th>复验条件</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A01</td>
+      <td>P1 正式分类前解决</td>
+      <td>论文关键词与文本不符，并向专利传播</td>
+      <td>REF-BATTERY; X002; X009; P141</td>
+      <td>锂电正极论文只有Astrobiology、Physics；去掉Physics后100%归天体生物学。变压器监测论文含Humanities、Gynecology。</td>
+      <td>对关键词与题名摘要做一致性评估；低信息或错义记录补提技术词后再推断，参考库排除标签不可信记录。</td>
+      <td>用冻结问题集及新的分层抽样分别验证论文/专利；不得仅依赖同模型标签互相比对。</td>
+    </tr>
+    <tr>
+      <td>A02</td>
+      <td>P1 正式分类前解决</td>
+      <td>核心共属会放大错误，不能代替能源证据</td>
+      <td>P081; P083; P090; P124</td>
+      <td>普通企业竞争力被标能源转型25.1%，智能制造韧性被标能源系统韧性33.0%；这些核心关系再放行支撑关系。</td>
+      <td>核心主题也做文献级能源语境审查；通用可持续、转型、韧性、Power等词单独不足以放行。</td>
+      <td>上述错收关系经修正且另抽新样本验证，保留合理交叉学科文献。</td>
+    </tr>
+    <tr>
+      <td>A03</td>
+      <td>P1 正式分类前解决</td>
+      <td>专利语义近邻相关不等于技术主题一致</td>
+      <td>X001; X002; X003; X009</td>
+      <td>加强框架→再生制动，极耳工装→无线传能；本次10个已归属专利中4个出现明确/明显错配。</td>
+      <td>在近邻召回后加入目标文档—主题证据判断；先清理参考论文错误标签，使用专利独立标签校准。</td>
+      <td>按来源评估关系精确率、召回率、覆盖率；这10个样本不能作为总体准确率。</td>
+    </tr>
+    <tr>
+      <td>A04</td>
+      <td>P1 分析统计前解决</td>
+      <td>多语种能源论文整篇漏收</td>
+      <td>P061; P062; P063; P091; P093; P095; P141; P145</td>
+      <td>热电站改造、热储能、变压器监测、建筑用能等整篇无保留主题；并非仅一条待审关系。</td>
+      <td>对待审及无归属记录按语言和关键词质量回收；不要物理删Humanities/Gynecology整组。</td>
+      <td>核对这些记录重新获得有证据的能源主题，并另抽不同语言的新样本。</td>
+    </tr>
+    <tr>
+      <td>A05</td>
+      <td>P1 正式分类前解决</td>
+      <td>论文与迁移分数共用10%缺少校准</td>
+      <td>X012; X027; X029</td>
+      <td>电力管理最高约9.4%，车网互动EV约9.7%均漏配；零碳园区最近邻0.5416未过0.55。</td>
+      <td>区分论文NMF、专利迁移、政策迁移的阈值；校准前保留无归属状态，不能强制top1补齐。</td>
+      <td>用独立来源标注集比较阈值；不能仅按覆盖率选5%，也不能仅提高阈值。</td>
+    </tr>
+    <tr>
+      <td>A06</td>
+      <td>P2 内容展示前完善</td>
+      <td>残留大词与近重复成分</td>
+      <td>T0132; T0259; near_duplicate_components.csv</td>
+      <td>两个Humanities成分余弦相似度0.999884；20个词删除不等于全部大类清理。</td>
+      <td>维护可审计的宽词/错义治理；模型更改版本化，不能把两ID静默合并或把K500称为500个独立方向。</td>
+      <td>新模型重新评价重复、碎片、混杂和领域覆盖；K500仍只是工程折中。</td>
+    </tr>
+    <tr>
+      <td>A07</td>
+      <td>P2 内容展示前完善</td>
+      <td>显示名称有时比模型实际语义窄</td>
+      <td>P021; P056; P121; P140</td>
+      <td>MPPT、仿星器、局放、调度潮流名称覆盖了实际不支持这些窄概念的样本。</td>
+      <td>基于证据修正显示名称或关系，保留原关键词、变更理由和ID；不预先人为构造主题。</td>
+      <td>读者能区分实际研究对象、支撑方法、潜在用途及不确定性。</td>
+    </tr>
+    <tr>
+      <td>A08</td>
+      <td>P1 原始业务目标未闭环</td>
+      <td>新主题尚未接入趋势、热点、TRL/CRL</td>
+      <td>RELEASE.json; 使用与接入说明.html</td>
+      <td>旧F主题分析未按RBK500多主题归属重算；本次验收不证明热点准确率或趋势预测达标。</td>
+      <td>修复并冻结分类版本后重算趋势、计数和跨源关联；TRL/CRL在具体技术对象上依据证据评价。</td>
+      <td>新主题ID到分析版本有显式关联；趋势/成熟度说明有证据、口径和适用范围。</td>
+    </tr>
+    <tr>
+      <td>A09</td>
+      <td>P2 审核接入需完善</td>
+      <td>人工反馈列目前不会自动应用</td>
+      <td>apply_scope.py: ledger; human_review_override</td>
+      <td>工作簿有human_review_override输入列，但apply_scope.py实际读取scope_state；编辑交付Excel不会自动更新工作目录清单。</td>
+      <td>提供反馈导入、冲突校验和变更预览，再显式更新实际scope_state/relation清单。</td>
+      <td>用小型反馈文件端到端验证修改会被读取、重算并发布；防止审核意见落空。</td>
+    </tr>
+  </tbody>
+</table></div>
+<h2>数据驱动原则与交付边界</h2><p>继续保留数据发现的NMF成分，人工/模型审核只判断相关性、内容证据和展示名称；不预先建立业务主题再强行分配论文。方法类、材料类、经济政策类主题可以与能源技术主题共存。若需要面向业务的导航，可另做可追溯映射，但不能替代原始发现结果。</p>
+<p>本轮未改模型、主题范围决定或默认关系；所有问题均为待整改事项。原14个交付文件哈希保持不变。当前旧F主题热点、趋势和TRL/CRL没有按新RBK500归属重算，禁止按编号序号直接拼接。工作簿的human_review_override列目前不会自动改变scope_state，反馈需导入并显式更新实际清单后重算。</p>
+<p class="muted">复现抽样：<code>/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/acceptance_20261019/audit.py</code>；关系/近邻追溯：<code>/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/acceptance_20261019/trace.py</code>；详细证据和阅读判断均在工作簿及CSV。自动检查通过说明实现和导出一致，不代表语义正确。</p></html>

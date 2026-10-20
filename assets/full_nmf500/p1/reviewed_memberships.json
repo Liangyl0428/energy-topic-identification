@@ -1,0 +1,123 @@
+[
+  {
+    "doc_id": "paper:W2348011751",
+    "category_id": "F0022",
+    "business_topic_id": "B-GRID-DIGITAL",
+    "date": "2008-01-01",
+    "source": "paper",
+    "review_id": "SR-W2348011751",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W234819835",
+    "category_id": "F0022",
+    "business_topic_id": "B-GAS-RESOURCE",
+    "date": "2006-01-01",
+    "source": "paper",
+    "review_id": "SR-W234819835",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W2348415734",
+    "category_id": "F0022",
+    "business_topic_id": "B-GRID-PROTECTION",
+    "date": "2008-01-01",
+    "source": "paper",
+    "review_id": "SR-W2348415734",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W2352268102",
+    "category_id": "F0022",
+    "business_topic_id": "B-THERMOELECTRIC",
+    "date": "2011-05-01",
+    "source": "paper",
+    "review_id": "SR-W2352268102",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W2354627511",
+    "category_id": "F0022",
+    "business_topic_id": "B-POWER-MARKET",
+    "date": "2006-01-01",
+    "source": "paper",
+    "review_id": "SR-W2354627511",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7128315464",
+    "category_id": "F0110",
+    "business_topic_id": "B-WIND-FORECAST",
+    "date": "2026-01-01",
+    "source": "paper",
+    "review_id": "SR-W7128315464",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7133390392",
+    "category_id": "F0001",
+    "business_topic_id": "B-SOLAR-CORROSION",
+    "date": "2016-01-01",
+    "source": "paper",
+    "review_id": "SR-W7133390392",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7163012620",
+    "category_id": "F0001",
+    "business_topic_id": "B-BATTERY-INTERFACE",
+    "date": "2026-06-01",
+    "source": "paper",
+    "review_id": "SR-W7163012620",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7163397305",
+    "category_id": "F0110",
+    "business_topic_id": "B-SUBSTATION-DESIGN",
+    "date": "2026-01-01",
+    "source": "paper",
+    "review_id": "SR-W7163397305",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7164412679",
+    "category_id": "F0110",
+    "business_topic_id": "B-INDUSTRIAL-AIR",
+    "date": "2026-06-11",
+    "source": "paper",
+    "review_id": "SR-W7164412679",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  },
+  {
+    "doc_id": "paper:W7166710595",
+    "category_id": "F0110",
+    "business_topic_id": "B-EV-FORECAST",
+    "date": "2026-06-30",
+    "source": "paper",
+    "review_id": "SR-W7166710595",
+    "scope": "diagnostic_reviewed_subset",
+    "business_version": "energy_business_p1_20261018",
+    "rank_eligible": false
+  }
+]

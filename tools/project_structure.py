@@ -78,6 +78,8 @@ NAMES={
 }
 
 
+NAMES.update({'platform':'跨模块业务手册、接口、预览及版本化紧凑交付', 'keyword_dictionary':'第一轮关键词多标签分类', 'keyword_dictionary_review_r2':'第二轮词典与逐篇触发审核', 'keyword_dictionary_full_review':'进行中的语境审核工具；尚非完成交付', 'multilabel_scope':'K500多标签与能源范围审阅', 'controlled':'从外部实验目录补齐的NMF依赖源码', 'p1':'F500业务解释与证据接口', 'p2':'51个题名业务主题及对应趋势/对象解读', 'runtime_config.py':'可搬迁的显式输入路径解析', 'p1_common.py':'业务导出的类型与版本辅助函数', 'assemble_platform.py':'把三个仓库组装成新的平台联调目录', 'check_platform_assets.py':'核验紧凑交付及外部逐篇分片指纹', 'EXTERNAL_FILES.json':'未提交Git的完整逐篇分片路径、大小和SHA256'})
+
 NAMES.update({'download_encoder.py': '下载固定修订的兼容编码器权重；不是当前 BGE-M3 下载入口', 'embedding_common.py': '兼容编码流程的路径、文本清洗和文件校验函数', 'pool_encoder.py': '为兼容 ONNX 编码器增加池化与归一化输出', 'components.py': '可复用主题模型、指标和分类组件；关键词组件被当前全量流程直接调用', 'run_pipeline.py': '关键词矩阵构建、NMF 拟合和回归所需辅助函数', 'selection_experiments.py': '固定回归指标的权重与选择敏感性检查，不是当前成果报告', 'candidate_common.py': '兼容候选模型的路径、主题数和随机种子配置', 'experiment_components.py': '重用逐文档词频缓存的主题模型组件', 'lexical.py': '中英文分词与词项分析器', 'topic_common.py': '兼容主题流程的路径、文本和校验工具', 'train_baseline.py': '兼容主题训练与流式计数实现，供组件回归使用', 'train_candidates.py': '兼容候选主题模型训练实现，非当前生产入口', 'multiyear_build.py': '兼容回归的多年季度计数与背景数据构建', 'multiyear_delivery.py': '兼容回归表格和交付产物生成', 'multiyear_experiments.py': '兼容回归的多年热点消融及敏感性计算', 'multiyear_finalize.py': '兼容回归结果整理和最终输出', 'multiyear_plots.py': '兼容回归的热点趋势和实验图表', 'multiyear_scoring.py': '兼容回归的多年热点评分', 'multiyear_validate.py': '兼容回归结果约束与完整性检查', 'potential_delivery.py': '兼容回归的潜在关联表格输出', 'potential_experiments.py': '兼容回归的潜在关联消融实验', 'potential_unified.py': '兼容回归的跨来源潜在关联计算', 'potential_unified_metrics.py': '兼容回归的跨来源指标与过滤条件', 'review.py': '候选主题范围及语义审核应用', 'review_contract.py': '审核决定的输入绑定和有效性约束', 'validate.py': '固定回归输出的数据约束检查', 'weight_summary.csv': '各类随机权重扰动的汇总统计', 'changed_cases.csv': '逐实验情景发生等级变化的案例及变化内容'})
 
 def purpose(rel,is_dir=False):
@@ -115,7 +117,7 @@ def render(root=ROOT):
     walk(tree)
     report='assets/full_nmf500/REPORT.md'
     experiment=report if root.name.endswith('identification') else 'assets/full_nmf500/experiments/REPORT.md'
-    text='# 项目结构与逐文件用途\n\n## 从哪里开始\n\n当前计算入口是 `pipelines/full_nmf/`，当前成果仅在 `assets/full_nmf500/`。`tests/fixtures/` 是固定回归输入，不是另一套待选用成果。共享模块和兼容实现因当前调用或测试需要而保留，不应直接替代全量入口。\n\n'
+    text='# 项目结构与逐文件用途\n\n## 从哪里开始\n\n模块基础计算入口在 `pipelines/full_nmf/`；F500 与 P1/P2 模块成果在 `assets/full_nmf500/`。主题识别仓库另有关键词及多主题流水线，联合手册、预览和紧凑交付在其 `platform/`。不同版本的范围和入口以 README 为准。`tests/fixtures/` 是固定回归输入，不是另一套待选用成果。共享模块和兼容实现因当前调用或测试需要而保留，不应直接替代全量入口。\n\n'
     text+='阅读 [当前报告](../'+experiment+')、[方法](METHOD.md) 和 [复现步骤](REPRODUCING.md)。下面逐项列出全部 Git 管理的文件及目录，不用省略号隐藏文件。\n\n## 完整结构图\n\n```text\n'+'\n'.join(lines)+'\n```\n\n'
     text+='## 不随仓库发布的本地内容\n\n`work/`、`outputs/` 或 `results/` 中的全量运行目录保存训练权重、向量、逐条分类、数据库和日志；原始文献及编码器权重也属于外部运行输入。这些文件体量大，不是本结构图漏列的源码，具体输入位置与生成步骤见复现说明。删除仓库中的旧发布快照不会删除这些运行数据。\n\n## 维护本图\n\n新增、移动或删除文件后运行 `python tools/project_structure.py`。只扫描 Git 可见文件，不扫描原始语料；发布前还应运行核心文件校验。每个文件名后为其作用；测试数据不可用于宣称当前模型效果。\n'
     (root/'docs/PROJECT_STRUCTURE.md').write_text(text)

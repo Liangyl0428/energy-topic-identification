@@ -1,0 +1,2568 @@
+[
+  {
+    "topic_code": "KWD-T0001",
+    "name": "光伏电池与光伏发电",
+    "definition": "光伏材料器件、太阳能电池及光伏发电系统。",
+    "direct_keywords": [
+      "Anomalous photovoltaic effect",
+      "Building-integrated photovoltaics",
+      "Cadmium telluride photovoltaics",
+      "Copper indium gallium selenide solar cells",
+      "Dye-sensitized solar cell",
+      "Hybrid solar cell",
+      "Organic solar cell",
+      "Perovskite solar cell",
+      "Photovoltaic effect",
+      "Photovoltaic mounting system",
+      "Photovoltaic system",
+      "Photovoltaics",
+      "Plasmonic solar cell",
+      "Polymer solar cell",
+      "Quantum dot solar cell",
+      "Rooftop photovoltaic power station",
+      "Silicon solar cell",
+      "Solar cable",
+      "Solar cell",
+      "Solar cell efficiency",
+      "Solar simulator",
+      "Theory of solar cells",
+      "Thermophotovoltaic",
+      "Thin film solar cell"
+    ],
+    "conditional_keywords": [
+      "Amorphous silicon",
+      "Carrier lifetime",
+      "Crystalline silicon",
+      "Open-circuit voltage",
+      "Passivation",
+      "Quantum efficiency",
+      "Singlet fission",
+      "Surface photovoltage"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 24,
+    "conditional_keyword_count": 8,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0002",
+    "name": "最大功率点跟踪与光伏控制",
+    "definition": "最大功率点跟踪、太阳跟踪器及光伏控制与并网；MPPT也可用于风电等对象，不单凭它断言研究对象为光伏。",
+    "direct_keywords": [
+      "Grid-connected photovoltaic power system",
+      "Grid-tie inverter",
+      "Maximum power point tracking",
+      "Power optimizer",
+      "Solar micro-inverter",
+      "Solar tracker"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0002"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0003",
+    "name": "太阳能热利用与聚光",
+    "definition": "太阳热集热、聚光、干燥、供热及光热发电。",
+    "direct_keywords": [
+      "Concentrated solar power",
+      "Nanofluids in solar collectors",
+      "Parabolic trough",
+      "Photovoltaic thermal hybrid solar collector",
+      "Solar air conditioning",
+      "Solar chimney",
+      "Solar dryer",
+      "Solar furnace",
+      "Solar mirror",
+      "Solar pond",
+      "Solar thermal collector",
+      "Solar water heating"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0003"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 12,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0004",
+    "name": "太阳能资源与综合利用",
+    "definition": "太阳能资源评估及未进一步细分的太阳能应用。",
+    "direct_keywords": [
+      "Air mass (solar energy)",
+      "Solar energy",
+      "Solar energy conversion",
+      "Solar power",
+      "Solar powered",
+      "Solar Resource"
+    ],
+    "conditional_keywords": [
+      "Solar constant",
+      "Solar gain",
+      "Solar irradiance",
+      "Solar zenith angle"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001",
+      "KWD-T0002",
+      "KWD-T0003",
+      "KWD-T0004",
+      "KWD-T0005"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 4,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0005",
+    "name": "太阳能与地热淡化",
+    "definition": "以太阳能或地热驱动的海水淡化与蒸馏。",
+    "direct_keywords": [
+      "Geothermal desalination",
+      "Solar desalination",
+      "Solar still"
+    ],
+    "conditional_keywords": [
+      "Desalination",
+      "Low-temperature thermal desalination",
+      "Reverse osmosis"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0003",
+      "KWD-T0004",
+      "KWD-T0005",
+      "KWD-T0010"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 3,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0006",
+    "name": "风力发电与风资源",
+    "definition": "风电机组、风电场、风资源评估及出力预测。",
+    "direct_keywords": [
+      "Offshore wind power",
+      "Small wind turbine",
+      "Variable speed wind turbine",
+      "Vertical axis wind turbine",
+      "Wind generator",
+      "Wind hybrid power systems",
+      "Wind power",
+      "Wind power forecasting",
+      "Wind resource assessment",
+      "Windmill"
+    ],
+    "conditional_keywords": [
+      "Log wind profile",
+      "Wind direction",
+      "Wind engineering",
+      "Wind gradient",
+      "Wind profile power law",
+      "Wind profiler",
+      "Wind shear",
+      "Wind speed"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0006"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 10,
+    "conditional_keyword_count": 8,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0007",
+    "name": "水力发电与水轮机",
+    "definition": "水力发电、水电工程及水轮机。",
+    "direct_keywords": [
+      "Francis turbine",
+      "Hydraulic turbines",
+      "Hydropower",
+      "Micro hydro",
+      "Small hydro",
+      "Water turbine"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0007"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0008",
+    "name": "抽水蓄能与机械储能",
+    "definition": "抽水、压缩空气及飞轮等机械形式的储能。",
+    "direct_keywords": [
+      "Compressed air energy storage",
+      "Flywheel energy storage",
+      "Pumped-storage hydroelectricity"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0008"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0009",
+    "name": "海洋能发电",
+    "definition": "波浪、潮汐、海洋温差及盐差发电。",
+    "direct_keywords": [
+      "Marine energy",
+      "Ocean thermal energy conversion",
+      "Osmotic power",
+      "Tidal power",
+      "Wave energy converter",
+      "Wave power",
+      "Wells turbine"
+    ],
+    "conditional_keywords": [
+      "Tidal current",
+      "Tidal range",
+      "Wind wave"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0009"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 7,
+    "conditional_keyword_count": 3,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0010",
+    "name": "地热开发与地热供能",
+    "definition": "地热勘探、地热发电与地热供热。",
+    "direct_keywords": [
+      "Geothermal energy",
+      "Geothermal exploration",
+      "Geothermal heating",
+      "Geothermal power"
+    ],
+    "conditional_keywords": [
+      "Geothermal gradient",
+      "Hydrothermal circulation"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0010"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 2,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0011",
+    "name": "生物质能源与生物燃料",
+    "definition": "生物质燃料、生物柴油、生物乙醇及生物质热化学能源转化。",
+    "direct_keywords": [
+      "Algae fuel",
+      "Aviation biofuel",
+      "Bio-energy with carbon capture and storage",
+      "Biodiesel",
+      "Biodiesel production",
+      "Bioenergy",
+      "Biofuel",
+      "Biomass fuels",
+      "Biomass gasification",
+      "Biomass to liquid",
+      "Biopower",
+      "Cellulosic ethanol",
+      "Corn ethanol",
+      "Energy crop",
+      "Ethanol fuel",
+      "Refuse-derived fuel",
+      "Waste-to-energy",
+      "Wood fuel"
+    ],
+    "conditional_keywords": [
+      "Bagasse",
+      "Biochar",
+      "Biomass (ecology)",
+      "Ethanol fermentation",
+      "Hydrothermal carbonization",
+      "Hydrothermal liquefaction",
+      "Lignocellulosic biomass",
+      "Pyrolysis"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0011",
+      "KWD-T0012"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 18,
+    "conditional_keyword_count": 8,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0012",
+    "name": "沼气生产与利用",
+    "definition": "沼气、填埋气及生物天然气能源利用。",
+    "direct_keywords": [
+      "Biogas",
+      "Biogas production",
+      "Landfill gas",
+      "Renewable natural gas"
+    ],
+    "conditional_keywords": [
+      "Anaerobic digestion",
+      "Methanogenesis"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0012"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 2,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0013",
+    "name": "核能设施与核反应堆工程",
+    "definition": "核能发电、核电厂、核反应堆及裂变系统；通用核能词也可与聚变工程主题重叠。",
+    "direct_keywords": [
+      "Boiling water reactor",
+      "Breeder reactor",
+      "Clementine (nuclear reactor)",
+      "Light-water reactor",
+      "Liquid fluoride thorium reactor",
+      "Molten salt reactor",
+      "Nuclear fission",
+      "Nuclear plant",
+      "Nuclear power",
+      "Nuclear power industry",
+      "Nuclear power plant",
+      "Nuclear reactor",
+      "Nuclear reactor core",
+      "Pressurized water reactor",
+      "Reactor pressure vessel",
+      "Research reactor",
+      "Sodium-cooled fast reactor"
+    ],
+    "conditional_keywords": [
+      "Atomic energy",
+      "Fast fission",
+      "Fission product yield",
+      "Fission products",
+      "Nuclear data",
+      "Nuclear fission product",
+      "Nuclear graphite",
+      "Nuclear industry",
+      "Nuclear technology",
+      "Nuclear transmutation",
+      "Thermal hydraulics"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0013",
+      "KWD-T0014"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 17,
+    "conditional_keyword_count": 11,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0014",
+    "name": "核燃料循环与核安全",
+    "definition": "核燃料、乏燃料、后处理、退役及核设施安全。",
+    "direct_keywords": [
+      "Chernobyl Nuclear Accident",
+      "Fuel element failure",
+      "Fukushima Nuclear Accident",
+      "MOX fuel",
+      "Nuclear criticality safety",
+      "Nuclear decommissioning",
+      "Nuclear fuel",
+      "Nuclear fuel cycle",
+      "Nuclear reprocessing",
+      "Spent fuel pool",
+      "Spent nuclear fuel",
+      "Thorium fuel cycle"
+    ],
+    "conditional_keywords": [
+      "Decay heat",
+      "Fuel cycle",
+      "Long-lived fission product",
+      "Nuclear disaster",
+      "Nuclear material",
+      "Nuclear radiation",
+      "Radiation protection",
+      "Uranium"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0013",
+      "KWD-T0014"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 12,
+    "conditional_keyword_count": 8,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0015",
+    "name": "核聚变与聚变装置",
+    "definition": "托卡马克、仿星器、惯性/磁约束聚变及装置部件。",
+    "direct_keywords": [
+      "ASDEX Upgrade",
+      "Divertor",
+      "Fusion power",
+      "Inertial confinement fusion",
+      "Magnetic confinement fusion",
+      "Nuclear fusion",
+      "Spherical tokamak",
+      "Stellarator",
+      "Thermonuclear fusion",
+      "Tokamak",
+      "Tokamak Fusion Test Reactor",
+      "Wendelstein 7-X"
+    ],
+    "conditional_keywords": [
+      "Dense plasma focus",
+      "Deuterium",
+      "Hydrogen isotope",
+      "Magnetohydrodynamics",
+      "Plasma",
+      "Plasma confinement",
+      "Plasma diagnostics",
+      "Plasma instability",
+      "Plasma parameters",
+      "Plasma stability",
+      "Tritium",
+      "Waves in plasmas",
+      "Zonal flow (plasma)"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0015"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 12,
+    "conditional_keyword_count": 13,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0016",
+    "name": "制氢与水分解",
+    "definition": "制氢、水分解、电解水及生物制氢。",
+    "direct_keywords": [
+      "Alkaline water electrolysis",
+      "Biohydrogen",
+      "Electrolysis of water",
+      "Fermentative hydrogen production",
+      "High-pressure electrolysis",
+      "High-temperature electrolysis",
+      "Hydrogen production",
+      "HYDROSOL",
+      "Methanol reformer",
+      "Microbial electrolysis cell",
+      "Photocatalytic water splitting",
+      "Photoelectrolysis",
+      "Polymer electrolyte membrane electrolysis",
+      "Water splitting"
+    ],
+    "conditional_keywords": [
+      "Hydrogen purifier",
+      "Steam reforming",
+      "Water-gas shift reaction"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0016",
+      "KWD-T0017",
+      "KWD-T0018"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 14,
+    "conditional_keyword_count": 3,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0017",
+    "name": "储氢、氢燃料与氢能供应",
+    "definition": "储氢、氢燃料、氢能基础设施和氢经济。",
+    "direct_keywords": [
+      "Compressed hydrogen",
+      "Hydrogen economy",
+      "Hydrogen fuel",
+      "Hydrogen fuel enhancement",
+      "Hydrogen internal combustion engine vehicle",
+      "Hydrogen storage",
+      "Hydrogen technologies",
+      "Hydrogen vehicle",
+      "Liquid hydrogen",
+      "Power to gas",
+      "Solid hydrogen"
+    ],
+    "conditional_keywords": [
+      "Dehydrogenation",
+      "Gaseous hydrogen",
+      "Hydride",
+      "Hydrogen sensor",
+      "Hydrogen spillover",
+      "Lithium hydride",
+      "Magnesium hydride",
+      "Sodium borohydride"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0016",
+      "KWD-T0017",
+      "KWD-T0018"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 11,
+    "conditional_keyword_count": 8,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0018",
+    "name": "燃料电池",
+    "definition": "各类燃料电池、电堆及可逆燃料电池。",
+    "direct_keywords": [
+      "Alkaline fuel cell",
+      "Direct-ethanol fuel cell",
+      "Direct methanol fuel cell",
+      "Fuel cells",
+      "Microbial fuel cell",
+      "Molten carbonate fuel cell",
+      "Proton exchange membrane fuel cell",
+      "Regenerative fuel cell",
+      "Solid oxide fuel cell",
+      "Unitized regenerative fuel cell"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0018"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 10,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0019",
+    "name": "电池与电化学储能",
+    "definition": "充电电池、不同化学体系电池、电池组及电化学储能。",
+    "direct_keywords": [
+      "Alkaline battery",
+      "Automotive battery",
+      "Battery (electricity)",
+      "Battery pack",
+      "Battery storage",
+      "Electric-vehicle battery",
+      "Electrochemical energy storage",
+      "Flow battery",
+      "Lead–acid battery",
+      "Lithium battery",
+      "Lithium-ion battery",
+      "Lithium–sulfur battery",
+      "Lithium vanadium phosphate battery",
+      "Nanoarchitectures for lithium-ion batteries",
+      "Nanowire battery",
+      "Organic radical battery",
+      "Potassium-ion battery",
+      "Sodium-ion battery",
+      "VRLA battery"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0019"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 19,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0020",
+    "name": "电池管理、充电与安全",
+    "definition": "电池荷电/健康状态、充电控制、容量及安全管理。",
+    "direct_keywords": [
+      "Battery capacity",
+      "Battery charger",
+      "Charge controller",
+      "Depth of discharge",
+      "State of charge",
+      "Trickle charging"
+    ],
+    "conditional_keywords": [
+      "Cell voltage",
+      "Charge cycle",
+      "Overcharge",
+      "Pre-charge",
+      "Self-discharge",
+      "State of health",
+      "Thermal runaway"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0019",
+      "KWD-T0020"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 7,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0021",
+    "name": "超级电容器",
+    "definition": "双电层、赝电容及超级电容储能。",
+    "direct_keywords": [
+      "Electric double-layer capacitor",
+      "Pseudocapacitor",
+      "Supercapacitor"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0021"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0022",
+    "name": "储热与蓄冷",
+    "definition": "热能储存及相变蓄热应用。",
+    "direct_keywords": [
+      "Thermal energy storage"
+    ],
+    "conditional_keywords": [
+      "Enthalpy of fusion",
+      "Latent heat",
+      "Molten salt",
+      "Phase change",
+      "Phase-change material"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0022",
+      "KWD-T0023"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 1,
+    "conditional_keyword_count": 5,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0023",
+    "name": "储能通用技术与系统集成",
+    "definition": "储能通用概念、并网储能、磁储能及集成；Energy storage词本身不能证明研究处于系统层。",
+    "direct_keywords": [
+      "Energy storage",
+      "Grid energy storage",
+      "Superconducting magnetic energy storage"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0023"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0024",
+    "name": "微电网与分布式供能",
+    "definition": "微电网、分布式发电、独立供能及多能互补。",
+    "direct_keywords": [
+      "Distributed generation",
+      "Distributed power",
+      "Distributed power generation",
+      "Hybrid power",
+      "Microgrid",
+      "Stand-alone power system"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0024"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0025",
+    "name": "智能电网与虚拟电厂",
+    "definition": "智能电网、虚拟电厂及智能能源网络。",
+    "direct_keywords": [
+      "Smart grid",
+      "Smart power",
+      "Virtual power plant"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0025"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0026",
+    "name": "输配电网络与电网规划",
+    "definition": "电力输配电、电网连接、配电网与电力网络建设。",
+    "direct_keywords": [
+      "Busbar",
+      "Distribution grid",
+      "Electric power distribution",
+      "Electric power transmission",
+      "Electricity system",
+      "Grid code",
+      "Grid connection",
+      "Mains electricity",
+      "National Grid",
+      "Power grid",
+      "Power network",
+      "Power network design",
+      "Transmission tower"
+    ],
+    "conditional_keywords": [
+      "Grid"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0028",
+      "KWD-T0029",
+      "KWD-T0030",
+      "KWD-T0031",
+      "KWD-T0034",
+      "KWD-T0035",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 13,
+    "conditional_keyword_count": 1,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0027",
+    "name": "电力系统与电能通用研究",
+    "definition": "电力系统、电能与潮流运行等研究；Electricity或Electric power只提供通用电力关联，不能证明具体潮流研究。",
+    "direct_keywords": [
+      "Electric power",
+      "Electric power system",
+      "Electricity",
+      "Load balancing (electrical power)",
+      "Power flow",
+      "Power-flow study",
+      "Power system simulation",
+      "Power system simulator for engineering",
+      "Unified power flow controller"
+    ],
+    "conditional_keywords": [
+      "Alternating current",
+      "Direct current",
+      "Load rejection",
+      "Phasor",
+      "Synchronization (alternating current)",
+      "Three-phase"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0028",
+      "KWD-T0029",
+      "KWD-T0030",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 9,
+    "conditional_keyword_count": 6,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0028",
+    "name": "电力调度、调频与灵活性",
+    "definition": "经济调度、可调度电源、电网调频、调峰及电力运行计划；通用自动频率控制不独立触发。",
+    "direct_keywords": [
+      "Base load power plant",
+      "Dispatchable generation",
+      "Economic dispatch",
+      "Load following power plant",
+      "Peaking power plant"
+    ],
+    "conditional_keywords": [
+      "Frequency regulation",
+      "Load sharing",
+      "Power sharing",
+      "Scheduling (production processes)"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0024",
+      "KWD-T0025",
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0028",
+      "KWD-T0029",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 4,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0029",
+    "name": "需求响应、负荷与供电可靠性",
+    "definition": "需求响应、电力负荷、电力需求预测及负荷切除。",
+    "direct_keywords": [
+      "Demand response",
+      "Electrical load",
+      "Electricity demand",
+      "Load Shedding"
+    ],
+    "conditional_keywords": [
+      "Demand forecasting",
+      "Demand management",
+      "Demand reduction",
+      "Dynamic demand",
+      "Load management",
+      "Load profile",
+      "Load shifting",
+      "Peak demand",
+      "Peak load"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0024",
+      "KWD-T0025",
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0028",
+      "KWD-T0029",
+      "KWD-T0030",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 9,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0030",
+    "name": "电能质量与电压调节",
+    "definition": "功率因数、无功、电压偏差、电力谐波及滤波。",
+    "direct_keywords": [
+      "AC power",
+      "Active power filter",
+      "Electric power quality",
+      "Ferroresonance in electricity networks",
+      "Low voltage ride through",
+      "Overvoltage",
+      "Power conditioner",
+      "Power factor",
+      "Power quality",
+      "Power system harmonics",
+      "Single-phase electric power",
+      "Volt-ampere reactive",
+      "Voltage droop",
+      "Voltage drop",
+      "Voltage optimisation",
+      "Voltage regulation",
+      "Voltage sag"
+    ],
+    "conditional_keywords": [
+      "Disturbance voltage",
+      "Harmonic",
+      "Harmonics",
+      "Ripple",
+      "Total harmonic distortion",
+      "Voltage compensation",
+      "Voltage spike"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0030",
+      "KWD-T0036",
+      "KWD-T0037",
+      "KWD-T0038"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 17,
+    "conditional_keyword_count": 7,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0031",
+    "name": "继电保护与开断设备",
+    "definition": "电力保护、继电器、断路器及短路故障保护。",
+    "direct_keywords": [
+      "Arc-fault circuit interrupter",
+      "Circuit breaker",
+      "Differential protection",
+      "Digital protective relay",
+      "Fault current limiter",
+      "Fault indicator",
+      "Fuse (electrical)",
+      "Power-system protection",
+      "Prospective short circuit current",
+      "Protective relay",
+      "Sulfur hexafluoride circuit breaker",
+      "Switchgear",
+      "Transient recovery voltage"
+    ],
+    "conditional_keywords": [
+      "Fault detection and isolation",
+      "Inrush current",
+      "Overcurrent",
+      "Relay",
+      "Short circuit",
+      "Short circuit ratio",
+      "Solid-state relay"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0031",
+      "KWD-T0032",
+      "KWD-T0034",
+      "KWD-T0035",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 13,
+    "conditional_keyword_count": 7,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0032",
+    "name": "高电压、绝缘与局部放电",
+    "definition": "高压绝缘、局放、电树枝及介质耐压。",
+    "direct_keywords": [
+      "Dielectric withstand test",
+      "Electrical insulation paper",
+      "Electrical treeing",
+      "Insulation system",
+      "Partial discharge"
+    ],
+    "conditional_keywords": [
+      "Breakdown voltage",
+      "Brush discharge",
+      "Corona discharge",
+      "Dielectric",
+      "Dielectric barrier discharge",
+      "Dielectric gas",
+      "Dielectric loss",
+      "Dielectric spectroscopy",
+      "Dielectric strength",
+      "Electric breakdown",
+      "Electric discharge",
+      "Electrical breakdown",
+      "Electrical equipment",
+      "High voltage",
+      "Insulator (electricity)",
+      "Liquid dielectric",
+      "Space charge",
+      "Streamer discharge"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0031",
+      "KWD-T0032",
+      "KWD-T0033",
+      "KWD-T0034",
+      "KWD-T0035",
+      "KWD-T0036",
+      "KWD-T0037",
+      "KWD-T0038",
+      "KWD-T0039",
+      "KWD-T0040",
+      "KWD-T0041",
+      "KWD-T0044",
+      "KWD-T0064"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 18,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0033",
+    "name": "防雷、接地与电气安全",
+    "definition": "防雷器、接地系统及电气安全。",
+    "direct_keywords": [
+      "Earthing system",
+      "Lightning arrester",
+      "National Electrical Code"
+    ],
+    "conditional_keywords": [
+      "Electric shock",
+      "Electrical shock",
+      "Lightning detection",
+      "Lightning strike",
+      "Soil resistivity",
+      "Stray voltage"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0031",
+      "KWD-T0032",
+      "KWD-T0033",
+      "KWD-T0034",
+      "KWD-T0035",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 6,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0034",
+    "name": "变压器与设备状态监测",
+    "definition": "电力变压器、互感器、绝缘油和变压器状态监测。",
+    "direct_keywords": [
+      "Amorphous metal transformer",
+      "Autotransformer",
+      "Current transformer",
+      "Delta-wye transformer",
+      "Dissolved gas analysis",
+      "Distribution transformer",
+      "Energy efficient transformer",
+      "Isolation transformer",
+      "Sweep frequency response analysis",
+      "Transformer",
+      "Transformer oil",
+      "Transformer types"
+    ],
+    "conditional_keywords": [
+      "Transformer effect"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0034"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 12,
+    "conditional_keyword_count": 1,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0035",
+    "name": "电缆与输电线路",
+    "definition": "电力电缆、输电线和线路基础设施。",
+    "direct_keywords": [
+      "High-voltage cable",
+      "Power cable"
+    ],
+    "conditional_keywords": [
+      "All-dielectric self-supporting cable",
+      "Electrical conduit",
+      "Electrical wiring",
+      "Transmission line"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0026",
+      "KWD-T0027",
+      "KWD-T0031",
+      "KWD-T0032",
+      "KWD-T0033",
+      "KWD-T0034",
+      "KWD-T0035",
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 2,
+    "conditional_keyword_count": 4,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0036",
+    "name": "高压直流与柔性输电",
+    "definition": "HVDC输电、换流站及直流互联。",
+    "direct_keywords": [
+      "Flexible AC transmission system",
+      "High-voltage direct current",
+      "HVDC converter",
+      "HVDC converter station"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0036"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0037",
+    "name": "变换器与开关电源",
+    "definition": "DC/DC、AC/AC变换器、开关电源和电源拓扑。",
+    "direct_keywords": [
+      "Boost converter",
+      "Buck–boost converter",
+      "Buck converter",
+      "Capacitive power supply",
+      "Cycloconverter",
+      "DC-to-DC converter",
+      "Flyback converter",
+      "Flyback transformer",
+      "Forward converter",
+      "Power supply unit",
+      "PWM rectifier",
+      "Resonant converter",
+      "Switched-mode power supply",
+      "Switched-mode power supply applications",
+      "Uninterruptible power supply",
+      "Voltage converter",
+      "Welding power supply",
+      "Ćuk converter"
+    ],
+    "conditional_keywords": [
+      "Capacitor-input filter",
+      "Charge pump",
+      "Commutation cell",
+      "Constant power circuit",
+      "Converters",
+      "Load regulation",
+      "Rectification",
+      "Switched capacitor",
+      "Topology (electrical circuits)",
+      "Voltage controller",
+      "Voltage doubler",
+      "Voltage multiplier",
+      "Voltage regulator"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001",
+      "KWD-T0002",
+      "KWD-T0006",
+      "KWD-T0024",
+      "KWD-T0036",
+      "KWD-T0037",
+      "KWD-T0038",
+      "KWD-T0039",
+      "KWD-T0040",
+      "KWD-T0041",
+      "KWD-T0042",
+      "KWD-T0044",
+      "KWD-T0045"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 18,
+    "conditional_keyword_count": 13,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0038",
+    "name": "逆变器与功率调制",
+    "definition": "功率逆变器及其调制控制。",
+    "direct_keywords": [
+      "Inverter",
+      "Power inverter",
+      "Resonant inverter",
+      "Voltage source inverter",
+      "Z-source inverter"
+    ],
+    "conditional_keywords": [
+      "Pulse-frequency modulation",
+      "Pulse-width modulation",
+      "Space vector modulation",
+      "Switching frequency"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001",
+      "KWD-T0002",
+      "KWD-T0006",
+      "KWD-T0024",
+      "KWD-T0036",
+      "KWD-T0037",
+      "KWD-T0038",
+      "KWD-T0039",
+      "KWD-T0040",
+      "KWD-T0041",
+      "KWD-T0042",
+      "KWD-T0044",
+      "KWD-T0045"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 4,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0039",
+    "name": "功率半导体与功率器件",
+    "definition": "电力电子、功率开关器件及功率模块。",
+    "direct_keywords": [
+      "Insulated-gate bipolar transistor",
+      "Power electronics",
+      "Power module",
+      "Power MOSFET",
+      "Power semiconductor device",
+      "Thyristor"
+    ],
+    "conditional_keywords": [
+      "Gallium nitride",
+      "MOSFET",
+      "Power cycling",
+      "Silicon carbide",
+      "Wide-bandgap semiconductor"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0002",
+      "KWD-T0024",
+      "KWD-T0036",
+      "KWD-T0037",
+      "KWD-T0038",
+      "KWD-T0039",
+      "KWD-T0040",
+      "KWD-T0041",
+      "KWD-T0042",
+      "KWD-T0044",
+      "KWD-T0045",
+      "KWD-T0071"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 5,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0040",
+    "name": "电机与驱动控制",
+    "definition": "各类电动机、转子、驱动器及电机控制。",
+    "direct_keywords": [
+      "AC motor",
+      "Brushed DC electric motor",
+      "DC motor",
+      "Direct torque control",
+      "Electric machine",
+      "Electric motor",
+      "Electrical machinery",
+      "Homopolar motor",
+      "Induction motor",
+      "Linear induction motor",
+      "Linear motor",
+      "Motor control",
+      "Motor controller",
+      "Motor drive",
+      "Motor soft starter",
+      "Permanent magnet motor",
+      "Permanent magnet synchronous motor",
+      "Piezoelectric motor",
+      "Reluctance motor",
+      "Servomotor",
+      "Stepper motor",
+      "Superconducting electric machine",
+      "Switched reluctance motor",
+      "Synchronous motor",
+      "Torque motor",
+      "Ultrasonic motor",
+      "Universal motor",
+      "Variable-frequency drive",
+      "Wound rotor motor"
+    ],
+    "conditional_keywords": [
+      "Armature (electrical engineering)",
+      "Coil noise",
+      "Commutation",
+      "Electrical steel",
+      "Field coil",
+      "Rotor (electric)",
+      "Stator",
+      "Torque",
+      "Vector control"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0040",
+      "KWD-T0041",
+      "KWD-T0042",
+      "KWD-T0043",
+      "KWD-T0044"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 29,
+    "conditional_keyword_count": 9,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0041",
+    "name": "发电机与发电机组",
+    "definition": "电能发电机、异步/同步发电机和备用机组。",
+    "direct_keywords": [
+      "Diesel generator",
+      "Doubly fed electric machine",
+      "Electric generator",
+      "Induction generator",
+      "Magnetohydrodynamic generator",
+      "Permanent magnet synchronous generator"
+    ],
+    "conditional_keywords": [
+      "Generator (circuit theory)"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0006",
+      "KWD-T0007",
+      "KWD-T0008",
+      "KWD-T0009",
+      "KWD-T0013",
+      "KWD-T0015",
+      "KWD-T0041",
+      "KWD-T0050",
+      "KWD-T0051"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 1,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0042",
+    "name": "电动汽车、充电与车网互动",
+    "definition": "电动汽车、充电设备、动力电池应用及V2G。",
+    "direct_keywords": [
+      "Battery electric vehicle",
+      "Charging station",
+      "Electric cars",
+      "Electric vehicle",
+      "Inductive charging",
+      "Vehicle-to-grid"
+    ],
+    "conditional_keywords": [
+      "Alternative fuel vehicle",
+      "Automotive engineering",
+      "Fuel efficiency",
+      "Miles per gallon gasoline equivalent",
+      "Powertrain"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0042",
+      "KWD-T0043",
+      "KWD-T0044"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 5,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0043",
+    "name": "再生制动与能量回收",
+    "definition": "车辆或电驱系统的再生制动和动能回收。",
+    "direct_keywords": [
+      "Dynamic braking",
+      "Regenerative brake"
+    ],
+    "conditional_keywords": [
+      "Brake"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0043"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 2,
+    "conditional_keyword_count": 1,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0044",
+    "name": "牵引供电与电气化铁路",
+    "definition": "轨道车辆牵引电机、供电网络及电力机车。",
+    "direct_keywords": [
+      "Electric locomotive",
+      "Electric traction",
+      "Traction motor",
+      "Traction power network",
+      "Traction substation"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0044"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0045",
+    "name": "无线电能传输",
+    "definition": "无线、感应及射频电能传输。",
+    "direct_keywords": [
+      "Radio frequency power transmission",
+      "Resonant inductive coupling",
+      "Wireless power transfer"
+    ],
+    "conditional_keywords": [
+      "Maximum power transfer theorem"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0045"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 1,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0046",
+    "name": "能量采集与微能源",
+    "definition": "压电、摩擦电及微型能量采集。",
+    "direct_keywords": [
+      "Energy harvesting"
+    ],
+    "conditional_keywords": [
+      "Piezoelectric coefficient",
+      "Piezoelectricity",
+      "Pyroelectric crystal",
+      "Pyroelectricity",
+      "Triboelectric effect"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0046"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 1,
+    "conditional_keyword_count": 5,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0047",
+    "name": "热电转换与热电制冷",
+    "definition": "热电材料、温差发电及热电制冷。",
+    "direct_keywords": [
+      "Thermoelectric cooling",
+      "Thermoelectric effect",
+      "Thermoelectric generator",
+      "Thermoelectric materials"
+    ],
+    "conditional_keywords": [
+      "Bismuth telluride",
+      "Seebeck coefficient"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0047"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 2,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0048",
+    "name": "热泵、暖通与制冷",
+    "definition": "热泵、空调、冷热供应及建筑暖通设备。",
+    "direct_keywords": [
+      "Absorption heat pump",
+      "Absorption refrigerator",
+      "Air conditioning",
+      "Air source heat pumps",
+      "Chiller",
+      "Chiller boiler system",
+      "Energy recovery ventilation",
+      "Fan coil unit",
+      "Heat pump",
+      "Heat pump and refrigeration cycle",
+      "Heat recovery ventilation",
+      "Heating system",
+      "HVAC",
+      "Hybrid heat",
+      "Magnetic refrigeration",
+      "Radiant heating",
+      "Refrigeration",
+      "Renewable heat",
+      "Storage heater",
+      "Storage water heater",
+      "Thermal expansion valve",
+      "Vapor-compression refrigeration",
+      "Water chiller",
+      "Water heater",
+      "Water heating"
+    ],
+    "conditional_keywords": [
+      "Coefficient of performance",
+      "Cooling load",
+      "Evaporator",
+      "Gas compressor",
+      "Heat load",
+      "Heating degree day",
+      "Infiltration (HVAC)",
+      "Lithium bromide",
+      "Refrigerant",
+      "Thermal comfort"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0022",
+      "KWD-T0048",
+      "KWD-T0049"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 25,
+    "conditional_keyword_count": 10,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0049",
+    "name": "建筑节能与建筑供能",
+    "definition": "低能耗建筑、建筑能源模拟、被动太阳能及建筑保温。",
+    "direct_keywords": [
+      "Building energy simulation",
+      "Building insulation",
+      "Low-energy house",
+      "Passive solar building design",
+      "Zero-energy building"
+    ],
+    "conditional_keywords": [
+      "Daylighting",
+      "Dynamic insulation",
+      "Pipe insulation",
+      "Solar greenhouse",
+      "Thermal bridge",
+      "Thermal insulation",
+      "Thermal mass",
+      "Thermal transmittance",
+      "Vacuum insulated panel"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0049"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 9,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0050",
+    "name": "余热利用、热力循环与换热",
+    "definition": "有机朗肯、热力循环、余热回收及能源设备换热。",
+    "direct_keywords": [
+      "Brayton cycle",
+      "Cogeneration",
+      "Combined cycle",
+      "Heat recovery steam generator",
+      "Organic Rankine cycle",
+      "Rankine cycle",
+      "Stirling cycle",
+      "Stirling engine",
+      "Thermoacoustic heat engine",
+      "Waste heat",
+      "Waste heat recovery unit"
+    ],
+    "conditional_keywords": [
+      "Boiling heat transfer",
+      "Carnot cycle",
+      "Concentric tube heat exchanger",
+      "Convective heat transfer",
+      "Cooling tower",
+      "Copper in heat exchangers",
+      "Dynamic scraped surface heat exchanger",
+      "Enhanced heat transfer",
+      "Exergy",
+      "Exergy efficiency",
+      "Flow boiling",
+      "Heat engine",
+      "Heat exchanger",
+      "Heat flux",
+      "Heat pipe",
+      "Heat sink",
+      "Heat spreader",
+      "Heat transfer",
+      "Heat transfer enhancement",
+      "Heat transfer fluid",
+      "Heat transmission",
+      "Loop heat pipe",
+      "Micro heat exchanger",
+      "Micro-loop heat pipe",
+      "Moving bed heat exchanger",
+      "Plate fin heat exchanger",
+      "Plate heat exchanger",
+      "Regenerative heat exchanger",
+      "Sensible heat",
+      "Shell and tube heat exchanger",
+      "Thermal efficiency",
+      "Thermal management of electronic devices and systems",
+      "Water cooling",
+      "Working fluid"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 11,
+    "conditional_keyword_count": 34,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0051",
+    "name": "火力发电、锅炉与透平",
+    "definition": "火电厂、燃气/蒸汽轮机、锅炉及联合循环发电。",
+    "direct_keywords": [
+      "Boiler (water heating)",
+      "Boiler blowdown",
+      "Boiler feedwater",
+      "Boiler feedwater pump",
+      "Boiler water",
+      "Chemical looping combustion",
+      "Coal fired power plant",
+      "Flash boiler",
+      "Gas turbines",
+      "Integrated gasification combined cycle",
+      "Pulverized coal-fired boiler",
+      "Steam drum",
+      "Steam-electric power station",
+      "Steam engine",
+      "Steam power",
+      "Steam turbine",
+      "Thermal power station"
+    ],
+    "conditional_keywords": [
+      "Air preheater",
+      "Combustion",
+      "Combustor",
+      "Critical heat flux",
+      "Feedwater heater",
+      "Gas burner",
+      "Heat of combustion",
+      "Nucleate boiling",
+      "Oxy-fuel",
+      "Reboiler",
+      "Steam pressure",
+      "Superheated steam",
+      "Superheater",
+      "Superheating",
+      "Thermal barrier coating",
+      "Turbine",
+      "Turbine blade",
+      "Turbomachinery"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0051"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 17,
+    "conditional_keyword_count": 18,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0052",
+    "name": "煤炭与煤基能源转化",
+    "definition": "煤炭、煤气化、液化及煤基能源资源。",
+    "direct_keywords": [
+      "Bituminous coal",
+      "Brown coal",
+      "Clean coal",
+      "Clean coal technology",
+      "Coal",
+      "Coal fired",
+      "Coal gas",
+      "Coal gasification",
+      "Coal liquefaction",
+      "Coalbed methane",
+      "Energy value of coal",
+      "Enhanced coal bed methane recovery",
+      "Hard coal",
+      "Underground coal gasification"
+    ],
+    "conditional_keywords": [
+      "Coal basin",
+      "Coal combustion products",
+      "Coal dust",
+      "Coal field",
+      "Coal measures",
+      "Coal mining",
+      "Coal preparation plant",
+      "Coal rank",
+      "Coal slurry",
+      "Coal tar",
+      "Coal water",
+      "Coke",
+      "Problems in coal mining"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0052"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 14,
+    "conditional_keyword_count": 13,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0053",
+    "name": "天然气、液化天然气与管输",
+    "definition": "天然气资源、加工、储运、LNG及燃气供应。",
+    "direct_keywords": [
+      "Associated petroleum gas",
+      "Compressed natural gas",
+      "Gas industry",
+      "Gas pipeline",
+      "Liquefied natural gas",
+      "Natural gas",
+      "Natural gas field",
+      "Natural gas industry",
+      "Natural-gas processing",
+      "Natural gas storage",
+      "Oil and natural gas",
+      "Oil shale gas",
+      "Shale gas",
+      "Substitute natural gas",
+      "Tight gas"
+    ],
+    "conditional_keywords": [
+      "Dry gas",
+      "Gas consumption",
+      "Gas engine",
+      "Gas leak",
+      "Sour gas",
+      "Wet gas"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0053"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 15,
+    "conditional_keyword_count": 6,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0054",
+    "name": "石油与炼制",
+    "definition": "石油资源、勘探、储层、炼制及石油产品。",
+    "direct_keywords": [
+      "Crude oil",
+      "Enhanced oil recovery",
+      "Hydrocarbon exploration",
+      "Light crude oil",
+      "Microbial enhanced oil recovery",
+      "Offshore oil and gas",
+      "Oil drilling",
+      "Oil exploration",
+      "Oil field",
+      "Oil in place",
+      "Oil production",
+      "Oil refinery",
+      "Oil reserves",
+      "Oil sands",
+      "Oil shale",
+      "Oil supply",
+      "Oil well",
+      "Peak oil",
+      "Petroleum",
+      "Petroleum exploration",
+      "Petroleum geochemistry",
+      "Petroleum geology",
+      "Petroleum industry",
+      "Petroleum product",
+      "Petroleum reservoir",
+      "Petroleum system",
+      "Shale oil",
+      "Shale oil extraction",
+      "Steam-assisted gravity drainage",
+      "Tight oil",
+      "Unconventional oil",
+      "Water injection (oil production)"
+    ],
+    "conditional_keywords": [
+      "Coiled tubing",
+      "Completion (oil and gas wells)",
+      "Gas lift",
+      "Gas oil ratio",
+      "Hydrodenitrogenation",
+      "Hydrodesulfurization",
+      "Oil consumption",
+      "Oil pump",
+      "Oil storage",
+      "Oil tank",
+      "Petroleum coke",
+      "Well test (oil and gas)"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0054"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 32,
+    "conditional_keyword_count": 12,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0055",
+    "name": "燃料、合成燃料与燃料供给",
+    "definition": "化石/替代燃料、合成气、甲醇燃料及燃料性能。",
+    "direct_keywords": [
+      "Alcohol fuel",
+      "Alternative fuels",
+      "Aviation fuel",
+      "Blast furnace gas",
+      "Carbon-neutral fuel",
+      "Diesel fuel",
+      "Fossil fuel",
+      "Fuel gas",
+      "Fuel oil",
+      "Fuel poverty",
+      "Gas to liquids",
+      "Gasoline",
+      "Heating oil",
+      "Homogeneous charge compression ignition",
+      "Internal combustion engine",
+      "Jet fuel",
+      "Liquefied petroleum gas",
+      "Liquid fuel",
+      "Methanol fuel",
+      "Motor fuel",
+      "Producer gas",
+      "Renewable fuels",
+      "Solar fuel",
+      "Solid fuel",
+      "Syngas",
+      "Syngas to gasoline plus",
+      "Synthetic fuel",
+      "Ultra-low-sulfur diesel",
+      "Water gas",
+      "Winter diesel fuel",
+      "Wood gas generator"
+    ],
+    "conditional_keywords": [
+      "Air–fuel ratio",
+      "Aircraft fuel system",
+      "Brake specific fuel consumption",
+      "Diesel cycle",
+      "Diesel engine",
+      "Diesel locomotive",
+      "Emulsified fuel",
+      "Fuel injection",
+      "Fuel mass fraction",
+      "Fuel pump",
+      "Fuel supply",
+      "Fuel tank",
+      "Gasoline direct injection",
+      "Hydrodeoxygenation",
+      "Ignition system",
+      "Petrol engine",
+      "Pyrolysis oil",
+      "Residual oil",
+      "Thrust specific fuel consumption",
+      "Turbocharger"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0011",
+      "KWD-T0012",
+      "KWD-T0052",
+      "KWD-T0053",
+      "KWD-T0054",
+      "KWD-T0055"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 31,
+    "conditional_keyword_count": 20,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0056",
+    "name": "碳捕集、封存与二氧化碳转化",
+    "definition": "碳捕集封存、烟气碳处理及能源相关二氧化碳转化。",
+    "direct_keywords": [
+      "Carbon capture and storage (timeline)",
+      "Carbon dioxide removal",
+      "Electrochemical reduction of carbon dioxide",
+      "Negative carbon dioxide emission"
+    ],
+    "conditional_keywords": [
+      "Amine gas treating",
+      "Carbon dioxide reforming",
+      "Carbon sequestration",
+      "Greenhouse gas removal",
+      "Supercritical carbon dioxide"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0056"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 4,
+    "conditional_keyword_count": 5,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0057",
+    "name": "能源排放控制与环境治理",
+    "definition": "能源设施污染控制、烟气治理及能源活动的环境影响。",
+    "direct_keywords": [
+      "Environmental impact of the energy industry",
+      "Flue-gas desulfurization",
+      "Flue-gas emissions from fossil-fuel combustion"
+    ],
+    "conditional_keywords": [
+      "Diesel exhaust",
+      "Diesel exhaust fluid",
+      "Diesel particulate filter",
+      "Emission standard",
+      "Environmental impact assessment",
+      "Environmental remediation",
+      "Exhaust gas",
+      "Exhaust gas recirculation",
+      "Fugitive emissions",
+      "Life-cycle assessment",
+      "Methane emissions",
+      "NOx",
+      "Oil pollution",
+      "Pollutant",
+      "Pollution",
+      "Sewage treatment",
+      "Thermal pollution",
+      "Wastewater"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 3,
+    "conditional_keyword_count": 18,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0058",
+    "name": "能源碳核算、碳交易与低碳治理",
+    "definition": "与明确能源对象共现的碳核算、碳交易和排放政策。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Carbon accounting",
+      "Carbon credit",
+      "Carbon dioxide equivalent",
+      "Carbon dioxide in Earth's atmosphere",
+      "Carbon finance",
+      "Carbon footprint",
+      "Carbon leakage",
+      "Carbon market",
+      "Carbon neutrality",
+      "Carbon offset",
+      "Carbon price",
+      "Carbon tax",
+      "Climate change mitigation",
+      "Emission intensity",
+      "Emission inventory",
+      "Emissions trading",
+      "Global warming",
+      "Greenhouse gas",
+      "Low-carbon economy",
+      "Zero emission"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 20,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0059",
+    "name": "能源政策、转型与安全",
+    "definition": "能源政策、能源转型、能源安全、战略及法规。",
+    "direct_keywords": [
+      "Energy independence",
+      "Energy law",
+      "Energy policy",
+      "Energy security",
+      "Energy strategy",
+      "Energy transition",
+      "Nuclear energy policy",
+      "Renewable portfolio standard"
+    ],
+    "conditional_keywords": [
+      "Geopolitics",
+      "Law",
+      "Legislation",
+      "Political economy",
+      "Politics",
+      "Public economics",
+      "Subsidy"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 8,
+    "conditional_keyword_count": 7,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0060",
+    "name": "电力市场、电价与能源经济",
+    "definition": "电力交易、电价、能源市场及能源经济性。",
+    "direct_keywords": [
+      "Cost of electricity by source",
+      "Electricity market",
+      "Electricity price",
+      "Electricity price forecasting",
+      "Electricity pricing",
+      "Electricity retailing",
+      "Energy economics",
+      "Energy market",
+      "Energy subsidies",
+      "Energy tax",
+      "Fuel tax",
+      "Grid parity",
+      "Natural gas prices",
+      "Oil price",
+      "Oil-storage trade",
+      "Power market",
+      "Renewable energy credit"
+    ],
+    "conditional_keywords": [
+      "Bidding",
+      "Business administration",
+      "Business management",
+      "Econometrics",
+      "Environmental economics",
+      "Finance",
+      "Market power",
+      "Payback period"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 17,
+    "conditional_keyword_count": 8,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0061",
+    "name": "能源供需、资源与供能系统",
+    "definition": "能源需求、供应、资源、结构、规划、电气化及发电供能系统。",
+    "direct_keywords": [
+      "Electric power industry",
+      "Electric utility",
+      "Electricity generation",
+      "Electrification",
+      "Energy demand",
+      "Energy development",
+      "Energy engineering",
+      "Energy mix",
+      "Energy planning",
+      "Energy poverty",
+      "Energy resources",
+      "Energy sector",
+      "Energy supply",
+      "Energy system",
+      "Energy technology",
+      "Power station",
+      "Primary energy",
+      "Rural electrification"
+    ],
+    "conditional_keywords": [
+      "Energy accounting",
+      "Energy carrier",
+      "Energy modeling",
+      "Energy source",
+      "Water-energy nexus"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 18,
+    "conditional_keyword_count": 5,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0062",
+    "name": "能源效率、节能与管理",
+    "definition": "能源消费、节能、能源管理及用能效率。",
+    "direct_keywords": [
+      "Efficient energy use",
+      "Electric energy consumption",
+      "Electrical efficiency",
+      "Energy conservation",
+      "Energy consumption",
+      "Energy intensity",
+      "Energy management",
+      "Energy management system",
+      "Energy performance",
+      "Power management system",
+      "Power saving"
+    ],
+    "conditional_keywords": [
+      "Dynamic voltage scaling",
+      "Embodied energy",
+      "Energy analysis",
+      "Energy conversion efficiency",
+      "Energy cost",
+      "Energy recovery",
+      "Leakage power",
+      "Low-power electronics",
+      "Power consumption",
+      "Power demand",
+      "Power gating",
+      "Power management",
+      "Power optimization",
+      "Standby power",
+      "Ultra low power"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 11,
+    "conditional_keyword_count": 15,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0063",
+    "name": "可再生能源与综合能源系统",
+    "definition": "可再生能源、清洁能源及间歇性可再生供能。",
+    "direct_keywords": [
+      "Alternative energy",
+      "Clean energy",
+      "Intermittent energy source",
+      "New energy",
+      "Renewable energy",
+      "Sustainable energy",
+      "Variable renewable energy"
+    ],
+    "conditional_keywords": [
+      "Renewable resource",
+      "Sustainability",
+      "Sustainable development"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001",
+      "KWD-T0002",
+      "KWD-T0003",
+      "KWD-T0004",
+      "KWD-T0005",
+      "KWD-T0006",
+      "KWD-T0007",
+      "KWD-T0008",
+      "KWD-T0009",
+      "KWD-T0010",
+      "KWD-T0011",
+      "KWD-T0012",
+      "KWD-T0018",
+      "KWD-T0024",
+      "KWD-T0025",
+      "KWD-T0046",
+      "KWD-T0047",
+      "KWD-T0049",
+      "KWD-T0063"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 7,
+    "conditional_keyword_count": 3,
+    "topic_kind": "cross_cutting_energy",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0064",
+    "name": "电能计量与电网通信",
+    "definition": "智能计量、电力线通信及电网信息交换标准。",
+    "direct_keywords": [
+      "Common Information Model (electricity)",
+      "Electricity meter",
+      "IEC 61850",
+      "Net metering",
+      "Power-line communication",
+      "Smart meter"
+    ],
+    "conditional_keywords": [],
+    "conditional_anchor_topics": [
+      "KWD-T0064"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 6,
+    "conditional_keyword_count": 0,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0065",
+    "name": "能源应用中的人工智能与数据分析",
+    "definition": "明确能源对象同时出现的机器学习、数据科学及智能分析方法。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Analytics",
+      "Artificial intelligence",
+      "Artificial neural network",
+      "Big data",
+      "Boosting (machine learning)",
+      "Cluster analysis",
+      "Computer vision",
+      "Convolutional neural network",
+      "Data mining",
+      "Data science",
+      "Deep learning",
+      "Federated learning",
+      "Long short term memory",
+      "Machine learning",
+      "Random forest",
+      "Rectifier (neural networks)",
+      "Recurrent neural network",
+      "Reinforcement learning",
+      "Support vector machine"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 19,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0066",
+    "name": "能源应用中的优化与控制",
+    "definition": "明确能源对象同时出现的优化、调度算法及控制方法。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Adaptive control",
+      "Control engineering",
+      "Control system",
+      "Dynamic programming",
+      "Fuzzy control system",
+      "Fuzzy logic",
+      "Genetic algorithm",
+      "Kalman filter",
+      "Linear programming",
+      "Mathematical optimization",
+      "Model predictive control",
+      "Multi-objective optimization",
+      "Nonlinear programming",
+      "Optimal control",
+      "Optimization problem",
+      "Particle swarm optimization",
+      "PID controller",
+      "Robust control",
+      "Sliding mode control"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 19,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0067",
+    "name": "能源应用中的通信与网络安全",
+    "definition": "明确能源对象同时出现的通信、物联网、信息系统及网络安全。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Blockchain",
+      "Cloud computing",
+      "Computer security",
+      "Cyber-physical system",
+      "Distributed computing",
+      "Edge computing",
+      "Internet of Things",
+      "Network security",
+      "SCADA",
+      "Wireless sensor network"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 10,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0068",
+    "name": "能源应用中的电极与电解质材料",
+    "definition": "明确能源对象同时出现的电极、电解质与电池活性材料。",
+    "direct_keywords": [
+      "Electrochemical energy conversion"
+    ],
+    "conditional_keywords": [
+      "Adsorptive stripping voltammetry",
+      "Anode",
+      "Anodic stripping voltammetry",
+      "Cathode",
+      "Cathodic stripping voltammetry",
+      "Cyclic voltammetry",
+      "Differential pulse voltammetry",
+      "Electrocatalyst",
+      "Electrochemical cell",
+      "Electrochemical kinetics",
+      "Electrochemical potential",
+      "Electrochemical window",
+      "Electrochemistry",
+      "Electrode",
+      "Electrolysis",
+      "Electrolyte",
+      "Faraday efficiency",
+      "Fast ion conductor",
+      "Gas diffusion electrode",
+      "Intercalation (chemistry)",
+      "Ionic conductivity",
+      "Linear sweep voltammetry",
+      "Lithium carbonate",
+      "Lithium chloride",
+      "Lithium cobalt oxide",
+      "Lithium fluoride",
+      "Lithium iodide",
+      "Lithium iron phosphate",
+      "Lithium metal",
+      "Lithium nitrate",
+      "Lithium oxide",
+      "Lithium perchlorate",
+      "Lithium sulfate",
+      "Lithium titanate",
+      "Nafion",
+      "Overpotential",
+      "Oxygen evolution",
+      "Oxygen reduction",
+      "Oxygen reduction reaction",
+      "Palladium-hydrogen electrode",
+      "Polarization (electrochemistry)",
+      "Proton conductor",
+      "Reversible hydrogen electrode",
+      "Standard hydrogen electrode",
+      "Tafel equation",
+      "Voltammetry"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0001",
+      "KWD-T0016",
+      "KWD-T0017",
+      "KWD-T0018",
+      "KWD-T0019",
+      "KWD-T0020",
+      "KWD-T0021",
+      "KWD-T0023",
+      "KWD-T0047",
+      "KWD-T0056"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 1,
+    "conditional_keyword_count": 46,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0069",
+    "name": "能源应用中的材料结构与表征",
+    "definition": "明确能源对象同时出现的多孔、碳、纳米及结构功能材料研究。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Activated carbon",
+      "Activated charcoal",
+      "Active carbon",
+      "Aerogel",
+      "Alloy",
+      "Amorphous carbon",
+      "Band gap",
+      "Boron nitride",
+      "Carbide-derived carbon",
+      "Carbon black",
+      "Carbon fiber composite",
+      "Carbon fiber reinforced polymer",
+      "Carbon fibers",
+      "Carbon nanofiber",
+      "Carbon nanofoam",
+      "Carbon nanotube",
+      "Carbon nanotube supported catalyst",
+      "Carbon nitride",
+      "Carbon quantum dots",
+      "Carbonization",
+      "Cathodic protection",
+      "Coating",
+      "Cobalt hydroxide",
+      "Cobalt oxide",
+      "Composite material",
+      "Corrosion",
+      "Crystallinity",
+      "Glassy carbon",
+      "Grain boundary",
+      "Graphene",
+      "Graphite",
+      "Graphitic carbon nitride",
+      "Heterojunction",
+      "High-temperature superconductivity",
+      "Layered double hydroxides",
+      "Lithium hydroxide",
+      "Mesoporous material",
+      "Metal-organic framework",
+      "Microstructure",
+      "Molybdenum disulfide",
+      "MXenes",
+      "Nanocomposite",
+      "Nanocrystal",
+      "Nanocrystalline material",
+      "Nanofiber",
+      "Nanomaterials",
+      "Nanoparticle",
+      "Nanoporous",
+      "Nanorod",
+      "Nanosheet",
+      "Nanostructure",
+      "Nanotube",
+      "Nanowire",
+      "Organic semiconductor",
+      "PEDOT:PSS",
+      "Perovskite (structure)",
+      "Phosphorene",
+      "Polyaniline",
+      "Polypyrrole",
+      "Porosity",
+      "Porous medium",
+      "Pyrolytic carbon",
+      "Semiconductor",
+      "Specific surface area",
+      "Superconducting magnet",
+      "Superconducting wire",
+      "Superconductivity",
+      "Superhydrophobic coating",
+      "Thermal stability",
+      "Thin film",
+      "Titanium dioxide",
+      "Yttria-stabilized zirconia"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 72,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0070",
+    "name": "能源应用中的光催化与光电化学",
+    "definition": "明确能源对象同时出现的光催化、光电化学和相关反应方法。",
+    "direct_keywords": [],
+    "conditional_keywords": [
+      "Photocatalysis",
+      "Photoelectrochemical cell",
+      "Photoelectrochemistry"
+    ],
+    "conditional_anchor_topics": [],
+    "conditional_anchor_rule": "any_explicit_energy_anchor",
+    "direct_keyword_count": 0,
+    "conditional_keyword_count": 3,
+    "topic_kind": "supporting_method_material",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0071",
+    "name": "电热与工业电气化",
+    "definition": "电阻、感应、微波等电热过程及工业电热设备。",
+    "direct_keywords": [
+      "Dielectric heating",
+      "Electric arc furnace",
+      "Electric heating",
+      "Electromagnetic heating",
+      "Induction heating"
+    ],
+    "conditional_keywords": [
+      "Carbon arc welding",
+      "Electric resistance welding",
+      "Electrogas welding",
+      "Gas metal arc welding",
+      "Gas tungsten arc welding",
+      "Heating element",
+      "Infrared heater",
+      "Joule heating",
+      "Microwave heating",
+      "Plasma arc welding",
+      "Plasma cutting"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0071"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 5,
+    "conditional_keyword_count": 11,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  },
+  {
+    "topic_code": "KWD-T0072",
+    "name": "电光源、照明与照明节能",
+    "definition": "电光源、灯具、智能照明与照明节能；光源也可用作试验设备，命中不等于照明是论文主要对象。",
+    "direct_keywords": [
+      "Arc lamp",
+      "Electric light",
+      "Fluorescent lamp",
+      "Gas-discharge lamp",
+      "Halogen lamp",
+      "Intelligent lighting",
+      "LED lamp",
+      "Mercury-vapor lamp",
+      "Smart lighting",
+      "Sodium-vapor lamp",
+      "Solid-state lighting"
+    ],
+    "conditional_keywords": [
+      "Light-emitting diode",
+      "OLED",
+      "Thermal management of high-power LEDs"
+    ],
+    "conditional_anchor_topics": [
+      "KWD-T0072"
+    ],
+    "conditional_anchor_rule": "only_listed_related_direct_topics",
+    "direct_keyword_count": 11,
+    "conditional_keyword_count": 3,
+    "topic_kind": "energy_technology_object",
+    "authority": "assistant_curated_from_observed_keywords_not_expert_approved"
+  }
+]

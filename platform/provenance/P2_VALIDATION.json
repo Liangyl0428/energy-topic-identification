@@ -1,0 +1,406 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "complete_manifest_inventory",
+      "passed": true
+    },
+    {
+      "name": "sha:README.md",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p2/SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p2/platform_data.json",
+      "passed": true
+    },
+    {
+      "name": "sha:assets/p2/业务主题与决策解读.xlsx",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "sha:docs/P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p2/case_decision_cards.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-technology-trl-crl/assets/full_nmf500/p2/case_decision_cards.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p2/business_insights.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p2/business_insights.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p2/business_quarter_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p2/population_quarter_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-hotspots/assets/full_nmf500/p2/source_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/business_taxonomy.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/business_taxonomy.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/evidence_samples.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/evidence_samples.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/f_business_membership_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/f_topic_bridge.csv",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/assets/full_nmf500/p2/f_topic_bridge.json",
+      "passed": true
+    },
+    {
+      "name": "sha:energy-topic-identification/data/business_v2/development_title_review.json",
+      "passed": true
+    },
+    {
+      "name": "sha:preview/index.html",
+      "passed": true
+    },
+    {
+      "name": "sha:provenance/P2_BROWSER.json",
+      "passed": true
+    },
+    {
+      "name": "sha:provenance/P2_PREVIEW_DESKTOP.png",
+      "passed": true
+    },
+    {
+      "name": "sha:provenance/P2_PREVIEW_MOBILE.png",
+      "passed": true
+    },
+    {
+      "name": "sha:provenance/P2_TESTS.xml",
+      "passed": true
+    },
+    {
+      "name": "sha:tests/test_p2_delivery.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/build_p2.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/build_p2_preview.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/check_p2_preview.cjs",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/p2_preview.html",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/p2_taxonomy.py",
+      "passed": true
+    },
+    {
+      "name": "sha:tools/validate_p2.py",
+      "passed": true
+    },
+    {
+      "name": "builder_matches_outputs",
+      "passed": true
+    },
+    {
+      "name": "taxonomy_matches_outputs",
+      "passed": true
+    },
+    {
+      "name": "all_records_screened",
+      "passed": true
+    },
+    {
+      "name": "honest_scope",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:preview/index.html",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p2/业务主题与决策解读.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p2/platform_data.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P1修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/平台业务与使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/P0修复验收.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:docs/运行配置与输入清单.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:config/runtime_paths.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-topic-identification/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-topic-hotspots/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/README.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.csv",
+      "passed": true
+    },
+    {
+      "name": "doclink:README.md:energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../provenance/P0_TEST_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../provenance/P0_TESTS.xml",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../provenance/P0_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../provenance/p0_maturity_plot_check.png",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:../energy-technology-trl-crl/assets/full_nmf500/case_hotspot_links.schema.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P0修复验收.md:运行配置与输入清单.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../assets/p1/BUILD.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../provenance/P1_TESTS.xml",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../provenance/P1_VALIDATION.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../provenance/P1_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../provenance/P1_FILES.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:../assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:平台业务与使用说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P1修复验收.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P2业务主题与决策使用手册.md:../preview/index.html",
+      "passed": true
+    },
+    {
+      "name": "doclink:P2业务主题与决策使用手册.md:../assets/p2/业务主题与决策解读.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:P2业务主题与决策使用手册.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:P2业务主题与决策使用手册.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:../assets/p1/P1_review.xlsx",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:../assets/p1/platform_examples.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:数据与指标字典.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:平台业务与使用说明.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:数据与指标字典.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:数据与指标字典.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:数据与指标字典.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:数据与指标字典.md:模块接口与展示规范.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:模块接口与展示规范.md:P2业务主题与决策使用手册.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:模块接口与展示规范.md:P2接口与复现说明.md",
+      "passed": true
+    },
+    {
+      "name": "doclink:运行配置与输入清单.md:../config/runtime_paths.json",
+      "passed": true
+    },
+    {
+      "name": "doclink:运行配置与输入清单.md:../runtime_config.py",
+      "passed": true
+    },
+    {
+      "name": "doclink:运行配置与输入清单.md:../provenance/INPUT_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "name": "regression_tests",
+      "passed": true
+    },
+    {
+      "name": "browser_interactions",
+      "passed": true
+    },
+    {
+      "name": "full_membership_fingerprint",
+      "passed": true
+    }
+  ],
+  "tests": 35,
+  "failures": 0,
+  "semantic_expert_approval": false,
+  "production_deployed": false,
+  "scope": "Local data, lineage, UI and regression verification; not semantic quality certification"
+}

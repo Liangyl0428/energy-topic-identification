@@ -12,6 +12,14 @@
     "energy-topic-hotspots": "c261de455c905a918b51d4b7163d721ece59af06e3fb115f31154bcd5cc7917b",
     "energy-technology-trl-crl": "9ba7cb65a67ba490870d285bb763d07935103b3d2b1fa67db50d6d4622775b44"
   },
-  "documentation_only_refresh": true,
-  "computed_numeric_artifacts_unchanged": true
+  "documentation_only_refresh": false,
+  "computed_numeric_artifacts_unchanged": true,
+  "p0_repair": "2026-10-18",
+  "p0_scope": "Typed maturity export, current topic identity, explicit runtime configuration and data dictionary",
+  "classification_and_hotspot_values_unchanged": true,
+  "p1_business_version": "energy_business_p1_20261018",
+  "p1_scope": "Business review overlay, grounded numeric insights, bounded case actions and evidence links",
+  "p1_full_business_scope_approved": false,
+  "p1_original_numeric_artifacts_unchanged": true,
+  "p1_reviewed_subset_counts_recomputed": true
 }

@@ -1,0 +1,12 @@
+﻿doc_id,category_id,business_topic_id,date,source,review_id,scope,business_version,rank_eligible
+paper:W2348011751,F0022,B-GRID-DIGITAL,2008-01-01,paper,SR-W2348011751,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W234819835,F0022,B-GAS-RESOURCE,2006-01-01,paper,SR-W234819835,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W2348415734,F0022,B-GRID-PROTECTION,2008-01-01,paper,SR-W2348415734,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W2352268102,F0022,B-THERMOELECTRIC,2011-05-01,paper,SR-W2352268102,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W2354627511,F0022,B-POWER-MARKET,2006-01-01,paper,SR-W2354627511,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7128315464,F0110,B-WIND-FORECAST,2026-01-01,paper,SR-W7128315464,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7133390392,F0001,B-SOLAR-CORROSION,2016-01-01,paper,SR-W7133390392,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7163012620,F0001,B-BATTERY-INTERFACE,2026-06-01,paper,SR-W7163012620,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7163397305,F0110,B-SUBSTATION-DESIGN,2026-01-01,paper,SR-W7163397305,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7164412679,F0110,B-INDUSTRIAL-AIR,2026-06-11,paper,SR-W7164412679,diagnostic_reviewed_subset,energy_business_p1_20261018,False
+paper:W7166710595,F0110,B-EV-FORECAST,2026-06-30,paper,SR-W7166710595,diagnostic_reviewed_subset,energy_business_p1_20261018,False

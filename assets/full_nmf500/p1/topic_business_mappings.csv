@@ -1,0 +1,12 @@
+﻿from_category_id,from_taxonomy_version,to_business_topic_id,to_business_version,relation,doc_ids,whole_cluster_relabel,requires_recompute,review_status
+F0001,full_nmf500_20260926,B-BATTERY-INTERFACE,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7163012620""]",False,True,assistant_reviewed_pending_domain_review
+F0001,full_nmf500_20260926,B-SOLAR-CORROSION,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7133390392""]",False,True,assistant_reviewed_pending_domain_review
+F0022,full_nmf500_20260926,B-GAS-RESOURCE,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W234819835""]",False,True,assistant_reviewed_pending_domain_review
+F0022,full_nmf500_20260926,B-GRID-DIGITAL,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W2348011751""]",False,True,assistant_reviewed_pending_domain_review
+F0022,full_nmf500_20260926,B-GRID-PROTECTION,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W2348415734""]",False,True,assistant_reviewed_pending_domain_review
+F0022,full_nmf500_20260926,B-POWER-MARKET,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W2354627511""]",False,True,assistant_reviewed_pending_domain_review
+F0022,full_nmf500_20260926,B-THERMOELECTRIC,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W2352268102""]",False,True,assistant_reviewed_pending_domain_review
+F0110,full_nmf500_20260926,B-EV-FORECAST,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7166710595""]",False,True,assistant_reviewed_pending_domain_review
+F0110,full_nmf500_20260926,B-INDUSTRIAL-AIR,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7164412679""]",False,True,assistant_reviewed_pending_domain_review
+F0110,full_nmf500_20260926,B-SUBSTATION-DESIGN,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7163397305""]",False,True,assistant_reviewed_pending_domain_review
+F0110,full_nmf500_20260926,B-WIND-FORECAST,energy_business_p1_20261018,reviewed_subset_of_mixed_cluster,"[""paper:W7128315464""]",False,True,assistant_reviewed_pending_domain_review

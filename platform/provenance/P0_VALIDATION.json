@@ -1,0 +1,321 @@
+{
+  "created_utc": "2026-10-18T10:29:14.389286+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "122_unique_objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_names_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "legacy_metadata_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_category_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trl_equals_engine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trl_valid_integer_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trl_status_consistent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trl_unknown_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crl_equals_engine",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crl_valid_integer_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crl_status_consistent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crl_unknown_explanation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known_unknown_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "13_plot_coordinates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json_native_integer_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json_arrays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json_csv_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "schema_nullable_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_theme_or_formal_grades",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "postprocess_idempotent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real_full_build_matches_export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "real_full_mapping_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-identification/assets/full_nmf500/topic_catalog.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-identification/assets/full_nmf500/SUMMARY.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-identification/pipelines/full_nmf/train.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-topic-hotspots/src/energy_hotspots/scoring.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/trl_crl/engine.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/trl_crl/rules.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/trl_crl/pipeline.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/case_technology_links.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/dataset.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/gate_reviews.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/objects.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/observations.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/observed_facts.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/technical_profiles.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/technology_registry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/theme_direction_links.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_energy-technology-trl-crl/data/themes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_preflight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_config_fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "release_energy-topic-identification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "release_energy-topic-hotspots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "release_energy-technology-trl-crl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "python_syntax",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "numeric_plot_rendered",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "release_checks": {
+    "energy-topic-identification": {
+      "passed": true,
+      "core_files": 66,
+      "documents": 10,
+      "population_records": 5119004,
+      "current_artifacts": 13,
+      "all_core_files_tracked": false
+    },
+    "energy-topic-hotspots": {
+      "passed": true,
+      "core_files": 86,
+      "documents": 12,
+      "population_records": 5119004,
+      "current_artifacts": 33,
+      "all_core_files_tracked": false
+    },
+    "energy-technology-trl-crl": {
+      "passed": true,
+      "core_files": 69,
+      "documents": 11,
+      "population_records": 5119004,
+      "current_artifacts": 16,
+      "all_core_files_tracked": false
+    }
+  },
+  "counts": {
+    "assessment_cutoff": "2026-09-25",
+    "theme_count": 750,
+    "source_record_count": 5119004,
+    "candidate_direction_count": 391,
+    "bounded_object_count": 122,
+    "objects_with_trl": 108,
+    "objects_with_crl": 23,
+    "objects_with_both": 13,
+    "objects_with_neither": 4,
+    "trl_distribution": {
+      "4": 84,
+      "2": 9,
+      "unknown": 14,
+      "6": 2,
+      "9": 12,
+      "1": 1
+    },
+    "crl_distribution": {
+      "unknown": 99,
+      "2": 15,
+      "3": 8
+    },
+    "formal_grade_count": 0,
+    "direction_scalar_count": 0,
+    "source_url_count": 114,
+    "accepted_evidence_passages": 126,
+    "reviewed_gate_observations": 453,
+    "observed_fact_count": 17,
+    "method": "Independent evidence-gate evaluation; TRL: Q/GDW 12566—2025; CRL: tender five levels and project operational rules",
+    "interpretation": "公开证据初评；检索覆盖不等于实质评审覆盖；来源URL不等于独立研究数"
+  },
+  "name_mismatches_before": 122,
+  "name_mismatches_after": 0,
+  "external_model_calls": 0,
+  "full_classification_or_hotspots_recomputed": false,
+  "maturity_mapping_rebuilt_for_validation": true,
+  "production_publish_or_git_commit": false,
+  "scope": "P0 export and runtime contracts; no semantic taxonomy approval or new maturity evidence."
+}

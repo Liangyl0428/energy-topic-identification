@@ -1,0 +1,40 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>关键词词典多主题：使用与接入说明</title>
+    <style>body{max-width:1000px;margin:45px auto;padding:0 24px;font:17px/1.8 system-ui;color:#243b43}h1,h2{color:#124653}pre{background:#eff5f5;padding:18px;white-space:pre-wrap}table{border-collapse:collapse}td,th{padding:9px;border:1px solid #bbc}a{color:#167b86}.note{background:#fff4dc;padding:18px}</style>
+    <h1>关键词词典与论文多主题归类</h1><p>版本：keyword_dictionary_multilabel_20261019。根据本库实际词汇，由助手整理主题和触发词，再按明确规则匹配论文。主题词可编辑、每条归属可追溯；这是一版受控词典分类结果，尚未经专家审定。</p>
+    <p><a href="关键词主题浏览.html">打开主题及词典浏览器</a> · <a href="关键词词典与多主题审阅.xlsx">审阅工作簿</a> · <a href="platform_data.json">平台接口摘要</a></p>
+    <h2>当前结果</h2><p>处理 4,831,088 篇论文，48,329 个原始关键词ID，合并明确同义词后 48,327 条。共 71 个主题；1,806,658 篇命中（37.4%），其中 1,435,964 篇属于多个主题，形成 4,818,075 条论文—主题关系。</p>
+    <p class="note">当前仍有 45,497 个词未逐项审核。完整词典已经提取，人工词表整理尚未覆盖全部长尾词。未命中只说明当前词典没有识别到，不能解释为论文与能源无关。覆盖率不等于召回率。</p>
+    <h2>归类规则</h2><ol><li>使用全部冻结论文的完整来源关键词，保留低频词及原始分数为0的词。关键词来自来源数据/OpenAlex标签，不保证是作者提供的关键词。</li>
+    <li>按Unicode、大小写、连字符与空白规范化；只合并明确列出的同义词，保留括号内词义。通过原始关键词ID匹配，不做模糊子串匹配。</li>
+    <li>命中直接触发词，归入对应主题。具体技术的条件触发词须同篇有规定相关方向的直接能源词；通用方法、材料、经济等支撑主题接受任一直接能源词。allowed families见主题定义中的conditional_anchor_topics，空列表表示任一能源锚点。每篇取全部主题的并集；不设贡献阈值、不设主题上限。</li>
+    <li>学科大类和通用辅助词不单独触发。明确范围外词、规则筛出词、未审核词各自保留状态，不删除原始词或整篇论文。</li>
+    <li>原始分数保留作追溯，不作为归属置信度。共现满足规则不代表通用材料/方法一定是该论文的主要研究方向。</li></ol>
+    <p>例如“Lithium-ion battery + Machine learning + Graphene”可同时归入电池、能源人工智能、能源材料结构三个主题；仅“Machine learning + Graphene”没有明确能源词，会留为待判断。</p>
+    <h2>开发接入</h2><table><tr><th>文件</th><th>用途</th></tr>
+    <tr><td>keyword_dictionary.csv / keyword_aliases.csv</td><td>完整规范词典、处理依据、文献频次及来源ID映射。</td></tr>
+    <tr><td>topic_definitions.json / 有效关键词主题映射.csv</td><td>主题定义、直接/条件触发词，可作为编辑与审核入口。</td></tr>
+    <tr><td>paper_assignments/*.parquet</td><td>所有论文的doc_id、主题列表、归类状态、质量标记与能源锚点。</td></tr>
+    <tr><td>paper_topic_relations/*.parquet</td><td>逐条论文主题关系，含命中词及来源关键词ID、直接/条件标记。</td></tr>
+    <tr><td>platform_data.json</td><td>71个主题、计数和抽样示例，供页面初次展示；不是全库关系文件。</td></tr>
+    <tr><td>待审核关键词.csv</td><td>按文献频次排序的词典待审队列。</td></tr>
+    <tr><td>sample_review.csv / REVIEW.json</td><td>逐主题样本初审、语义风险与旧问题回归证据。</td></tr>
+    <tr><td>VALIDATION.json / RELEASE.json</td><td>全库规则完整性校验与交付文件SHA256。</td></tr></table>
+    <p>主题编号使用KWD-T命名空间，与F、RBK500编号不能直接互换。主题数71来自当前词典整理，不是聚类K。一个词当前对应一个主题，同一论文可有多个主题。</p>
+    <pre>import duckdb
+db = duckdb.connect()
+# 在本交付目录运行；跨主题去重请使用 doc_id。
+db.sql("SELECT topic_code, count(*) FROM read_parquet('paper_topic_relations/*.parquet') WHERE quality_eligible GROUP BY topic_code").show()
+db.sql("SELECT * FROM read_parquet('paper_assignments/*.parquet') WHERE doc_id = 'paper:W3140535007'").show()</pre>
+    <p>status=assigned表示已归类；no_keywords表示没有关键词；conditional_only_no_energy_anchor表示有条件词但无能源锚点；no_active_dictionary_keyword表示未命中当前触发词。quality_eligible=false表示撤稿或模板记录，仍保留字面归属，统计时可排除。主题计数分全量与quality_eligible两种；各主题篇数相加不能作为独立论文总量。</p>
+    <h2>如何审阅和修改</h2><p>先在浏览器选择主题查看触发词和论文证据，再在工作簿逐项审阅。建议优先处理高频待审词、直接词的多义性、条件词造成的额外主题。词表配置位于 final/energy-topic-identification/pipelines/keyword_dictionary/curation.py、curation_additions.py 和 refine_rules.py，分类程序为 classify.py。CSV是本次配置的产物，直接修改CSV不会自动更新规则；更改配置后按以下流程重新生成并重新验收。</p>
+    <pre># 在项目根目录运行；初次提取用prepare.py，已提取快照可复用。
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/keyword_dictionary/build_dictionary.py
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/keyword_dictionary/classify.py
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/keyword_dictionary/validate.py
+.venv-hotspots/bin/python final/energy-topic-identification/pipelines/keyword_dictionary/samples.py
+# 逐项审阅样本，更新sample_review.csv及REVIEW.json后运行publish.py。</pre>
+    <h2>已知边界</h2><ul><li>源关键词错标或缺失时，这条路线仍会漏分或误分。题名/摘要未用于补词或强制回填。</li>
+    <li>“任一能源词 + 通用方法词”的共现规则会产生额外方法/材料标签。审阅结果提供具体例子，不能把程序校验通过当作语义准确率通过。</li>
+    <li>语义抽查每主题2条，共142条关系；部分抽样用于迭代词典，非独立盲测、非专家验收，不足以推断总体准确率。样本及评语全部可查。</li>
+    <li>当前为广义能源电力词典，含油气、供热、生物能源等；若业务仅保留电网特定范围，应审阅主题开关，而非物理删除论文。</li>
+    <li>本次处理论文，不自动迁移专利/政策，没有重算趋势、热点和TRL/CRL。旧NMF文件保留并校验哈希一致。</li></ul></html>

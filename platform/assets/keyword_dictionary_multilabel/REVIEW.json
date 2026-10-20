@@ -1,0 +1,141 @@
+{
+  "summary": "逐主题调试抽样142条：修复了无关方向共现导致的部分误分，仍发现原始标签错配、多义词和条件词过宽。完整性校验通过；语义质量尚未验收通过。",
+  "reviewed_relations": 142,
+  "topics_reviewed": 71,
+  "sample_status_counts": {
+    "题名支持": 108,
+    "证据不足": 12,
+    "正文支持": 8,
+    "疑似误分": 5,
+    "疑似过度推断": 4,
+    "范围待定": 3,
+    "背景关联": 2
+  },
+  "reviewer": "assistant",
+  "expert_approved": false,
+  "independent_blind_test": false,
+  "sampling": "Two lowest md5(doc_id||topic_code||dictionary-review-v1) nonflagged paper relations per topic; a tuning sample, not a prevalence-weighted blind sample.",
+  "before_any_anchor_rule": {
+    "papers": 4831088,
+    "assigned_papers": 1825647,
+    "multilabel_papers": 1630283,
+    "relations": 5930435,
+    "quality_eligible_assigned_papers": 1824025,
+    "flagged_records": 12368,
+    "maximum_topics_per_paper": 15
+  },
+  "after_related_anchor_rule_and_term_review": {
+    "papers": 4831088,
+    "assigned_papers": 1806658,
+    "multilabel_papers": 1435964,
+    "relations": 4818075,
+    "quality_eligible_assigned_papers": 1805040,
+    "flagged_records": 12368,
+    "maximum_topics_per_paper": 14
+  },
+  "rule_regressions_tested": 13,
+  "original_bad_relations_removed": 13,
+  "previous_nmf_regressions": [
+    {
+      "evidence_id": "P046",
+      "doc_id": "paper:W2011423333",
+      "title": "Etching of a-Si:H thin films by hydrogen plasma: A view from in situ spectroscopic ellipsometry",
+      "classification_status": "conditional_only_no_energy_anchor",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P062",
+      "doc_id": "paper:W2473986016",
+      "title": "Réhabilitation des centrales thermiques",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "interpretation": "仍缺正确来源关键词，无法恢复真实能源主题"
+    },
+    {
+      "evidence_id": "P081",
+      "doc_id": "paper:W2126635751",
+      "title": "Miejsce CSR w europejskiej strategii na rzecz zrównoważonego rozwoju",
+      "classification_status": "conditional_only_no_energy_anchor",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P083",
+      "doc_id": "paper:W2573304641",
+      "title": "Resources investment and export competitive advantage of firms in a transition economy: the moderating role of domestic institutional environment and competitive pressures",
+      "classification_status": "conditional_only_no_energy_anchor",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P090",
+      "doc_id": "paper:W7152054591",
+      "title": "Runtime Policy Orchestration for Autonomous Industrial Control and Smart Manufacturing Systems: A Unified Framework for Governance, Compliance, and Adaptive Resilience",
+      "classification_status": "conditional_only_no_energy_anchor",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P093",
+      "doc_id": "paper:W122256720",
+      "title": "Thermische Energiespeicher - Neueste Entwicklungen und AnwendungenWerner Platzer, Peter Schossig, Fraunhofer-Institut für Solare Energiesysteme ISE, FreiburgAndreas Hauer, ZAE Bayern, Garching",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "interpretation": "仍缺正确来源关键词，无法恢复真实能源主题"
+    },
+    {
+      "evidence_id": "P121",
+      "doc_id": "paper:W2361874772",
+      "title": "A Location Based Service System in Smart Power Plant Based on Internet of Things",
+      "classification_status": "conditional_only_no_energy_anchor",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P124",
+      "doc_id": "paper:W2301864567",
+      "title": "Seuil de basculement entre les solutions mono-porteuse et multi-porteuses",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "interpretation": "此前不恰当的能源主题归属已不再触发；未强制回填"
+    },
+    {
+      "evidence_id": "P141",
+      "doc_id": "paper:W2808770485",
+      "title": "Monitoring system for the most important transformers",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "interpretation": "仍缺正确来源关键词，无法恢复真实能源主题"
+    }
+  ],
+  "known_missing_keyword_references": [
+    {
+      "doc_id": "paper:W3140535007",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "source_keywords": [
+        "Astrobiology",
+        "Physics"
+      ],
+      "interpretation": "电池论文的来源词缺电池信息，词典匹配无法找回；没有用题名暗中补词。"
+    },
+    {
+      "doc_id": "paper:W929228867",
+      "classification_status": "no_active_dictionary_keyword",
+      "topic_codes": [],
+      "source_keywords": [
+        "Materials science",
+        "Metallurgy"
+      ],
+      "interpretation": "电池论文的来源词缺电池信息，词典匹配无法找回；没有用题名暗中补词。"
+    }
+  ],
+  "release_recommendation": "审阅与接入试用版；不要作为已完成语义验收的生产分类或据此直接发布热点/成熟度。",
+  "next_unresolved_work": [
+    "逐项审核剩余长尾词；保留未确认词，不等同剔除范围外词。",
+    "用题名/摘要核对来源标签，处理高电压、绝缘、风电等已发现错配。",
+    "进一步收紧自动调频、非线性系统、通信等条件词。",
+    "按招标业务范围审核医疗供能、芯片节能等边界场景。"
+  ]
+}

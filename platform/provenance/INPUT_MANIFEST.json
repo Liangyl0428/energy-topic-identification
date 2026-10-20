@@ -1,0 +1,526 @@
+{
+  "created_utc": "2026-10-18T09:56:30.343678+00:00",
+  "passed": true,
+  "runtime": {
+    "config_file": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/config/runtime_paths.json",
+    "schema_version": 1,
+    "paths": {
+      "data_root": "/pyg-vepfs/public/lyl/openalex_energy_fetch",
+      "raw_data_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/data",
+      "corpus_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus",
+      "metadata_db": "/pyg-vepfs/public/lyl/openalex_energy_fetch/analyze/data/independent_corpus.duckdb",
+      "keyword_sources": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/openalex_keywords_nmf/verified_sources.json",
+      "bge_model_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/bge_m3/models/bge-m3",
+      "bge_runtime_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/bge_m3/_runtime",
+      "bge_core_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/vector_bertopic/_core",
+      "classification_run": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926",
+      "hotspots_run": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-hotspots/outputs/full_nmf500_20260926",
+      "maturity_run": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/results/full_nmf500_20260926",
+      "context_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context"
+    },
+    "windows": {
+      "classification_snapshot_id": "bertopic500_all_sources_20260925",
+      "classification_run_id": "full_nmf500_20260926",
+      "hotspots_history": [
+        "2021-07-01",
+        "2026-06-30"
+      ],
+      "hotspots_core": [
+        "2023-07-01",
+        "2026-06-30"
+      ],
+      "hotspots_recent": [
+        "2025-07-01",
+        "2026-06-30"
+      ],
+      "hotspots_baseline": [
+        "2022-07-01",
+        "2025-06-30"
+      ],
+      "cross_source_comparison": [
+        "2026-01-01",
+        "2026-06-30"
+      ],
+      "maturity_assessment_cutoff": "2026-09-25"
+    }
+  },
+  "source_counts": {
+    "paper": 4831088,
+    "patent": 281295,
+    "policy": 6621
+  },
+  "source_date_ranges": {
+    "paper": {
+      "min": "2000-01-01",
+      "max": "2026-08-31"
+    },
+    "patent": {
+      "min": "2026-01-01",
+      "max": "2026-08-31"
+    },
+    "policy": {
+      "min": "1993-08-04",
+      "max": "2026-09-23"
+    }
+  },
+  "selection_rules": {
+    "papers": "all identity-deduplicated records from works; no year/language/eligibility exclusion; retractions and templated records retained with flags",
+    "patents": "publication year 2026, detail date preferred; dedup country+application; all publication links retained; no exact-title dedup",
+    "policy": "all years; dedup URL or document-number+publisher, otherwise full metadata+text; administrative notices retained",
+    "unusable_text": "retained in accounting with usable=false; not assigned an invented semantic class",
+    "literature_unit": "published/preprint work identity using inherited cross-version dedup"
+  },
+  "classification_population_records": 5119004,
+  "classification_assigned_records": 5104807,
+  "classification_unassigned_records": 14197,
+  "hotspots_papers_used": 4740374,
+  "maturity_evidence_cutoff": "2026-09-25",
+  "metadata_columns": [
+    "work_id",
+    "title",
+    "abstract",
+    "publication_date",
+    "publication_year",
+    "article_date",
+    "preprint_date",
+    "has_article",
+    "has_preprint",
+    "is_retracted",
+    "doi",
+    "authors",
+    "institutions",
+    "journal",
+    "cited_by_count",
+    "language",
+    "type",
+    "clean_title",
+    "clean_abstract",
+    "clean_text",
+    "model_date",
+    "quarter",
+    "has_abstract",
+    "title_only",
+    "english_eligible",
+    "eligible",
+    "exclusion_reason",
+    "text_word_count",
+    "raw_has_markup",
+    "raw_has_formula",
+    "article_jan1",
+    "preprint_jan1",
+    "template_record"
+  ],
+  "files": [
+    {
+      "role": "runtime_config",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/config/runtime_paths.json",
+      "bytes": 1739,
+      "sha256": "9bb16300c9c4a0b68399ed3eb3586a6c36d6306ac0f271d28e1f69f2f3320a99"
+    },
+    {
+      "role": "classification_SUMMARY.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/SUMMARY.json",
+      "bytes": 1075,
+      "sha256": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568"
+    },
+    {
+      "role": "classification_COMPLETE.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/COMPLETE.json",
+      "bytes": 182,
+      "sha256": "e447724ec34aad9f8b19e2bde565f6b9020558233b3112f20c016618a2330cba"
+    },
+    {
+      "role": "classification_VALIDATION.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/VALIDATION.json",
+      "bytes": 579,
+      "sha256": "0223352b749ef8517fd06b224bcba180317dff6092c8d1e3ec591a8f6c87cb79"
+    },
+    {
+      "role": "classification_ASSIGNMENTS_MANIFEST.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/ASSIGNMENTS_MANIFEST.json",
+      "bytes": 24388,
+      "sha256": "db596796fefdd3643e499f4939a55eb22f062d507f7a4b5037817ba496e33cf6"
+    },
+    {
+      "role": "classification_topic_catalog.csv",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/topic_catalog.csv",
+      "bytes": 217755,
+      "sha256": "ad525d40acd42963211e93a980de17c50b33920dc50d9636f5d593062f9b15cb"
+    },
+    {
+      "role": "corpus_manifest",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/INPUT_MANIFEST.json",
+      "bytes": 58321,
+      "sha256": "6d02513da2a8c410086ef23bee3cbd397694fbf21e2f522f33c39992b6f815fa"
+    },
+    {
+      "role": "keyword_source_inventory",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/openalex_keywords_nmf/verified_sources.json",
+      "bytes": 2086649,
+      "sha256": "1c0199a82be8bc3bb6f03f89ace77e37f17983f7d5793e9eceae622c6bf753e5"
+    },
+    {
+      "role": "maturity_context_contexts.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/contexts.json",
+      "bytes": 374554,
+      "sha256": "56bf63e9e62db59d78772bac912f002bb42cb9e313d4e9b7a69e6f9d5dba36a9"
+    },
+    {
+      "role": "maturity_context_ENCODING.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/ENCODING.json",
+      "bytes": 497,
+      "sha256": "3a6297866a6300344a24def787446373927343f66eb66ac3ab20644239b5fbb0"
+    },
+    {
+      "role": "maturity_context_embeddings.npy",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/embeddings.npy",
+      "bytes": 2101376,
+      "sha256": "6df1fbca3bf29fd7aecc8331509b2dda3b8027d0cbf6ad4323e5893954dcaad6"
+    },
+    {
+      "role": "energy-topic-identification_delivered_summary",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/assets/full_nmf500/SUMMARY.json",
+      "bytes": 1075,
+      "sha256": "67d7d140720a99a87ae46fcf171e34515c1629ae4a402aa116dc30b1e4683568"
+    },
+    {
+      "role": "energy-topic-hotspots_delivered_summary",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-hotspots/assets/full_nmf500/SUMMARY.json",
+      "bytes": 476,
+      "sha256": "1e7ab1530fb363607a20fb953e0fcca8c819f8c38f67bd53a85a8c9db8491e17"
+    },
+    {
+      "role": "energy-technology-trl-crl_delivered_summary",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/assets/full_nmf500/SUMMARY.json",
+      "bytes": 536,
+      "sha256": "01934987ec3c290df1648112ace564a1c394e16ab74d739c94084f9113af26c3"
+    },
+    {
+      "role": "maturity_evidence_case_technology_links.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/case_technology_links.json",
+      "bytes": 45996,
+      "sha256": "3fd73326885e8898824ecd1dd6c6bd40b07346fc964aa0f06a022ff8629f24dc"
+    },
+    {
+      "role": "maturity_evidence_dataset.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/dataset.json",
+      "bytes": 955,
+      "sha256": "0fc17d5665e3b5f2482bd18f4629622c664914c71228795b1e01090cd7e70743"
+    },
+    {
+      "role": "maturity_evidence_evidence.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/evidence.json",
+      "bytes": 328109,
+      "sha256": "e2d5c3ba55de858c421e95000caaaf56e9c8218a8d46a5d09d2abac89687e4f3"
+    },
+    {
+      "role": "maturity_evidence_gate_reviews.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/gate_reviews.json",
+      "bytes": 1375213,
+      "sha256": "a18ac5b185463eb7f6e5793f70557606fa2da091f4f56ecdbe6aa5a9b9a17f2e"
+    },
+    {
+      "role": "maturity_evidence_objects.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/objects.json",
+      "bytes": 137373,
+      "sha256": "65b3e2f15781f2a5bb82c818b0e220189f6b662ca799ed276cebbac500cce2d2"
+    },
+    {
+      "role": "maturity_evidence_observations.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/observations.json",
+      "bytes": 228617,
+      "sha256": "66dfd4fed7f0aa4b499ee1f97c740129fc1067dbafe16f5fa95b9e7dcab223b3"
+    },
+    {
+      "role": "maturity_evidence_observed_facts.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/observed_facts.json",
+      "bytes": 22830,
+      "sha256": "d96b1a188d6fe42ccc56bc052c09d7542e48141ece3339557bd6cf9360e7edd5"
+    },
+    {
+      "role": "maturity_evidence_sources.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/sources.json",
+      "bytes": 86996,
+      "sha256": "9f30ec20cbe0cbdd795aeef6c9af934af809df24042a53d9704ff61b219b4f35"
+    },
+    {
+      "role": "maturity_evidence_technical_profiles.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/technical_profiles.json",
+      "bytes": 625951,
+      "sha256": "5bb35c207205ac5e17316103c3fa6659714aedf9595d3f4a2af78725c0682d81"
+    },
+    {
+      "role": "maturity_evidence_technology_registry.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/technology_registry.json",
+      "bytes": 346979,
+      "sha256": "dd388a7c93a4fb0a5cbb4dea25fef23c1a3e28795b72ec2e9b5021e42416c452"
+    },
+    {
+      "role": "maturity_evidence_theme_direction_links.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/theme_direction_links.json",
+      "bytes": 312531,
+      "sha256": "dcab5996a8eb883ac245dc58214809b5d6ed32d7407b7a4c00cad50ba5c9fef6"
+    },
+    {
+      "role": "maturity_evidence_themes.json",
+      "path": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/themes.json",
+      "bytes": 415592,
+      "sha256": "ff9d5912300e6010fdbe8072ac13f3189b6026ae0c423805e2a2c290b687cf12"
+    }
+  ],
+  "checks": [
+    {
+      "name": "path_raw_data_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/data"
+    },
+    {
+      "name": "path_corpus_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus"
+    },
+    {
+      "name": "path_metadata_db",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/analyze/data/independent_corpus.duckdb"
+    },
+    {
+      "name": "path_keyword_sources",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/openalex_keywords_nmf/verified_sources.json"
+    },
+    {
+      "name": "path_classification_run",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926"
+    },
+    {
+      "name": "path_context_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context"
+    },
+    {
+      "name": "path_bge_model_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/bge_m3/models/bge-m3"
+    },
+    {
+      "name": "path_bge_runtime_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/bge_m3/_runtime"
+    },
+    {
+      "name": "path_bge_core_dir",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/vector_bertopic/_core"
+    },
+    {
+      "name": "runtime_config_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/config/runtime_paths.json"
+    },
+    {
+      "name": "classification_SUMMARY.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/SUMMARY.json"
+    },
+    {
+      "name": "classification_COMPLETE.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/COMPLETE.json"
+    },
+    {
+      "name": "classification_VALIDATION.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/VALIDATION.json"
+    },
+    {
+      "name": "classification_ASSIGNMENTS_MANIFEST.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/ASSIGNMENTS_MANIFEST.json"
+    },
+    {
+      "name": "classification_topic_catalog.csv_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/topic_catalog.csv"
+    },
+    {
+      "name": "corpus_manifest_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/INPUT_MANIFEST.json"
+    },
+    {
+      "name": "keyword_source_inventory_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/aaaa/openalex_keywords_nmf/verified_sources.json"
+    },
+    {
+      "name": "maturity_context_contexts.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/contexts.json"
+    },
+    {
+      "name": "maturity_context_ENCODING.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/ENCODING.json"
+    },
+    {
+      "name": "maturity_context_embeddings.npy_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-technology-trl-crl/work/nmf500/context/embeddings.npy"
+    },
+    {
+      "name": "corpus_part_inventory",
+      "passed": true,
+      "detail": {
+        "expected_parts": 259,
+        "found_parts": 259
+      }
+    },
+    {
+      "name": "corpus_population",
+      "passed": true,
+      "detail": 5119004
+    },
+    {
+      "name": "classification_bound_SUMMARY.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "classification_bound_VALIDATION.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "classification_passed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "assignment_manifest_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyword_source_files",
+      "passed": true,
+      "detail": {
+        "records": 5520,
+        "missing_count": 0,
+        "missing_examples": []
+      }
+    },
+    {
+      "name": "metadata_schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "energy-topic-identification_delivered_summary_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/assets/full_nmf500/SUMMARY.json"
+    },
+    {
+      "name": "energy-topic-hotspots_delivered_summary_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-hotspots/assets/full_nmf500/SUMMARY.json"
+    },
+    {
+      "name": "energy-topic-hotspots_classification_binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "energy-technology-trl-crl_delivered_summary_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/assets/full_nmf500/SUMMARY.json"
+    },
+    {
+      "name": "energy-technology-trl-crl_classification_binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivered_classification_matches_run",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hotspots_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hotspots_windows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "maturity_cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "maturity_evidence_case_technology_links.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/case_technology_links.json"
+    },
+    {
+      "name": "maturity_evidence_dataset.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/dataset.json"
+    },
+    {
+      "name": "maturity_evidence_evidence.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/evidence.json"
+    },
+    {
+      "name": "maturity_evidence_gate_reviews.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/gate_reviews.json"
+    },
+    {
+      "name": "maturity_evidence_objects.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/objects.json"
+    },
+    {
+      "name": "maturity_evidence_observations.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/observations.json"
+    },
+    {
+      "name": "maturity_evidence_observed_facts.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/observed_facts.json"
+    },
+    {
+      "name": "maturity_evidence_sources.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/sources.json"
+    },
+    {
+      "name": "maturity_evidence_technical_profiles.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/technical_profiles.json"
+    },
+    {
+      "name": "maturity_evidence_technology_registry.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/technology_registry.json"
+    },
+    {
+      "name": "maturity_evidence_theme_direction_links.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/theme_direction_links.json"
+    },
+    {
+      "name": "maturity_evidence_themes.json_exists",
+      "passed": true,
+      "detail": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-technology-trl-crl/data/themes.json"
+    }
+  ],
+  "verification_limit": "Compact input manifests and evidence were freshly hashed. Full corpus/assignment part content and the metadata database were not rehashed; their existing audit records are retained. File presence and metadata schema were checked read-only. Output directories need not exist before a run."
+}

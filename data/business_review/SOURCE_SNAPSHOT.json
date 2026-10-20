@@ -1,0 +1,18 @@
+{
+  "sample_path": "work/topic_method_comparison_20261018/sample.parquet",
+  "sample_sha256": "56180fcad79a171bb0e40617aa5dc512878c3856253c28d9d5c3f7e91311da4b",
+  "selection_script": "final/experiments/topic_method_comparison_20261018/scripts/prepare.py",
+  "selection_script_sha256": "bc5ff057ba2ef6df8435f7e8aca8b46ebf41c07440e54d0226869526d13252ce",
+  "frozen_manifest_sha256": "6d02513da2a8c410086ef23bee3cbd397694fbf21e2f522f33c39992b6f815fa",
+  "metadata_source": "analyze/data/independent_corpus.duckdb:works",
+  "metadata_fields": [
+    "work_id",
+    "institutions",
+    "is_retracted",
+    "template_record"
+  ],
+  "metadata_extracted_for_documents": 24,
+  "snapshot_only": true,
+  "external_network_used": false,
+  "topic_catalog_sha256": "ad525d40acd42963211e93a980de17c50b33920dc50d9636f5d593062f9b15cb"
+}

@@ -1,0 +1,173 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>K500多主题归属与范围审核说明</title><style>body{font-family:system-ui;line-height:1.8;max-width:1150px;margin:36px auto;padding:0 20px;color:#203545}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #dce5ed;text-align:left;padding:10px;vertical-align:top}th{background:#edf4f7}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#edf4f7;padding:18px}a{color:#006c83}</style><h1>K=500 多主题归属与能源范围审核</h1><p>本轮已完成全量模型、三档阈值归属、主题范围初审与可追溯筛选。没有物理删除原始记录。专利和政策为语义迁移候选，仍需内容审核。</p><p><a href="../../preview/nmf500_multilabel.html">打开交互审阅</a> · <a href="K500多主题归属与范围审核.xlsx">下载审阅工作簿</a> · <a href="platform_data.json">机器可读接口包</a></p><h2>10%阈值下的实际覆盖</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>threshold</th>
+      <th>stage</th>
+      <th>records</th>
+      <th>assigned_documents</th>
+      <th>multiple_topic_documents</th>
+      <th>edges</th>
+      <th>contribution_mass</th>
+      <th>coverage</th>
+      <th>mean_topics_assigned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>paper</td>
+      <td>0.1000</td>
+      <td>quality_qualified</td>
+      <td>4831088</td>
+      <td>4624633</td>
+      <td>4423699</td>
+      <td>16275236</td>
+      <td>3,547,152.9184</td>
+      <td>0.9573</td>
+      <td>3.5192</td>
+    </tr>
+    <tr>
+      <td>paper</td>
+      <td>0.1000</td>
+      <td>retained</td>
+      <td>4831088</td>
+      <td>2878927</td>
+      <td>2779160</td>
+      <td>10174492</td>
+      <td>2,057,046.7725</td>
+      <td>0.5959</td>
+      <td>3.5341</td>
+    </tr>
+    <tr>
+      <td>patent</td>
+      <td>0.1000</td>
+      <td>quality_qualified</td>
+      <td>281295</td>
+      <td>207740</td>
+      <td>101129</td>
+      <td>340181</td>
+      <td>50,083.1405</td>
+      <td>0.7385</td>
+      <td>1.6375</td>
+    </tr>
+    <tr>
+      <td>patent</td>
+      <td>0.1000</td>
+      <td>retained</td>
+      <td>281295</td>
+      <td>153528</td>
+      <td>58977</td>
+      <td>227350</td>
+      <td>33,015.1031</td>
+      <td>0.5458</td>
+      <td>1.4808</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>0.1000</td>
+      <td>quality_qualified</td>
+      <td>6621</td>
+      <td>4356</td>
+      <td>2094</td>
+      <td>7664</td>
+      <td>1,152.1920</td>
+      <td>0.6579</td>
+      <td>1.7594</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>0.1000</td>
+      <td>retained</td>
+      <td>6621</td>
+      <td>3571</td>
+      <td>991</td>
+      <td>4683</td>
+      <td>743.2955</td>
+      <td>0.5393</td>
+      <td>1.3114</td>
+    </tr>
+  </tbody>
+</table><p>quality_qualified为质量门槛及已知关系拒绝之后、范围筛选之前；retained为最终业务关系。支撑主题还需能源应用线索。不同状态可覆盖同一文献，不能相加。</p><h2>方法、审核与适用边界</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>项目</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>建模与编号</td>
+      <td>4,637,813篇剩余非零关键词论文参与K=500全量训练，5轮，seed17。删除名单仍为前次20个学科大类；新ID不能直接关联旧F主题、热点或成熟度。</td>
+    </tr>
+    <tr>
+      <td>贡献</td>
+      <td>论文p=W*L2(H)/sum(W*L2(H))，处理NMF缩放不定性。贡献不是概率，也不是能源相关度。</td>
+    </tr>
+    <tr>
+      <td>多主题规则</td>
+      <td>贡献&gt;=阈值的关系均为原始归属，不设Top-N上限，不强制argmax。提供5%、10%、15%三档；10%是工作默认值，不是专家验证最优值。</td>
+    </tr>
+    <tr>
+      <td>范围</td>
+      <td>核心保留、支撑条件保留、待审、排除。500项均由助手读取关键词与首轮抽样题名作初审，争议主题补读摘要；未声称人类专家批准。</td>
+    </tr>
+    <tr>
+      <td>支撑主题逐记录检查</td>
+      <td>完整冻结标题/正文命中公开能源词规则，或同时达到同一阈值的核心主题，才保留支撑关系；未命中不等于无关，进入待审。该规则偏重中文/英文，多语种记录可能漏检。</td>
+    </tr>
+    <tr>
+      <td>不重新归一化</td>
+      <td>主题排除、记录待审和已知关系拒绝都不改变原始贡献。其他保留关系继续有效。</td>
+    </tr>
+    <tr>
+      <td>交叉计数</td>
+      <td>同一记录可同时有保留、待审和排除关系。各状态覆盖文献数不可相加；全平台文献量按doc_id去重。主题规模另列贡献加权量。</td>
+    </tr>
+    <tr>
+      <td>专利与政策</td>
+      <td>从192,563篇训练样本池中的有效参考论文，以BGE语义近邻迁移主题分布；实际有效参考数见REFERENCE_COMPLETE。选10邻居、温度0.05、相似度门槛0.55。不是直接NMF推断。</td>
+    </tr>
+    <tr>
+      <td>迁移检验</td>
+      <td>在与参考论文身份不重叠的20,000篇论文上，前10,000选择邻居数、后10,000报告一致性。全量NMF看过这些论文，因此仅检验语义投影，不是未见NMF泛化或跨来源语义准确率。</td>
+    </tr>
+    <tr>
+      <td>迁移质量边界</td>
+      <td>10%阈值、0.55相似度门槛下，一致性F1=0.403，precision=0.626，recall=0.297。尚不足以把迁移结果当正式分类真值；专利政策均标记候选。</td>
+    </tr>
+    <tr>
+      <td>已发现误配</td>
+      <td>18条专利政策案例补读后，对油气加药装置→燃料电池/污水处理、导热封装→电解质等共5条关系作拒绝并留痕。未把少量案例当总体准确率。</td>
+    </tr>
+    <tr>
+      <td>词义与名称</td>
+      <td>Lithium (medication)、Control theory (sociology)等词义错误尚在输入中。中文展示名改善阅读但不声称已修复这些输入问题。</td>
+    </tr>
+    <tr>
+      <td>待审反例</td>
+      <td>妇科/传统医学名称下存在可再生供热、能源作物、矩阵变换器等记录；染料降解主题有光燃料电池反例，因此保持待审而未整类删除。</td>
+    </tr>
+    <tr>
+      <td>未完成的专家工作</td>
+      <td>主题范围、专利政策语义准确率尚未进行领域专家盲审；没有估计整体语义准确率。</td>
+    </tr>
+    <tr>
+      <td>下游</td>
+      <td>本轮生成多主题与范围筛选版本及接口。旧F主题热点、趋势和TRL/CRL尚未按新归属重算；禁止按相同序号直接复用。</td>
+    </tr>
+  </tbody>
+</table><h2>数据文件</h2><pre>{
+  &quot;topic_catalog&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/final/assets/nmf500_multilabel_scope/topic_catalog.csv&quot;,
+  &quot;scope_ledger&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/review/topic_scope_decisions.csv&quot;,
+  &quot;document_memberships&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/business_assignments/*.parquet&quot;,
+  &quot;all_edges_ge_005&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/business_edges_ge_005/*.parquet&quot;,
+  &quot;paper_raw_memberships&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/full_model/paper_assignments/*.parquet&quot;,
+  &quot;transfer_evidence&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/transfer/assignments/*.parquet&quot;,
+  &quot;model&quot;: &quot;/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019/full_model/model.joblib&quot;
+}</pre><h2>查询与复现</h2><p>在项目根目录使用 .venv-hotspots/bin/python。修改范围清单后重新运行 apply_scope.py、validate.py、publish.py；审阅清单是版本输入，重训不会自动替代它。相同方法重训后的主题ID可能变化，应重新审核。</p><pre>.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/query.py patent26:855781b3efb40f04fe7ce65e --threshold 0.10
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/run.py train-papers
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/transfer.py run
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/review.py packet
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/apply_scope.py
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/validate.py
+.venv-hotspots/bin/python /pyg-vepfs/public/lyl/openalex_energy_fetch/final/energy-topic-identification/pipelines/multilabel_scope/publish.py</pre><p>业务归属字段：topic_ids为零起始整数；显示编码从topic_catalog映射。topic_contributions保留原始值；scope_review_topic_ids、excluded_topic_ids及rejected_relation_count保留筛选去向。requires_semantic_review为专利政策候选标识。其他阈值的支撑主题条件应重新计算核心共属，使用query.py，不可直接复用10%布尔字段。</p></html>

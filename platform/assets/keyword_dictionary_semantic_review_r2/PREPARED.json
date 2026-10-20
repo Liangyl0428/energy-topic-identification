@@ -1,0 +1,24 @@
+{
+  "papers": 4831088,
+  "raw_keyword_ids": 48329,
+  "normalized_names": 48329,
+  "observations": 58998384,
+  "papers_with_keywords": 4818507,
+  "source_paths": [
+    "data/article",
+    "data/preprints"
+  ],
+  "source_selection": "Reuse canonical raw-keyword snapshot for each frozen paper: valid presence, latest update, deterministic tie break. No union of obsolete duplicate versions.",
+  "unfiltered": true,
+  "no_minimum_document_frequency": true,
+  "keyword_score_not_a_membership_threshold": true,
+  "all_raw_keywords_sha256": "4b2f6bab1da5bb319aa8de348654d89aef8f0630c2bd5014d87a8d94ab1c0d45",
+  "raw_keyword_selection_manifest_sha256": "5cb7c239bbf5ebd98ee99245852f5903dc42eb8f9ca2fb78dfeff6eacdd1908e",
+  "input_extraction_manifest_sha256": "fb1db4da5a5134a76efca546975e2166df80f2eff5dda246d194d1547d2dac70",
+  "source_dictionary_status": "All observed keyword IDs retained, including low-frequency and zero-score/fallback observations. No keyword inferred from a title at this stage.",
+  "identity_checks": {
+    "complete_unique_papers": true,
+    "no_orphan_keywords": true,
+    "no_duplicate_document_keyword": true
+  }
+}

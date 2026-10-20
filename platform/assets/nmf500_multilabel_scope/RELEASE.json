@@ -1,0 +1,43 @@
+{
+  "release_id": "nmf500_multilabel_scope_20261019",
+  "status": "local_review_release",
+  "validation_passed": true,
+  "preview": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/preview/nmf500_multilabel.html",
+  "assets": "/pyg-vepfs/public/lyl/openalex_energy_fetch/final/assets/nmf500_multilabel_scope",
+  "work_dir": "/pyg-vepfs/public/lyl/openalex_energy_fetch/work/nmf500_multilabel_scope_20261019",
+  "score_kinds": {
+    "paper": "nmf_l2_relative_contribution",
+    "patent": "semantic_neighbor_transfer_contribution",
+    "policy": "semantic_neighbor_transfer_contribution"
+  },
+  "scope_ledger_sha256": "9590a1deaba3619311b92148098e757426e238418e9abbb1ae32dfc3675c16b7",
+  "relation_review_sha256": "5b67ecb054317cc2e617879b76f4af6a86eec19fe70a462b70bef4787982f2fc",
+  "files": {
+    "threshold_scope_sensitivity.csv": "b2d332a959c3cf5760f45b8d916bec25f4ec3874048276659d3325edf28f7f5a",
+    "relation_review_overrides.csv": "5b67ecb054317cc2e617879b76f4af6a86eec19fe70a462b70bef4787982f2fc",
+    "topic_scope_decisions.csv": "9590a1deaba3619311b92148098e757426e238418e9abbb1ae32dfc3675c16b7",
+    "K500多主题归属与范围审核.xlsx": "006f113f8f212e3c7017a06d6cfd9fb15d853a91bb60dcaf8ef5fc6176441834",
+    "VALIDATION.json": "b4237372830053e02589c404e690f51795f68becf4de68e662e3d10cae609a4a",
+    "cross_source_case_review.csv": "ed55c561faf5d80abb9c37edddfc56e0cad65eedc76957c96e91dc7b11c5f4ea",
+    "topic_counts_by_source_threshold.csv": "c9dab5acb922d08844c2d2fa38e7e96a9e1c25074bcac004247f3004fb81d0c1",
+    "PROTOCOL.json": "2ec0852e3e30c7830c06f080b7a7ab6abc666431104bd7f85d1ce478ef06c22d",
+    "platform_data.json": "682820b187a30297cf84345ab6826973bc590401c387bd2cedbd33a293dd2a3a",
+    "topic_catalog.csv": "9b88a4fa2b9150790542281b89368ff0eb1c7a0f43bf96001abfaa41959b1757",
+    "topic_display_labels.csv": "bb6c03d23c74f4b7ef178ac964f6876193552f493adee3fd17d2fde224203907",
+    "使用与接入说明.html": "073ccc40c60d94ef7ed770ba3184296ac25d47527d8d8b6d9330b6ae347c5e05",
+    "BROWSER_VALIDATION.json": "1f9ec2c94a2e016a8d5e5847f17762570fb380ce14625d26e515b397448885fa",
+    "assignment_status_counts.csv": "c4dd20b799b7cc439d4dd1d1c462e8f35f9b8d9efa1252cc90b5cc110bb0254f"
+  },
+  "pipeline_sources": {
+    "review.py": "cf27d48f560a635966704c2d523af210a9af2668b4dd90d71b98eaee09486c3b",
+    "run.py": "f3d66383783a2c7e23c70d811c07022424e942fe8281fd9dc6a923a8a026a20b",
+    "publish.py": "4e56969a26677d3f4e2f3f480ae9624319165f38b8993050ee0cdc3bcbf0d8d3",
+    "transfer.py": "27f1c52ff4fdcdd9dd1910ec0017c222c0adc9e8b877293eacce86d4737b41c3",
+    "apply_scope.py": "d62f061819e383289a022b6e93371ac6eab3107e9eca0ca447dec65e8aeec49b",
+    "query.py": "e48245fab57da173de39ab2efbc1008893837daa3a3afaa633411b1be07347cb",
+    "validate.py": "6e794a2884ce65f76b2dbb056d5e97270e92e096f477221f78295e689a1788b1"
+  },
+  "existing_F500_results_replaced": false,
+  "preview_sha256": "d4ec1115633b85e9c2c9910ad0cc30678fc5f6278db21f1c96d7b0786be21d3b",
+  "browser_validation_passed": true
+}

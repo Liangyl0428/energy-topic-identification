@@ -1,0 +1,19 @@
+{
+  "source_files": 5520,
+  "source_raw_rows_before_deduplication": 7402728,
+  "current_csv_files": 5521,
+  "additional_files": 1,
+  "missing_files": 0,
+  "size_or_mtime_changed": 0,
+  "source_inventory_matches_frozen_extraction": true,
+  "verification": "paths, sizes and modification timestamps; not a rehash of all raw files",
+  "changed_examples": [],
+  "non_paper_inventory_files": [
+    {
+      "path": "data/article/topic_counts_20260901_103900.csv",
+      "reason": "主题分年度数量报告，字段为topic_id/display_name/year/half/from/to/count，无论文记录或关键词。"
+    }
+  ],
+  "additional_paper_data_files": 0,
+  "paper_source_inventory_matches_frozen_extraction": true
+}

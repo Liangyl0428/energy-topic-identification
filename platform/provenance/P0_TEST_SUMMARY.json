@@ -1,0 +1,8 @@
+{
+  "tests": 39,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "passed": 39,
+  "scope": "P0 types, metadata, runtime relocation, full pipeline fixtures, diagnostics and local release guards; temporary Git fixtures only"
+}

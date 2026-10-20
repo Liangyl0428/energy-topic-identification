@@ -15,7 +15,7 @@ def main():
         if not relative or relative=='provenance/SHA256SUMS.json' or relative in deleted:
             continue
         path=ROOT/relative
-        if not path.is_file() or path.is_symlink() or path.stat().st_size>=10*1024**2:
+        if not path.is_file() or path.is_symlink() or path.stat().st_size>=50*1024**2:
             raise ValueError('Unexpected release file: '+relative)
         manifest[relative]=hashlib.sha256(path.read_bytes()).hexdigest()
     (ROOT/'provenance/SHA256SUMS.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

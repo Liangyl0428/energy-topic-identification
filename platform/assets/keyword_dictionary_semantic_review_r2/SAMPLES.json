@@ -1,0 +1,8 @@
+{
+  "fresh_topic_relations": 144,
+  "topics": 72,
+  "new_direct_term_examples": 37,
+  "old_sample_papers_excluded": 292,
+  "new_sample_no_overlap_with_v1": true,
+  "sampling": "2 md5-ranked nonflagged paper relations per topic, excluding all v1 142 semantic samples and the previous 150 NMF audit papers; additional one example per new direct keyword."
+}

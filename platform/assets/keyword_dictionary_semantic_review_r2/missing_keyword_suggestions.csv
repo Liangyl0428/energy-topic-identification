@@ -1,0 +1,8 @@
+﻿doc_id,title,suggested_topic,suggested_keyword,classification_status,applied,reason
+paper:W3140535007,锂离子电池正极材料Li(0.99)Na(0.01)FePO4/C的结构与电化学性能,KWD-T0019,Lithium-ion battery,no_active_dictionary_keyword,False,题名有明确对象，但来源关键词缺失；建议补词后重新审核，未直接改写来源关键词。
+paper:W929228867,Li x Ni 0.5 Mn 0.5 O 2 正极材料的合成及电化学性能研究,KWD-T0019,Lithium-ion battery,no_active_dictionary_keyword,False,题名有明确对象，但来源关键词缺失；建议补词后重新审核，未直接改写来源关键词。
+paper:W2808770485,Monitoring system for the most important transformers,KWD-T0034,Transformer,no_active_dictionary_keyword,False,题名有明确对象，但来源关键词缺失；建议补词后重新审核，未直接改写来源关键词。
+paper:W2473986016,Réhabilitation des centrales thermiques,KWD-T0051,Thermal power station,no_active_dictionary_keyword,False,题名有明确对象，但来源关键词缺失；建议补词后重新审核，未直接改写来源关键词。
+paper:W122256720,"Thermische Energiespeicher - Neueste Entwicklungen und AnwendungenWerner Platzer, Peter Schossig, Fraunhofer-Institut für Solare Energiesysteme ISE, FreiburgAndreas Hauer, ZAE Bayern, Garching",KWD-T0022,Thermal energy storage,no_active_dictionary_keyword,False,题名有明确对象，但来源关键词缺失；建议补词后重新审核，未直接改写来源关键词。
+paper:W2533531026,Will electric driverless cars kill bus and light train operations?,KWD-T0042,Electric vehicle,conditional_only_no_energy_anchor,False,题名/摘要可指认具体对象；来源中缺少足够明确的关键词，建议补词后审核，尚未施加归属。
+paper:W4412622513,NLP Enhanced IVR Routing for Electric Vehicle Fleet Operations Utilizing Solar Charging Infrastructure,KWD-T0067,Interactive voice response,assigned,False,题名/摘要可指认具体对象；来源中缺少足够明确的关键词，建议补词后审核，尚未施加归属。

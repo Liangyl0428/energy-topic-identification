@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "release_id": "nmf500_multilabel_scope_20261019",
+  "data_json": "../assets/nmf500_multilabel_scope/platform_data.json",
+  "preview": "../preview/nmf500_multilabel.html",
+  "membership_dir": "../../work/nmf500_multilabel_scope_20261019/business_assignments",
+  "default_threshold": 0.1,
+  "old_F_ids_compatible": false,
+  "cross_source_candidates_only": true
+}

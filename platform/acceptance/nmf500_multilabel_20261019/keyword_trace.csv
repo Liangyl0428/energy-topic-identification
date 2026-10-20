@@ -1,0 +1,28 @@
+row_id,keyword_id,score,display_name,removed_broad,evidence_id
+2788864,https://openalex.org/keywords/astrobiology,0.3015241026878357,Astrobiology,False,REF-BATTERY
+2788864,https://openalex.org/keywords/physics,0.2047482430934906,Physics,True,REF-BATTERY
+4813066,https://openalex.org/keywords/materials-science,0.3842882812023163,Materials science,True,REF-CATHODE
+4813066,https://openalex.org/keywords/metallurgy,0.35660308599472046,Metallurgy,False,REF-CATHODE
+1599507,https://openalex.org/keywords/habilitation,0.5938293933868408,Habilitation,False,P062
+1599507,https://openalex.org/keywords/environmental-science,0.3482106328010559,Environmental science,True,P062
+1599507,https://openalex.org/keywords/philosophy,0.23638108372688293,Philosophy,True,P062
+1599507,https://openalex.org/keywords/humanities,0.13171780109405518,Humanities,False,P062
+27324,https://openalex.org/keywords/political-science,0.541944146156311,Political science,True,P093
+27324,https://openalex.org/keywords/humanities,0.5281752943992615,Humanities,False,P093
+27324,https://openalex.org/keywords/physics,0.44945234060287476,Physics,True,P093
+27324,https://openalex.org/keywords/art,0.2514756917953491,Art,True,P093
+1143698,https://openalex.org/keywords/waveform,0.6195155382156372,Waveform,False,P124
+1143698,https://openalex.org/keywords/selectivity,0.6174360513687134,Selectivity,False,P124
+1143698,https://openalex.org/keywords/power,0.4276985228061676,Power (physics),False,P124
+1143698,https://openalex.org/keywords/mathematics,0.3993705213069916,Mathematics,True,P124
+1143698,https://openalex.org/keywords/thermodynamics,0.3219342827796936,Thermodynamics,False,P124
+1143698,https://openalex.org/keywords/physics,0.30095741152763367,Physics,True,P124
+1143698,https://openalex.org/keywords/chemistry,0.29066774249076843,Chemistry,True,P124
+1143698,https://openalex.org/keywords/quantum-mechanics,0.07647097110748291,Quantum mechanics,False,P124
+1143698,https://openalex.org/keywords/voltage,0.048950761556625366,Voltage,False,P124
+1143698,https://openalex.org/keywords/biochemistry,0.042596280574798584,Biochemistry,False,P124
+2065813,https://openalex.org/keywords/physics,0.5642743706703186,Physics,True,P141
+2065813,https://openalex.org/keywords/humanities,0.3764236569404602,Humanities,False,P141
+2065813,https://openalex.org/keywords/gynecology,0.35866254568099976,Gynecology,False,P141
+2065813,https://openalex.org/keywords/medicine,0.35309678316116333,Medicine,True,P141
+2065813,https://openalex.org/keywords/philosophy,0.05053025484085083,Philosophy,True,P141

@@ -18,10 +18,12 @@ def run(script,python=None,extra=()):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--attach-preparation',action='store_true');a=p.parse_args()
+    for key,kind in [('corpus_dir','dir'),('metadata_db','file'),('keyword_sources','file'),('bge_model_dir','dir'),('context_dir','dir')]:RUNTIME.require(key,kind)
     RUN.mkdir(parents=True,exist_ok=True)
+    dump(RUN/'RUNTIME_PATHS.json',RUNTIME.snapshot())
     here=Path(__file__).resolve().parent
     env=os.environ.copy()
-    env['LD_LIBRARY_PATH']=str(ROOT/'aaaa/bge_m3/_runtime/nvidia/cudnn/lib')+':/usr/local/cuda/lib64'+(':'+env['LD_LIBRARY_PATH'] if env.get('LD_LIBRARY_PATH') else '')
+    env['LD_LIBRARY_PATH']=str(RUNTIME.path('bge_runtime_dir')/'nvidia/cudnn/lib')+':/usr/local/cuda/lib64'+(':'+env['LD_LIBRARY_PATH'] if env.get('LD_LIBRARY_PATH') else '')
     workers=[]
     if not a.attach_preparation:
         workers.append(subprocess.Popen([sys.executable,'-u',str(here/'prepare.py')]))
@@ -44,12 +46,12 @@ def main():
     run(here/'train.py')
     wait_for('ENCODING_COMPLETE.json')
     run(here/'finalize.py')
-    run(ROOT/'energy-topic-hotspots/pipelines/full_nmf/build.py',extra=['--classification',RUN])
-    run(ROOT/'energy-technology-trl-crl/pipelines/full_nmf/build.py',extra=['--classification',RUN])
+    run(DELIVERY/'energy-topic-hotspots/pipelines/full_nmf/build.py',extra=['--classification',RUN])
+    run(DELIVERY/'energy-technology-trl-crl/pipelines/full_nmf/build.py',extra=['--classification',RUN])
     run(here/'publish_local.py')
     dump(RUN/'ALL_REPOSITORIES_COMPLETE.json',{'status':'complete','classification':str(RUN),
-        'hotspots':str(ROOT/'energy-topic-hotspots/outputs/full_nmf500_20260926'),
-        'maturity':str(ROOT/'energy-technology-trl-crl/results/full_nmf500_20260926')})
+        'hotspots':str(RUNTIME.path('hotspots_run')),
+        'maturity':str(RUNTIME.path('maturity_run'))})
     dump(RUN/'PIPELINE_PROGRESS.json',{'stage':'all_repositories','updated_unix':time.time(),'status':'complete'})
 
 

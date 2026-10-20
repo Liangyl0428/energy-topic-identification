@@ -1,0 +1,21 @@
+{
+  "release_id": "keyword_dictionary_semantic_review_20261019_r2",
+  "assets": "final/assets/keyword_dictionary_semantic_review_r2",
+  "dictionary": "final/assets/keyword_dictionary_semantic_review_r2/keyword_dictionary.csv",
+  "assignments": "final/assets/keyword_dictionary_semantic_review_r2/paper_assignments/*.parquet",
+  "relations": "final/assets/keyword_dictionary_semantic_review_r2/paper_topic_relations/*.parquet",
+  "document_keyword_review": "final/assets/keyword_dictionary_semantic_review_r2/document_keyword_review.csv",
+  "pipeline": "final/energy-topic-identification/pipelines/keyword_dictionary_review_r2",
+  "topic_id_namespace": "KWD-T0001..KWD-T0072",
+  "conditional_anchor_rule": "per-topic compatible direct anchors; explicit global-support exceptions",
+  "document_withholding_before_anchor_construction": true,
+  "quality_filter": "quality_eligible = true",
+  "paper_status_field": "classification_status",
+  "nmf_threshold": null,
+  "maximum_topics_per_paper": null,
+  "supports_patents": false,
+  "supports_policies": false,
+  "trends_recomputed": false,
+  "maturity_recomputed": false,
+  "semantic_accuracy_validated": false
+}

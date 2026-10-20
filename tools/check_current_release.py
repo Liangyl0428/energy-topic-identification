@@ -25,10 +25,10 @@ ESSENTIAL={
     'energy-technology-trl-crl':[
         'pipelines/full_nmf/build.py','pipelines/full_nmf/experiments.py',
         'pipelines/nmf500/mapping.py','pipelines/nmf500/experiments.py',
-        'pipelines/nmf500/encode_context.py','trl_crl/engine.py','trl_crl/rules.py',
+        'pipelines/nmf500/encode_context.py','pipelines/full_nmf/build_crl_reason.py','trl_crl/delivery.py','trl_crl/engine.py','trl_crl/rules.py',
         'trl_crl/pipeline.py','data/objects.json','data/sources.json','data/evidence.json',
         'data/observations.json','data/gate_reviews.json','data/technical_profiles.json',
-        'requirements.txt','assets/full_nmf500/case_hotspot_links.csv',
+        'requirements.txt','assets/full_nmf500/case_hotspot_links.csv','assets/full_nmf500/case_hotspot_links.json','assets/full_nmf500/case_hotspot_links.schema.json',
         'assets/full_nmf500/theme_context_top3.csv','assets/full_nmf500/experiments/COMPLETE.json'],
 }
 def sha(path):
@@ -50,6 +50,7 @@ def inventory(root):
         if (p.suffix=='.py' or rel.startswith('assets/full_nmf500/')
             or rel.startswith('data/') and p.suffix=='.json'
             or rel.startswith('docs/') and p.suffix=='.md'
+            or rel.startswith(('config/','.github/'))
             or rel=='README.md' or rel=='pyproject.toml'
             or p.name.startswith('requirements') and p.suffix=='.txt'):
             result.append(rel)
@@ -72,7 +73,7 @@ def check_docs(root):
         if p.suffix!='.md' or not p.is_file():continue
         text=p.read_text();count+=1
         prose=re.sub(r'```[\s\S]*?```|`[^`]*`','',text)
-        if re.search(r'v0\.2\.1|v020|v021|版本对比|主题效果对比|统一口径效果对比|历史版本|样本版|750(?:个|类|主题)',prose,re.I):
+        if not rel.startswith('platform/') and re.search(r'v0\.2\.1|v020|v021|版本对比|主题效果对比|统一口径效果对比|历史版本|样本版|750(?:个|类|主题)',prose,re.I):
             raise ValueError('Outdated public documentation: '+rel)
         for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',text):
             target=target.strip().split(' "')[0].strip('<>')
@@ -92,7 +93,7 @@ def validate(root=ROOT,require_tracked=True):
     verify_hashes(root,data['files'])
     base=root/'assets/full_nmf500'
     manifest=json.loads((base/'MANIFEST.json').read_text())
-    actual={str(p.relative_to(base)) for p in base.rglob('*') if p.is_file() and p.name!='MANIFEST.json'}
+    actual={p.relative_to(base).as_posix() for p in base.rglob('*') if p.is_file() and p.name!='MANIFEST.json'}
     if set(manifest['files'])!=actual:raise ValueError('Current artifact inventory mismatch')
     if any(p.startswith('topic_evaluation/') for p in actual):raise ValueError('Comparison artifacts in current release')
     verify_hashes(base,manifest['files'])

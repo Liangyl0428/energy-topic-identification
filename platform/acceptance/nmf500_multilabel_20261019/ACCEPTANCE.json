@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-19",
+  "release_id": "nmf500_multilabel_scope_20261019",
+  "conclusion": "工程实现通过本轮检查；内容质量未通过正式业务使用验收，仅可继续内部审阅与探索。",
+  "review_authority": "assistant_acceptance_review_not_human_expert_approval",
+  "sample": {
+    "topics": 30,
+    "core_topics": 12,
+    "supporting_topics": 10,
+    "pending_topics": 7,
+    "excluded_topics": 1,
+    "paper_relations": 150,
+    "retained_paper_relations": 110,
+    "patent_documents": 15,
+    "policy_documents": 15,
+    "unique_documents": 180,
+    "new_vs_previous_evidence": true,
+    "population_accuracy_estimated": false,
+    "paper_title_only": 46,
+    "explicit_or_obvious_patent_mismatches_among_10_retained": 4
+  },
+  "known_material_limits": [
+    "30个主题为有目的的覆盖/风险抽样，不代表500主题总体。",
+    "每个主题仅5条新关系样本；缺摘要时仅依题名。",
+    "专利每来源10个候选和5个未归属记录的小样本，不估算总体准确率。",
+    "全文指冻结语料已有摘要/正文，不是外部论文全文。",
+    "无新训练、无范围清单修改、无应用正式关系拒绝；问题修正属于后续工作。"
+  ],
+  "all_release_files_unchanged": true,
+  "followup_order": [
+    "先校验并补提错义/低信息关键词，清理迁移参考标签。",
+    "再修复核心主题与支撑关系的文献级语境门槛。",
+    "对专利/政策分别校准证据判断和阈值，使用独立标注。",
+    "复验通过后再冻结版本，接入趋势、热点和具体技术的TRL/CRL。"
+  ]
+}

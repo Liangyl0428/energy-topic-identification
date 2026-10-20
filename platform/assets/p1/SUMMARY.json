@@ -1,0 +1,27 @@
+{
+  "business_version": "energy_business_p1_20261018",
+  "taxonomy_version": "full_nmf500_20260926",
+  "topic_cards": 500,
+  "detailed_topic_cards": 3,
+  "numeric_insight_cards": 500,
+  "reviewed_documents": 24,
+  "included_documents": 11,
+  "outside_scope_documents": 6,
+  "insufficient_evidence_documents": 7,
+  "business_subtopics_with_reviewed_members": 11,
+  "object_insights": 122,
+  "paired_axis_objects": 13,
+  "topic_case_distributions": 500,
+  "joined_examples": 6,
+  "full_cluster_scope_approved": 0,
+  "formally_graded_objects": 0,
+  "external_network_used": false,
+  "full_business_ranking_recomputed": false,
+  "reviewed_subset_counts_recomputed": true,
+  "remaining_work": [
+    "其余 497 个主题需要文献审阅与具体中文业务定义；当前仅有待审字段占位。",
+    "三个重点主题尚需跨年份、分类差距和来源的分层复审，再筛选全量成员。",
+    "全量业务成员确定后，重新计算领域份额、机构和排名；24 条诊断样本不支持该推断。",
+    "对象关联、专属细则与独立专家正式评定仍待完成。"
+  ]
+}

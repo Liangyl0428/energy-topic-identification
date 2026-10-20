@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "initial_actual_data",
+    "topic_search",
+    "recomputed_growth",
+    "F0022_bridge",
+    "bridge_to_topic",
+    "unknown_axis",
+    "bounded_known_axes",
+    "empty_search",
+    "category_filter",
+    "mobile_no_horizontal_overflow",
+    "no_page_errors"
+  ],
+  "network_requests_allowed": false
+}

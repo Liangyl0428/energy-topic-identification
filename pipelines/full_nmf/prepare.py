@@ -83,7 +83,8 @@ def main():
     (RUN/'raw_keywords').mkdir(exist_ok=True)
     (RUN/'keyword_parts').mkdir(exist_ok=True)
     (RUN/'matrices').mkdir(exist_ok=True)
-    inventory = json.loads((ROOT/'aaaa/openalex_keywords_nmf/verified_sources.json').read_text())
+    inventory = json.loads((RUNTIME.path('keyword_sources')).read_text())
+    inventory = [dict(row,path=str(RUNTIME.source_path(row['path']))) for row in inventory]
     start = time.time()
     if not (RUN/'EXTRACTION_COMPLETE.json').exists():
         totals = []

@@ -16,7 +16,7 @@ import runpy
 from urllib.parse import urlsplit
 
 NAMES=['energy-topic-identification','energy-topic-hotspots','energy-technology-trl-crl']
-PY=ROOT/'.venv-hotspots/bin/python'
+PY=Path(os.environ.get('ENERGY_CPU_PYTHON',sys.executable))
 JOB=RUN/'postprocess'
 GENERATED=['README.md','provenance/SHA256SUMS.json','provenance/FILE_MANIFEST.json','provenance/CORE_FILES.json']
 
@@ -124,7 +124,7 @@ def package(source,experiments):
     for name,folder in experiments.items():
         reports[name]=verify_experiments(folder,classification_hash)
     for name in NAMES:
-        repo=ROOT/name;manifest=checked_assets(repo);base=repo/'assets/full_nmf500'
+        repo=DELIVERY/name;manifest=checked_assets(repo);base=repo/'assets/full_nmf500'
         if manifest['classification_summary_sha256']!=classification_hash:raise ValueError('Mixed base results')
         if name in experiments:
             folder=experiments[name];target=base/'experiments';target.mkdir(exist_ok=True)
@@ -174,8 +174,8 @@ def execute(config):
         raise ValueError('Completion hashes mismatch')
     if config.get('expected_model_sha256') and source.get('model_sha256')!=config['expected_model_sha256']:
         raise ValueError('Completed classification uses a different trained model')
-    for name in NAMES:verify_worktree(ROOT/name,config['repositories'][name])
-    hot=ROOT/NAMES[1];trl=ROOT/NAMES[2]
+    for name in NAMES:verify_worktree(DELIVERY/name,config['repositories'][name])
+    hot=DELIVERY/NAMES[1];trl=DELIVERY/NAMES[2]
     hi=hot/'outputs/full_nmf500_20260926';ti=trl/'results/full_nmf500_20260926'
     outputs={NAMES[1]:hi/'experiments',NAMES[2]:ti/'experiments'}
     if config.get('reuse_verified_experiments'):
@@ -186,17 +186,17 @@ def execute(config):
         status('maturity_experiments')
         run([PY,trl/'pipelines/full_nmf/experiments.py','--classification',RUN,'--input',ti,'--output',outputs[NAMES[2]]])
     status('tests_and_packaging')
-    run([PY,'-m','pytest','tests/test_keyword_nmf.py','tests/test_full_nmf.py','tests/test_full_delivery.py','-q'],ROOT/NAMES[0])
+    run([PY,'-m','pytest','tests/test_keyword_nmf.py','tests/test_full_nmf.py','tests/test_full_delivery.py','-q'],DELIVERY/NAMES[0])
     run([PY,'-m','pytest','-q'],hot)
     run([PY,'-m','pytest','-q'],trl)
-    for name in NAMES:verify_worktree(ROOT/name,config['repositories'][name])
+    for name in NAMES:verify_worktree(DELIVERY/name,config['repositories'][name])
     package(RUN,outputs)
-    for name in NAMES:run([PY,ROOT/name/'tools/check_current_release.py','--write-manifest'])
-    run([PY,ROOT/NAMES[0]/'tools/update_release_manifest.py'])
-    run([PY,ROOT/NAMES[0]/'tools/validate_release.py'])
+    for name in NAMES:run([PY,DELIVERY/name/'tools/check_current_release.py','--write-manifest'])
+    run([PY,DELIVERY/NAMES[0]/'tools/update_release_manifest.py'])
+    run([PY,DELIVERY/NAMES[0]/'tools/validate_release.py'])
     run([PY,hot/'tools/update_release_manifest.py'])
     for name in NAMES:
-        repo=ROOT/name;verify_worktree(repo,config['repositories'][name]);checked_assets(repo)
+        repo=DELIVERY/name;verify_worktree(repo,config['repositories'][name]);checked_assets(repo)
         git(repo,'diff','--check')
     dump(JOB/'EXPERIMENTS_AND_RELEASE_VALIDATED.json',{'passed':True,
         'classification_summary_sha256':sha(RUN/'SUMMARY.json'),'all_three_repositories_checked':True})
@@ -204,7 +204,7 @@ def execute(config):
     receipts={}
     # Prepare all three commits before pushing any repository.
     for name in NAMES:
-        repo=ROOT/name;record=config['repositories'][name];verify_worktree(repo,record)
+        repo=DELIVERY/name;record=config['repositories'][name];verify_worktree(repo,record)
         paths=changed(repo)
         if not paths:raise ValueError('No delivery changes to commit')
         git(repo,'add','--',*paths)
@@ -215,10 +215,10 @@ def execute(config):
         dump(JOB/'PUSH_RECEIPTS.json',receipts)
     for name in NAMES:
         record=config['repositories'][name]
-        if remote_tip(ROOT/name,record['branch'])!=record['remote_tip']:raise ValueError('Remote advanced before push')
+        if remote_tip(DELIVERY/name,record['branch'])!=record['remote_tip']:raise ValueError('Remote advanced before push')
     status('pushing')
     for name in NAMES:
-        repo=ROOT/name;record=config['repositories'][name]
+        repo=DELIVERY/name;record=config['repositories'][name]
         if git(repo,'rev-parse','HEAD')!=receipts[name]['commit'] or changed(repo):raise ValueError('Worktree changed before push')
         if hashlib.sha256(git(repo,'remote','get-url','--push','origin').encode()).hexdigest()!=record['remote_url_sha256']:raise ValueError('Remote changed before push')
         if remote_tip(repo,record['branch'])!=record['remote_tip']:raise ValueError('Remote advanced before this push')
@@ -240,7 +240,7 @@ def main():
     if (JOB/'CONFIG.json').exists():raise RuntimeError('Already armed; inspect existing status, do not start duplicate publishers')
     try:
         status('preflight')
-        config={'base_pid':a.base_pid,'created_unix':time.time(),'repositories':{n:capture(ROOT/n) for n in NAMES},
+        config={'base_pid':a.base_pid,'created_unix':time.time(),'repositories':{n:capture(DELIVERY/n) for n in NAMES},
             'expected_model_sha256':json.loads((RUN/'TRAINING_COMPLETE.json').read_text())['model_sha256'],
             'authorized_workflow':'wait for base completion, full diagnostics, checks, local commits, non-force push to existing origin/main'}
         dump(JOB/'CONFIG.json',config)

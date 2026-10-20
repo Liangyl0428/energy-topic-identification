@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "original_paper_population": true,
+    "source_observations_unchanged": true,
+    "withheld_source_words_really_observed": true,
+    "no_withheld_keyword_triggers_remain": true,
+    "power_station_does_not_imply_thermal_power": true,
+    "generic_computer_network_does_not_trigger": true,
+    "known_old_semantic_regressions": true,
+    "all_181_samples_have_annotations": true,
+    "no_suggested_keyword_added_to_source": true,
+    "v1_all_514_assets_unchanged": true
+  },
+  "semantic_accuracy_validated": false
+}

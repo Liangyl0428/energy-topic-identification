@@ -2,7 +2,7 @@
 from common import *
 import sys
 import time
-sys.path[:0]=[str(ROOT/'aaaa/bge_m3/_runtime'),str(ROOT/'aaaa/bge_m3/_core')]
+sys.path[:0]=[str(RUNTIME.path('bge_runtime_dir')),str(RUNTIME.path('bge_core_dir'))]
 import numpy as np
 import onnxruntime as ort
 from onnxruntime.transformers.optimizer import optimize_model
@@ -12,7 +12,7 @@ import pyarrow.parquet as pq
 
 def main():
     target=RUN/'optimized_encoder';target.mkdir(exist_ok=True)
-    original=ROOT/'aaaa/bge_m3/models/bge-m3/onnx/model_fp16.onnx'
+    original=RUNTIME.path('bge_model_dir')/'onnx/model_fp16.onnx'
     path=target/'model.onnx'
     if not path.exists():
         optimized=optimize_model(str(original),model_type='bert',num_heads=16,hidden_size=1024,opt_level=0)

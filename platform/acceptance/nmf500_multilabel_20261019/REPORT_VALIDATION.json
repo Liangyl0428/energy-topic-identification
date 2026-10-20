@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "30主题复核": true,
+    "150论文关系": true,
+    "30专利政策记录": true,
+    "问题与整改": true,
+    "all_9_sheets": true,
+    "all_180_decisions_documented": true,
+    "corrected_mppt_evidence": true,
+    "corrected_transfer_score": true,
+    "acceptance_hashes_match": true,
+    "14_original_deliverables_unchanged": true,
+    "original_preview_unchanged": true,
+    "report_html_opens": true,
+    "all_report_links_resolve": true,
+    "report_mobile_no_page_overflow": true,
+    "report_no_js_errors": true
+  }
+}

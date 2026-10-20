@@ -1,0 +1,3264 @@
+[
+  {
+    "category_id": "F0001",
+    "topic_description": {
+      "category_id": "F0001",
+      "algorithm_name": "Porosity / Porous medium / Composite material",
+      "display_name_zh": "多孔材料与界面传输（混合主题，待拆分）",
+      "definition": "以孔隙率、多孔介质、复合材料关键词形成的文献集合，含储能材料、热管理及非能源应用。",
+      "business_categories": [
+        "renewable_generation",
+        "storage"
+      ],
+      "business_categories_basis": "included_diagnostic_documents_only",
+      "content_types": [
+        "材料"
+      ],
+      "energy_relevance": "已抽查文献中，锂金属电池界面和光热熔盐腐蚀有直接能源任务；不能因含有多孔或 TiO2 就纳入。",
+      "application_scenarios": [
+        "锂金属电池界面稳定性",
+        "光热发电与熔盐储热材料耐久性",
+        "冷却材料需补充具体设备和用能场景"
+      ],
+      "included_scope": [
+        "明确面向电池的多孔界面和电解质输运",
+        "明确面向光热或储热的材料耐久性"
+      ],
+      "excluded_scope": [
+        "肿瘤治疗纳米载体",
+        "未连接能源任务的环境颗粒迁移；保留为范围外记录",
+        "只有冷却或碘捕集标题但任务未明时暂不纳入"
+      ],
+      "representative_doc_ids": [
+        "paper:W7133390392",
+        "paper:W7163012620"
+      ],
+      "counterexample_doc_ids": [
+        "paper:W7134113234",
+        "paper:W7139627074"
+      ],
+      "reviewed_document_ids": [
+        "paper:W7133390392",
+        "paper:W7134113234",
+        "paper:W7135229693",
+        "paper:W7139627074",
+        "paper:W7145159298",
+        "paper:W7160693920",
+        "paper:W7163012620",
+        "paper:W7164442561"
+      ],
+      "reviewed_count": 8,
+      "paper_documents": 11311,
+      "review_sampling": "purposive_diagnostic_not_representative",
+      "review_status": "partial_assistant_review_pending_domain_review",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [
+        "B-BATTERY-INTERFACE",
+        "B-SOLAR-CORROSION"
+      ],
+      "scope_decision_counts": {
+        "include": 2,
+        "outside_current_energy_scope": 2,
+        "insufficient_evidence": 4
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": "assistant_source_review_20261018"
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0001",
+      "category_id": "F0001",
+      "display_name_zh": "多孔材料与界面传输（混合主题，待拆分）",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类份额增长，持续性或其他门槛不足",
+      "key_numbers": {
+        "recent_papers": 1468,
+        "previous_papers": 1062,
+        "share_growth_ratio": 1.1217789297183491,
+        "multiyear_share_ratio": 1.302469527484743,
+        "historical_peak_ratio": 1.1217789297183491,
+        "growing_quarters": 2,
+        "core_score": 84.43,
+        "emerging_score": 67.75999999999999,
+        "core_numeric_candidate": true,
+        "emerging_numeric_candidate": false,
+        "core_rank": 62,
+        "emerging_rank": 162,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 3308,
+        "share_ratio_lower95": 1.205225436720217,
+        "growth_count_qvalue": 4.7210297239371504e-14,
+        "previous_institutions": 1294,
+        "recent_institutions": 1760,
+        "patent_records_2026H1": 25,
+        "policy_records_2026H1": 0
+      },
+      "narrative": "近期论文由前一年的 1,062 篇变为 1,468 篇；文献份额为前期的 1.12 倍，4 个季度中 2 个份额同比增长。参与机构由 1,294 家变为 1,760 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "结合季度持续性和代表文献复核，暂保留为观察对象。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0001"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0001"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0001"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0001"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0001"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0001",
+          "baseline_rank": 62.0,
+          "rank_p025": 61.0,
+          "rank_median": 62.0,
+          "rank_p975": 65.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0001",
+          "baseline_rank": 162.0,
+          "rank_p025": 155.0,
+          "rank_median": 162.0,
+          "rank_p975": 171.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0001",
+          "baseline_rank": 292.0,
+          "rank_p025": 273.0,
+          "rank_median": 291.0,
+          "rank_p975": 301.0,
+          "top20_fraction": 0.0
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [
+      {
+        "doc_id": "paper:W7133390392",
+        "category_id": "F0001",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-SOLAR-CORROSION"
+        ],
+        "quote_field": "body",
+        "quote": "La generación de electricidad a partir de Concentradores Solares Térmicos (CST)",
+        "reason": "正文明确太阳能热发电、熔盐储热和腐蚀试验，应按工况归入能源材料。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7133390392",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7134113234",
+        "category_id": "F0001",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "therapy and drug resistance reversal in osteosarcoma",
+        "reason": "题名明确骨肉瘤治疗；不能因为 MXene 和多孔材料词汇归入储能。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7134113234",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7135229693",
+        "category_id": "F0001",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "transpiration cooling",
+        "reason": "只有多孔结构蒸腾冷却题名，缺少具体能源设备或用能场景。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7135229693",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7139627074",
+        "category_id": "F0001",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "body",
+        "quote": "饱和石英砂填充柱中纳米二氧化钛(nTiO2)的迁移和滞留机制",
+        "reason": "当前原文是环境颗粒迁移研究，无能源应用链条；不等于该方法永远无能源用途。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7139627074",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7145159298",
+        "category_id": "F0001",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "Cooling Applications",
+        "reason": "保水冷却题名缺少用能系统边界，待补摘要后判断。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7145159298",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7160693920",
+        "category_id": "F0001",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "iodine capture",
+        "reason": "碘捕集题名未明确放射性碘或核能应用，不能自动归为核能安全。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7160693920",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7163012620",
+        "category_id": "F0001",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-BATTERY-INTERFACE"
+        ],
+        "quote_field": "body",
+        "quote": "lithium-metal batteries",
+        "reason": "明确锂金属电池界面稳定性与多孔 SEI，归入储能材料。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7163012620",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7164442561",
+        "category_id": "F0001",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "Transpiration cooling",
+        "reason": "只有多孔结构冷却题名，暂无法判断能源应用任务。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7164442561",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      }
+    ],
+    "reviewed_business_counts": [
+      {
+        "business_topic_id": "B-SOLAR-CORROSION",
+        "display_name_zh": "光热储热系统材料腐蚀",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7133390392"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 1,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7133390392"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-BATTERY-INTERFACE",
+        "display_name_zh": "锂金属电池界面与多孔结构",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7163012620"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 1,
+        "previous_papers": 0,
+        "core_papers": 1,
+        "recent_institutions": 4,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7163012620"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      }
+    ],
+    "case_distribution": {
+      "category_id": "F0001",
+      "case_count": 0,
+      "case_ids": [],
+      "trl_distribution": {},
+      "crl_distribution": {},
+      "paired_case_ids": [],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "当前没有候选关联对象；不表示该方向没有成熟产品。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  },
+  {
+    "category_id": "F0022",
+    "topic_description": {
+      "category_id": "F0022",
+      "algorithm_name": "Business / Environmental economics / Economics",
+      "display_name_zh": "经济与工程混合聚类（待拆分）",
+      "definition": "算法同时聚合了电力市场、企业信息管理、天然气资源、变压器保护与材料研究，不能作为单一能源经济主题。",
+      "business_categories": [
+        "conventional_nuclear",
+        "end_use",
+        "grid_operation",
+        "market_policy",
+        "transmission_distribution"
+      ],
+      "business_categories_basis": "included_diagnostic_documents_only",
+      "content_types": [
+        "经济政策",
+        "设备",
+        "材料",
+        "系统",
+        "资源"
+      ],
+      "energy_relevance": "电力市场机制可服务能源经济政策分析；变压器保护与热电材料应进入各自技术业务范围。",
+      "application_scenarios": [
+        "电力市场制度研究",
+        "变压器保护技术检索",
+        "热电转换材料路线跟踪"
+      ],
+      "included_scope": [
+        "按文献的明确能源任务分流到多个业务子主题"
+      ],
+      "excluded_scope": [
+        "不得把整个聚类改名为能源经济与政策",
+        "通用电镀及仅称绿色政策但任务不明的文献暂缓",
+        "制服规定等非能源文本移出能源业务范围"
+      ],
+      "representative_doc_ids": [
+        "paper:W2348011751",
+        "paper:W234819835",
+        "paper:W2348415734",
+        "paper:W2352268102",
+        "paper:W2354627511"
+      ],
+      "counterexample_doc_ids": [
+        "paper:W234978226"
+      ],
+      "reviewed_document_ids": [
+        "paper:W2348011751",
+        "paper:W234819835",
+        "paper:W2348415734",
+        "paper:W234853219",
+        "paper:W234978226",
+        "paper:W2352268102",
+        "paper:W2352598222",
+        "paper:W2354627511"
+      ],
+      "reviewed_count": 8,
+      "paper_documents": 30150,
+      "review_sampling": "purposive_diagnostic_not_representative",
+      "review_status": "partial_assistant_review_pending_domain_review",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [
+        "B-GAS-RESOURCE",
+        "B-GRID-DIGITAL",
+        "B-GRID-PROTECTION",
+        "B-POWER-MARKET",
+        "B-THERMOELECTRIC"
+      ],
+      "scope_decision_counts": {
+        "include": 5,
+        "insufficient_evidence": 2,
+        "outside_current_energy_scope": 1
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": "assistant_source_review_20261018"
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0022",
+      "category_id": "F0022",
+      "display_name_zh": "经济与工程混合聚类（待拆分）",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类近期份额下降",
+      "key_numbers": {
+        "recent_papers": 327,
+        "previous_papers": 1844,
+        "share_growth_ratio": 0.1441102630991055,
+        "multiyear_share_ratio": 0.1928856622583888,
+        "historical_peak_ratio": 0.1441102630991055,
+        "growing_quarters": 0,
+        "core_score": 64.56,
+        "emerging_score": 3.5,
+        "core_numeric_candidate": false,
+        "emerging_numeric_candidate": false,
+        "core_rank": 206,
+        "emerging_rank": 483,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 3522,
+        "share_ratio_lower95": 0.1665732266814099,
+        "growth_count_qvalue": 1.0,
+        "previous_institutions": 2009,
+        "recent_institutions": 533,
+        "patent_records_2026H1": 1,
+        "policy_records_2026H1": 29
+      },
+      "narrative": "近期论文由前一年的 1,844 篇变为 327 篇；文献份额为前期的 0.14 倍，4 个季度中 0 个份额同比增长。参与机构由 2,009 家变为 533 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "先核查范围混杂、来源覆盖和日期分布，再判断需要调整的跟踪方向。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0022"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0022"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0022"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0022"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0022"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0022",
+          "baseline_rank": 206.0,
+          "rank_p025": 181.0,
+          "rank_median": 207.0,
+          "rank_p975": 230.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0022",
+          "baseline_rank": 483.0,
+          "rank_p025": 483.0,
+          "rank_median": 483.0,
+          "rank_p975": 484.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0022",
+          "baseline_rank": 449.0,
+          "rank_p025": 433.0,
+          "rank_median": 450.0,
+          "rank_p975": 465.0,
+          "top20_fraction": 0.0
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [
+      {
+        "doc_id": "paper:W2348011751",
+        "category_id": "F0022",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-GRID-DIGITAL"
+        ],
+        "quote_field": "title",
+        "quote": "Platform Research",
+        "reason": "题名明确电力企业信息资源管理；仅支持任务归类，效果与正文待补。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W2348011751",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W234819835",
+        "category_id": "F0022",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-GAS-RESOURCE"
+        ],
+        "quote_field": "title",
+        "quote": "Botswana's massive gas resources",
+        "reason": "题名明确天然气资源；仅支持资源任务归类，储量和开发结论待正文核实。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W234819835",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W2348415734",
+        "category_id": "F0022",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-GRID-PROTECTION"
+        ],
+        "quote_field": "body",
+        "quote": "neutral point over-voltage protection for a 110kV transformer",
+        "reason": "明确 110kV 变压器中性点过电压保护，应从经济类分流。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W2348415734",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W234853219",
+        "category_id": "F0022",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "body",
+        "quote": "研究了微酸性氯化物体系中(Zn-Co)-TiO2复合电镀的工艺",
+        "reason": "现有材料说明工艺与耐蚀性，未明确能源应用；不能按来源主题自动纳入。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W234853219",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W234978226",
+        "category_id": "F0022",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "Zatwierdzono regulamin mundurów wodnych ZHP",
+        "reason": "题名是波兰童军水上制服规定，所给文本无能源研究任务。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W234978226",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W2352268102",
+        "category_id": "F0022",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-THERMOELECTRIC"
+        ],
+        "quote_field": "body",
+        "quote": "thermoelectric (TE) materials",
+        "reason": "正文研究热电材料及电热输运，有明确能量转换功能，应从经济类分流。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W2352268102",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W2352598222",
+        "category_id": "F0022",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "Game Analysis on Carrying out Green Policy",
+        "reason": "只有绿色政策博弈题名，不能确定能源或碳政策的具体任务。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W2352598222",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W2354627511",
+        "category_id": "F0022",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-POWER-MARKET"
+        ],
+        "quote_field": "title",
+        "quote": "Power Market System",
+        "reason": "电力市场制度题名足以作狭义任务归类，不能替代对政策效果的实证核查。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W2354627511",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      }
+    ],
+    "reviewed_business_counts": [
+      {
+        "business_topic_id": "B-GRID-DIGITAL",
+        "display_name_zh": "电力企业信息资源管理",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W2348011751"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 1,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W2348011751"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-GAS-RESOURCE",
+        "display_name_zh": "天然气资源开发",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W234819835"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 1,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W234819835"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-GRID-PROTECTION",
+        "display_name_zh": "变压器过电压保护",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W2348415734"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 1,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W2348415734"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-THERMOELECTRIC",
+        "display_name_zh": "热电转换材料",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W2352268102"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W2352268102"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-POWER-MARKET",
+        "display_name_zh": "电力市场机制",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W2354627511"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 0,
+        "previous_papers": 0,
+        "core_papers": 0,
+        "recent_institutions": 0,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 1,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W2354627511"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      }
+    ],
+    "case_distribution": {
+      "category_id": "F0022",
+      "case_count": 0,
+      "case_ids": [],
+      "trl_distribution": {},
+      "crl_distribution": {},
+      "paired_case_ids": [],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "当前没有候选关联对象；不表示该方向没有成熟产品。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  },
+  {
+    "category_id": "F0110",
+    "topic_description": {
+      "category_id": "F0110",
+      "algorithm_name": "Probabilistic logic / Probabilistic forecasting / Electric power system",
+      "display_name_zh": "概率方法与能源预测（混合主题，待拆分）",
+      "definition": "以概率方法和预测词汇形成的文献集合，同时含功率预测、充电负荷、变电站设计、工业需求预测及非能源概率应用。",
+      "business_categories": [
+        "end_use",
+        "grid_operation",
+        "renewable_generation",
+        "transmission_distribution"
+      ],
+      "business_categories_basis": "included_diagnostic_documents_only",
+      "content_types": [
+        "算法",
+        "设备"
+      ],
+      "energy_relevance": "风电功率和充电负荷预测可辅助电网调度研究；变电站概率设计是设备任务，不能归入功率预测。",
+      "application_scenarios": [
+        "新能源功率预测与调度研究",
+        "充电负荷预测",
+        "工业压缩空气需求分析",
+        "变电站绝缘设计"
+      ],
+      "included_scope": [
+        "明确目标变量是能源功率、用能需求或电力设备设计",
+        "按目标任务拆分而不以概率一词统一归类"
+      ],
+      "excluded_scope": [
+        "古埃及考古存留分析",
+        "未说明能源设施的港口风暴潮风险",
+        "仅有温度异常预测且未连接能源任务时暂缓"
+      ],
+      "representative_doc_ids": [
+        "paper:W7128315464",
+        "paper:W7163397305",
+        "paper:W7164412679",
+        "paper:W7166710595"
+      ],
+      "counterexample_doc_ids": [
+        "paper:W4415677717",
+        "paper:W7106791247",
+        "paper:W7106817402"
+      ],
+      "reviewed_document_ids": [
+        "paper:W4415677717",
+        "paper:W7106791247",
+        "paper:W7106817402",
+        "paper:W7128315464",
+        "paper:W7163397305",
+        "paper:W7164412679",
+        "paper:W7166658717",
+        "paper:W7166710595"
+      ],
+      "reviewed_count": 8,
+      "paper_documents": 7024,
+      "review_sampling": "purposive_diagnostic_not_representative",
+      "review_status": "partial_assistant_review_pending_domain_review",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [
+        "B-EV-FORECAST",
+        "B-INDUSTRIAL-AIR",
+        "B-SUBSTATION-DESIGN",
+        "B-WIND-FORECAST"
+      ],
+      "scope_decision_counts": {
+        "outside_current_energy_scope": 3,
+        "include": 4,
+        "insufficient_evidence": 1
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": "assistant_source_review_20261018"
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0110",
+      "category_id": "F0110",
+      "display_name_zh": "概率方法与能源预测（混合主题，待拆分）",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类出现新兴数值信号",
+      "key_numbers": {
+        "recent_papers": 1612,
+        "previous_papers": 470,
+        "share_growth_ratio": 2.7816492165174878,
+        "multiyear_share_ratio": 2.740725300796341,
+        "historical_peak_ratio": 2.415204009809839,
+        "growing_quarters": 4,
+        "core_score": 70.86,
+        "emerging_score": 97.32,
+        "core_numeric_candidate": true,
+        "emerging_numeric_candidate": true,
+        "core_rank": 158,
+        "emerging_rank": 13,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 2504,
+        "share_ratio_lower95": 2.548776350465594,
+        "growth_count_qvalue": 1.328152214052421e-171,
+        "previous_institutions": 573,
+        "recent_institutions": 1534,
+        "patent_records_2026H1": 1165,
+        "policy_records_2026H1": 0
+      },
+      "narrative": "近期论文由前一年的 470 篇变为 1,612 篇；文献份额为前期的 2.78 倍，4 个季度中 4 个份额同比增长。参与机构由 573 家变为 1,534 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "优先核查增量论文的业务任务与代表机构，范围审核后再决定是否重点跟踪。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0110"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0110"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0110"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0110"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0110"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0110",
+          "baseline_rank": 158.0,
+          "rank_p025": 149.0,
+          "rank_median": 156.5,
+          "rank_p975": 162.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0110",
+          "baseline_rank": 13.0,
+          "rank_p025": 13.0,
+          "rank_median": 13.0,
+          "rank_p975": 13.0,
+          "top20_fraction": 1.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0110",
+          "baseline_rank": 26.0,
+          "rank_p025": 20.0,
+          "rank_median": 26.0,
+          "rank_p975": 36.0,
+          "top20_fraction": 0.034
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [
+      {
+        "doc_id": "paper:W4415677717",
+        "category_id": "F0110",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "IN PORTS",
+        "reason": "正文为清水港洪水外力与重现期，无能源设施任务；属于本轮能源范围外的通用防灾研究。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W4415677717",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7106791247",
+        "category_id": "F0110",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "body",
+        "quote": "Egyptian sites",
+        "reason": "研究古埃及工具考古存留与采样偏差，概率方法不构成能源任务。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7106791247",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7106817402",
+        "category_id": "F0110",
+        "decision": "outside_current_energy_scope",
+        "business_topic_ids": [],
+        "quote_field": "body",
+        "quote": "Egyptian sites",
+        "reason": "同题名考古记录，能源范围外；另保留相似版本核查，不仅凭题名删除记录。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7106817402",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7128315464",
+        "category_id": "F0110",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-WIND-FORECAST"
+        ],
+        "quote_field": "body",
+        "quote": "Accurate wind-power forecasting is essential for maintaining grid stability",
+        "reason": "明确风机功率预测与电网运行场景；算法论文不自动支持产品成熟度。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7128315464",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7163397305",
+        "category_id": "F0110",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-SUBSTATION-DESIGN"
+        ],
+        "quote_field": "body",
+        "quote": "Air Insulated Switchgear (AIS) substations",
+        "reason": "研究变电站绝缘间隙和概率设计，能源相关，但不同于功率预测任务。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7163397305",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7164412679",
+        "category_id": "F0110",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-INDUSTRIAL-AIR"
+        ],
+        "quote_field": "body",
+        "quote": "As the compressor is the dominant power consumer",
+        "reason": "明确压缩机为主要耗电设备及空气需求预测，可服务工业用能分析；没有实际节能量证据。",
+        "evidence_limit": "冻结摘要/正文片段；未重新认证出版物全文",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7164412679",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7166658717",
+        "category_id": "F0110",
+        "decision": "insufficient_evidence",
+        "business_topic_ids": [],
+        "quote_field": "title",
+        "quote": "monthly temperature anomalies",
+        "reason": "仅有气温异常预测题名，尚不能确定电力任务。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7166658717",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      },
+      {
+        "doc_id": "paper:W7166710595",
+        "category_id": "F0110",
+        "decision": "include",
+        "business_topic_ids": [
+          "B-EV-FORECAST"
+        ],
+        "quote_field": "title",
+        "quote": "EV charging load forecasting",
+        "reason": "题名明确电动汽车充电负荷预测；仅支持任务归类，工程效果待正文核查。",
+        "evidence_limit": "仅题名",
+        "next_action": "领域审核任务边界；必要时补摘要或原文",
+        "review_id": "SR-W7166710595",
+        "reviewer_id": "assistant_source_review_20261018",
+        "reviewer_type": "assistant",
+        "review_status": "assistant_reviewed_pending_domain_review",
+        "independent_expert_approved": false,
+        "membership_scope": "diagnostic_reviewed_subset",
+        "taxonomy_version": "full_nmf500_20260926",
+        "business_version": "energy_business_p1_20261018"
+      }
+    ],
+    "reviewed_business_counts": [
+      {
+        "business_topic_id": "B-WIND-FORECAST",
+        "display_name_zh": "风电功率概率预测",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7128315464"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 1,
+        "previous_papers": 0,
+        "core_papers": 1,
+        "recent_institutions": 2,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7128315464"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-SUBSTATION-DESIGN",
+        "display_name_zh": "变电站概率设计与绝缘配合",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7163397305"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 1,
+        "previous_papers": 0,
+        "core_papers": 1,
+        "recent_institutions": 1,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7163397305"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-INDUSTRIAL-AIR",
+        "display_name_zh": "工业压缩空气需求预测",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7164412679"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 1,
+        "previous_papers": 0,
+        "core_papers": 1,
+        "recent_institutions": 3,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7164412679"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      },
+      {
+        "business_topic_id": "B-EV-FORECAST",
+        "display_name_zh": "电动汽车充电负荷预测",
+        "membership_scope": "diagnostic_reviewed_subset",
+        "document_ids": [
+          "paper:W7166710595"
+        ],
+        "reviewed_members": 1,
+        "recent_papers": 1,
+        "previous_papers": 0,
+        "core_papers": 1,
+        "recent_institutions": 1,
+        "previous_institutions": 0,
+        "institution_metadata_missing": 0,
+        "institution_names_empty": 0,
+        "sampling_denominator": 24,
+        "included_unique_documents": 11,
+        "share_growth_ratio": null,
+        "emerging_score": null,
+        "core_score": null,
+        "core_rank": null,
+        "emerging_rank": null,
+        "rank_eligible": false,
+        "trend_interpretation": "仅重算已逐篇审阅的定向样本计数；样本不均衡，不能推断全量趋势或排名。",
+        "evidence_refs": [
+          {
+            "artifact": "energy-topic-identification/assets/full_nmf500/p1/scope_reviews.json",
+            "record_key": {
+              "doc_id": "paper:W7166710595"
+            },
+            "fields": []
+          }
+        ],
+        "business_version": "energy_business_p1_20261018",
+        "windows": {
+          "history": [
+            "2021-07-01",
+            "2026-06-30"
+          ],
+          "core": [
+            "2023-07-01",
+            "2026-06-30"
+          ],
+          "recent": [
+            "2025-07-01",
+            "2026-06-30"
+          ],
+          "previous": [
+            "2024-07-01",
+            "2025-06-30"
+          ],
+          "baseline": [
+            "2022-07-01",
+            "2025-06-30"
+          ],
+          "cross_source": [
+            "2026-01-01",
+            "2026-06-30"
+          ]
+        }
+      }
+    ],
+    "case_distribution": {
+      "category_id": "F0110",
+      "case_count": 1,
+      "case_ids": [
+        "C0251-B01"
+      ],
+      "trl_distribution": {
+        "4": 1
+      },
+      "crl_distribution": {
+        "unknown": 1
+      },
+      "paired_case_ids": [],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "候选关联对象的证据分布；样本非行业普查，不能按最大值或均值给主题评级。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [
+      {
+        "case_id": "C0251-B01",
+        "scope_id": "5df23ad181bf96042090",
+        "canonical_name": "充电保形预测与V2G容量边界计算模块组",
+        "category_id": "F0110",
+        "category_name": "Probabilistic logic / Probabilistic forecasting / Electric power system",
+        "object_configuration": "UrbanEV 保形预测与 V2G 可交付容量边界两个软件模块",
+        "application_or_target_function": "分别验证的充电预测和V2G容量边界子模块",
+        "boundary": "两个数据集与模块分别验证，不能串成已运营的 V2G 车队；can be sold 不是销售事件。",
+        "evidence_period": "未明确；仅知不晚于证据公开时间",
+        "source_publication_date": "2026-07-16",
+        "date_note": null,
+        "assessment_cutoff": "2026-09-25",
+        "current_status_verified": false,
+        "object": "充电保形预测与V2G容量边界计算模块组",
+        "assessment_unit_id": "AU-C0251-B01",
+        "technology_id": "TR-C0251-B01",
+        "review_status": "公开证据初评；待专属细则与独立专家确认",
+        "remaining_gaps": [
+          "专属评价细则及关键风险覆盖审定",
+          "所缺轴对应的同对象测试或商业履约证据",
+          "自评和独立专家评价"
+        ],
+        "trl_public_evidence_stage": 4,
+        "crl_public_evidence_stage": null,
+        "paired_axes_usable": false,
+        "formal_trl": null,
+        "formal_crl": null,
+        "current_industry_level": null,
+        "assessment_status": "public_evidence_preassessment",
+        "category_ids": [
+          "F0110"
+        ],
+        "legacy_category_id": "C0251",
+        "mapping_cosine": 0.7147257606,
+        "mapping_needs_review": true,
+        "core_score": 70.86,
+        "emerging_score": 97.32,
+        "core_numeric_candidate": true,
+        "emerging_numeric_candidate": true,
+        "trl_evidence_status": "supported",
+        "trl_has_conflict": false,
+        "trl_stage_name": "实验环境验证",
+        "trl_missing_evidence": "所缺轴对应的同对象测试或商业履约证据",
+        "trl_explanation": "实验环境验证；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "trl_display": "TRL4｜实验环境验证",
+        "crl_evidence_status": "unknown",
+        "crl_has_conflict": false,
+        "crl_stage_name": null,
+        "crl_missing_evidence": "所缺轴对应的同对象测试或商业履约证据",
+        "crl_explanation": "证据不足；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "crl_display": "CRL未知｜证据不足",
+        "maturity_rules_version": "QGDW-evidence-v3.0",
+        "legacy_category_name": "充电站选址与充电调度",
+        "legacy_category_ids": null,
+        "taxonomy_version": "full_nmf500_20260926",
+        "insight_id": "MI-C0251-B01",
+        "business_version": "energy_business_p1_20261018",
+        "joint_interpretation": "技术轴已有公开证据支持，商业轴未知；不能据此认定无商业活动或可以商业推广。",
+        "case_specific_gaps": [
+          "专属评价细则及关键风险覆盖审定",
+          "所缺轴对应的同对象测试或商业履约证据",
+          "自评和独立专家评价"
+        ],
+        "evidence_ids": [
+          "E-C0251-B01"
+        ],
+        "evidence_links": [
+          {
+            "evidence_id": "E-C0251-B01",
+            "source_id": "SRC-cf1fff6ce7acb8a6",
+            "url": "https://doi.org/10.3390/wevj17070367",
+            "quote_sha256": "52892ac2e29fcb669a128819234d083022428d2137298cf22dee67930865c500"
+          }
+        ],
+        "association_review_status": "candidate_mapping_pending_review",
+        "generation_method": "deterministic_gate_template_v1",
+        "model": null,
+        "prompt_version": null,
+        "limitations": [
+          "公开证据初评，未完成独立专家正式评定。",
+          "证据期间与评估截止日分开；不代表今天的产品状态。",
+          "主题关联为相似度候选，对象等级不能转移给关联主题。"
+        ],
+        "trl_next_stage_to_investigate": 5,
+        "trl_next_actions": [
+          "围绕目标工况开展部件集成与模拟环境测试，事先确定性能要求。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "trl_evidence_gap_requirements": [
+          {
+            "gate_id": "C0251-B01:TRL:5:environment",
+            "level": 5,
+            "requirement": "模拟使用环境及其与目标使用条件的关系有依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:TRL:5:qualification",
+            "level": 5,
+            "requirement": "测试数据证实达到已定义的相关要求",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "trl_supported_gate_ids": [
+          "C0251-B01:TRL:4:critical",
+          "C0251-B01:TRL:4:laboratory",
+          "C0251-B01:TRL:4:validation"
+        ],
+        "crl_next_stage_to_investigate": null,
+        "crl_next_actions": [
+          "先核查同对象的客户、试用、合同和履约期间；缺少材料不能判为 CRL1。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "crl_evidence_gap_requirements": [
+          {
+            "gate_id": "C0251-B01:CRL:1:absence",
+            "level": 1,
+            "requirement": "在限定对象、期间和商业活动范围内有直接无商业化证明",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:2:users",
+            "level": 2,
+            "requirement": "具体目标用户及需求",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:2:trial",
+            "level": 2,
+            "requirement": "已开展用户试用/需求或商业模式验证",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:2:value",
+            "level": 2,
+            "requirement": "形成用户价值或商业探索反馈",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:3:parties",
+            "level": 3,
+            "requirement": "可识别供需主体",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:3:fulfilment",
+            "level": 3,
+            "requirement": "已发生销售/供货/许可/结算等履约",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:3:period",
+            "level": 3,
+            "requirement": "履约时间范围和结果明确",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:4:repeat",
+            "level": 4,
+            "requirement": "持续或重复商业交付",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:4:capacity",
+            "level": 4,
+            "requirement": "供应/交付/运维能力",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:4:economics",
+            "level": 4,
+            "requirement": "持续商业经济性有可核实依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:5:market",
+            "level": 5,
+            "requirement": "细分市场、期间及份额分母明确",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:5:dominance",
+            "level": 5,
+            "requirement": "市场成熟及主导性有依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0251-B01:CRL:5:durability",
+            "level": 5,
+            "requirement": "持续经营与竞争能力有依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "crl_supported_gate_ids": []
+      }
+    ],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  },
+  {
+    "category_id": "F0092",
+    "topic_description": {
+      "category_id": "F0092",
+      "algorithm_name": "Regulator / Voltage regulator / Voltage regulation",
+      "display_name_zh": "F0092｜业务名称待审核",
+      "definition": "当前为关键词形成的算法文献集合；尚未完成业务定义与范围审核。",
+      "business_categories": [],
+      "business_categories_basis": "unreviewed",
+      "content_types": [],
+      "energy_relevance": "待核查代表文献及具体能源任务。",
+      "application_scenarios": [],
+      "included_scope": [],
+      "excluded_scope": [],
+      "representative_doc_ids": [],
+      "counterexample_doc_ids": [],
+      "reviewed_document_ids": [],
+      "reviewed_count": 0,
+      "paper_documents": 3021,
+      "review_sampling": "not_sampled",
+      "review_status": "unreviewed",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [],
+      "scope_decision_counts": {},
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": null
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0092",
+      "category_id": "F0092",
+      "display_name_zh": "F0092｜业务名称待审核",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类近期份额下降",
+      "key_numbers": {
+        "recent_papers": 68,
+        "previous_papers": 127,
+        "share_growth_ratio": 0.4360563879565708,
+        "multiyear_share_ratio": 0.5656927156670737,
+        "historical_peak_ratio": 0.4360563879565708,
+        "growing_quarters": 0,
+        "core_score": 13.130000000000004,
+        "emerging_score": 15.39,
+        "core_numeric_candidate": false,
+        "emerging_numeric_candidate": false,
+        "core_rank": 485,
+        "emerging_rank": 421,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 270,
+        "share_ratio_lower95": 0.426167314193956,
+        "growth_count_qvalue": 1.0,
+        "previous_institutions": 195,
+        "recent_institutions": 107,
+        "patent_records_2026H1": 368,
+        "policy_records_2026H1": 11
+      },
+      "narrative": "近期论文由前一年的 127 篇变为 68 篇；文献份额为前期的 0.44 倍，4 个季度中 0 个份额同比增长。参与机构由 195 家变为 107 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "先核查范围混杂、来源覆盖和日期分布，再判断需要调整的跟踪方向。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0092"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0092"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0092"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0092"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0092"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0092",
+          "baseline_rank": 485.0,
+          "rank_p025": 482.0,
+          "rank_median": 485.0,
+          "rank_p975": 485.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0092",
+          "baseline_rank": 421.0,
+          "rank_p025": 419.0,
+          "rank_median": 421.0,
+          "rank_p975": 423.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0092",
+          "baseline_rank": 137.0,
+          "rank_p025": 114.0,
+          "rank_median": 136.0,
+          "rank_p975": 145.0,
+          "top20_fraction": 0.0
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [],
+    "reviewed_business_counts": [],
+    "case_distribution": {
+      "category_id": "F0092",
+      "case_count": 1,
+      "case_ids": [
+        "C0540-N01"
+      ],
+      "trl_distribution": {
+        "6": 1
+      },
+      "crl_distribution": {
+        "2": 1
+      },
+      "paired_case_ids": [
+        "C0540-N01"
+      ],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "候选关联对象的证据分布；样本非行业普查，不能按最大值或均值给主题评级。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [
+      {
+        "case_id": "C0540-N01",
+        "scope_id": "d471e7ed810879dfe310",
+        "canonical_name": "低压配电网在线电压调节",
+        "category_id": "F0092",
+        "category_name": "Regulator / Voltage regulator / Voltage regulation",
+        "object_configuration": "Energex低压网Gridco IPR调压试用系统",
+        "application_or_target_function": "Energex低压网Gridco IPR调压试用系统",
+        "boundary": "限定已安装位置及研究期间；全年适用性试验仍继续",
+        "evidence_period": "不晚于所引文献公开日期 2016-10-01",
+        "source_publication_date": "2016-10-01",
+        "date_note": null,
+        "assessment_cutoff": "2026-09-25",
+        "current_status_verified": false,
+        "object": "低压配电网在线电压调节",
+        "assessment_unit_id": "AU-C0540-N01",
+        "technology_id": "TR-C0540-N01",
+        "review_status": "公开证据初评；待专属细则与独立专家确认",
+        "remaining_gaps": [
+          "专属评价细则及关键风险覆盖审定",
+          "所缺轴对应的同对象测试或商业履约证据",
+          "自评和独立专家评价"
+        ],
+        "trl_public_evidence_stage": 6,
+        "crl_public_evidence_stage": 2,
+        "paired_axes_usable": true,
+        "formal_trl": null,
+        "formal_crl": null,
+        "current_industry_level": null,
+        "assessment_status": "public_evidence_preassessment",
+        "category_ids": [
+          "F0092"
+        ],
+        "legacy_category_id": "C0540",
+        "mapping_cosine": 0.7518113559,
+        "mapping_needs_review": true,
+        "core_score": 13.13,
+        "emerging_score": 15.39,
+        "core_numeric_candidate": false,
+        "emerging_numeric_candidate": false,
+        "trl_evidence_status": "supported",
+        "trl_has_conflict": false,
+        "trl_stage_name": "原型验证",
+        "trl_missing_evidence": "所缺轴对应的同对象测试或商业履约证据",
+        "trl_explanation": "原型验证；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "trl_display": "TRL6｜原型验证",
+        "crl_evidence_status": "supported",
+        "crl_has_conflict": false,
+        "crl_stage_name": "市场探索",
+        "crl_missing_evidence": "所缺轴对应的同对象测试或商业履约证据",
+        "crl_explanation": "市场探索；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "crl_display": "CRL2｜市场探索",
+        "maturity_rules_version": "QGDW-evidence-v3.0",
+        "legacy_category_name": "配电网电压无功优化",
+        "legacy_category_ids": null,
+        "taxonomy_version": "full_nmf500_20260926",
+        "insight_id": "MI-C0540-N01",
+        "business_version": "energy_business_p1_20261018",
+        "joint_interpretation": "两轴分别反映技术验证与商业活动；按下一阶段门槛安排验证和补证，不能合成为主题成熟度。",
+        "case_specific_gaps": [
+          "专属评价细则及关键风险覆盖审定",
+          "所缺轴对应的同对象测试或商业履约证据",
+          "自评和独立专家评价"
+        ],
+        "evidence_ids": [
+          "E-C0540-N01"
+        ],
+        "evidence_links": [
+          {
+            "evidence_id": "E-C0540-N01",
+            "source_id": "SRC-f3913ddb60d94da1",
+            "url": "https://openalex.org/W2747654262",
+            "quote_sha256": "7734d932cccfcd0b58c139d8da19062d7e3737fe95e379af5b144b55ac1cf821"
+          }
+        ],
+        "association_review_status": "candidate_mapping_pending_review",
+        "generation_method": "deterministic_gate_template_v1",
+        "model": null,
+        "prompt_version": null,
+        "limitations": [
+          "公开证据初评，未完成独立专家正式评定。",
+          "证据期间与评估截止日分开；不代表今天的产品状态。",
+          "主题关联为相似度候选，对象等级不能转移给关联主题。"
+        ],
+        "trl_next_stage_to_investigate": 7,
+        "trl_next_actions": [
+          "评估示范或工程测试条件，核对型号、典型环境及验收指标。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "trl_evidence_gap_requirements": [
+          {
+            "gate_id": "C0540-N01:TRL:7:engineering",
+            "level": 7,
+            "requirement": "明确工程型号/工程测试版本",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0540-N01:TRL:7:typical",
+            "level": 7,
+            "requirement": "典型使用环境覆盖最终环境的关键要素",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0540-N01:TRL:7:type_test",
+            "level": 7,
+            "requirement": "设备完成型式试验；软件完成典型数据下工程测试及运行数据对照",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0540-N01:TRL:7:qualification",
+            "level": 7,
+            "requirement": "参数与性能达到专属细则要求",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "trl_supported_gate_ids": [
+          "C0540-N01:TRL:6:prototype",
+          "C0540-N01:TRL:6:integration",
+          "C0540-N01:TRL:6:environment",
+          "C0540-N01:TRL:6:qualification"
+        ],
+        "crl_next_stage_to_investigate": 3,
+        "crl_next_actions": [
+          "核查目标客户、实际合同与交付结算；市场探索尚不足以证明商业履约。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "crl_evidence_gap_requirements": [
+          {
+            "gate_id": "C0540-N01:CRL:3:parties",
+            "level": 3,
+            "requirement": "可识别供需主体",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0540-N01:CRL:3:fulfilment",
+            "level": 3,
+            "requirement": "已发生销售/供货/许可/结算等履约",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "C0540-N01:CRL:3:period",
+            "level": 3,
+            "requirement": "履约时间范围和结果明确",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "crl_supported_gate_ids": [
+          "C0540-N01:CRL:2:users",
+          "C0540-N01:CRL:2:trial",
+          "C0540-N01:CRL:2:value"
+        ]
+      }
+    ],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  },
+  {
+    "category_id": "F0184",
+    "topic_description": {
+      "category_id": "F0184",
+      "algorithm_name": "Offshore wind power / Submarine pipeline / Marine engineering",
+      "display_name_zh": "F0184｜业务名称待审核",
+      "definition": "当前为关键词形成的算法文献集合；尚未完成业务定义与范围审核。",
+      "business_categories": [],
+      "business_categories_basis": "unreviewed",
+      "content_types": [],
+      "energy_relevance": "待核查代表文献及具体能源任务。",
+      "application_scenarios": [],
+      "included_scope": [],
+      "excluded_scope": [],
+      "representative_doc_ids": [],
+      "counterexample_doc_ids": [],
+      "reviewed_document_ids": [],
+      "reviewed_count": 0,
+      "paper_documents": 9032,
+      "review_sampling": "not_sampled",
+      "review_status": "unreviewed",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [],
+      "scope_decision_counts": {},
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": null
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0184",
+      "category_id": "F0184",
+      "display_name_zh": "F0184｜业务名称待审核",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类出现新兴数值信号",
+      "key_numbers": {
+        "recent_papers": 1571,
+        "previous_papers": 1004,
+        "share_growth_ratio": 1.2697748197840122,
+        "multiyear_share_ratio": 1.5376380143762571,
+        "historical_peak_ratio": 1.2697748197840122,
+        "growing_quarters": 4,
+        "core_score": 80.04,
+        "emerging_score": 80.05,
+        "core_numeric_candidate": true,
+        "emerging_numeric_candidate": true,
+        "core_rank": 91,
+        "emerging_rank": 102,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 3271,
+        "share_ratio_lower95": 1.4177276893541964,
+        "growth_count_qvalue": 4.144202130900621e-36,
+        "previous_institutions": 971,
+        "recent_institutions": 1354,
+        "patent_records_2026H1": 405,
+        "policy_records_2026H1": 0
+      },
+      "narrative": "近期论文由前一年的 1,004 篇变为 1,571 篇；文献份额为前期的 1.27 倍，4 个季度中 4 个份额同比增长。参与机构由 971 家变为 1,354 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "优先核查增量论文的业务任务与代表机构，范围审核后再决定是否重点跟踪。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0184"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0184"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0184"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0184"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0184"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0184",
+          "baseline_rank": 91.0,
+          "rank_p025": 85.0,
+          "rank_median": 90.0,
+          "rank_p975": 93.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0184",
+          "baseline_rank": 102.0,
+          "rank_p025": 99.0,
+          "rank_median": 102.0,
+          "rank_p975": 106.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0184",
+          "baseline_rank": 85.0,
+          "rank_p025": 66.0,
+          "rank_median": 85.0,
+          "rank_p975": 101.0,
+          "top20_fraction": 0.0
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [],
+    "reviewed_business_counts": [],
+    "case_distribution": {
+      "category_id": "F0184",
+      "case_count": 1,
+      "case_ids": [
+        "W001"
+      ],
+      "trl_distribution": {
+        "9": 1
+      },
+      "crl_distribution": {
+        "3": 1
+      },
+      "paired_case_ids": [
+        "W001"
+      ],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "候选关联对象的证据分布；样本非行业普查，不能按最大值或均值给主题评级。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [
+      {
+        "case_id": "W001",
+        "scope_id": "010dcd296edc962fd26b",
+        "canonical_name": "WindFloat Atlantic三台WindFloat T浮式平台",
+        "category_id": "F0184",
+        "category_name": "Offshore wind power / Submarine pipeline / Marine engineering",
+        "object_configuration": "3台WindFloat T，各搭载Vestas V164 8.4MW；水深100m，离岸20km",
+        "application_or_target_function": "葡萄牙Viana do Castelo海上风电",
+        "boundary": "评价平台及其风场集成，不将平台等级传给叶片、系泊新材料或整个海上风电方向；25年是设计寿命。",
+        "evidence_period": "2020—2024",
+        "source_publication_date": null,
+        "date_note": "以逐来源日期和事件时间为准",
+        "assessment_cutoff": "2026-09-25",
+        "current_status_verified": false,
+        "object": "WindFloat Atlantic三台WindFloat T浮式平台",
+        "assessment_unit_id": "AU-W001",
+        "technology_id": "TR-W001",
+        "review_status": "公开证据初评；待专属细则与独立专家确认",
+        "remaining_gaps": [
+          "缺项目审定专属细则和独立专家评价",
+          "缺连续净收益及完整市场分母，CRL4/5不判"
+        ],
+        "trl_public_evidence_stage": 9,
+        "crl_public_evidence_stage": 3,
+        "paired_axes_usable": true,
+        "formal_trl": null,
+        "formal_crl": null,
+        "current_industry_level": null,
+        "assessment_status": "public_evidence_preassessment",
+        "category_ids": [
+          "F0184"
+        ],
+        "legacy_category_id": "C0321",
+        "mapping_cosine": 0.7090459939,
+        "mapping_needs_review": true,
+        "core_score": 80.04,
+        "emerging_score": 80.05,
+        "core_numeric_candidate": true,
+        "emerging_numeric_candidate": true,
+        "trl_evidence_status": "supported",
+        "trl_has_conflict": false,
+        "trl_stage_name": "产品应用",
+        "trl_missing_evidence": "",
+        "trl_explanation": "产品应用；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "trl_display": "TRL9｜产品应用",
+        "crl_evidence_status": "supported",
+        "crl_has_conflict": false,
+        "crl_stage_name": "早期市场进入",
+        "crl_missing_evidence": "缺连续净收益及完整市场分母，CRL4/5不判",
+        "crl_explanation": "早期市场进入；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "crl_display": "CRL3｜早期市场进入",
+        "maturity_rules_version": "QGDW-evidence-v3.0",
+        "legacy_category_name": null,
+        "legacy_category_ids": "['C0321', 'C0397', 'C0471', 'C0672']",
+        "taxonomy_version": "full_nmf500_20260926",
+        "insight_id": "MI-W001",
+        "business_version": "energy_business_p1_20261018",
+        "joint_interpretation": "工程与早期商业履约均有证据；能否复制推广仍需重复交付、运维能力与持续经济性核查。",
+        "case_specific_gaps": [
+          "缺项目审定专属细则和独立专家评价",
+          "缺连续净收益及完整市场分母，CRL4/5不判"
+        ],
+        "evidence_ids": [
+          "WE-463124318ea7b90f"
+        ],
+        "evidence_links": [
+          {
+            "evidence_id": "WE-463124318ea7b90f",
+            "source_id": "SRC-78bdfa6337776556",
+            "url": "https://www.principlepower.com/projects/windfloat-atlantic",
+            "quote_sha256": "211493704269e945c926e2cfe3659f4dd4dc15d30828f874334d9c2e77d64a75"
+          }
+        ],
+        "association_review_status": "candidate_mapping_pending_review",
+        "generation_method": "deterministic_gate_template_v1",
+        "model": null,
+        "prompt_version": null,
+        "limitations": [
+          "公开证据初评，未完成独立专家正式评定。",
+          "证据期间与评估截止日分开；不代表今天的产品状态。",
+          "主题关联为相似度候选，对象等级不能转移给关联主题。"
+        ],
+        "trl_next_stage_to_investigate": null,
+        "trl_next_actions": [
+          "针对甲方场景核查适配性、可靠性、运维及成本，不能仅凭已有工程应用直接采购。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "trl_evidence_gap_requirements": [],
+        "trl_supported_gate_ids": [
+          "W001:TRL:9:product",
+          "W001:TRL:9:application",
+          "W001:TRL:9:scale",
+          "W001:TRL:9:typical"
+        ],
+        "crl_next_stage_to_investigate": 4,
+        "crl_next_actions": [
+          "补齐重复交付、供应和运维能力及持续商业经济性证据。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "crl_evidence_gap_requirements": [
+          {
+            "gate_id": "W001:CRL:4:repeat",
+            "level": 4,
+            "requirement": "持续或重复商业交付",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "W001:CRL:4:capacity",
+            "level": 4,
+            "requirement": "供应/交付/运维能力",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "W001:CRL:4:economics",
+            "level": 4,
+            "requirement": "持续商业经济性有可核实依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "crl_supported_gate_ids": [
+          "W001:CRL:3:parties",
+          "W001:CRL:3:fulfilment",
+          "W001:CRL:3:period"
+        ]
+      }
+    ],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  },
+  {
+    "category_id": "F0277",
+    "topic_description": {
+      "category_id": "F0277",
+      "algorithm_name": "Mains electricity / Backup / Switched-mode power supply",
+      "display_name_zh": "F0277｜业务名称待审核",
+      "definition": "当前为关键词形成的算法文献集合；尚未完成业务定义与范围审核。",
+      "business_categories": [],
+      "business_categories_basis": "unreviewed",
+      "content_types": [],
+      "energy_relevance": "待核查代表文献及具体能源任务。",
+      "application_scenarios": [],
+      "included_scope": [],
+      "excluded_scope": [],
+      "representative_doc_ids": [],
+      "counterexample_doc_ids": [],
+      "reviewed_document_ids": [],
+      "reviewed_count": 0,
+      "paper_documents": 2335,
+      "review_sampling": "not_sampled",
+      "review_status": "unreviewed",
+      "scope_approved": false,
+      "rank_eligible": false,
+      "business_topic_ids": [],
+      "scope_decision_counts": {},
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "reviewer_id": null
+    },
+    "trend_insight": {
+      "insight_id": "HI-F0277",
+      "category_id": "F0277",
+      "display_name_zh": "F0277｜业务名称待审核",
+      "population_scope": "original_algorithm_cluster",
+      "judgment": "算法聚类出现新兴数值信号",
+      "key_numbers": {
+        "recent_papers": 308,
+        "previous_papers": 102,
+        "share_growth_ratio": 2.4428318247871483,
+        "multiyear_share_ratio": 2.268389961897694,
+        "historical_peak_ratio": 2.157311911062842,
+        "growing_quarters": 4,
+        "core_score": 13.55,
+        "emerging_score": 95.23,
+        "core_numeric_candidate": false,
+        "emerging_numeric_candidate": true,
+        "core_rank": 484,
+        "emerging_rank": 22,
+        "year0_denominator": 415258,
+        "year1_denominator": 336992,
+        "core_papers": 508,
+        "share_ratio_lower95": 1.9483571845933692,
+        "growth_count_qvalue": 8.487670965346318e-25,
+        "previous_institutions": 141,
+        "recent_institutions": 324,
+        "patent_records_2026H1": 6379,
+        "policy_records_2026H1": 11
+      },
+      "narrative": "近期论文由前一年的 102 篇变为 308 篇；文献份额为前期的 2.44 倍，4 个季度中 4 个份额同比增长。参与机构由 141 家变为 324 家。",
+      "business_implication": "用于安排文献和合作机构的复核优先级；能源业务范围确认后才能形成业务热点结论。",
+      "recommended_actions": [
+        "优先核查增量论文的业务任务与代表机构，范围审核后再决定是否重点跟踪。",
+        "打开主题说明与范围审核记录，核对纳入、排除和待补材料。"
+      ],
+      "evidence_refs": [
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/hotspot_metrics.csv",
+          "record_key": {
+            "category_id": "F0277"
+          },
+          "fields": [
+            "recent_papers",
+            "previous_papers",
+            "share_growth_ratio",
+            "multiyear_share_ratio",
+            "historical_peak_ratio",
+            "growing_quarters",
+            "core_score",
+            "emerging_score",
+            "core_numeric_candidate",
+            "emerging_numeric_candidate",
+            "core_rank",
+            "emerging_rank",
+            "year0_denominator",
+            "year1_denominator",
+            "core_papers",
+            "share_ratio_lower95",
+            "growth_count_qvalue"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/institution_citation_context.csv",
+          "record_key": {
+            "category_id": "F0277"
+          },
+          "fields": [
+            "year0_institutions",
+            "year1_institutions"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/cross_source_signals.csv",
+          "record_key": {
+            "category_id": "F0277"
+          },
+          "fields": [
+            "patent_first_half_2026",
+            "policy_first_half_2026"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/quarter_counts.csv",
+          "record_key": {
+            "category_id": "F0277"
+          },
+          "fields": [
+            "period",
+            "papers"
+          ]
+        },
+        {
+          "artifact": "energy-topic-hotspots/assets/full_nmf500/experiments/rank_intervals.csv",
+          "record_key": {
+            "category_id": "F0277"
+          },
+          "fields": []
+        }
+      ],
+      "weight_sensitivity": [
+        {
+          "family": "core",
+          "category_id": "F0277",
+          "baseline_rank": 484.0,
+          "rank_p025": 483.0,
+          "rank_median": 484.0,
+          "rank_p975": 485.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "emerging",
+          "category_id": "F0277",
+          "baseline_rank": 22.0,
+          "rank_p025": 21.0,
+          "rank_median": 22.0,
+          "rank_p975": 22.0,
+          "top20_fraction": 0.0
+        },
+        {
+          "family": "potential_association",
+          "category_id": "F0277",
+          "baseline_rank": 16.0,
+          "rank_p025": 11.0,
+          "rank_median": 16.0,
+          "rank_p975": 24.524999999999864,
+          "top20_fraction": 0.784
+        }
+      ],
+      "sensitivity_interpretation": "排名分位数来自 0.8–1.2 权重扰动；不是统计置信区间，稳定也不能替代文本范围审核。",
+      "limitations": [
+        "主题全量范围尚未审核；混杂主题的增长或下降不能直接外推到能源业务领域。",
+        "论文数量反映产出，机构数量反映参与机构；没有作者去重人数。",
+        "专利与政策只是语义关联线索，不代表同任务政策支持或商业履约。",
+        "模型使用全部年份训练，趋势为回溯描述，不是时间外预测；没有经验证的未来潜力分。"
+      ],
+      "windows": {
+        "history": [
+          "2021-07-01",
+          "2026-06-30"
+        ],
+        "core": [
+          "2023-07-01",
+          "2026-06-30"
+        ],
+        "recent": [
+          "2025-07-01",
+          "2026-06-30"
+        ],
+        "previous": [
+          "2024-07-01",
+          "2025-06-30"
+        ],
+        "baseline": [
+          "2022-07-01",
+          "2025-06-30"
+        ],
+        "cross_source": [
+          "2026-01-01",
+          "2026-06-30"
+        ]
+      },
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018",
+      "review_status": "numeric_facts_checked_scope_pending",
+      "rank_eligible": false,
+      "generation_method": "deterministic_evidence_template_v1",
+      "model": null,
+      "prompt_version": null,
+      "future_potential_score": null
+    },
+    "scope_reviews": [],
+    "reviewed_business_counts": [],
+    "case_distribution": {
+      "category_id": "F0277",
+      "case_count": 1,
+      "case_ids": [
+        "W014"
+      ],
+      "trl_distribution": {
+        "9": 1
+      },
+      "crl_distribution": {
+        "3": 1
+      },
+      "paired_case_ids": [
+        "W014"
+      ],
+      "theme_trl": null,
+      "theme_crl": null,
+      "mapping_scope": "current_primary_candidate_only",
+      "review_status": "candidate_mapping_pending_review",
+      "interpretation": "候选关联对象的证据分布；样本非行业普查，不能按最大值或均值给主题评级。",
+      "taxonomy_version": "full_nmf500_20260926",
+      "business_version": "energy_business_p1_20261018"
+    },
+    "case_insights": [
+      {
+        "case_id": "W014",
+        "scope_id": "ea56b3aeab196a4f61f2",
+        "canonical_name": "Hornsdale一期100MW储能调频服务系统",
+        "category_id": "F0277",
+        "category_name": "Mains electricity / Backup / Switched-mode power supply",
+        "object_configuration": "Tesla供货，Neoen持有运营，100MW/129MWh；70MW合同系统安全服务",
+        "application_or_target_function": "澳大利亚南澳电网及NEM辅助服务市场",
+        "boundary": "限定一期，不把后续150MW和VMM改造拼入2019配置；公共市场节约不是运营商利润；安全等级无单独认定。",
+        "evidence_period": "2017—2019",
+        "source_publication_date": null,
+        "date_note": "以逐来源日期和事件时间为准",
+        "assessment_cutoff": "2026-09-25",
+        "current_status_verified": false,
+        "object": "Hornsdale一期100MW储能调频服务系统",
+        "assessment_unit_id": "AU-W014",
+        "technology_id": "TR-W014",
+        "review_status": "公开证据初评；待专属细则与独立专家确认",
+        "remaining_gaps": [
+          "没有把Aurecon报告冒充项目独立专家评价或财务审计",
+          "缺对象级连续净收益；不因15%市场容量份额直接给CRL5"
+        ],
+        "trl_public_evidence_stage": 9,
+        "crl_public_evidence_stage": 3,
+        "paired_axes_usable": true,
+        "formal_trl": null,
+        "formal_crl": null,
+        "current_industry_level": null,
+        "assessment_status": "public_evidence_preassessment",
+        "category_ids": [
+          "F0277"
+        ],
+        "legacy_category_id": "C0470",
+        "mapping_cosine": 0.6697940248,
+        "mapping_needs_review": true,
+        "core_score": 13.55,
+        "emerging_score": 95.23,
+        "core_numeric_candidate": false,
+        "emerging_numeric_candidate": true,
+        "trl_evidence_status": "supported",
+        "trl_has_conflict": false,
+        "trl_stage_name": "产品应用",
+        "trl_missing_evidence": "",
+        "trl_explanation": "产品应用；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "trl_display": "TRL9｜产品应用",
+        "crl_evidence_status": "supported",
+        "crl_has_conflict": false,
+        "crl_stage_name": "早期市场进入",
+        "crl_missing_evidence": "缺对象级连续净收益；不因15%市场容量份额直接给CRL5",
+        "crl_explanation": "早期市场进入；仅适用于该对象配置、场景与证据期间，属于公开证据初评。",
+        "crl_display": "CRL3｜早期市场进入",
+        "maturity_rules_version": "QGDW-evidence-v3.0",
+        "legacy_category_name": null,
+        "legacy_category_ids": "['C0470', 'C0748']",
+        "taxonomy_version": "full_nmf500_20260926",
+        "insight_id": "MI-W014",
+        "business_version": "energy_business_p1_20261018",
+        "joint_interpretation": "工程与早期商业履约均有证据；能否复制推广仍需重复交付、运维能力与持续经济性核查。",
+        "case_specific_gaps": [
+          "没有把Aurecon报告冒充项目独立专家评价或财务审计",
+          "缺对象级连续净收益；不因15%市场容量份额直接给CRL5"
+        ],
+        "evidence_ids": [
+          "WE-04ecbc35417e5318"
+        ],
+        "evidence_links": [
+          {
+            "evidence_id": "WE-04ecbc35417e5318",
+            "source_id": "SRC-1975d31a2c99eee0",
+            "url": "https://hornsdalepowerreserve.com.au/wp-content/uploads/2022/12/Aurecon-Hornsdale-Power-Reserve-Impact-Study-year-2.pdf",
+            "quote_sha256": "6bc2f2ff10c056b3dfdbb72605a1523be900ea2ff2f181af5b6d5ec36177a603"
+          }
+        ],
+        "association_review_status": "candidate_mapping_pending_review",
+        "generation_method": "deterministic_gate_template_v1",
+        "model": null,
+        "prompt_version": null,
+        "limitations": [
+          "公开证据初评，未完成独立专家正式评定。",
+          "证据期间与评估截止日分开；不代表今天的产品状态。",
+          "主题关联为相似度候选，对象等级不能转移给关联主题。"
+        ],
+        "trl_next_stage_to_investigate": null,
+        "trl_next_actions": [
+          "针对甲方场景核查适配性、可靠性、运维及成本，不能仅凭已有工程应用直接采购。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "trl_evidence_gap_requirements": [],
+        "trl_supported_gate_ids": [
+          "W014:TRL:9:product",
+          "W014:TRL:9:application",
+          "W014:TRL:9:scale",
+          "W014:TRL:9:typical"
+        ],
+        "crl_next_stage_to_investigate": 4,
+        "crl_next_actions": [
+          "补齐重复交付、供应和运维能力及持续商业经济性证据。",
+          "结合对象配置、用途和边界制定专属细则，并安排独立领域审核。"
+        ],
+        "crl_evidence_gap_requirements": [
+          {
+            "gate_id": "W014:CRL:4:repeat",
+            "level": 4,
+            "requirement": "持续或重复商业交付",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "W014:CRL:4:capacity",
+            "level": 4,
+            "requirement": "供应/交付/运维能力",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          },
+          {
+            "gate_id": "W014:CRL:4:economics",
+            "level": 4,
+            "requirement": "持续商业经济性有可核实依据",
+            "status": "unknown",
+            "meaning": "当前未获证据支持或尚未核实，不等同于实际性能未达标"
+          }
+        ],
+        "crl_supported_gate_ids": [
+          "W014:CRL:3:parties",
+          "W014:CRL:3:fulfilment",
+          "W014:CRL:3:period"
+        ]
+      }
+    ],
+    "scope_warning": "算法趋势与已审样本统计属于不同人群；不得互换。对象关联仍需核查。"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "release_id": "keyword_dictionary_multilabel_20261019",
+  "assets": "final/assets/keyword_dictionary_multilabel",
+  "dictionary": "final/assets/keyword_dictionary_multilabel/keyword_dictionary.csv",
+  "assignments": "final/assets/keyword_dictionary_multilabel/paper_assignments/*.parquet",
+  "relations": "final/assets/keyword_dictionary_multilabel/paper_topic_relations/*.parquet",
+  "topic_id_namespace": "KWD-T0001..KWD-T0071",
+  "conditional_anchor_rule": "per-topic compatible direct anchors; explicit global-support exceptions",
+  "quality_filter": "quality_eligible = true",
+  "paper_status_field": "classification_status",
+  "nmf_threshold": null,
+  "maximum_topics_per_paper": null,
+  "supports_patents": false,
+  "supports_policies": false,
+  "trends_recomputed": false,
+  "maturity_recomputed": false
+}

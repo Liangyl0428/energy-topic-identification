@@ -1,0 +1,2028 @@
+evidence_id,row_id,raw_name,decision,topic_code
+D001,4445963,Climate change mitigation,unreviewed,
+D001,4445963,Electric power system,direct,KWD-T0027
+D001,4445963,Energy storage,direct,KWD-T0023
+D001,4445963,Energy transition,direct,KWD-T0059
+D001,4445963,Photovoltaic system,direct,KWD-T0001
+D001,4445963,Pumped-storage hydroelectricity,direct,KWD-T0008
+D001,4445963,Renewable energy,direct,KWD-T0063
+D001,4445963,Software deployment,unreviewed,
+D001,4445963,Wind power,direct,KWD-T0006
+D001,4445963,Work (physics),general_auxiliary,
+D002,4072648,Band gap,conditional,KWD-T0069
+D002,4072648,Charge (physics),general_auxiliary,
+D002,4072648,Chemical engineering,broad_auxiliary,
+D002,4072648,Electrical engineering,broad_auxiliary,
+D002,4072648,Engineering,broad_auxiliary,
+D002,4072648,Engineering physics,general_auxiliary,
+D002,4072648,Materials science,broad_auxiliary,
+D002,4072648,Nanotechnology,broad_auxiliary,
+D002,4072648,Optoelectronics,broad_auxiliary,
+D002,4072648,Perovskite (structure),conditional,KWD-T0069
+D002,4072648,Photovoltaic system,direct,KWD-T0001
+D002,4072648,Photovoltaics,direct,KWD-T0001
+D002,4072648,Physics,broad_auxiliary,
+D003,1257749,Automotive engineering,conditional,KWD-T0042
+D003,1257749,Computer science,broad_auxiliary,
+D003,1257749,Electrical engineering,broad_auxiliary,
+D003,1257749,Engineering,broad_auxiliary,
+D003,1257749,Installation,unreviewed,
+D003,1257749,Maximum power point tracking,direct,KWD-T0002
+D003,1257749,Mechanical engineering,broad_auxiliary,
+D003,1257749,Photovoltaic system,direct,KWD-T0001
+D003,1257749,Photovoltaic thermal hybrid solar collector,direct,KWD-T0003
+D003,1257749,Rooftop photovoltaic power station,direct,KWD-T0001
+D003,1257749,Solar cable,direct,KWD-T0001
+D003,1257749,Solar energy,direct,KWD-T0004
+D003,1257749,Solar micro-inverter,direct,KWD-T0002
+D003,1257749,Solar mirror,direct,KWD-T0003
+D003,1257749,Solar tracker,direct,KWD-T0002
+D003,1257749,Tracking (education),unreviewed,
+D003,1257749,Tracking system,unreviewed,
+D003,1257749,Voltage,general_auxiliary,
+D004,3895563,CMOS,unreviewed,
+D004,3895563,Chip,unreviewed,
+D004,3895563,Computer science,broad_auxiliary,
+D004,3895563,Electrical engineering,broad_auxiliary,
+D004,3895563,Electricity meter,direct,KWD-T0064
+D004,3895563,Engineering,broad_auxiliary,
+D004,3895563,Maximum power point tracking,direct,KWD-T0002
+D004,3895563,Metre,unreviewed,
+D004,3895563,Physics,broad_auxiliary,
+D004,3895563,Point (geometry),general_auxiliary,
+D004,3895563,Power (physics),general_auxiliary,
+D004,3895563,Power point,general_auxiliary,
+D004,3895563,Tracking (education),unreviewed,
+D004,3895563,Voltage,general_auxiliary,
+D005,3468774,Concentrator,unreviewed,
+D005,3468774,Electrical engineering,broad_auxiliary,
+D005,3468774,Engineering,broad_auxiliary,
+D005,3468774,Environmental engineering,broad_auxiliary,
+D005,3468774,Environmental science,broad_auxiliary,
+D005,3468774,Filter (signal processing),unreviewed,
+D005,3468774,Materials science,broad_auxiliary,
+D005,3468774,Mathematics,broad_auxiliary,
+D005,3468774,Optics,general_auxiliary,
+D005,3468774,Parabolic trough,direct,KWD-T0003
+D005,3468774,Physics,broad_auxiliary,
+D005,3468774,Solar energy,direct,KWD-T0004
+D005,3468774,Trough (economics),unreviewed,
+D005,3468774,Unit (ring theory),unreviewed,
+D005,3468774,Wastewater,conditional,KWD-T0057
+D006,1805553,Automotive engineering,conditional,KWD-T0042
+D006,1805553,Brayton cycle,direct,KWD-T0050
+D006,1805553,Concentrated solar power,direct,KWD-T0003
+D006,1805553,Electrical engineering,broad_auxiliary,
+D006,1805553,Engineering,broad_auxiliary,
+D006,1805553,Environmental science,broad_auxiliary,
+D006,1805553,Nuclear engineering,broad_auxiliary,
+D006,1805553,Physics,broad_auxiliary,
+D006,1805553,Power (physics),general_auxiliary,
+D006,1805553,Solar energy,direct,KWD-T0004
+D006,1805553,Solar power,direct,KWD-T0004
+D006,1805553,Thermodynamics,broad_auxiliary,
+D007,1343610,Automotive engineering,conditional,KWD-T0042
+D007,1343610,Computer science,broad_auxiliary,
+D007,1343610,Electric power,direct,KWD-T0027
+D007,1343610,Electrical engineering,broad_auxiliary,
+D007,1343610,Engineering,broad_auxiliary,
+D007,1343610,Generator (circuit theory),conditional,KWD-T0041
+D007,1343610,Mechanical engineering,broad_auxiliary,
+D007,1343610,Physics,broad_auxiliary,
+D007,1343610,Power (physics),general_auxiliary,
+D007,1343610,Solar energy,direct,KWD-T0004
+D007,1343610,Solar power,direct,KWD-T0004
+D007,1343610,Work (physics),general_auxiliary,
+D008,3688485,Concentrator,unreviewed,
+D008,3688485,Electrical engineering,broad_auxiliary,
+D008,3688485,Engineering,broad_auxiliary,
+D008,3688485,Heat exchanger,conditional,KWD-T0050
+D008,3688485,Materials science,broad_auxiliary,
+D008,3688485,Mechanics,general_auxiliary,
+D008,3688485,Nanofluid,unreviewed,
+D008,3688485,Photovoltaic system,direct,KWD-T0001
+D008,3688485,Physics,broad_auxiliary,
+D008,3688485,Solar energy,direct,KWD-T0004
+D008,3688485,Thermal,general_auxiliary,
+D008,3688485,Thermal energy,general_auxiliary,
+D008,3688485,Thermodynamics,broad_auxiliary,
+D009,4223561,Desalination,unreviewed,
+D009,4223561,Population,unreviewed,
+D009,4223561,Scarcity,unreviewed,
+D009,4223561,Solar desalination,direct,KWD-T0005
+D009,4223561,Solar energy,direct,KWD-T0004
+D009,4223561,Solar still,direct,KWD-T0005
+D009,4223561,Thermal,general_auxiliary,
+D009,4223561,Water scarcity,unreviewed,
+D009,4223561,Yield (engineering),general_auxiliary,
+D010,4276862,Compressed air energy storage,direct,KWD-T0008
+D010,4276862,Desalination,unreviewed,
+D010,4276862,Efficient energy use,direct,KWD-T0062
+D010,4276862,Energy consumption,direct,KWD-T0062
+D010,4276862,Energy recovery,conditional,KWD-T0062
+D010,4276862,Energy storage,direct,KWD-T0023
+D010,4276862,Geothermal desalination,direct,KWD-T0005
+D010,4276862,Renewable energy,direct,KWD-T0063
+D010,4276862,Reverse osmosis,unreviewed,
+D010,4276862,Thermal energy storage,direct,KWD-T0022
+D011,1805623,Automotive engineering,conditional,KWD-T0042
+D011,1805623,Computer science,broad_auxiliary,
+D011,1805623,Electrical engineering,broad_auxiliary,
+D011,1805623,Electricity,direct,KWD-T0027
+D011,1805623,Energy storage,direct,KWD-T0023
+D011,1805623,Engineering,broad_auxiliary,
+D011,1805623,Environmental science,broad_auxiliary,
+D011,1805623,Physics,broad_auxiliary,
+D011,1805623,Reliability engineering,conditional,KWD-T0029
+D011,1805623,Renewable energy,direct,KWD-T0063
+D011,1805623,Solar energy,direct,KWD-T0004
+D011,1805623,Wind power,direct,KWD-T0006
+D012,1743002,Business,broad_auxiliary,
+D012,1743002,Economic growth,unreviewed,
+D012,1743002,Economics,broad_auxiliary,
+D012,1743002,Electricity,direct,KWD-T0027
+D012,1743002,Engineering,broad_auxiliary,
+D012,1743002,Environmental economics,conditional,KWD-T0060
+D012,1743002,Environmental science,broad_auxiliary,
+D012,1743002,Natural resource economics,general_auxiliary,
+D012,1743002,Offshore wind power,direct,KWD-T0006
+D012,1743002,Population,unreviewed,
+D012,1743002,Productivity,unreviewed,
+D012,1743002,Submarine pipeline,unreviewed,
+D012,1743002,Wind power,direct,KWD-T0006
+D013,915887,Algorithm,conditional,KWD-T0066
+D013,915887,Artificial intelligence,conditional,KWD-T0065
+D013,915887,Artificial neural network,conditional,KWD-T0065
+D013,915887,Backpropagation,unreviewed,
+D013,915887,Computer science,broad_auxiliary,
+D013,915887,Expert system,unreviewed,
+D013,915887,Hydroelectricity,direct,KWD-T0007
+D013,915887,Learning vector quantization,unreviewed,
+D013,915887,Machine learning,conditional,KWD-T0065
+D013,915887,Process (computing),general_auxiliary,
+D013,915887,Quantization (signal processing),unreviewed,
+D013,915887,Self-organizing map,unreviewed,
+D013,915887,Set (abstract data type),unreviewed,
+D014,1418801,Computer science,broad_auxiliary,
+D014,1418801,Electrical engineering,broad_auxiliary,
+D014,1418801,Engineering,broad_auxiliary,
+D014,1418801,Hydropower,direct,KWD-T0007
+D014,1418801,Mathematical optimization,conditional,KWD-T0066
+D014,1418801,Mathematics,broad_auxiliary,
+D014,1418801,Operations research,broad_auxiliary,
+D014,1418801,Power (physics),general_auxiliary,
+D014,1418801,Power station,direct,KWD-T0051
+D014,1418801,Reliability engineering,conditional,KWD-T0029
+D014,1418801,Resource (disambiguation),unreviewed,
+D014,1418801,Scale (ratio),general_auxiliary,
+D014,1418801,Transformation (genetics),unreviewed,
+D015,4399204,Compressed air energy storage,direct,KWD-T0008
+D015,4399204,Electric potential energy,general_auxiliary,
+D015,4399204,Energy (signal processing),excluded,
+D015,4399204,Energy storage,direct,KWD-T0023
+D015,4399204,Gas turbines,direct,KWD-T0051
+D015,4399204,Grid energy storage,direct,KWD-T0023
+D015,4399204,Renewable energy,direct,KWD-T0063
+D015,4399204,Thermal energy storage,direct,KWD-T0022
+D015,4399204,Turbine,conditional,KWD-T0051
+D016,4243061,Air permeability specific surface,unreviewed,
+D016,4243061,Coal mining,conditional,KWD-T0052
+D016,4243061,Compressed air,unreviewed,
+D016,4243061,Compressed air energy storage,direct,KWD-T0008
+D016,4243061,Ground pressure,unreviewed,
+D016,4243061,Multiphysics,unreviewed,
+D016,4243061,Permeability (electromagnetism),unreviewed,
+D016,4243061,Spark plug,unreviewed,
+D017,557006,Aerospace engineering,general_auxiliary,
+D017,557006,Engineering,broad_auxiliary,
+D017,557006,Environmental science,broad_auxiliary,
+D017,557006,Geology,broad_auxiliary,
+D017,557006,Geometry,general_auxiliary,
+D017,557006,Horizontal axis,unreviewed,
+D017,557006,Marine engineering,general_auxiliary,
+D017,557006,Mathematics,broad_auxiliary,
+D017,557006,Mechanics,general_auxiliary,
+D017,557006,Meteorology,general_auxiliary,
+D017,557006,Oceanography,broad_auxiliary,
+D017,557006,Physics,broad_auxiliary,
+D017,557006,Reynolds number,unreviewed,
+D017,557006,Structural engineering,general_auxiliary,
+D017,557006,Tidal current,conditional,KWD-T0009
+D017,557006,Tidal power,direct,KWD-T0009
+D017,557006,Turbine,conditional,KWD-T0051
+D017,557006,Turbulence,general_auxiliary,
+D017,557006,Vertical axis,unreviewed,
+D018,1746781,Aerospace engineering,general_auxiliary,
+D018,1746781,Blade element momentum theory,unreviewed,
+D018,1746781,Blade element theory,unreviewed,
+D018,1746781,Engineering,broad_auxiliary,
+D018,1746781,Inflow,unreviewed,
+D018,1746781,Marine engineering,general_auxiliary,
+D018,1746781,Mechanical engineering,broad_auxiliary,
+D018,1746781,Mechanics,general_auxiliary,
+D018,1746781,Nacelle,unreviewed,
+D018,1746781,Physics,broad_auxiliary,
+D018,1746781,Reynolds-averaged Navier–Stokes equations,unreviewed,
+D018,1746781,Rotor (electric),conditional,KWD-T0040
+D018,1746781,Thrust,unreviewed,
+D018,1746781,Tidal power,direct,KWD-T0009
+D018,1746781,Turbine,conditional,KWD-T0051
+D018,1746781,Turbine blade,conditional,KWD-T0051
+D018,1746781,Turbomachinery,conditional,KWD-T0051
+D018,1746781,Turbulence,general_auxiliary,
+D018,1746781,Wake,unreviewed,
+D019,4575351,Casing,unreviewed,
+D019,4575351,Extraction (chemistry),general_auxiliary,
+D019,4575351,Fossil fuel,direct,KWD-T0055
+D019,4575351,Fracture (geology),unreviewed,
+D019,4575351,Geothermal energy,direct,KWD-T0010
+D019,4575351,Geothermal gradient,conditional,KWD-T0010
+D019,4575351,Hydraulic fracturing,unreviewed,
+D019,4575351,Natural gas,direct,KWD-T0053
+D019,4575351,Wellbore,unreviewed,
+D020,1131542,Fault (geology),excluded,
+D020,1131542,Geology,broad_auxiliary,
+D020,1131542,Geophysics,unreviewed,
+D020,1131542,Geothermal energy,direct,KWD-T0010
+D020,1131542,Geothermal gradient,conditional,KWD-T0010
+D020,1131542,Induced seismicity,unreviewed,
+D020,1131542,Seismology,unreviewed,
+D021,4382980,Biochar,conditional,KWD-T0011
+D021,4382980,Bioenergy,direct,KWD-T0011
+D021,4382980,Biofuel,direct,KWD-T0011
+D021,4382980,Biomass (ecology),conditional,KWD-T0011
+D021,4382980,Biomass to liquid,direct,KWD-T0011
+D021,4382980,Coal,direct,KWD-T0052
+D021,4382980,Cofiring,unreviewed,
+D021,4382980,Supply chain,unreviewed,
+D022,1662866,Biodiesel,direct,KWD-T0011
+D022,1662866,Catalysis,general_auxiliary,
+D022,1662866,Chemistry,broad_auxiliary,
+D022,1662866,Diesel engine,conditional,KWD-T0055
+D022,1662866,Diesel exhaust,conditional,KWD-T0057
+D022,1662866,Diesel fuel,direct,KWD-T0055
+D022,1662866,Diesel particulate filter,conditional,KWD-T0057
+D022,1662866,Environmental chemistry,general_auxiliary,
+D022,1662866,Materials science,broad_auxiliary,
+D022,1662866,Metal,general_auxiliary,
+D022,1662866,Metallurgy,general_auxiliary,
+D022,1662866,Mineral,unreviewed,
+D022,1662866,Particulates,unreviewed,
+D022,1662866,Trace metal,unreviewed,
+D023,4171475,Agricultural engineering,unreviewed,
+D023,4171475,Agronomy,general_auxiliary,
+D023,4171475,Anaerobic digestion,conditional,KWD-T0012
+D023,4171475,Biofuel,direct,KWD-T0011
+D023,4171475,Biogas,direct,KWD-T0012
+D023,4171475,Biogas production,direct,KWD-T0012
+D023,4171475,Biology,broad_auxiliary,
+D023,4171475,Biomass (ecology),conditional,KWD-T0011
+D023,4171475,Cultivar,unreviewed,
+D023,4171475,Ecology,broad_auxiliary,
+D023,4171475,Economics,broad_auxiliary,
+D023,4171475,Engineering,broad_auxiliary,
+D023,4171475,Environmental science,broad_auxiliary,
+D023,4171475,Key (lock),general_auxiliary,
+D023,4171475,Materials science,broad_auxiliary,
+D023,4171475,Methane,general_auxiliary,
+D023,4171475,Production (economics),general_auxiliary,
+D023,4171475,Sorghum,unreviewed,
+D023,4171475,Waste management,general_auxiliary,
+D023,4171475,Yield (engineering),general_auxiliary,
+D024,68976,Biogas,direct,KWD-T0012
+D024,68976,Business,broad_auxiliary,
+D024,68976,Effluent,unreviewed,
+D024,68976,Engineering,broad_auxiliary,
+D024,68976,Environmental engineering,broad_auxiliary,
+D024,68976,Environmental science,broad_auxiliary,
+D024,68976,Medicine,broad_auxiliary,
+D024,68976,Pulp (tooth),unreviewed,
+D024,68976,Pulp and paper industry,general_auxiliary,
+D024,68976,Waste management,general_auxiliary,
+D025,411151,Computer science,broad_auxiliary,
+D025,411151,Conceptual design,unreviewed,
+D025,411151,Electrical engineering,broad_auxiliary,
+D025,411151,Electromagnetic shielding,unreviewed,
+D025,411151,Engineering,broad_auxiliary,
+D025,411151,Fusion power,direct,KWD-T0015
+D025,411151,Neutron,unreviewed,
+D025,411151,Neutron transport,unreviewed,
+D025,411151,Nuclear engineering,broad_auxiliary,
+D025,411151,Nuclear fusion,direct,KWD-T0015
+D025,411151,Nuclear physics,broad_auxiliary,
+D025,411151,Nuclear power,direct,KWD-T0013
+D025,411151,Nuclear power plant,direct,KWD-T0013
+D025,411151,Physics,broad_auxiliary,
+D025,411151,Plasma,conditional,KWD-T0015
+D025,411151,Systems engineering,general_auxiliary,
+D025,411151,Tokamak,direct,KWD-T0015
+D026,3071027,Computer science,broad_auxiliary,
+D026,3071027,Control (management),general_auxiliary,
+D026,3071027,Coolant,unreviewed,
+D026,3071027,Engineering,broad_auxiliary,
+D026,3071027,Environmental science,broad_auxiliary,
+D026,3071027,Mechanical engineering,broad_auxiliary,
+D026,3071027,Nuclear engineering,broad_auxiliary,
+D026,3071027,Nuclear physics,broad_auxiliary,
+D026,3071027,Nuclear reactor,direct,KWD-T0013
+D026,3071027,Physics,broad_auxiliary,
+D026,3071027,Work (physics),general_auxiliary,
+D027,3178711,Computer science,broad_auxiliary,
+D027,3178711,Coolant,unreviewed,
+D027,3178711,Corrosion,conditional,KWD-T0069
+D027,3178711,Engineering,broad_auxiliary,
+D027,3178711,Materials science,broad_auxiliary,
+D027,3178711,Mechanical engineering,broad_auxiliary,
+D027,3178711,Metallurgy,general_auxiliary,
+D027,3178711,Nuclear engineering,broad_auxiliary,
+D027,3178711,Nuclear fuel,direct,KWD-T0014
+D027,3178711,Scope (computer science),unreviewed,
+D027,3178711,Work (physics),general_auxiliary,
+D027,3178711,Zirconium,unreviewed,
+D027,3178711,Zirconium alloy,unreviewed,
+D028,2833687,Business,broad_auxiliary,
+D028,2833687,Economics,broad_auxiliary,
+D028,2833687,Engineering,broad_auxiliary,
+D028,2833687,Environmental economics,conditional,KWD-T0060
+D028,2833687,Environmental planning,unreviewed,
+D028,2833687,Geography,broad_auxiliary,
+D028,2833687,Nuclear decommissioning,direct,KWD-T0014
+D028,2833687,Photovoltaic system,direct,KWD-T0001
+D028,2833687,Political science,broad_auxiliary,
+D028,2833687,Population,unreviewed,
+D028,2833687,Renewable energy,direct,KWD-T0063
+D028,2833687,Socioeconomic status,unreviewed,
+D028,2833687,Sociology,broad_auxiliary,
+D028,2833687,Welfare economics,unreviewed,
+D029,771754,Asymmetry,unreviewed,
+D029,771754,Atomic physics,general_auxiliary,
+D029,771754,Flux (metallurgy),unreviewed,
+D029,771754,Impurity,unreviewed,
+D029,771754,Ion,general_auxiliary,
+D029,771754,Materials science,broad_auxiliary,
+D029,771754,Nuclear physics,broad_auxiliary,
+D029,771754,Physics,broad_auxiliary,
+D029,771754,Plasma,conditional,KWD-T0015
+D029,771754,Tokamak,direct,KWD-T0015
+D030,2470581,Artificial intelligence,conditional,KWD-T0065
+D030,2470581,Biasing,unreviewed,
+D030,2470581,Characterization (materials science),general_auxiliary,
+D030,2470581,Computer science,broad_auxiliary,
+D030,2470581,Electrical engineering,broad_auxiliary,
+D030,2470581,Engineering,broad_auxiliary,
+D030,2470581,Enhanced Data Rates for GSM Evolution,unreviewed,
+D030,2470581,Nuclear physics,broad_auxiliary,
+D030,2470581,Optics,general_auxiliary,
+D030,2470581,Physics,broad_auxiliary,
+D030,2470581,Plasma,conditional,KWD-T0015
+D030,2470581,Stellarator,direct,KWD-T0015
+D030,2470581,Toroid,unreviewed,
+D030,2470581,Voltage,general_auxiliary,
+D031,4079072,Annealing (glass),general_auxiliary,
+D031,4079072,Chemical engineering,broad_auxiliary,
+D031,4079072,Chemistry,broad_auxiliary,
+D031,4079072,Hematite,unreviewed,
+D031,4079072,Materials science,broad_auxiliary,
+D031,4079072,Metallurgy,general_auxiliary,
+D031,4079072,Nanorod,conditional,KWD-T0069
+D031,4079072,Nanotechnology,broad_auxiliary,
+D031,4079072,Optoelectronics,broad_auxiliary,
+D031,4079072,Overlayer,unreviewed,
+D031,4079072,Oxide,general_auxiliary,
+D031,4079072,Photocatalysis,conditional,KWD-T0070
+D031,4079072,Photocurrent,conditional,KWD-T0070
+D031,4079072,Water splitting,direct,KWD-T0016
+D031,4079072,Zirconium,unreviewed,
+D032,3718977,Carbon nanotube,conditional,KWD-T0069
+D032,3718977,Catalysis,general_auxiliary,
+D032,3718977,Chemical engineering,broad_auxiliary,
+D032,3718977,Chemistry,broad_auxiliary,
+D032,3718977,Fuel cells,direct,KWD-T0018
+D032,3718977,High-resolution transmission electron microscopy,general_auxiliary,
+D032,3718977,Hydrogen,general_auxiliary,
+D032,3718977,Hydrogen fuel,direct,KWD-T0017
+D032,3718977,Hydrogen production,direct,KWD-T0016
+D032,3718977,Materials science,broad_auxiliary,
+D032,3718977,Nanocomposite,conditional,KWD-T0069
+D032,3718977,Nanotechnology,broad_auxiliary,
+D032,3718977,Optoelectronics,broad_auxiliary,
+D032,3718977,Organic chemistry,broad_auxiliary,
+D032,3718977,Photocatalysis,conditional,KWD-T0070
+D032,3718977,Photocurrent,conditional,KWD-T0070
+D032,3718977,Transmission electron microscopy,general_auxiliary,
+D032,3718977,X-ray photoelectron spectroscopy,general_auxiliary,
+D033,630584,Catalysis,general_auxiliary,
+D033,630584,Chemistry,broad_auxiliary,
+D033,630584,Crystal structure,general_auxiliary,
+D033,630584,Crystallography,general_auxiliary,
+D033,630584,Dehydrogenation,conditional,KWD-T0017
+D033,630584,Hydride,conditional,KWD-T0017
+D033,630584,Hydrogen,general_auxiliary,
+D033,630584,Hydrogen storage,direct,KWD-T0017
+D033,630584,Inorganic chemistry,broad_auxiliary,
+D033,630584,Materials science,broad_auxiliary,
+D033,630584,Organic chemistry,broad_auxiliary,
+D033,630584,Orthorhombic crystal system,unreviewed,
+D033,630584,Phase (matter),general_auxiliary,
+D033,630584,Phase transition,unreviewed,
+D033,630584,Physical chemistry,broad_auxiliary,
+D033,630584,Solid solution,unreviewed,
+D033,630584,Solubility,unreviewed,
+D033,630584,Tetragonal crystal system,unreviewed,
+D033,630584,Thermodynamics,broad_auxiliary,
+D034,3977436,Alloy,conditional,KWD-T0069
+D034,3977436,Bimetallic strip,unreviewed,
+D034,3977436,Chemistry,broad_auxiliary,
+D034,3977436,Cobalt,general_auxiliary,
+D034,3977436,Doping,general_auxiliary,
+D034,3977436,Electrochemistry,conditional,KWD-T0068
+D034,3977436,Electrode,conditional,KWD-T0068
+D034,3977436,Hydrogen,general_auxiliary,
+D034,3977436,Hydrogen storage,direct,KWD-T0017
+D034,3977436,Inorganic chemistry,broad_auxiliary,
+D034,3977436,Materials science,broad_auxiliary,
+D034,3977436,Metal,general_auxiliary,
+D034,3977436,Metal-organic framework,conditional,KWD-T0069
+D034,3977436,Metallurgy,general_auxiliary,
+D034,3977436,Nickel,general_auxiliary,
+D034,3977436,Organic chemistry,broad_auxiliary,
+D034,3977436,Zinc,general_auxiliary,
+D035,252504,Aeronautics,unreviewed,
+D035,252504,Automotive engineering,conditional,KWD-T0042
+D035,252504,Chemical engineering,broad_auxiliary,
+D035,252504,Chemistry,broad_auxiliary,
+D035,252504,Computer science,broad_auxiliary,
+D035,252504,Computer security,conditional,KWD-T0067
+D035,252504,Engineering,broad_auxiliary,
+D035,252504,Environmental science,broad_auxiliary,
+D035,252504,Fuel cells,direct,KWD-T0018
+D035,252504,Gasoline,direct,KWD-T0055
+D035,252504,Hydrogen,general_auxiliary,
+D035,252504,Hydrogen fuel,direct,KWD-T0017
+D035,252504,Hydrogen vehicle,direct,KWD-T0017
+D035,252504,SAFER,unreviewed,
+D035,252504,Waste management,general_auxiliary,
+D036,609918,Adsorption,general_auxiliary,
+D036,609918,Carbon fibers,conditional,KWD-T0069
+D036,609918,Catalysis,general_auxiliary,
+D036,609918,Chemical engineering,broad_auxiliary,
+D036,609918,Chemistry,broad_auxiliary,
+D036,609918,Composite material,conditional,KWD-T0069
+D036,609918,Desorption,general_auxiliary,
+D036,609918,Electrochemistry,conditional,KWD-T0068
+D036,609918,Electrode,conditional,KWD-T0068
+D036,609918,Flow (mathematics),general_auxiliary,
+D036,609918,Fuel cells,direct,KWD-T0018
+D036,609918,Hydrogen,general_auxiliary,
+D036,609918,Materials science,broad_auxiliary,
+D036,609918,Methanol,general_auxiliary,
+D036,609918,Nano-,unreviewed,
+D036,609918,Organic chemistry,broad_auxiliary,
+D036,609918,Physical chemistry,broad_auxiliary,
+D036,609918,Platinum,unreviewed,
+D037,2117992,Anode,conditional,KWD-T0068
+D037,2117992,Battery (electricity),direct,KWD-T0019
+D037,2117992,Cathode,conditional,KWD-T0068
+D037,2117992,Chemical engineering,broad_auxiliary,
+D037,2117992,Chemistry,broad_auxiliary,
+D037,2117992,Chloride,unreviewed,
+D037,2117992,Decomposition,general_auxiliary,
+D037,2117992,Dendrite (mathematics),unreviewed,
+D037,2117992,Electrochemistry,conditional,KWD-T0068
+D037,2117992,Electrode,conditional,KWD-T0068
+D037,2117992,Electrolyte,conditional,KWD-T0068
+D037,2117992,Energy storage,direct,KWD-T0023
+D037,2117992,Inorganic chemistry,broad_auxiliary,
+D037,2117992,Layer (electronics),general_auxiliary,
+D037,2117992,Lithium (medication),excluded,
+D037,2117992,Lithium–sulfur battery,direct,KWD-T0019
+D037,2117992,Materials science,broad_auxiliary,
+D037,2117992,Metallurgy,general_auxiliary,
+D037,2117992,Nanotechnology,broad_auxiliary,
+D037,2117992,Organic chemistry,broad_auxiliary,
+D037,2117992,Physical chemistry,broad_auxiliary,
+D037,2117992,Sulfur,general_auxiliary,
+D037,2117992,Thionyl chloride,unreviewed,
+D038,4600758,Backup,unreviewed,
+D038,4600758,Backup software,unreviewed,
+D038,4600758,Battery (electricity),direct,KWD-T0019
+D038,4600758,Data loss,unreviewed,
+D038,4600758,Grid,conditional,KWD-T0026
+D038,4600758,Margin (machine learning),unreviewed,
+D038,4600758,Pooling,unreviewed,
+D038,4600758,Product (mathematics),general_auxiliary,
+D039,1724927,Automotive engineering,conditional,KWD-T0042
+D039,1724927,Battery (electricity),direct,KWD-T0019
+D039,1724927,Computer science,broad_auxiliary,
+D039,1724927,Electrical engineering,broad_auxiliary,
+D039,1724927,Energy storage,direct,KWD-T0023
+D039,1724927,Engineering,broad_auxiliary,
+D039,1724927,Grid,conditional,KWD-T0026
+D039,1724927,Grid connection,direct,KWD-T0026
+D039,1724927,Microgrid,direct,KWD-T0024
+D039,1724927,Photovoltaic system,direct,KWD-T0001
+D039,1724927,Power (physics),general_auxiliary,
+D039,1724927,Reliability engineering,conditional,KWD-T0029
+D039,1724927,Renewable energy,direct,KWD-T0063
+D039,1724927,Smart grid,direct,KWD-T0025
+D039,1724927,State of charge,direct,KWD-T0020
+D040,3585764,Automotive engineering,conditional,KWD-T0042
+D040,3585764,Battery (electricity),direct,KWD-T0019
+D040,3585764,Battery pack,direct,KWD-T0019
+D040,3585764,Computer science,broad_auxiliary,
+D040,3585764,Electrical engineering,broad_auxiliary,
+D040,3585764,Engineering,broad_auxiliary,
+D040,3585764,Equalization (audio),unreviewed,
+D040,3585764,Physics,broad_auxiliary,
+D040,3585764,Power (physics),general_auxiliary,
+D040,3585764,Trickle charging,direct,KWD-T0020
+D041,2986422,Catalysis,general_auxiliary,
+D041,2986422,Chemical engineering,broad_auxiliary,
+D041,2986422,Chemistry,broad_auxiliary,
+D041,2986422,Electrochemistry,conditional,KWD-T0068
+D041,2986422,Electrode,conditional,KWD-T0068
+D041,2986422,Electrolyte,conditional,KWD-T0068
+D041,2986422,Hydrogen production,direct,KWD-T0016
+D041,2986422,Materials science,broad_auxiliary,
+D041,2986422,Nanotechnology,broad_auxiliary,
+D041,2986422,Nickel,general_auxiliary,
+D041,2986422,Physical chemistry,broad_auxiliary,
+D041,2986422,Reversible hydrogen electrode,conditional,KWD-T0068
+D041,2986422,Supercapacitor,direct,KWD-T0021
+D041,2986422,Tafel equation,conditional,KWD-T0068
+D041,2986422,Transition metal,general_auxiliary,
+D041,2986422,Water splitting,direct,KWD-T0016
+D041,2986422,Working electrode,unreviewed,
+D042,1682947,Bacterial cellulose,unreviewed,
+D042,1682947,Capacitance,general_auxiliary,
+D042,1682947,Carbon fibers,conditional,KWD-T0069
+D042,1682947,Carbon nanofiber,conditional,KWD-T0069
+D042,1682947,Carbon nanotube,conditional,KWD-T0069
+D042,1682947,Cellulose,unreviewed,
+D042,1682947,Chemical engineering,broad_auxiliary,
+D042,1682947,Composite material,conditional,KWD-T0069
+D042,1682947,Composite number,general_auxiliary,
+D042,1682947,Electrochemistry,conditional,KWD-T0068
+D042,1682947,Electrode,conditional,KWD-T0068
+D042,1682947,Electrolyte,conditional,KWD-T0068
+D042,1682947,Graphene,conditional,KWD-T0069
+D042,1682947,Materials science,broad_auxiliary,
+D042,1682947,Nanotechnology,broad_auxiliary,
+D042,1682947,Power density,general_auxiliary,
+D042,1682947,Supercapacitor,direct,KWD-T0021
+D043,4715246,Corrosion,conditional,KWD-T0069
+D043,4715246,Energy storage,direct,KWD-T0023
+D043,4715246,Heat exchanger,conditional,KWD-T0050
+D043,4715246,Heat transfer,conditional,KWD-T0050
+D043,4715246,Latent heat,conditional,KWD-T0022
+D043,4715246,Phase-change material,conditional,KWD-T0022
+D043,4715246,Thermal,general_auxiliary,
+D043,4715246,Thermal conductivity,general_auxiliary,
+D043,4715246,Thermal energy,general_auxiliary,
+D043,4715246,Thermal energy storage,direct,KWD-T0022
+D044,4210235,Concentric,unreviewed,
+D044,4210235,Fin,unreviewed,
+D044,4210235,Heat transfer,conditional,KWD-T0050
+D044,4210235,Heat transfer enhancement,conditional,KWD-T0050
+D044,4210235,Latent heat,conditional,KWD-T0022
+D044,4210235,Phase-change material,conditional,KWD-T0022
+D044,4210235,Thermal energy storage,direct,KWD-T0022
+D044,4210235,Topology (electrical circuits),conditional,KWD-T0037
+D044,4210235,Topology optimization,unreviewed,
+D045,4403520,Electrode,conditional,KWD-T0068
+D045,4403520,Energy storage,direct,KWD-T0023
+D045,4403520,Faraday efficiency,conditional,KWD-T0068
+D045,4403520,Oxide,general_auxiliary,
+D045,4403520,Power density,general_auxiliary,
+D045,4403520,Renewable energy,direct,KWD-T0063
+D045,4403520,Specific energy,general_auxiliary,
+D045,4403520,Supercapacitor,direct,KWD-T0021
+D046,3470884,Automotive engineering,conditional,KWD-T0042
+D046,3470884,Electrical engineering,broad_auxiliary,
+D046,3470884,Electricity,direct,KWD-T0027
+D046,3470884,Electrification,direct,KWD-T0061
+D046,3470884,Energy storage,direct,KWD-T0023
+D046,3470884,Engineering,broad_auxiliary,
+D046,3470884,Environmental economics,conditional,KWD-T0060
+D046,3470884,Environmental science,broad_auxiliary,
+D046,3470884,Greenhouse gas,conditional,KWD-T0058
+D046,3470884,Power (physics),general_auxiliary,
+D046,3470884,Renewable energy,direct,KWD-T0063
+D046,3470884,Wind power,direct,KWD-T0006
+D047,2316444,Computer science,broad_auxiliary,
+D047,2316444,Electrical engineering,broad_auxiliary,
+D047,2316444,Engineering,broad_auxiliary,
+D047,2316444,Fault (geology),excluded,
+D047,2316444,Ground,unreviewed,
+D047,2316444,Grounded theory,unreviewed,
+D047,2316444,Microgrid,direct,KWD-T0024
+D047,2316444,Thyristor,direct,KWD-T0039
+D047,2316444,Transient (computer programming),general_auxiliary,
+D047,2316444,Voltage,general_auxiliary,
+D048,1605333,Business,broad_auxiliary,
+D048,1605333,Cost of electricity by source,direct,KWD-T0060
+D048,1605333,Distributed generation,direct,KWD-T0024
+D048,1605333,Economics,broad_auxiliary,
+D048,1605333,Electrical engineering,broad_auxiliary,
+D048,1605333,Electricity generation,direct,KWD-T0061
+D048,1605333,Engineering,broad_auxiliary,
+D048,1605333,Environmental economics,conditional,KWD-T0060
+D048,1605333,Environmental science,broad_auxiliary,
+D048,1605333,Mechanical engineering,broad_auxiliary,
+D048,1605333,Photovoltaic system,direct,KWD-T0001
+D048,1605333,Power (physics),general_auxiliary,
+D048,1605333,Renewable energy,direct,KWD-T0063
+D048,1605333,Turbine,conditional,KWD-T0051
+D048,1605333,Wind power,direct,KWD-T0006
+D049,2082502,Changeover,unreviewed,
+D049,2082502,Computer network,conditional,KWD-T0067
+D049,2082502,Computer science,broad_auxiliary,
+D049,2082502,Computer security,conditional,KWD-T0067
+D049,2082502,Distributed computing,conditional,KWD-T0067
+D049,2082502,Electric power system,direct,KWD-T0027
+D049,2082502,Electric power transmission,direct,KWD-T0026
+D049,2082502,Electrical engineering,broad_auxiliary,
+D049,2082502,Engineering,broad_auxiliary,
+D049,2082502,Key (lock),general_auxiliary,
+D049,2082502,Mathematics,broad_auxiliary,
+D049,2082502,Observability,unreviewed,
+D049,2082502,Power (physics),general_auxiliary,
+D049,2082502,Real-time computing,general_auxiliary,
+D049,2082502,Reduction (mathematics),general_auxiliary,
+D049,2082502,Reliability engineering,conditional,KWD-T0029
+D049,2082502,Smart grid,direct,KWD-T0025
+D049,2082502,Telecommunications,conditional,KWD-T0067
+D049,2082502,Transmission (telecommunications),general_auxiliary,
+D049,2082502,Units of measurement,unreviewed,
+D049,2082502,Variety (cybernetics),unreviewed,
+D050,2852386,Business,broad_auxiliary,
+D050,2852386,Computer science,broad_auxiliary,
+D050,2852386,Demand response,direct,KWD-T0029
+D050,2852386,Economics,broad_auxiliary,
+D050,2852386,Electric vehicle,direct,KWD-T0042
+D050,2852386,Electrical engineering,broad_auxiliary,
+D050,2852386,Electricity,direct,KWD-T0027
+D050,2852386,Engineering,broad_auxiliary,
+D050,2852386,Environmental economics,conditional,KWD-T0060
+D050,2852386,Finance,conditional,KWD-T0060
+D050,2852386,Flexibility (engineering),general_auxiliary,
+D050,2852386,Grid,conditional,KWD-T0026
+D050,2852386,Power (physics),general_auxiliary,
+D050,2852386,Revenue,unreviewed,
+D050,2852386,Smart grid,direct,KWD-T0025
+D050,2852386,Tariff,unreviewed,
+D051,1279354,Bidding,conditional,KWD-T0060
+D051,1279354,Computer science,broad_auxiliary,
+D051,1279354,Database,unreviewed,
+D051,1279354,Database transaction,unreviewed,
+D051,1279354,Economics,broad_auxiliary,
+D051,1279354,Electrical engineering,broad_auxiliary,
+D051,1279354,Electricity,direct,KWD-T0027
+D051,1279354,Electricity generation,direct,KWD-T0061
+D051,1279354,Energy (signal processing),excluded,
+D051,1279354,Engineering,broad_auxiliary,
+D051,1279354,Function (biology),general_auxiliary,
+D051,1279354,Grid,conditional,KWD-T0026
+D051,1279354,Mathematical optimization,conditional,KWD-T0066
+D051,1279354,Mathematics,broad_auxiliary,
+D051,1279354,Mechanism (biology),general_auxiliary,
+D051,1279354,Microeconomics,general_auxiliary,
+D051,1279354,Mode (computer interface),general_auxiliary,
+D051,1279354,Operations management,general_auxiliary,
+D051,1279354,Operations research,broad_auxiliary,
+D051,1279354,Power (physics),general_auxiliary,
+D051,1279354,Purchasing,unreviewed,
+D051,1279354,Transaction cost,unreviewed,
+D052,984401,Architecture,broad_auxiliary,
+D052,984401,Computer science,broad_auxiliary,
+D052,984401,Electric power,direct,KWD-T0027
+D052,984401,Electric power system,direct,KWD-T0027
+D052,984401,Electrical engineering,broad_auxiliary,
+D052,984401,Energy storage,direct,KWD-T0023
+D052,984401,Engineering,broad_auxiliary,
+D052,984401,Grid,conditional,KWD-T0026
+D052,984401,Interconnection,unreviewed,
+D052,984401,Power (physics),general_auxiliary,
+D052,984401,Telecommunications,conditional,KWD-T0067
+D052,984401,Transient (computer programming),general_auxiliary,
+D053,1801601,AC power,direct,KWD-T0030
+D053,1801601,Automotive engineering,conditional,KWD-T0042
+D053,1801601,Computer science,broad_auxiliary,
+D053,1801601,Economic dispatch,direct,KWD-T0028
+D053,1801601,Electric power system,direct,KWD-T0027
+D053,1801601,Electric power transmission,direct,KWD-T0026
+D053,1801601,Electrical engineering,broad_auxiliary,
+D053,1801601,Electricity generation,direct,KWD-T0061
+D053,1801601,Engineering,broad_auxiliary,
+D053,1801601,Generator (circuit theory),conditional,KWD-T0041
+D053,1801601,Mathematical optimization,conditional,KWD-T0066
+D053,1801601,Mathematics,broad_auxiliary,
+D053,1801601,Metaheuristic,unreviewed,
+D053,1801601,Minification,unreviewed,
+D053,1801601,Particle swarm optimization,conditional,KWD-T0066
+D053,1801601,Power (physics),general_auxiliary,
+D053,1801601,Thermal power station,direct,KWD-T0051
+D053,1801601,Voltage,general_auxiliary,
+D054,4470842,Compensation (psychology),unreviewed,
+D054,4470842,Electric power transmission,direct,KWD-T0026
+D054,4470842,Line (geometry),general_auxiliary,
+D054,4470842,Power (physics),general_auxiliary,
+D054,4470842,Power flow,direct,KWD-T0027
+D054,4470842,Reliability (semiconductor),general_auxiliary,
+D054,4470842,Transmission line,conditional,KWD-T0035
+D054,4470842,Voltage,general_auxiliary,
+D054,4470842,Voltage drop,direct,KWD-T0030
+D055,1289134,Automatic frequency control,conditional,KWD-T0028
+D055,1289134,Cascade,unreviewed,
+D055,1289134,Computer science,broad_auxiliary,
+D055,1289134,Constant (computer programming),unreviewed,
+D055,1289134,Control (management),general_auxiliary,
+D055,1289134,Control theory (sociology),general_auxiliary,
+D055,1289134,Electric power system,direct,KWD-T0027
+D055,1289134,Electrical engineering,broad_auxiliary,
+D055,1289134,Engineering,broad_auxiliary,
+D055,1289134,Grid connection,direct,KWD-T0026
+D055,1289134,Idle,unreviewed,
+D055,1289134,Mathematics,broad_auxiliary,
+D055,1289134,Physics,broad_auxiliary,
+D055,1289134,Power (physics),general_auxiliary,
+D055,1289134,Pulse-width modulation,conditional,KWD-T0038
+D055,1289134,Variable (mathematics),unreviewed,
+D055,1289134,Voltage,general_auxiliary,
+D055,1289134,Wind power,direct,KWD-T0006
+D056,3585992,AC power,direct,KWD-T0030
+D056,3585992,Automatic frequency control,conditional,KWD-T0028
+D056,3585992,Automotive engineering,conditional,KWD-T0042
+D056,3585992,Computer science,broad_auxiliary,
+D056,3585992,Control (management),general_auxiliary,
+D056,3585992,Control theory (sociology),general_auxiliary,
+D056,3585992,Electric power system,direct,KWD-T0027
+D056,3585992,Electrical engineering,broad_auxiliary,
+D056,3585992,Energy storage,direct,KWD-T0023
+D056,3585992,Engineering,broad_auxiliary,
+D056,3585992,Fault (geology),excluded,
+D056,3585992,Frequency grid,general_auxiliary,
+D056,3585992,Power (physics),general_auxiliary,
+D056,3585992,Turbine,conditional,KWD-T0051
+D056,3585992,Voltage,general_auxiliary,
+D056,3585992,Voltage optimisation,direct,KWD-T0030
+D056,3585992,Voltage regulation,direct,KWD-T0030
+D056,3585992,Wind power,direct,KWD-T0006
+D057,4226169,Demand response,direct,KWD-T0029
+D057,4226169,Efficient energy use,direct,KWD-T0062
+D057,4226169,Grid,conditional,KWD-T0026
+D057,4226169,Load management,conditional,KWD-T0029
+D057,4226169,Reinforcement learning,conditional,KWD-T0065
+D057,4226169,Renewable energy,direct,KWD-T0063
+D057,4226169,Resilience (materials science),unreviewed,
+D057,4226169,Scheduling (production processes),conditional,KWD-T0028
+D057,4226169,Smart grid,direct,KWD-T0025
+D058,1089455,AC power,direct,KWD-T0030
+D058,1089455,Automotive engineering,conditional,KWD-T0042
+D058,1089455,Computer science,broad_auxiliary,
+D058,1089455,Control (management),general_auxiliary,
+D058,1089455,Control engineering,conditional,KWD-T0066
+D058,1089455,Control theory (sociology),general_auxiliary,
+D058,1089455,Electric power system,direct,KWD-T0027
+D058,1089455,Electrical engineering,broad_auxiliary,
+D058,1089455,Engineering,broad_auxiliary,
+D058,1089455,Power (physics),general_auxiliary,
+D058,1089455,Reliability engineering,conditional,KWD-T0029
+D058,1089455,Static VAR compensator,unreviewed,
+D058,1089455,Voltage,general_auxiliary,
+D058,1089455,Voltage regulation,direct,KWD-T0030
+D059,425213,Compensation (psychology),unreviewed,
+D059,425213,Computer science,broad_auxiliary,
+D059,425213,Control (management),general_auxiliary,
+D059,425213,Control engineering,conditional,KWD-T0066
+D059,425213,Control system,conditional,KWD-T0066
+D059,425213,Control theory (sociology),general_auxiliary,
+D059,425213,Controller (irrigation),general_auxiliary,
+D059,425213,Electrical engineering,broad_auxiliary,
+D059,425213,Engineering,broad_auxiliary,
+D059,425213,Feed forward,unreviewed,
+D059,425213,Inverter,direct,KWD-T0038
+D059,425213,PID controller,conditional,KWD-T0066
+D059,425213,Temperature control,unreviewed,
+D059,425213,Transmission (telecommunications),general_auxiliary,
+D059,425213,Transmission system,general_auxiliary,
+D059,425213,Voltage,general_auxiliary,
+D059,425213,Voltage controller,conditional,KWD-T0037
+D059,425213,Voltage droop,direct,KWD-T0030
+D059,425213,Voltage source,general_auxiliary,
+D060,737769,Acoustics,general_auxiliary,
+D060,737769,Computer science,broad_auxiliary,
+D060,737769,Control theory (sociology),general_auxiliary,
+D060,737769,Electrical engineering,broad_auxiliary,
+D060,737769,Engineering,broad_auxiliary,
+D060,737769,Harmonic,conditional,KWD-T0030
+D060,737769,Harmonics,conditional,KWD-T0030
+D060,737769,Inductor,general_auxiliary,
+D060,737769,Physics,broad_auxiliary,
+D060,737769,Power (physics),general_auxiliary,
+D060,737769,Power factor,direct,KWD-T0030
+D060,737769,Voltage,general_auxiliary,
+D060,737769,Waveform,unreviewed,
+D061,1326907,Automotive engineering,conditional,KWD-T0042
+D061,1326907,Circuit breaker,direct,KWD-T0031
+D061,1326907,Computer science,broad_auxiliary,
+D061,1326907,Disconnector,unreviewed,
+D061,1326907,Electrical engineering,broad_auxiliary,
+D061,1326907,Engineering,broad_auxiliary,
+D061,1326907,Reliability engineering,conditional,KWD-T0029
+D061,1326907,Transient (computer programming),general_auxiliary,
+D061,1326907,Transient analysis,unreviewed,
+D061,1326907,Transient response,unreviewed,
+D061,1326907,Transient voltage suppressor,general_auxiliary,
+D061,1326907,Voltage,general_auxiliary,
+D062,2508820,Condensed matter physics,broad_auxiliary,
+D062,2508820,Current (fluid),general_auxiliary,
+D062,2508820,Current limiting,unreviewed,
+D062,2508820,Electric power system,direct,KWD-T0027
+D062,2508820,Electrical engineering,broad_auxiliary,
+D062,2508820,Electrode,conditional,KWD-T0068
+D062,2508820,Engineering,broad_auxiliary,
+D062,2508820,Fault current limiter,direct,KWD-T0031
+D062,2508820,High-temperature superconductivity,unreviewed,
+D062,2508820,Limiting,unreviewed,
+D062,2508820,Limiting current,unreviewed,
+D062,2508820,Materials science,broad_auxiliary,
+D062,2508820,Mechanical engineering,broad_auxiliary,
+D062,2508820,Nuclear engineering,broad_auxiliary,
+D062,2508820,Physics,broad_auxiliary,
+D062,2508820,Power (physics),general_auxiliary,
+D062,2508820,Power transmission,general_auxiliary,
+D062,2508820,Superconductivity,unreviewed,
+D062,2508820,Thermodynamics,broad_auxiliary,
+D063,3768257,Chemistry,broad_auxiliary,
+D063,3768257,Composite material,conditional,KWD-T0069
+D063,3768257,Electrical engineering,broad_auxiliary,
+D063,3768257,Engineering,broad_auxiliary,
+D063,3768257,Environmental science,broad_auxiliary,
+D063,3768257,Fullerene,unreviewed,
+D063,3768257,High voltage,direct,KWD-T0032
+D063,3768257,Materials science,broad_auxiliary,
+D063,3768257,Nanotechnology,broad_auxiliary,
+D063,3768257,Optoelectronics,broad_auxiliary,
+D063,3768257,Organic chemistry,broad_auxiliary,
+D063,3768257,Organic solar cell,direct,KWD-T0001
+D063,3768257,Photovoltaic system,direct,KWD-T0001
+D063,3768257,Photovoltaics,direct,KWD-T0001
+D063,3768257,Polymer,general_auxiliary,
+D063,3768257,Voltage,general_auxiliary,
+D064,63152,Chemical engineering,broad_auxiliary,
+D064,63152,Chemistry,broad_auxiliary,
+D064,63152,Heterojunction,conditional,KWD-T0069
+D064,63152,Inorganic chemistry,broad_auxiliary,
+D064,63152,Insulator (electricity),direct,KWD-T0032
+D064,63152,Iodide,unreviewed,
+D064,63152,Lead (geology),unreviewed,
+D064,63152,Materials science,broad_auxiliary,
+D064,63152,Metal,general_auxiliary,
+D064,63152,Metallurgy,general_auxiliary,
+D064,63152,Optoelectronics,broad_auxiliary,
+D064,63152,Perovskite (structure),conditional,KWD-T0069
+D064,63152,Semiconductor,conditional,KWD-T0069
+D065,1254820,Artificial intelligence,conditional,KWD-T0065
+D065,1254820,Circuit breaker,direct,KWD-T0031
+D065,1254820,Computer science,broad_auxiliary,
+D065,1254820,Earthing system,direct,KWD-T0033
+D065,1254820,Electrical engineering,broad_auxiliary,
+D065,1254820,Engineering,broad_auxiliary,
+D065,1254820,Fault (geology),excluded,
+D065,1254820,Ground,unreviewed,
+D065,1254820,Line (geometry),general_auxiliary,
+D065,1254820,Reliability engineering,conditional,KWD-T0029
+D065,1254820,Scope (computer science),unreviewed,
+D065,1254820,Selection (genetic algorithm),unreviewed,
+D065,1254820,Tripping,unreviewed,
+D066,450423,Acoustics,general_auxiliary,
+D066,450423,Aerospace engineering,general_auxiliary,
+D066,450423,Chemistry,broad_auxiliary,
+D066,450423,Composite material,conditional,KWD-T0069
+D066,450423,Conductor,unreviewed,
+D066,450423,Earthing system,direct,KWD-T0033
+D066,450423,Electrical engineering,broad_auxiliary,
+D066,450423,Electrode,conditional,KWD-T0068
+D066,450423,Engineering,broad_auxiliary,
+D066,450423,Equipotential,unreviewed,
+D066,450423,Geology,broad_auxiliary,
+D066,450423,Grid,conditional,KWD-T0026
+D066,450423,Ground,unreviewed,
+D066,450423,Ground-penetrating radar,unreviewed,
+D066,450423,Materials science,broad_auxiliary,
+D066,450423,Physics,broad_auxiliary,
+D066,450423,Potential gradient,unreviewed,
+D066,450423,Potentiometer,unreviewed,
+D066,450423,Voltage,general_auxiliary,
+D067,1550634,China,general_auxiliary,
+D067,1550634,Electric power system,direct,KWD-T0027
+D067,1550634,Electric power transmission,direct,KWD-T0026
+D067,1550634,Electrical engineering,broad_auxiliary,
+D067,1550634,Engineering,broad_auxiliary,
+D067,1550634,Geography,broad_auxiliary,
+D067,1550634,Grid,conditional,KWD-T0026
+D067,1550634,Power (physics),general_auxiliary,
+D067,1550634,Power grid,direct,KWD-T0026
+D067,1550634,Power network,direct,KWD-T0026
+D067,1550634,Power transmission,general_auxiliary,
+D067,1550634,Transformer,direct,KWD-T0034
+D067,1550634,Transmission (telecommunications),general_auxiliary,
+D067,1550634,Transmission network,unreviewed,
+D067,1550634,Transmission system,general_auxiliary,
+D067,1550634,Voltage,general_auxiliary,
+D068,751312,Acoustics,general_auxiliary,
+D068,751312,Classical mechanics,broad_auxiliary,
+D068,751312,Computer science,broad_auxiliary,
+D068,751312,Deflection (physics),unreviewed,
+D068,751312,Engineering,broad_auxiliary,
+D068,751312,Finite element method,general_auxiliary,
+D068,751312,Isotropy,unreviewed,
+D068,751312,Magnetic field,general_auxiliary,
+D068,751312,Magnetostriction,unreviewed,
+D068,751312,Mathematical analysis,general_auxiliary,
+D068,751312,Mathematics,broad_auxiliary,
+D068,751312,Nonlinear system,conditional,KWD-T0066
+D068,751312,Physics,broad_auxiliary,
+D068,751312,Structural engineering,general_auxiliary,
+D068,751312,Transformer,direct,KWD-T0034
+D068,751312,Vibration,unreviewed,
+D069,3696071,Acoustics,general_auxiliary,
+D069,3696071,Capacitor,general_auxiliary,
+D069,3696071,Computer science,broad_auxiliary,
+D069,3696071,Conductor,unreviewed,
+D069,3696071,Electric power transmission,direct,KWD-T0026
+D069,3696071,Electrical engineering,broad_auxiliary,
+D069,3696071,Electronic engineering,broad_auxiliary,
+D069,3696071,Engineering,broad_auxiliary,
+D069,3696071,Film capacitor,general_auxiliary,
+D069,3696071,Line (geometry),general_auxiliary,
+D069,3696071,Materials science,broad_auxiliary,
+D069,3696071,Optoelectronics,broad_auxiliary,
+D069,3696071,Physics,broad_auxiliary,
+D069,3696071,Sawtooth wave,unreviewed,
+D069,3696071,Telecommunications,conditional,KWD-T0067
+D069,3696071,Transmission line,conditional,KWD-T0035
+D069,3696071,Voltage,general_auxiliary,
+D070,1165893,Algorithm,conditional,KWD-T0066
+D070,1165893,Applied mathematics,broad_auxiliary,
+D070,1165893,Computation,unreviewed,
+D070,1165893,Computer science,broad_auxiliary,
+D070,1165893,Electric power system,direct,KWD-T0027
+D070,1165893,Electrical engineering,broad_auxiliary,
+D070,1165893,Electronic engineering,broad_auxiliary,
+D070,1165893,Emtp,unreviewed,
+D070,1165893,Engineering,broad_auxiliary,
+D070,1165893,Finite element method,general_auxiliary,
+D070,1165893,Mathematical analysis,general_auxiliary,
+D070,1165893,Mathematics,broad_auxiliary,
+D070,1165893,Node (physics),general_auxiliary,
+D070,1165893,Physics,broad_auxiliary,
+D070,1165893,Power (physics),general_auxiliary,
+D070,1165893,Structural engineering,general_auxiliary,
+D070,1165893,Telecommunications,conditional,KWD-T0067
+D070,1165893,Time domain,unreviewed,
+D070,1165893,Transmission line,conditional,KWD-T0035
+D070,1165893,Voltage,general_auxiliary,
+D071,2043688,AC power,direct,KWD-T0030
+D071,2043688,Computer science,broad_auxiliary,
+D071,2043688,Control (management),general_auxiliary,
+D071,2043688,Control theory (sociology),general_auxiliary,
+D071,2043688,Direct current,conditional,KWD-T0027
+D071,2043688,Electrical engineering,broad_auxiliary,
+D071,2043688,Electronic engineering,broad_auxiliary,
+D071,2043688,Engineering,broad_auxiliary,
+D071,2043688,Grid,conditional,KWD-T0026
+D071,2043688,High-voltage direct current,direct,KWD-T0036
+D071,2043688,Mathematics,broad_auxiliary,
+D071,2043688,Pulse-width modulation,conditional,KWD-T0038
+D071,2043688,Voltage,general_auxiliary,
+D071,2043688,Voltage droop,direct,KWD-T0030
+D071,2043688,Voltage source,general_auxiliary,
+D072,2003074,Adaptability,unreviewed,
+D072,2003074,Communications system,unreviewed,
+D072,2003074,Computer science,broad_auxiliary,
+D072,2003074,Control (management),general_auxiliary,
+D072,2003074,Control engineering,conditional,KWD-T0066
+D072,2003074,Control theory (sociology),general_auxiliary,
+D072,2003074,Controller (irrigation),general_auxiliary,
+D072,2003074,Direct current,conditional,KWD-T0027
+D072,2003074,Electric power system,direct,KWD-T0027
+D072,2003074,Electrical engineering,broad_auxiliary,
+D072,2003074,Engineering,broad_auxiliary,
+D072,2003074,Fuzzy logic,conditional,KWD-T0066
+D072,2003074,Heuristic,unreviewed,
+D072,2003074,High-voltage direct current,direct,KWD-T0036
+D072,2003074,Power (physics),general_auxiliary,
+D072,2003074,Telecommunications,conditional,KWD-T0067
+D072,2003074,Voltage,general_auxiliary,
+D072,2003074,Voltage source,general_auxiliary,
+D073,2914580,Boost converter,direct,KWD-T0037
+D073,2914580,Buck converter,direct,KWD-T0037
+D073,2914580,Buck–boost converter,direct,KWD-T0037
+D073,2914580,Duty cycle,unreviewed,
+D073,2914580,Electrical engineering,broad_auxiliary,
+D073,2914580,Engineering,broad_auxiliary,
+D073,2914580,Physics,broad_auxiliary,
+D073,2914580,Voltage,general_auxiliary,
+D073,2914580,Ćuk converter,direct,KWD-T0037
+D074,4487317,Control theory (sociology),general_auxiliary,
+D074,4487317,Converters,conditional,KWD-T0037
+D074,4487317,Electric power system,direct,KWD-T0027
+D074,4487317,Power optimizer,direct,KWD-T0002
+D074,4487317,Power quality,direct,KWD-T0030
+D074,4487317,Renewable energy,direct,KWD-T0063
+D074,4487317,Total harmonic distortion,conditional,KWD-T0030
+D074,4487317,Voltage,general_auxiliary,
+D074,4487317,Wind power,direct,KWD-T0006
+D075,1238643,AC power,direct,KWD-T0030
+D075,1238643,Aerospace engineering,general_auxiliary,
+D075,1238643,Computer science,broad_auxiliary,
+D075,1238643,Control (management),general_auxiliary,
+D075,1238643,Control engineering,conditional,KWD-T0066
+D075,1238643,Control theory (sociology),general_auxiliary,
+D075,1238643,Decoupling (probability),unreviewed,
+D075,1238643,Electrical engineering,broad_auxiliary,
+D075,1238643,Engineering,broad_auxiliary,
+D075,1238643,Inverter,direct,KWD-T0038
+D075,1238643,Maximum power point tracking,direct,KWD-T0002
+D075,1238643,Maximum power principle,general_auxiliary,
+D075,1238643,Meteorology,general_auxiliary,
+D075,1238643,Physics,broad_auxiliary,
+D075,1238643,Power (physics),general_auxiliary,
+D075,1238643,Power optimizer,direct,KWD-T0002
+D075,1238643,Rotor (electric),conditional,KWD-T0040
+D075,1238643,Stator,conditional,KWD-T0040
+D075,1238643,Tracking (education),unreviewed,
+D075,1238643,Turbine,conditional,KWD-T0051
+D075,1238643,Voltage,general_auxiliary,
+D075,1238643,Wind power,direct,KWD-T0006
+D075,1238643,Wind speed,conditional,KWD-T0006
+D076,1651988,Compensation (psychology),unreviewed,
+D076,1651988,Computer science,broad_auxiliary,
+D076,1651988,Control (management),general_auxiliary,
+D076,1651988,Control theory (sociology),general_auxiliary,
+D076,1651988,Controller (irrigation),general_auxiliary,
+D076,1651988,Engineering,broad_auxiliary,
+D076,1651988,Flyback transformer,direct,KWD-T0037
+D076,1651988,Inverter,direct,KWD-T0038
+D076,1651988,Iterative learning control,unreviewed,
+D076,1651988,Voltage,general_auxiliary,
+D077,3599211,Chopper,unreviewed,
+D077,3599211,Computer science,broad_auxiliary,
+D077,3599211,Control (management),general_auxiliary,
+D077,3599211,Control theory (sociology),general_auxiliary,
+D077,3599211,Dissipation,unreviewed,
+D077,3599211,Electrical engineering,broad_auxiliary,
+D077,3599211,Electronic engineering,broad_auxiliary,
+D077,3599211,Engineering,broad_auxiliary,
+D077,3599211,Offshore wind power,direct,KWD-T0006
+D077,3599211,Power (physics),general_auxiliary,
+D077,3599211,Thyristor,direct,KWD-T0039
+D077,3599211,Voltage,general_auxiliary,
+D077,3599211,Wind power,direct,KWD-T0006
+D078,4209140,Airflow,unreviewed,
+D078,4209140,Building-integrated photovoltaics,direct,KWD-T0001
+D078,4209140,Insulated-gate bipolar transistor,direct,KWD-T0039
+D078,4209140,Inverter,direct,KWD-T0038
+D078,4209140,Photovoltaic system,direct,KWD-T0001
+D078,4209140,Power (physics),general_auxiliary,
+D078,4209140,Power electronics,direct,KWD-T0039
+D078,4209140,Sensitivity (control systems),unreviewed,
+D078,4209140,Thermal,general_auxiliary,
+D079,2567631,Electric motor,direct,KWD-T0040
+D079,2567631,Electrical engineering,broad_auxiliary,
+D079,2567631,Engineering,broad_auxiliary,
+D079,2567631,Geology,broad_auxiliary,
+D079,2567631,Linear motor,direct,KWD-T0040
+D079,2567631,Machine tool,unreviewed,
+D079,2567631,Machining,unreviewed,
+D079,2567631,Mechanical engineering,broad_auxiliary,
+D079,2567631,Siemens,unreviewed,
+D079,2567631,Traverse,unreviewed,
+D080,1568644,Composite material,conditional,KWD-T0069
+D080,1568644,Core (optical fiber),unreviewed,
+D080,1568644,Electropermanent magnet,unreviewed,
+D080,1568644,Engineering,broad_auxiliary,
+D080,1568644,Finite element method,general_auxiliary,
+D080,1568644,Flux (metallurgy),unreviewed,
+D080,1568644,Magnet,unreviewed,
+D080,1568644,Materials science,broad_auxiliary,
+D080,1568644,Mathematical analysis,general_auxiliary,
+D080,1568644,Mathematics,broad_auxiliary,
+D080,1568644,Mechanical engineering,broad_auxiliary,
+D080,1568644,Permanent magnet synchronous generator,direct,KWD-T0041
+D080,1568644,Physics,broad_auxiliary,
+D080,1568644,Pole piece,unreviewed,
+D080,1568644,Stator,conditional,KWD-T0040
+D080,1568644,Structural engineering,general_auxiliary,
+D080,1568644,Thrust,unreviewed,
+D080,1568644,Transversal (combinatorics),unreviewed,
+D080,1568644,Transverse plane,unreviewed,
+D081,709632,Anode,conditional,KWD-T0068
+D081,709632,Auxiliary power unit,conditional,KWD-T0041
+D081,709632,Cathode,conditional,KWD-T0068
+D081,709632,Chemistry,broad_auxiliary,
+D081,709632,Computer science,broad_auxiliary,
+D081,709632,Electrical engineering,broad_auxiliary,
+D081,709632,Electrode,conditional,KWD-T0068
+D081,709632,Engineering,broad_auxiliary,
+D081,709632,Gas composition,general_auxiliary,
+D081,709632,Materials science,broad_auxiliary,
+D081,709632,Molten carbonate fuel cell,direct,KWD-T0018
+D081,709632,Nuclear engineering,broad_auxiliary,
+D081,709632,Operating temperature,unreviewed,
+D081,709632,Power (physics),general_auxiliary,
+D081,709632,Power density,general_auxiliary,
+D081,709632,Power station,direct,KWD-T0051
+D081,709632,Process engineering,general_auxiliary,
+D081,709632,Stack (abstract data type),unreviewed,
+D081,709632,Thermodynamics,broad_auxiliary,
+D082,3693124,Acoustics,general_auxiliary,
+D082,3693124,Automotive engineering,conditional,KWD-T0042
+D082,3693124,Computer science,broad_auxiliary,
+D082,3693124,Electrical engineering,broad_auxiliary,
+D082,3693124,Engineering,broad_auxiliary,
+D082,3693124,Environmental science,broad_auxiliary,
+D082,3693124,Generator (circuit theory),conditional,KWD-T0041
+D082,3693124,Marine engineering,general_auxiliary,
+D082,3693124,Mechanical engineering,broad_auxiliary,
+D082,3693124,Meteorology,general_auxiliary,
+D082,3693124,Physics,broad_auxiliary,
+D082,3693124,Power (physics),general_auxiliary,
+D082,3693124,Renewable energy,direct,KWD-T0063
+D082,3693124,Rotational speed,unreviewed,
+D082,3693124,Turbine,conditional,KWD-T0051
+D082,3693124,Vibration,unreviewed,
+D082,3693124,Wind power,direct,KWD-T0006
+D082,3693124,Wind speed,conditional,KWD-T0006
+D083,3656337,Automotive engineering,conditional,KWD-T0042
+D083,3656337,Cold chain,unreviewed,
+D083,3656337,Computer science,broad_auxiliary,
+D083,3656337,Electric vehicle,direct,KWD-T0042
+D083,3656337,Electrical engineering,broad_auxiliary,
+D083,3656337,Electricity,direct,KWD-T0027
+D083,3656337,Energy consumption,direct,KWD-T0062
+D083,3656337,Engineering,broad_auxiliary,
+D083,3656337,Environmental economics,conditional,KWD-T0060
+D083,3656337,Genetic algorithm,conditional,KWD-T0066
+D083,3656337,Operations research,broad_auxiliary,
+D083,3656337,Particle swarm optimization,conditional,KWD-T0066
+D083,3656337,Queueing theory,unreviewed,
+D084,4622789,Electric vehicle,direct,KWD-T0042
+D084,4622789,Fuzzy logic,conditional,KWD-T0066
+D084,4622789,Geographic information system,unreviewed,
+D084,4622789,Multiple-criteria decision analysis,unreviewed,
+D084,4622789,Scope (computer science),unreviewed,
+D084,4622789,Sustainability,conditional,KWD-T0063
+D084,4622789,Sustainable development,conditional,KWD-T0063
+D084,4622789,Sustainable transport,unreviewed,
+D085,1650122,Automotive engineering,conditional,KWD-T0042
+D085,1650122,Axle,unreviewed,
+D085,1650122,Brake,conditional,KWD-T0043
+D085,1650122,Braking distance,unreviewed,
+D085,1650122,Braking system,unreviewed,
+D085,1650122,Dynamic braking,direct,KWD-T0043
+D085,1650122,Electric vehicle,direct,KWD-T0042
+D085,1650122,Electronic brakeforce distribution,unreviewed,
+D085,1650122,Engine braking,unreviewed,
+D085,1650122,Engineering,broad_auxiliary,
+D085,1650122,Mechanical engineering,broad_auxiliary,
+D085,1650122,Power (physics),general_auxiliary,
+D085,1650122,Regenerative brake,direct,KWD-T0043
+D085,1650122,Retarder,unreviewed,
+D085,1650122,Slip (aerodynamics),unreviewed,
+D085,1650122,Slip angle,unreviewed,
+D085,1650122,Slip ratio,unreviewed,
+D085,1650122,Steering wheel,unreviewed,
+D085,1650122,Threshold braking,unreviewed,
+D085,1650122,Traction control system,unreviewed,
+D086,1340791,Aerospace engineering,general_auxiliary,
+D086,1340791,Automotive engineering,conditional,KWD-T0042
+D086,1340791,Battery (electricity),direct,KWD-T0019
+D086,1340791,Brake,conditional,KWD-T0043
+D086,1340791,Computer science,broad_auxiliary,
+D086,1340791,Cruise,unreviewed,
+D086,1340791,Electric power system,direct,KWD-T0027
+D086,1340791,Electric vehicle,direct,KWD-T0042
+D086,1340791,Energy (signal processing),excluded,
+D086,1340791,Energy management,direct,KWD-T0062
+D086,1340791,Energy management system,direct,KWD-T0062
+D086,1340791,Engineering,broad_auxiliary,
+D086,1340791,Hybrid power,direct,KWD-T0024
+D086,1340791,Operating system,general_auxiliary,
+D086,1340791,Power (physics),general_auxiliary,
+D086,1340791,Power management,conditional,KWD-T0062
+D086,1340791,Power management system,direct,KWD-T0062
+D086,1340791,Regenerative brake,direct,KWD-T0043
+D086,1340791,Software,general_auxiliary,
+D086,1340791,Supercapacitor,direct,KWD-T0021
+D087,1514004,Automation,unreviewed,
+D087,1514004,Communications system,unreviewed,
+D087,1514004,Data transmission,unreviewed,
+D087,1514004,Electrical engineering,broad_auxiliary,
+D087,1514004,Embedded system,general_auxiliary,
+D087,1514004,Engineering,broad_auxiliary,
+D087,1514004,Plan (archaeology),unreviewed,
+D087,1514004,Process automation system,unreviewed,
+D087,1514004,Reliability (semiconductor),general_auxiliary,
+D087,1514004,Reliability engineering,conditional,KWD-T0029
+D087,1514004,Telecommunications,conditional,KWD-T0067
+D087,1514004,Telecommunications network,unreviewed,
+D087,1514004,Traction substation,direct,KWD-T0044
+D088,3562401,Automotive engineering,conditional,KWD-T0042
+D088,3562401,Computer science,broad_auxiliary,
+D088,3562401,Electric locomotive,direct,KWD-T0044
+D088,3562401,Engineering,broad_auxiliary,
+D088,3562401,Reliability engineering,conditional,KWD-T0029
+D089,764041,Capacitance,general_auxiliary,
+D089,764041,Capacitor,general_auxiliary,
+D089,764041,Computer science,broad_auxiliary,
+D089,764041,Correctness,unreviewed,
+D089,764041,Electrical engineering,broad_auxiliary,
+D089,764041,Electronic engineering,broad_auxiliary,
+D089,764041,Engineering,broad_auxiliary,
+D089,764041,Inductive charging,direct,KWD-T0042
+D089,764041,Maximum power transfer theorem,conditional,KWD-T0045
+D089,764041,Physics,broad_auxiliary,
+D089,764041,Power (physics),general_auxiliary,
+D089,764041,Telecommunications,conditional,KWD-T0067
+D089,764041,Voltage,general_auxiliary,
+D089,764041,Wireless,general_auxiliary,
+D089,764041,Wireless power transfer,direct,KWD-T0045
+D090,1730051,Channel (broadcasting),general_auxiliary,
+D090,1730051,Computer science,broad_auxiliary,
+D090,1730051,Context (archaeology),general_auxiliary,
+D090,1730051,Electrical engineering,broad_auxiliary,
+D090,1730051,Electromagnetic interference,unreviewed,
+D090,1730051,Electronic engineering,broad_auxiliary,
+D090,1730051,Engineering,broad_auxiliary,
+D090,1730051,Field (mathematics),general_auxiliary,
+D090,1730051,Interference (communication),unreviewed,
+D090,1730051,Maximum power transfer theorem,conditional,KWD-T0045
+D090,1730051,Medicine,broad_auxiliary,
+D090,1730051,Physics,broad_auxiliary,
+D090,1730051,Power (physics),general_auxiliary,
+D090,1730051,Risk analysis (engineering),general_auxiliary,
+D090,1730051,Telecommunications,conditional,KWD-T0067
+D090,1730051,Wireless,general_auxiliary,
+D090,1730051,Wireless power transfer,direct,KWD-T0045
+D091,3935091,Composite material,conditional,KWD-T0069
+D091,3935091,Energy (signal processing),excluded,
+D091,3935091,Energy harvesting,direct,KWD-T0046
+D091,3935091,Engineering,broad_auxiliary,
+D091,3935091,Engineering physics,general_auxiliary,
+D091,3935091,Graphene,conditional,KWD-T0069
+D091,3935091,Materials science,broad_auxiliary,
+D091,3935091,Nanotechnology,broad_auxiliary,
+D091,3935091,Physics,broad_auxiliary,
+D091,3935091,Triboelectric effect,conditional,KWD-T0046
+D092,4618465,Carbon nanotube,conditional,KWD-T0069
+D092,4618465,Current (fluid),general_auxiliary,
+D092,4618465,Electrode,conditional,KWD-T0068
+D092,4618465,Electrolyte,conditional,KWD-T0068
+D092,4618465,Energy harvesting,direct,KWD-T0046
+D092,4618465,Photocurrent,conditional,KWD-T0070
+D092,4618465,Power density,general_auxiliary,
+D092,4618465,Waste heat,direct,KWD-T0050
+D092,4618465,Work (physics),general_auxiliary,
+D093,703545,Analytical Chemistry (journal),broad_auxiliary,
+D093,703545,Chemical engineering,broad_auxiliary,
+D093,703545,Chemistry,broad_auxiliary,
+D093,703545,Composite material,conditional,KWD-T0069
+D093,703545,Differential scanning calorimetry,unreviewed,
+D093,703545,Energy-dispersive X-ray spectroscopy,general_auxiliary,
+D093,703545,Materials science,broad_auxiliary,
+D093,703545,Metallurgy,general_auxiliary,
+D093,703545,Mineralogy,general_auxiliary,
+D093,703545,Phase (matter),general_auxiliary,
+D093,703545,Scanning electron microscope,general_auxiliary,
+D093,703545,Sintering,general_auxiliary,
+D093,703545,Spark plasma sintering,unreviewed,
+D093,703545,Tetragonal crystal system,unreviewed,
+D093,703545,Thermal conductivity,general_auxiliary,
+D093,703545,Thermal stability,conditional,KWD-T0069
+D093,703545,Thermodynamics,broad_auxiliary,
+D093,703545,Thermoelectric effect,direct,KWD-T0047
+D093,703545,Thermoelectric materials,direct,KWD-T0047
+D093,703545,Thermogravimetric analysis,general_auxiliary,
+D094,2727983,Band gap,conditional,KWD-T0069
+D094,2727983,Characterization (materials science),general_auxiliary,
+D094,2727983,Chemical engineering,broad_auxiliary,
+D094,2727983,Composite material,conditional,KWD-T0069
+D094,2727983,Doping,general_auxiliary,
+D094,2727983,Electrical engineering,broad_auxiliary,
+D094,2727983,Electrical resistivity and conductivity,general_auxiliary,
+D094,2727983,Materials science,broad_auxiliary,
+D094,2727983,Nanotechnology,broad_auxiliary,
+D094,2727983,Optoelectronics,broad_auxiliary,
+D094,2727983,Thermal conductivity,general_auxiliary,
+D094,2727983,Thermodynamics,broad_auxiliary,
+D094,2727983,Thermoelectric effect,direct,KWD-T0047
+D094,2727983,Thermoelectric materials,direct,KWD-T0047
+D094,2727983,Thin film,conditional,KWD-T0069
+D095,2883993,Economics,broad_auxiliary,
+D095,2883993,Engineering,broad_auxiliary,
+D095,2883993,Environmental economics,conditional,KWD-T0060
+D095,2883993,Heat exchanger,conditional,KWD-T0050
+D095,2883993,Heat pump,direct,KWD-T0048
+D095,2883993,Interdependence,unreviewed,
+D095,2883993,Mechanical engineering,broad_auxiliary,
+D095,2883993,Process engineering,general_auxiliary,
+D095,2883993,Process integration,unreviewed,
+D095,2883993,Systems design,unreviewed,
+D095,2883993,Systems engineering,general_auxiliary,
+D096,1277721,Air conditioning,direct,KWD-T0048
+D096,1277721,Domain (mathematical analysis),unreviewed,
+D096,1277721,Energy storage,direct,KWD-T0023
+D096,1277721,Engineering,broad_auxiliary,
+D096,1277721,Engineering physics,general_auxiliary,
+D096,1277721,Environmental science,broad_auxiliary,
+D096,1277721,HVAC,direct,KWD-T0048
+D096,1277721,Heat transfer,conditional,KWD-T0050
+D096,1277721,Latent heat,conditional,KWD-T0022
+D096,1277721,Mechanical engineering,broad_auxiliary,
+D096,1277721,Phase change,conditional,KWD-T0022
+D096,1277721,Phase-change material,conditional,KWD-T0022
+D096,1277721,Physics,broad_auxiliary,
+D096,1277721,Thermal energy storage,direct,KWD-T0022
+D096,1277721,Thermodynamics,broad_auxiliary,
+D097,4586082,ASHRAE 90.1,unreviewed,
+D097,4586082,Heat transfer,conditional,KWD-T0050
+D097,4586082,Passive solar building design,direct,KWD-T0049
+D097,4586082,Solar energy,direct,KWD-T0004
+D097,4586082,Solar still,direct,KWD-T0005
+D097,4586082,Structural basin,unreviewed,
+D097,4586082,Thermal,general_auxiliary,
+D097,4586082,Wind speed,conditional,KWD-T0006
+D098,3973288,Applied mathematics,broad_auxiliary,
+D098,3973288,Building energy simulation,direct,KWD-T0049
+D098,3973288,Computer science,broad_auxiliary,
+D098,3973288,Energy (signal processing),excluded,
+D098,3973288,Energy performance,direct,KWD-T0062
+D098,3973288,Mathematics,broad_auxiliary,
+D098,3973288,Statistics,broad_auxiliary,
+D099,3396167,Antifreeze,unreviewed,
+D099,3396167,Chiller,direct,KWD-T0048
+D099,3396167,Cooling capacity,unreviewed,
+D099,3396167,Cooling tower,conditional,KWD-T0050
+D099,3396167,Dry ice,unreviewed,
+D099,3396167,Engineering,broad_auxiliary,
+D099,3396167,Environmental science,broad_auxiliary,
+D099,3396167,Heat exchanger,conditional,KWD-T0050
+D099,3396167,Inlet,unreviewed,
+D099,3396167,Marine engineering,general_auxiliary,
+D099,3396167,Materials science,broad_auxiliary,
+D099,3396167,Mechanical engineering,broad_auxiliary,
+D099,3396167,Mechanics,general_auxiliary,
+D099,3396167,Meteorology,general_auxiliary,
+D099,3396167,Nuclear engineering,broad_auxiliary,
+D099,3396167,Physics,broad_auxiliary,
+D099,3396167,Thermodynamics,broad_auxiliary,
+D099,3396167,Volume (thermodynamics),unreviewed,
+D099,3396167,Water cooling,conditional,KWD-T0050
+D100,1756001,Biogas,direct,KWD-T0012
+D100,1756001,Chemistry,broad_auxiliary,
+D100,1756001,Degree Rankine,unreviewed,
+D100,1756001,Engineering,broad_auxiliary,
+D100,1756001,Environmental science,broad_auxiliary,
+D100,1756001,Exhaust gas,conditional,KWD-T0057
+D100,1756001,Heat exchanger,conditional,KWD-T0050
+D100,1756001,Mechanical engineering,broad_auxiliary,
+D100,1756001,Methane,general_auxiliary,
+D100,1756001,Organic Rankine cycle,direct,KWD-T0050
+D100,1756001,Power (physics),general_auxiliary,
+D100,1756001,Process engineering,general_auxiliary,
+D100,1756001,Rankine cycle,direct,KWD-T0050
+D100,1756001,Sewage,unreviewed,
+D100,1756001,Sewage sludge,unreviewed,
+D100,1756001,Waste heat,direct,KWD-T0050
+D100,1756001,Waste heat recovery unit,direct,KWD-T0050
+D100,1756001,Waste management,general_auxiliary,
+D101,1633024,Aeronautics,unreviewed,
+D101,1633024,Electrical engineering,broad_auxiliary,
+D101,1633024,Engineering,broad_auxiliary,
+D101,1633024,Environmental science,broad_auxiliary,
+D101,1633024,Gas turbines,direct,KWD-T0051
+D101,1633024,Marine engineering,general_auxiliary,
+D101,1633024,Mechanical engineering,broad_auxiliary,
+D101,1633024,Siemens,unreviewed,
+D102,3334337,Boiler (water heating),direct,KWD-T0051
+D102,3334337,Drum,unreviewed,
+D102,3334337,Engineering,broad_auxiliary,
+D102,3334337,Environmental science,broad_auxiliary,
+D102,3334337,Materials science,broad_auxiliary,
+D102,3334337,Mechanical engineering,broad_auxiliary,
+D102,3334337,Natural circulation,unreviewed,
+D102,3334337,Nuclear engineering,broad_auxiliary,
+D102,3334337,Petroleum engineering,broad_auxiliary,
+D102,3334337,Waste management,general_auxiliary,
+D103,4562737,Cement,unreviewed,
+D103,4562737,Coal,direct,KWD-T0052
+D103,4562737,Coal gasification,direct,KWD-T0052
+D103,4562737,Pulverized coal-fired boiler,direct,KWD-T0051
+D103,4562737,Syngas,direct,KWD-T0055
+D104,1186432,Catalysis,general_auxiliary,
+D104,1186432,Chemistry,broad_auxiliary,
+D104,1186432,Coal,direct,KWD-T0052
+D104,1186432,Coal tar,conditional,KWD-T0052
+D104,1186432,Coke,unreviewed,
+D104,1186432,Computer science,broad_auxiliary,
+D104,1186432,Gasoline,direct,KWD-T0055
+D104,1186432,Hydrogen,general_auxiliary,
+D104,1186432,Kinetic energy,general_auxiliary,
+D104,1186432,Organic chemistry,broad_auxiliary,
+D104,1186432,Product distribution,unreviewed,
+D104,1186432,Space velocity,unreviewed,
+D104,1186432,Thermodynamics,broad_auxiliary,
+D104,1186432,tar (computing),unreviewed,
+D105,3779041,Chemistry,broad_auxiliary,
+D105,3779041,Engineering,broad_auxiliary,
+D105,3779041,Environmental science,broad_auxiliary,
+D105,3779041,Geology,broad_auxiliary,
+D105,3779041,Hydrogen,general_auxiliary,
+D105,3779041,Materials science,broad_auxiliary,
+D105,3779041,Natural (archaeology),unreviewed,
+D105,3779041,Natural gas,direct,KWD-T0053
+D105,3779041,Organic chemistry,broad_auxiliary,
+D105,3779041,Physical chemistry,broad_auxiliary,
+D105,3779041,Physics,broad_auxiliary,
+D105,3779041,Power (physics),general_auxiliary,
+D105,3779041,Power to gas,direct,KWD-T0017
+D105,3779041,Thermodynamics,broad_auxiliary,
+D105,3779041,Waste management,general_auxiliary,
+D106,2025002,Automotive engineering,conditional,KWD-T0042
+D106,2025002,Electrical engineering,broad_auxiliary,
+D106,2025002,Electricity generation,direct,KWD-T0061
+D106,2025002,Engineering,broad_auxiliary,
+D106,2025002,Environmental science,broad_auxiliary,
+D106,2025002,Fossil fuel,direct,KWD-T0055
+D106,2025002,Heat pump,direct,KWD-T0048
+D106,2025002,Hybrid heat,direct,KWD-T0048
+D106,2025002,Mechanical engineering,broad_auxiliary,
+D106,2025002,Natural gas,direct,KWD-T0053
+D106,2025002,Process engineering,general_auxiliary,
+D106,2025002,Renewable energy,direct,KWD-T0063
+D106,2025002,Renewable heat,direct,KWD-T0048
+D106,2025002,Thermal energy storage,direct,KWD-T0022
+D106,2025002,Waste management,general_auxiliary,
+D107,2702106,Chemical engineering,broad_auxiliary,
+D107,2702106,Chemistry,broad_auxiliary,
+D107,2702106,Engineering,broad_auxiliary,
+D107,2702106,Enhanced oil recovery,direct,KWD-T0054
+D107,2702106,Geology,broad_auxiliary,
+D107,2702106,Materials science,broad_auxiliary,
+D107,2702106,Organic chemistry,broad_auxiliary,
+D107,2702106,Petroleum engineering,broad_auxiliary,
+D107,2702106,Supercritical carbon dioxide,conditional,KWD-T0056
+D107,2702106,Supercritical fluid,unreviewed,
+D108,4265071,Adaptability,unreviewed,
+D108,4265071,Displacement (psychology),unreviewed,
+D108,4265071,Enhanced oil recovery,direct,KWD-T0054
+D108,4265071,Flooding (psychology),unreviewed,
+D108,4265071,Recovery rate,unreviewed,
+D108,4265071,Saturation (graph theory),general_auxiliary,
+D108,4265071,Water cut,unreviewed,
+D108,4265071,Water flooding,unreviewed,
+D109,2825184,Catalysis,general_auxiliary,
+D109,2825184,Chemical engineering,broad_auxiliary,
+D109,2825184,Chemistry,broad_auxiliary,
+D109,2825184,Combustion,conditional,KWD-T0051
+D109,2825184,Crystallite,general_auxiliary,
+D109,2825184,Diesel exhaust,conditional,KWD-T0057
+D109,2825184,Diesel fuel,direct,KWD-T0055
+D109,2825184,Graphene,conditional,KWD-T0069
+D109,2825184,Inorganic chemistry,broad_auxiliary,
+D109,2825184,Materials science,broad_auxiliary,
+D109,2825184,Metallurgy,general_auxiliary,
+D109,2825184,Nanocomposite,conditional,KWD-T0069
+D109,2825184,Nanocrystalline material,unreviewed,
+D109,2825184,Nanoparticle,conditional,KWD-T0069
+D109,2825184,Nanotechnology,broad_auxiliary,
+D109,2825184,Organic chemistry,broad_auxiliary,
+D109,2825184,Oxide,general_auxiliary,
+D109,2825184,Redox,general_auxiliary,
+D109,2825184,Soot,unreviewed,
+D109,2825184,Specific surface area,conditional,KWD-T0069
+D110,4540397,Catalysis,general_auxiliary,
+D110,4540397,Decomposition,general_auxiliary,
+D110,4540397,Dimethyl carbonate,unreviewed,
+D110,4540397,Nitrite,unreviewed,
+D110,4540397,Selectivity,general_auxiliary,
+D110,4540397,Syngas,direct,KWD-T0055
+D110,4540397,Yield (engineering),general_auxiliary,
+D110,4540397,Zeolite,unreviewed,
+D111,998949,Carbon capture and storage (timeline),direct,KWD-T0056
+D111,998949,Carbon dioxide,general_auxiliary,
+D111,998949,Carbon dioxide removal,direct,KWD-T0056
+D111,998949,Carbon fibers,conditional,KWD-T0069
+D111,998949,Carbon sequestration,conditional,KWD-T0056
+D111,998949,Carbonate,general_auxiliary,
+D111,998949,Carbonate minerals,unreviewed,
+D111,998949,Carbonic acid,unreviewed,
+D111,998949,Chemistry,broad_auxiliary,
+D111,998949,Climate change,general_auxiliary,
+D111,998949,Engineering,broad_auxiliary,
+D111,998949,Environmental science,broad_auxiliary,
+D111,998949,Fossil fuel,direct,KWD-T0055
+D111,998949,Geology,broad_auxiliary,
+D111,998949,Materials science,broad_auxiliary,
+D111,998949,Organic chemistry,broad_auxiliary,
+D111,998949,Waste management,general_auxiliary,
+D112,4477460,Carbon capture and storage (timeline),direct,KWD-T0056
+D112,4477460,Climate change,general_auxiliary,
+D112,4477460,Climate change mitigation,unreviewed,
+D112,4477460,Emissions trading,conditional,KWD-T0058
+D112,4477460,Fossil fuel,direct,KWD-T0055
+D112,4477460,Greenhouse gas,conditional,KWD-T0058
+D112,4477460,Low-carbon economy,conditional,KWD-T0058
+D112,4477460,Realm,unreviewed,
+D113,1607652,Anode,conditional,KWD-T0068
+D113,1607652,Carbon fibers,conditional,KWD-T0069
+D113,1607652,Chemical engineering,broad_auxiliary,
+D113,1607652,Chemistry,broad_auxiliary,
+D113,1607652,Combustion,conditional,KWD-T0051
+D113,1607652,Composite material,conditional,KWD-T0069
+D113,1607652,Electrode,conditional,KWD-T0068
+D113,1607652,Electrolysis,conditional,KWD-T0068
+D113,1607652,Flue gas,conditional,KWD-T0057
+D113,1607652,Fuel gas,direct,KWD-T0055
+D113,1607652,Gas composition,general_auxiliary,
+D113,1607652,High-temperature electrolysis,direct,KWD-T0016
+D113,1607652,Hydrogen,general_auxiliary,
+D113,1607652,Hydrogen fuel,direct,KWD-T0017
+D113,1607652,Hydrogen fuel enhancement,direct,KWD-T0017
+D113,1607652,Materials science,broad_auxiliary,
+D113,1607652,Metallurgy,general_auxiliary,
+D113,1607652,Oxide,general_auxiliary,
+D113,1607652,Polymer electrolyte membrane electrolysis,direct,KWD-T0016
+D113,1607652,Solid oxide fuel cell,direct,KWD-T0018
+D113,1607652,Thermodynamics,broad_auxiliary,
+D114,594321,Agronomy,general_auxiliary,
+D114,594321,Anaerobic digestion,conditional,KWD-T0012
+D114,594321,Bioenergy,direct,KWD-T0011
+D114,594321,Biofuel,direct,KWD-T0011
+D114,594321,Biogas,direct,KWD-T0012
+D114,594321,Biogas production,direct,KWD-T0012
+D114,594321,Biology,broad_auxiliary,
+D114,594321,Biomass (ecology),conditional,KWD-T0011
+D114,594321,Biotechnology,unreviewed,
+D114,594321,Chemistry,broad_auxiliary,
+D114,594321,Chromatography,general_auxiliary,
+D114,594321,Digestion (alchemy),unreviewed,
+D114,594321,Ecology,broad_auxiliary,
+D114,594321,Environmental engineering,broad_auxiliary,
+D114,594321,Environmental science,broad_auxiliary,
+D114,594321,Methane,general_auxiliary,
+D114,594321,Pulp and paper industry,general_auxiliary,
+D114,594321,Sewage treatment,conditional,KWD-T0057
+D114,594321,Ultrasound,unreviewed,
+D114,594321,Ultrasound energy,unreviewed,
+D114,594321,Wastewater,conditional,KWD-T0057
+D115,3224482,Chimney (locomotive),unreviewed,
+D115,3224482,Electricity generation,direct,KWD-T0061
+D115,3224482,Engineering,broad_auxiliary,
+D115,3224482,Environmental engineering,broad_auxiliary,
+D115,3224482,Environmental protection,unreviewed,
+D115,3224482,Environmental science,broad_auxiliary,
+D115,3224482,Geography,broad_auxiliary,
+D115,3224482,Geology,broad_auxiliary,
+D115,3224482,Greenhouse,unreviewed,
+D115,3224482,Greenhouse gas,conditional,KWD-T0058
+D115,3224482,Meteorology,general_auxiliary,
+D115,3224482,Power (physics),general_auxiliary,
+D115,3224482,Power station,direct,KWD-T0051
+D115,3224482,Production (economics),general_auxiliary,
+D115,3224482,Relative humidity,unreviewed,
+D115,3224482,Solar chimney,direct,KWD-T0003
+D115,3224482,Waste management,general_auxiliary,
+D116,127068,Business,broad_auxiliary,
+D116,127068,Economics,broad_auxiliary,
+D116,127068,Economy,unreviewed,
+D116,127068,Electricity,direct,KWD-T0027
+D116,127068,Engineering,broad_auxiliary,
+D116,127068,Fossil fuel,direct,KWD-T0055
+D116,127068,Greenhouse gas,conditional,KWD-T0058
+D116,127068,Inefficiency,unreviewed,
+D116,127068,Low-carbon economy,conditional,KWD-T0058
+D116,127068,Market economy,unreviewed,
+D116,127068,Natural resource economics,general_auxiliary,
+D116,127068,Renewable energy,direct,KWD-T0063
+D116,127068,Waste management,general_auxiliary,
+D116,127068,Wind power,direct,KWD-T0006
+D117,299542,Business,broad_auxiliary,
+D117,299542,Core (optical fiber),unreviewed,
+D117,299542,Economics,broad_auxiliary,
+D117,299542,Efficient energy use,direct,KWD-T0062
+D117,299542,Engineering,broad_auxiliary,
+D117,299542,Finance,conditional,KWD-T0060
+D117,299542,Financial instrument,unreviewed,
+D117,299542,Front (military),unreviewed,
+D117,299542,Public economics,conditional,KWD-T0059
+D118,887541,Business,broad_auxiliary,
+D118,887541,Certificate,unreviewed,
+D118,887541,Computer science,broad_auxiliary,
+D118,887541,Computer security,conditional,KWD-T0067
+D118,887541,Economics,broad_auxiliary,
+D118,887541,Efficient energy use,direct,KWD-T0062
+D118,887541,Emissions trading,conditional,KWD-T0058
+D118,887541,Energy consumption,direct,KWD-T0062
+D118,887541,Energy policy,direct,KWD-T0059
+D118,887541,Engineering,broad_auxiliary,
+D118,887541,Environmental economics,conditional,KWD-T0060
+D118,887541,Feed-in tariff,unreviewed,
+D118,887541,Greenhouse gas,conditional,KWD-T0058
+D118,887541,Industrial organization,general_auxiliary,
+D118,887541,Renewable energy,direct,KWD-T0063
+D118,887541,Renewable energy credit,direct,KWD-T0060
+D119,3897270,Applied ecology,unreviewed,
+D119,3897270,Biology,broad_auxiliary,
+D119,3897270,Computer science,broad_auxiliary,
+D119,3897270,Ecology,broad_auxiliary,
+D119,3897270,Economics,broad_auxiliary,
+D119,3897270,Emergy,unreviewed,
+D119,3897270,Energy (signal processing),excluded,
+D119,3897270,Energy analysis,conditional,KWD-T0062
+D119,3897270,Energy system,direct,KWD-T0061
+D119,3897270,Environmental economics,conditional,KWD-T0060
+D119,3897270,Environmental impact assessment,unreviewed,
+D119,3897270,Environmental science,broad_auxiliary,
+D119,3897270,Exergy,conditional,KWD-T0050
+D119,3897270,Mathematics,broad_auxiliary,
+D119,3897270,Process engineering,general_auxiliary,
+D119,3897270,Renewable energy,direct,KWD-T0063
+D119,3897270,Statistics,broad_auxiliary,
+D119,3897270,Sustainability,conditional,KWD-T0063
+D119,3897270,Systems ecology,unreviewed,
+D120,2567847,Alternative fuel vehicle,conditional,KWD-T0042
+D120,2567847,Alternative fuels,direct,KWD-T0055
+D120,2567847,Business,broad_auxiliary,
+D120,2567847,Computer science,broad_auxiliary,
+D120,2567847,Economics,broad_auxiliary,
+D120,2567847,Electricity,direct,KWD-T0027
+D120,2567847,Electrification,direct,KWD-T0061
+D120,2567847,Energy security,direct,KWD-T0059
+D120,2567847,Engineering,broad_auxiliary,
+D120,2567847,Environmental economics,conditional,KWD-T0060
+D120,2567847,Environmental health,unreviewed,
+D120,2567847,Government (linguistics),excluded,
+D120,2567847,Natural resource economics,general_auxiliary,
+D120,2567847,Per capita,unreviewed,
+D120,2567847,Population,unreviewed,
+D120,2567847,Public economics,conditional,KWD-T0059
+D120,2567847,Ranking (information retrieval),unreviewed,
+D120,2567847,Renewable energy,direct,KWD-T0063
+D120,2567847,Software deployment,unreviewed,
+D120,2567847,Subsidy,conditional,KWD-T0059
+D120,2567847,Waste management,general_auxiliary,
+D121,3478609,Agricultural economics,unreviewed,
+D121,3478609,Automotive engineering,conditional,KWD-T0042
+D121,3478609,Ecology,broad_auxiliary,
+D121,3478609,Economics,broad_auxiliary,
+D121,3478609,Electricity,direct,KWD-T0027
+D121,3478609,Electrification,direct,KWD-T0061
+D121,3478609,Engineering,broad_auxiliary,
+D121,3478609,Environmental engineering,broad_auxiliary,
+D121,3478609,Environmental science,broad_auxiliary,
+D121,3478609,Fossil fuel,direct,KWD-T0055
+D121,3478609,Greenhouse gas,conditional,KWD-T0058
+D121,3478609,Natural resource economics,general_auxiliary,
+D121,3478609,Renewable energy,direct,KWD-T0063
+D121,3478609,Renewable fuels,direct,KWD-T0055
+D121,3478609,Tractor,unreviewed,
+D121,3478609,Waste management,general_auxiliary,
+D122,418897,Absorption refrigerator,direct,KWD-T0048
+D122,418897,Chiller,direct,KWD-T0048
+D122,418897,Chiller boiler system,direct,KWD-T0048
+D122,418897,Cogeneration,direct,KWD-T0050
+D122,418897,Desiccant,unreviewed,
+D122,418897,Electrical engineering,broad_auxiliary,
+D122,418897,Electricity,direct,KWD-T0027
+D122,418897,Electricity generation,direct,KWD-T0061
+D122,418897,Engineering,broad_auxiliary,
+D122,418897,Gas compressor,conditional,KWD-T0048
+D122,418897,Heat recovery steam generator,direct,KWD-T0050
+D122,418897,Heat recovery ventilation,direct,KWD-T0048
+D122,418897,Materials science,broad_auxiliary,
+D122,418897,Mechanical engineering,broad_auxiliary,
+D122,418897,Power (physics),general_auxiliary,
+D122,418897,Process engineering,general_auxiliary,
+D122,418897,Refrigeration,direct,KWD-T0048
+D122,418897,Steam turbine,direct,KWD-T0051
+D122,418897,Thermal power station,direct,KWD-T0051
+D122,418897,Thermodynamics,broad_auxiliary,
+D122,418897,Waste heat,direct,KWD-T0050
+D122,418897,Waste heat recovery unit,direct,KWD-T0050
+D122,418897,Waste management,general_auxiliary,
+D122,418897,Water chiller,direct,KWD-T0048
+D123,2639221,Algorithm,conditional,KWD-T0066
+D123,2639221,Computer network,conditional,KWD-T0067
+D123,2639221,Computer science,broad_auxiliary,
+D123,2639221,Convergence (economics),unreviewed,
+D123,2639221,Efficient energy use,direct,KWD-T0062
+D123,2639221,Energy consumption,direct,KWD-T0062
+D123,2639221,Network on a chip,unreviewed,
+D123,2639221,Telecommunications,conditional,KWD-T0067
+D123,2639221,Throughput,unreviewed,
+D123,2639221,Wireless,general_auxiliary,
+D124,3398450,Automotive engineering,conditional,KWD-T0042
+D124,3398450,Computer science,broad_auxiliary,
+D124,3398450,Demand response,direct,KWD-T0029
+D124,3398450,Distributed generation,direct,KWD-T0024
+D124,3398450,Electrical engineering,broad_auxiliary,
+D124,3398450,Electricity,direct,KWD-T0027
+D124,3398450,Energy (signal processing),excluded,
+D124,3398450,Energy management,direct,KWD-T0062
+D124,3398450,Energy storage,direct,KWD-T0023
+D124,3398450,Engineering,broad_auxiliary,
+D124,3398450,Fossil fuel,direct,KWD-T0055
+D124,3398450,Mathematical optimization,conditional,KWD-T0066
+D124,3398450,Mathematics,broad_auxiliary,
+D124,3398450,Microgrid,direct,KWD-T0024
+D124,3398450,Photovoltaic system,direct,KWD-T0001
+D124,3398450,Power (physics),general_auxiliary,
+D124,3398450,Reliability engineering,conditional,KWD-T0029
+D124,3398450,Renewable energy,direct,KWD-T0063
+D124,3398450,Scheduling (production processes),conditional,KWD-T0028
+D124,3398450,Sizing,unreviewed,
+D124,3398450,Waste management,general_auxiliary,
+D125,1129793,Electricity generation,direct,KWD-T0061
+D125,1129793,Energy development,direct,KWD-T0061
+D125,1129793,Engineering,broad_auxiliary,
+D125,1129793,Environmental engineering,broad_auxiliary,
+D125,1129793,Environmental science,broad_auxiliary,
+D125,1129793,Hydroelectricity,direct,KWD-T0007
+D125,1129793,Hydropower,direct,KWD-T0007
+D125,1129793,Power (physics),general_auxiliary,
+D125,1129793,Renewable energy,direct,KWD-T0063
+D125,1129793,Thermal energy,general_auxiliary,
+D125,1129793,Water-energy nexus,conditional,KWD-T0061
+D126,3289330,Business,broad_auxiliary,
+D126,3289330,Civil engineering,broad_auxiliary,
+D126,3289330,Computer science,broad_auxiliary,
+D126,3289330,Economic growth,unreviewed,
+D126,3289330,Economics,broad_auxiliary,
+D126,3289330,Engineering,broad_auxiliary,
+D126,3289330,Environmental economics,conditional,KWD-T0060
+D126,3289330,Environmental planning,unreviewed,
+D126,3289330,Expectancy theory,unreviewed,
+D126,3289330,Geography,broad_auxiliary,
+D126,3289330,Life expectancy,unreviewed,
+D126,3289330,Marketing,general_auxiliary,
+D126,3289330,Political science,broad_auxiliary,
+D126,3289330,Psychology,broad_auxiliary,
+D126,3289330,Renewable energy,direct,KWD-T0063
+D126,3289330,Rural area,unreviewed,
+D126,3289330,Social psychology,unreviewed,
+D126,3289330,Sociology,broad_auxiliary,
+D126,3289330,Technology acceptance model,unreviewed,
+D126,3289330,Underpinning,unreviewed,
+D126,3289330,Unified theory of acceptance and use of technology,unreviewed,
+D126,3289330,Usability,unreviewed,
+D127,4296721,Automation,unreviewed,
+D127,4296721,Distribution management system,unreviewed,
+D127,4296721,Energy management,direct,KWD-T0062
+D127,4296721,Energy management system,direct,KWD-T0062
+D127,4296721,Grid,conditional,KWD-T0026
+D127,4296721,Prosumer,unreviewed,
+D127,4296721,Renewable energy,direct,KWD-T0063
+D127,4296721,Smart grid,direct,KWD-T0025
+D127,4296721,Smart meter,direct,KWD-T0064
+D128,2211825,Computer science,broad_auxiliary,
+D128,2211825,Electrical engineering,broad_auxiliary,
+D128,2211825,Electricity meter,direct,KWD-T0064
+D128,2211825,Engineering,broad_auxiliary,
+D128,2211825,GSM,unreviewed,
+D128,2211825,Metre,unreviewed,
+D128,2211825,Physics,broad_auxiliary,
+D128,2211825,Telecommunications,conditional,KWD-T0067
+D129,3622612,Algorithm,conditional,KWD-T0066
+D129,3622612,Circuit breaker,direct,KWD-T0031
+D129,3622612,Clamping,unreviewed,
+D129,3622612,Cluster (spacecraft),unreviewed,
+D129,3622612,Computer network,conditional,KWD-T0067
+D129,3622612,Computer science,broad_auxiliary,
+D129,3622612,Computer vision,conditional,KWD-T0065
+D129,3622612,Electrical engineering,broad_auxiliary,
+D129,3622612,Electronic engineering,broad_auxiliary,
+D129,3622612,Engineering,broad_auxiliary,
+D129,3622612,Fuse (electrical),direct,KWD-T0031
+D129,3622612,Varistor,unreviewed,
+D129,3622612,Voltage,general_auxiliary,
+D130,3693511,Artificial intelligence,conditional,KWD-T0065
+D130,3693511,Autoencoder,unreviewed,
+D130,3693511,Computer science,broad_auxiliary,
+D130,3693511,Computer security,conditional,KWD-T0067
+D130,3693511,Cyber-attack,unreviewed,
+D130,3693511,Cyber-physical system,conditional,KWD-T0067
+D130,3693511,Deep learning,conditional,KWD-T0065
+D130,3693511,Economics,broad_auxiliary,
+D130,3693511,Electric power system,direct,KWD-T0027
+D130,3693511,Electricity,direct,KWD-T0027
+D130,3693511,Electricity market,direct,KWD-T0060
+D130,3693511,Engineering,broad_auxiliary,
+D130,3693511,Grid,conditional,KWD-T0026
+D130,3693511,Power (physics),general_auxiliary,
+D130,3693511,Scarcity,unreviewed,
+D131,1123613,AC power,direct,KWD-T0030
+D131,1123613,Computer science,broad_auxiliary,
+D131,1123613,Control theory (sociology),general_auxiliary,
+D131,1123613,Convex optimization,unreviewed,
+D131,1123613,Electric power system,direct,KWD-T0027
+D131,1123613,Electrical engineering,broad_auxiliary,
+D131,1123613,Electromagnetism,unreviewed,
+D131,1123613,Engineering,broad_auxiliary,
+D131,1123613,Mathematical optimization,conditional,KWD-T0066
+D131,1123613,Mathematics,broad_auxiliary,
+D131,1123613,Minification,unreviewed,
+D131,1123613,Physics,broad_auxiliary,
+D131,1123613,Power (physics),general_auxiliary,
+D131,1123613,Power flow,direct,KWD-T0027
+D131,1123613,Regular polygon,unreviewed,
+D131,1123613,Voltage,general_auxiliary,
+D132,876494,Artificial intelligence,conditional,KWD-T0065
+D132,876494,Computer science,broad_auxiliary,
+D132,876494,Electric power system,direct,KWD-T0027
+D132,876494,Engineering,broad_auxiliary,
+D132,876494,Nonlinear system,conditional,KWD-T0066
+D132,876494,Power (physics),general_auxiliary,
+D132,876494,Reliability engineering,conditional,KWD-T0029
+D132,876494,Support vector machine,conditional,KWD-T0065
+D132,876494,Term (time),unreviewed,
+D133,2978478,Breakdown voltage,conditional,KWD-T0032
+D133,2978478,Computer science,broad_auxiliary,
+D133,2978478,Electric field,general_auxiliary,
+D133,2978478,Electrical engineering,broad_auxiliary,
+D133,2978478,Electronic engineering,broad_auxiliary,
+D133,2978478,Engineering,broad_auxiliary,
+D133,2978478,High voltage,direct,KWD-T0032
+D133,2978478,Interconnection,unreviewed,
+D133,2978478,LDMOS,unreviewed,
+D133,2978478,Materials science,broad_auxiliary,
+D133,2978478,Mathematics,broad_auxiliary,
+D133,2978478,Optoelectronics,broad_auxiliary,
+D133,2978478,Physics,broad_auxiliary,
+D133,2978478,Poisson distribution,unreviewed,
+D133,2978478,Poisson's equation,unreviewed,
+D133,2978478,Power (physics),general_auxiliary,
+D133,2978478,Reliability (semiconductor),general_auxiliary,
+D133,2978478,Silicon,general_auxiliary,
+D133,2978478,Silicon on insulator,unreviewed,
+D133,2978478,Telecommunications,conditional,KWD-T0067
+D133,2978478,Voltage,general_auxiliary,
+D134,1360063,Collimated light,unreviewed,
+D134,1360063,Computer science,broad_auxiliary,
+D134,1360063,Divertor,direct,KWD-T0015
+D134,1360063,Laser,general_auxiliary,
+D134,1360063,Lens (geology),unreviewed,
+D134,1360063,Limiter,unreviewed,
+D134,1360063,Materials science,broad_auxiliary,
+D134,1360063,Nuclear physics,broad_auxiliary,
+D134,1360063,Optics,general_auxiliary,
+D134,1360063,Physics,broad_auxiliary,
+D134,1360063,Plasma,conditional,KWD-T0015
+D134,1360063,Radiation,unreviewed,
+D134,1360063,Telecommunications,conditional,KWD-T0067
+D134,1360063,Tokamak,direct,KWD-T0015
+D134,1360063,Visible spectrum,conditional,KWD-T0070
+D135,1206788,Chemistry,broad_auxiliary,
+D135,1206788,Composite material,conditional,KWD-T0069
+D135,1206788,Computer science,broad_auxiliary,
+D135,1206788,Deformation (meteorology),unreviewed,
+D135,1206788,Durability,unreviewed,
+D135,1206788,Electrode,conditional,KWD-T0068
+D135,1206788,Electrolyte,conditional,KWD-T0068
+D135,1206788,Gaseous diffusion,general_auxiliary,
+D135,1206788,Materials science,broad_auxiliary,
+D135,1206788,Membrane,general_auxiliary,
+D135,1206788,Membrane electrode assembly,unreviewed,
+D135,1206788,Polymer,general_auxiliary,
+D135,1206788,Proton exchange membrane fuel cell,direct,KWD-T0018
+D135,1206788,Stack (abstract data type),unreviewed,
+D136,362716,Battery (electricity),direct,KWD-T0019
+D136,362716,Cathode,conditional,KWD-T0068
+D136,362716,Chemistry,broad_auxiliary,
+D136,362716,Electrochemistry,conditional,KWD-T0068
+D136,362716,Electrode,conditional,KWD-T0068
+D136,362716,Inorganic chemistry,broad_auxiliary,
+D136,362716,Internal medicine,excluded,
+D136,362716,Ion,general_auxiliary,
+D136,362716,Lithium (medication),excluded,
+D136,362716,Lithium battery,direct,KWD-T0019
+D136,362716,Lithium vanadium phosphate battery,direct,KWD-T0019
+D136,362716,Materials science,broad_auxiliary,
+D136,362716,Medicine,broad_auxiliary,
+D136,362716,Organic chemistry,broad_auxiliary,
+D136,362716,Physical chemistry,broad_auxiliary,
+D136,362716,Physics,broad_auxiliary,
+D136,362716,Power (physics),general_auxiliary,
+D136,362716,Salt (chemistry),unreviewed,
+D136,362716,Thermodynamics,broad_auxiliary,
+D137,1573314,Bio-energy with carbon capture and storage,direct,KWD-T0011
+D137,1573314,Carbon capture and storage (timeline),direct,KWD-T0056
+D137,1573314,Carbon dioxide,general_auxiliary,
+D137,1573314,Carbon fibers,conditional,KWD-T0069
+D137,1573314,Carbon sequestration,conditional,KWD-T0056
+D137,1573314,Chemistry,broad_auxiliary,
+D137,1573314,Climate change,general_auxiliary,
+D137,1573314,Climate change mitigation,unreviewed,
+D137,1573314,Coal,direct,KWD-T0052
+D137,1573314,Computer science,broad_auxiliary,
+D137,1573314,Electricity,direct,KWD-T0027
+D137,1573314,Engineering,broad_auxiliary,
+D137,1573314,Environmental protection,unreviewed,
+D137,1573314,Environmental science,broad_auxiliary,
+D137,1573314,Fossil fuel,direct,KWD-T0055
+D137,1573314,Geology,broad_auxiliary,
+D137,1573314,Global warming,unreviewed,
+D137,1573314,Greenhouse gas,conditional,KWD-T0058
+D137,1573314,Natural resource economics,general_auxiliary,
+D137,1573314,Negative carbon dioxide emission,direct,KWD-T0056
+D137,1573314,Waste management,general_auxiliary,
+D138,559068,Band gap,conditional,KWD-T0069
+D138,559068,Carbazole,unreviewed,
+D138,559068,Chemistry,broad_auxiliary,
+D138,559068,Composite material,conditional,KWD-T0069
+D138,559068,Computational chemistry,broad_auxiliary,
+D138,559068,Conjugated system,unreviewed,
+D138,559068,Density functional theory,general_auxiliary,
+D138,559068,Diode,general_auxiliary,
+D138,559068,Energy conversion efficiency,conditional,KWD-T0062
+D138,559068,HOMO/LUMO,unreviewed,
+D138,559068,Materials science,broad_auxiliary,
+D138,559068,Molecule,general_auxiliary,
+D138,559068,Optoelectronics,broad_auxiliary,
+D138,559068,Organic chemistry,broad_auxiliary,
+D138,559068,Photochemistry,conditional,KWD-T0070
+D138,559068,Photovoltaic system,direct,KWD-T0001
+D138,559068,Polymer,general_auxiliary,
+D138,559068,Polymer solar cell,direct,KWD-T0001
+D138,559068,Solar cell,direct,KWD-T0001
+D139,1806116,Chemistry,broad_auxiliary,
+D139,1806116,Computer science,broad_auxiliary,
+D139,1806116,Engineering,broad_auxiliary,
+D139,1806116,Engineering physics,general_auxiliary,
+D139,1806116,Environmental science,broad_auxiliary,
+D139,1806116,Hydrogen,general_auxiliary,
+D139,1806116,Hydrogen production,direct,KWD-T0016
+D139,1806116,Materials science,broad_auxiliary,
+D139,1806116,Nanotechnology,broad_auxiliary,
+D139,1806116,Particulates,unreviewed,
+D139,1806116,Photocatalysis,conditional,KWD-T0070
+D139,1806116,Process engineering,general_auxiliary,
+D139,1806116,Production (economics),general_auxiliary,
+D139,1806116,Scalability,unreviewed,
+D139,1806116,Water splitting,direct,KWD-T0016
+D140,3445873,Catalysis,general_auxiliary,
+D140,3445873,Chemical engineering,broad_auxiliary,
+D140,3445873,Chemistry,broad_auxiliary,
+D140,3445873,Crystallite,general_auxiliary,
+D140,3445873,Dye-sensitized solar cell,direct,KWD-T0001
+D140,3445873,Electrode,conditional,KWD-T0068
+D140,3445873,Eosin,unreviewed,
+D140,3445873,Eosin Y,unreviewed,
+D140,3445873,Materials science,broad_auxiliary,
+D140,3445873,Metallurgy,general_auxiliary,
+D140,3445873,Nanomaterials,conditional,KWD-T0069
+D140,3445873,Nanoparticle,conditional,KWD-T0069
+D140,3445873,Nanotechnology,broad_auxiliary,
+D140,3445873,Nuclear chemistry,broad_auxiliary,
+D140,3445873,Organic chemistry,broad_auxiliary,
+D140,3445873,Photocatalysis,conditional,KWD-T0070
+D140,3445873,Reducing agent,unreviewed,
+D140,3445873,Titanium dioxide,unreviewed,
+D141,3631190,Chemistry,broad_auxiliary,
+D141,3631190,Composite material,conditional,KWD-T0069
+D141,3631190,Copper,general_auxiliary,
+D141,3631190,Electric arc furnace,direct,KWD-T0071
+D141,3631190,Ferrite (magnet),unreviewed,
+D141,3631190,Impurity,unreviewed,
+D141,3631190,Materials science,broad_auxiliary,
+D141,3631190,Metallurgy,general_auxiliary,
+D141,3631190,Nuclear chemistry,broad_auxiliary,
+D141,3631190,Raw material,general_auxiliary,
+D141,3631190,Roasting,unreviewed,
+D141,3631190,Zinc,general_auxiliary,
+D141,3631190,Zinc ferrite,unreviewed,
+D142,1739249,Austenite,unreviewed,
+D142,1739249,Bainite,unreviewed,
+D142,1739249,Composite material,conditional,KWD-T0069
+D142,1739249,Continuous cooling transformation,unreviewed,
+D142,1739249,Cooling curve,unreviewed,
+D142,1739249,Coupling (piping),general_auxiliary,
+D142,1739249,Electromagnetic coil,general_auxiliary,
+D142,1739249,Hardening (computing),unreviewed,
+D142,1739249,Induction hardening,unreviewed,
+D142,1739249,Induction heating,direct,KWD-T0071
+D142,1739249,Layer (electronics),general_auxiliary,
+D142,1739249,Martensite,unreviewed,
+D142,1739249,Materials science,broad_auxiliary,
+D142,1739249,Mechanics,general_auxiliary,
+D142,1739249,Metallurgy,general_auxiliary,
+D142,1739249,Microstructure,conditional,KWD-T0069
+D142,1739249,Optics,general_auxiliary,
+D142,1739249,Physics,broad_auxiliary,
+D142,1739249,Quenching (fluorescence),unreviewed,
+D142,1739249,Temperature gradient,unreviewed,
+D142,1739249,Thermal,general_auxiliary,
+D142,1739249,Thermodynamics,broad_auxiliary,

@@ -3,11 +3,17 @@ from pathlib import Path
 import hashlib
 import json
 import os
+import sys
 
 REPO = Path(__file__).resolve().parents[2]
-ROOT = REPO.parent
-RUN = Path(os.environ.get('FULL_NMF_RUN', REPO / 'work/full_nmf500_20260926'))
-CORPUS = ROOT / 'jjjj/bertopic500_all_sources_20260925/data/corpus'
+sys.path.insert(0,str(REPO))
+sys.path.insert(0,str(REPO.parent))
+from runtime_config import load_runtime
+RUNTIME=load_runtime()
+ROOT=RUNTIME.path('data_root')
+DELIVERY=RUNTIME.path('delivery_root')
+RUN = RUNTIME.path('classification_run')
+CORPUS = RUNTIME.path('corpus_dir')
 K = 500
 
 

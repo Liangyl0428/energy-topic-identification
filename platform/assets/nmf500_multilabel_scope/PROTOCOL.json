@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-19T09:34:26.863759+00:00",
+  "k": 500,
+  "seed": 17,
+  "epochs": 5,
+  "selection": "User-authorized engineering compromise after the five-K content audit; not a proven optimum.",
+  "input_corpus": "/pyg-vepfs/public/lyl/openalex_energy_fetch/jjjj/bertopic500_all_sources_20260925/data/corpus",
+  "input_matrices": "/pyg-vepfs/public/lyl/openalex_energy_fetch/energy-topic-identification/work/full_nmf500_20260926/matrices",
+  "broad_terms": [
+    "Materials science",
+    "Chemistry",
+    "Engineering",
+    "Computer science",
+    "Physics",
+    "Mathematics",
+    "Biology",
+    "Medicine",
+    "Economics",
+    "Business",
+    "Geography",
+    "Geology",
+    "Political science",
+    "Sociology",
+    "Psychology",
+    "History",
+    "Philosophy",
+    "Art",
+    "Linguistics",
+    "Environmental science"
+  ],
+  "broad_mask_sha256": "ebb44e1a2282b13c32480357ee27dc6ea0f5bdcfc0723ca7613937cf782b85ff",
+  "humanities_note": "Humanities remains in the learned model and is handled by content/scope review, not silently removed.",
+  "paper_contribution": "p_ij=W_ij*L2(H_j)/sum_k(W_ik*L2(H_k))",
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15
+  ],
+  "default_threshold": 0.1,
+  "membership": "Every contribution >= threshold; no top-N cap or forced primary fallback.",
+  "scope": "Post-model keep_core / keep_supporting / review / exclude; never renormalize after exclusion.",
+  "scope_authority": "Assistant review of tender and sampled records, not human expert approval.",
+  "scope_review": "Record topic-level rationale and actual supporting documents. Uncertain topics remain review.",
+  "tender_sha256": "795d5e8c7a6ff9070a9aa2050dcc1b63e7bd1472585cfe41f950a307a40d9969",
+  "tender_scope_paragraphs": [
+    5,
+    296,
+    312,
+    326,
+    328,
+    341,
+    372
+  ],
+  "source_hashes": {
+    "final/energy-topic-identification/pipelines/multilabel_scope/run.py": "f3d66383783a2c7e23c70d811c07022424e942fe8281fd9dc6a923a8a026a20b",
+    "work/nmf_remove_broad_k_multilabel_20261019/experiment.py": "4db1135637e4366c70f6465982c35ab8ede1eb6aad73486d2fb9c100f524097a",
+    "work/nmf_remove_broad_k_multilabel_20261019/fast_nmf.py": "c4e536c68ccf194b32b7e3f3ae8cc86631c06ddb4789aba23c98bd0287bf6783"
+  },
+  "prior_models_and_raw_data_modified": false,
+  "cross_source": "Patents/policies lack the same OpenAlex keyword observations. Their transfer scores will be separately labeled and evaluated; they are not direct NMF W or probabilities."
+}

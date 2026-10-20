@@ -18,11 +18,11 @@ def main():
         raise ValueError('Partial or completed publication exists; manual reconciliation required')
     if not (RUN/'ALL_REPOSITORIES_COMPLETE.json').exists():raise ValueError('Base must already be complete')
     for name,r in old['repositories'].items():
-        if git(ROOT/name,'rev-parse','HEAD')!=r['head'] or remote_tip(ROOT/name,r['branch'])!=r['remote_tip']:
+        if git(DELIVERY/name,'rev-parse','HEAD')!=r['head'] or remote_tip(DELIVERY/name,r['branch'])!=r['remote_tip']:
             raise ValueError('Local or remote history changed since failed precommit delivery')
     # Newly authorized evaluation additions get a NEW freeze; old freeze retained.
     config={'base_pid':old['base_pid'],'created_unix':time.time(),
-        'repositories':{n:capture(ROOT/n) for n in NAMES},
+        'repositories':{n:capture(DELIVERY/n) for n in NAMES},
         'expected_model_sha256':old['expected_model_sha256'],'reuse_verified_experiments':True,
         'authorized_workflow':'Add retrospective topic evaluation, validate, commit and non-force push all three existing main branches'}
     archive=JOB/('failed_precommit_'+str(time.time_ns()));archive.mkdir()

@@ -3,7 +3,7 @@ from common import *
 import sys
 import time
 import argparse
-sys.path[:0] = [str(ROOT/'aaaa/bge_m3/_runtime'), str(ROOT/'aaaa/bge_m3/_core')]
+sys.path[:0] = [str(RUNTIME.path('bge_runtime_dir')), str(RUNTIME.path('bge_core_dir'))]
 import numpy as np
 import pyarrow.parquet as pq
 from tokenizers import Tokenizer
@@ -17,7 +17,7 @@ def main():
     args=parser.parse_args()
     out = RUN/'embeddings'
     out.mkdir(parents=True, exist_ok=True)
-    model = ROOT/'aaaa/bge_m3/models/bge-m3'
+    model = RUNTIME.path('bge_model_dir')
     model_path=model/'onnx/model_fp16.onnx'
     execution='original_fp16'
     if args.optimized:

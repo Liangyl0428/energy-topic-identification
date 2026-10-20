@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "actual_data",
+    "topic_search",
+    "threshold_counts_change",
+    "cross_source_candidate_notice",
+    "excluded_topic",
+    "empty_state",
+    "mobile_no_overflow",
+    "no_js_errors"
+  ],
+  "network_allowed": false
+}

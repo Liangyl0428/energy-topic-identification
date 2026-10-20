@@ -1,0 +1,11 @@
+{
+  "version": "energy_business_p1_20261018",
+  "files": {
+    "assets/full_nmf500/topic_catalog.csv": "ad525d40acd42963211e93a980de17c50b33920dc50d9636f5d593062f9b15cb",
+    "data/business_review/SOURCE_SNAPSHOT.json": "4af1ca8fb928b876c58d1b3b36c0fdb04b2de6a6e3c577f7ee745937017f40d1",
+    "data/business_review/documents.json": "63ca64cf3cb0f4b2e5d5a069aa73a1a1174a4361470df246f9d405aef88ef771",
+    "data/business_review/scope_decisions.json": "7e40286d6c78a30dd03fca68b55ec5fdf38fc91a59778098c358cdddb2db36dc",
+    "data/business_review/taxonomy.json": "c72ef20ff5fc96c1dfdcd3238f8fcc0c12c7b527d2a4b83b992a84c3f0ae34d9",
+    "data/business_review/topic_definitions.json": "b2a147c72b0897c9578fb860f752d2a7905cac1cc9b1ba497404c87408c0cec5"
+  }
+}
