@@ -28,25 +28,24 @@ def assemble(repos_dir, output):
         if output.is_relative_to(repo):
             raise ValueError('Output must be outside the source repositories')
         inventories[name] = visible_files(repo)
-    source = repos_dir / NAMES[0]
     output.mkdir(parents=True)
     counts = {}
     for name, paths in inventories.items():
         repo = repos_dir / name
         counts[name] = 0
         for relative in paths:
-            if relative.startswith('platform/'):
-                if name != NAMES[0]:
-                    continue
-                target = output / Path(relative).relative_to('platform')
-            else:
-                target = output / name / relative
+            targets = [output / name / relative]
+            if name == NAMES[0] and relative.startswith('platform/'):
+                # Keep the module's original layout for its README and checksums,
+                # and expose the shared files at the combined runtime root.
+                targets.append(output / Path(relative).relative_to('platform'))
             item = repo / relative
             if item.is_symlink():
                 raise ValueError(f'Symlink is not a portable delivery: {item}')
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(item, target)
-            counts[name] += 1
+            for target in targets:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(item, target)
+                counts[name] += 1
     record = {
         'copied_files': counts,
         'source_commits': {name: subprocess.check_output(

@@ -28,3 +28,25 @@ def test_assembly_rejects_existing_output_without_changing_it(tmp_path):
     with pytest.raises(FileExistsError):
         module.assemble(tmp_path, output)
     assert sentinel.read_text() == 'keep'
+
+
+def test_assembly_keeps_module_document_links_and_shared_runtime(tmp_path):
+    spec = importlib.util.spec_from_file_location('assemble_layout', REPO / 'tools/assemble_platform.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    for name in module.NAMES:
+        repo = tmp_path / name
+        repo.mkdir()
+        subprocess.run(['git', 'init', str(repo)], check=True, capture_output=True)
+        (repo / 'README.md').write_text('[guide](platform/docs/guide.md)')
+        subprocess.run(['git', '-C', str(repo), 'add', 'README.md'], check=True)
+        subprocess.run(['git', '-C', str(repo), '-c', 'user.name=Fixture',
+                        '-c', 'user.email=fixture@example.invalid', 'commit', '-m', 'fixture'],
+                       check=True, capture_output=True)
+    source = tmp_path / module.NAMES[0] / 'platform'
+    (source / 'docs').mkdir(parents=True)
+    (source / 'docs/guide.md').write_text('shared guide')
+    output = tmp_path / 'assembled'
+    module.assemble(tmp_path, output)
+    assert (output / 'docs/guide.md').read_text() == 'shared guide'
+    assert (output / module.NAMES[0] / 'platform/docs/guide.md').read_text() == 'shared guide'
